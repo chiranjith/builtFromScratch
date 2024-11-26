@@ -24,9 +24,6 @@ function App() {
       </GridItem>
       <GridItem area="about" mb={0}>
         <div>
-          <Heading as="h1" size="2xl" textAlign="center" mb={8}>
-            Where Imagination meets Construction...
-          </Heading>
           <AboutDIY />
         </div>
         <div
