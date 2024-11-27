@@ -26,7 +26,7 @@ function App() {
         <div>
           <AboutDIY />
         </div>
-        <div
+        {/* <div
           style={{
             display: "grid",
             gridTemplateColumns: "1fr 1fr 1fr 1fr",
@@ -37,10 +37,10 @@ function App() {
           <div>Item 2</div>
           <div>Item 3</div>
           <div>Item 4</div>
-        </div>
+        </div> */}
       </GridItem>
       {/* Main Content */}
-      <GridItem area="main" bg="gray">
+      <GridItem area="main">
         <VideoGrid />
       </GridItem>
     </Grid>

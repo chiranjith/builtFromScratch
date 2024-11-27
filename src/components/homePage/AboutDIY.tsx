@@ -22,20 +22,17 @@ interface ResponsiveImageProps extends ImageProps {
 const AboutDIY = () => {
   const textContent =
     useBreakpointValue({
-      base: `<b>"Built From Scratch"</b> is your ultimate destination for DIY
+      base: `<b>Built From Scratch</b> is your ultimate destination for DIY
       enthusiasts, creators, and innovators. Our platform is dedicated to
       empowering individuals to craft, build, and create from the ground
       up...`,
-      md: `<b>"Built From Scratch"</b> is your ultimate destination for DIY
+      md: `<b>Built From Scratch</b> is your ultimate destination for DIY
       enthusiasts, creators, and innovators. Our platform is dedicated to
       empowering individuals to craft, build, and create from the ground
       up. Whether you’re a beginner taking your first steps into the world
       of DIY or an experienced maker looking for fresh ideas, 
       <strong>Built From Scratch</strong> provides the inspiration, tools,
-      and guidance you need. From detailed tutorials and creative project
-      ideas to expert tips and tricks, we help you turn your vision into
-      reality. Build your dreams, one step at a time—because great things
-      are always <strong>Built From Scratch</strong>!`,
+      and guidance you need.`,
     }) ?? "Welcome to Built From Scratch!";
 
   const ResponsiveImage = ({ src, alt, ...props }: ResponsiveImageProps) => (
@@ -49,20 +46,16 @@ const AboutDIY = () => {
 
   return (
     <>
-      <Heading
-        as="h1"
-        textAlign="center"
-        mb={8}
-        size={{ base: "md", md: "2xl" }}
-      >
+      <Heading as="h1" textAlign="center" size={{ base: "md", md: "2xl" }}>
         Where Imagination meets Construction!
       </Heading>
       <Grid
         templateRows="repeat(5, auto)" // 5 rows
-        templateColumns="5% 1fr 30% 1fr 5%" // First and last columns are 5% wide
+        templateColumns="5% 1fr 35% 1fr 5%" // First and last columns are 5% wide
         gap={0} // No space between grid items
         p={4}
         borderStyle="solid" // Outer solid line
+        mb={{ base: "2", md: "8" }}
       >
         {/* Grid items with dotted inner lines */}
         <Box borderRight="1px dotted gray" borderBottom="1px dotted gray"></Box>
@@ -80,7 +73,7 @@ const AboutDIY = () => {
             fontFamily="Geist"
             fontSize={{ base: "1rem", md: "2rem" }}
           >
-            Welcome to Built From Scratch - DIY Made Simple!
+            Welcome to Built From Scratch - DIY made Simple!
           </Text>
         </Box>
         <Box borderBottom="1px dotted gray"></Box>
@@ -99,6 +92,7 @@ const AboutDIY = () => {
           <Text
             textAlign="center"
             fontFamily="Geist"
+            fontSize={{ base: "0.9rem", md: "1.1rem" }}
             dangerouslySetInnerHTML={{ __html: textContent }}
           />
         </Box>
@@ -152,12 +146,21 @@ const AboutDIY = () => {
           <ResponsiveImage
             src={hd}
             alt="HomeDepot Logo"
-            width={{ base: "30px", md: "60px" }}
+            width={{ base: "45px", md: "90px" }}
             height={{ base: "30px", md: "60px" }}
             padding={{ base: "2px", md: "4px" }}
           />
         </Box>
-        <Box borderRight="1px dotted gray"></Box>
+        <Box borderRight="1px dotted gray">
+          <Text
+            textAlign="center"
+            fontFamily="Geist"
+            fontSize={{ base: "0.6rem", md: "1.1rem" }}
+          >
+            From detailed tutorials and creative project ideas to expert tips
+            and tricks, we help you turn your vision into reality.
+          </Text>
+        </Box>
         <Box
           borderRight="1px dotted gray"
           display="flex"
@@ -174,6 +177,15 @@ const AboutDIY = () => {
         </Box>
         <Box></Box>
       </Grid>
+      <Text
+        textAlign="center"
+        fontFamily="Geist"
+        fontSize={{ base: "0.7rem", md: "1.5rem" }}
+        mb={{ base: "4", md: "16" }}
+      >
+        Build your dreams, one step at a time—because great things are always{" "}
+        <strong>Built From Scratch</strong>!
+      </Text>
     </>
   );
 };
