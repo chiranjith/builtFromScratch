@@ -14,7 +14,7 @@ const VideoGrid = () => {
         px={0} // Remove horizontal padding
       >
         {/* Column 1, Row 1 */}
-        <VideoCard />
+        <VideoCard boxType="left" />
 
         {/* Column 2, Rows 1 & 2 (merged) */}
         {/* <Box
@@ -28,27 +28,19 @@ const VideoGrid = () => {
         <VideoCardLarge />
 
         {/* Column 3, Row 1 */}
-        <Box bg="red.200" p={4}>
-          1,3
-        </Box>
+        <VideoCard boxType="" />
 
         {/* Column 4, Row 1 */}
-        <Box bg="yellow.200" p={4}>
-          1,4
-        </Box>
+        <VideoCard boxType="right" />
 
         {/* Column 1, Row 2 */}
-        <VideoCard />
+        <VideoCard boxType="left" />
 
         {/* Column 3, Row 2 */}
-        <Box bg="orange.200" p={4}>
-          2,3
-        </Box>
+        <VideoCard boxType="" />
 
         {/* Column 4, Row 2 */}
-        <Box bg="teal.200" p={4}>
-          2,4
-        </Box>
+        <VideoCard boxType="right" />
       </Grid>
     </>
   );
