@@ -1,6 +1,8 @@
-import { Box, Image } from "@chakra-ui/react";
+import { Box, Flex, Image } from "@chakra-ui/react";
 import yt from "../../../assets/bfsLogo.png";
+import VideoCardHeader from "./VideoCardHeader";
 const VideoCardLarge = () => {
+  const header = "Pooja Mandir";
   return (
     <Box
       p={{ base: "1", md: "2" }}
@@ -19,15 +21,20 @@ const VideoCardLarge = () => {
         boxShadow: "-2px 2px 12px rgba(0, 0, 0, 0.3)", // More intense shadow on hover
       }}
     >
-      <Image
-        src={yt}
-        alt="Example Image"
-        width="100%"
-        height="10%"
-        padding={{ base: "1px", md: "2px" }}
-        // objectFit="cover"
-        transition="all 0.3s ease-in-out" // Smooth scaling transition
-      />
+      <Flex direction="column" h="100%">
+        <VideoCardHeader header={header} theme="dark" />
+
+        {/* Bottom Part (85%) */}
+        <Flex flex="1" align="center" justify="center">
+          <Image
+            src={yt}
+            alt={header}
+            w="100%"
+            objectFit="cover"
+            transition="all 0.3s ease-in-out" // Smooth scaling transition
+          />
+        </Flex>
+      </Flex>
     </Box>
   );
 };

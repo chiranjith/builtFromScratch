@@ -1,19 +1,13 @@
-import {
-  Button,
-  ButtonGroup,
-  Grid,
-  GridItem,
-  Heading,
-  Show,
-} from "@chakra-ui/react";
+import { Grid, GridItem } from "@chakra-ui/react";
 import NavBar from "./components/topNav/NavBar";
 import VideoGrid from "./components/homePage/MidSectionVideoGrid";
 import AboutDIY from "./components/homePage/AboutDIY";
+import BottomSection from "./components/homePage/BottomSection";
 
 function App() {
   return (
     <Grid
-      templateAreas={`"nav" "about" "main"`}
+      templateAreas={`"nav" "about" "main" "bottom"`}
       templateRows="auto auto 1fr"
       minHeight="100vh"
       rowGap={0}
@@ -42,6 +36,9 @@ function App() {
       {/* Main Content */}
       <GridItem area="main">
         <VideoGrid />
+      </GridItem>
+      <GridItem area="bottom">
+        <BottomSection />
       </GridItem>
     </Grid>
   );

@@ -1,4 +1,5 @@
-import { Box, Flex, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Image } from "@chakra-ui/react";
+import VideoCardHeader from "./VideoCardHeader";
 
 interface Props {
   boxType: string;
@@ -32,16 +33,7 @@ const VideoCard = ({ boxType, srcImg, header }: Props) => {
         }}
       >
         <Flex direction="column" h="100%">
-          {/* Top Part (15%) */}
-          <Flex flex="0 0 15%" align="center" justify="center">
-            <Text
-              fontSize={{ base: ".4rem", md: "1.1rem" }}
-              fontWeight="bold"
-              fontFamily="Geist"
-            >
-              {header}
-            </Text>
-          </Flex>
+          <VideoCardHeader header={header} />
 
           {/* Bottom Part (85%) */}
           <Flex flex="1" align="center" justify="center">

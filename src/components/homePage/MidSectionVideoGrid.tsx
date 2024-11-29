@@ -10,11 +10,11 @@ const MidSectionVideoGrid = () => {
     <>
       <Grid
         //templateRows={{ base: "minmax(60px, 60px)", md: "275px 275px" }}
-        templateColumns="1fr 1fr 1.2fr 1fr" // 4 columns of equal width
+        templateColumns="1.25fr 1.1fr 1.25fr 1fr" // 4 columns of equal width
         gap={{ base: "2", md: "6" }} // Spacing between grid items
         m={0} // Remove margins on the grid
         px={0} // Remove horizontal padding
-        mb={20}
+        mb={{ base: "4", md: "12" }}
       >
         {/* Column 1, Row 1 */}
         <VideoCard
@@ -22,7 +22,6 @@ const MidSectionVideoGrid = () => {
           srcImg={firePit}
           header="Gas Fire Pit Table"
         />
-        {/* <VideoCardMed /> */}
 
         {/* Column 2, Rows 1 & 2 (merged) */}
         <VideoCardLarge />
