@@ -23,14 +23,15 @@ const AboutDIY = () => {
   const textContent =
     useBreakpointValue({
       base: `<b>Built From Scratch</b> is your ultimate destination for DIY
-      enthusiasts, creators, and innovators. Our platform is dedicated to
-      empowering individuals to craft, build, and create from the ground
+      enthusiasts, creators & innovators. Our platform is dedicated to
+      empowering individuals to craft, build & create from the ground
       up...`,
       md: `<b>Built From Scratch</b> is your ultimate destination for DIY
-      enthusiasts, creators, and innovators. Our platform is dedicated to
-      empowering individuals to craft, build, and create from the ground
+      enthusiasts, creators & innovators. Our platform is dedicated to
+      empowering individuals to craft, build & create from the ground
       up. Whether you’re a beginner taking your first steps into the world
       of DIY or an experienced maker looking for fresh ideas, 
+      <br />
       <strong>Built From Scratch</strong> provides the inspiration, tools,
       and guidance you need.`,
     }) ?? "Welcome to Built From Scratch!";
@@ -46,12 +47,12 @@ const AboutDIY = () => {
 
   return (
     <>
-      <Heading as="h1" textAlign="center" size={{ base: "md", md: "2xl" }}>
+      <Heading as="h1" textAlign="center" size={{ base: "sm", md: "2xl" }}>
         Where Imagination meets Construction!
       </Heading>
       <Grid
         templateRows="repeat(5, auto)" // 5 rows
-        templateColumns="5% 1fr 35% 1fr 5%" // First and last columns are 5% wide
+        templateColumns="5% 1fr 40% 1fr 5%" // First and last columns are 5% wide
         gap={0} // No space between grid items
         p={4}
         borderStyle="solid" // Outer solid line
@@ -71,7 +72,7 @@ const AboutDIY = () => {
             textAlign="center"
             mb="2"
             fontFamily="Geist"
-            fontSize={{ base: "1rem", md: "2rem" }}
+            fontSize={{ base: ".7rem", md: "2rem" }}
           >
             Welcome to Built From Scratch - DIY made Simple!
           </Text>
@@ -92,7 +93,7 @@ const AboutDIY = () => {
           <Text
             textAlign="center"
             fontFamily="Geist"
-            fontSize={{ base: "0.9rem", md: "1.1rem" }}
+            fontSize={{ base: "0.7rem", md: "1.1rem" }}
             dangerouslySetInnerHTML={{ __html: textContent }}
           />
         </Box>
@@ -155,7 +156,7 @@ const AboutDIY = () => {
           <Text
             textAlign="center"
             fontFamily="Geist"
-            fontSize={{ base: "0.6rem", md: "1.1rem" }}
+            fontSize={{ base: "0.4rem", md: "1.1rem" }}
           >
             From detailed tutorials and creative project ideas to expert tips
             and tricks, we help you turn your vision into reality.
@@ -180,7 +181,7 @@ const AboutDIY = () => {
       <Text
         textAlign="center"
         fontFamily="Geist"
-        fontSize={{ base: "0.7rem", md: "1.5rem" }}
+        fontSize={{ base: "0.5rem", md: "1.5rem" }}
         mb={{ base: "4", md: "16" }}
       >
         Build your dreams, one step at a time—because great things are always{" "}

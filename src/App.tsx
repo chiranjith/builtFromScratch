@@ -7,7 +7,7 @@ import {
   Show,
 } from "@chakra-ui/react";
 import NavBar from "./components/topNav/NavBar";
-import VideoGrid from "./components/homePage/VideoGrid";
+import VideoGrid from "./components/homePage/MidSectionVideoGrid";
 import AboutDIY from "./components/homePage/AboutDIY";
 
 function App() {

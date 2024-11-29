@@ -1,0 +1,37 @@
+[
+    {
+        "boxType": "left",
+        "srcImg": "../homePage/images/firePit.png",
+        "header": "Gas Fire Pit Table"
+    },
+    {
+        "boxType": "",
+        "srcImg": "../homePage/images/garageStorage.webp",
+        "header": "Garage Storage & Organization"
+    },
+    {
+        "boxType": "",
+        "srcImg": "",
+        "header": "Box 3"
+    },
+    {
+        "boxType": "right",
+        "srcImg": "/path/to/image4.webp",
+        "header": "Box 4"
+    },
+    {
+        "boxType": "left",
+        "srcImg": "/path/to/image5.webp",
+        "header": "Box 5"
+    },
+    {
+        "boxType": "",
+        "srcImg": "/path/to/image6.webp",
+        "header": "Box 6"
+    },
+    {
+        "boxType": "right",
+        "srcImg": "/path/to/image7.webp",
+        "header": "Box 7"
+    }
+]

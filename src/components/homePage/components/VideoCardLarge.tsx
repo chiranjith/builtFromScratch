@@ -4,7 +4,7 @@ const VideoCardLarge = () => {
   return (
     <Box
       p={{ base: "1", md: "2" }}
-      backgroundColor="gray.700"
+      backgroundColor="gray.800"
       gridRow="1 / 3" // Spans rows 1 through 3
       gridColumn="2 / 3" // Stays in the 2nd column
       boxShadow="-2px 2px 4px rgba(0, 0, 0, 0.2)" // Custom shadow (top, bottom, and right)
