@@ -3,6 +3,7 @@ import NavBar from "./components/topNav/NavBar";
 import VideoGrid from "./components/homePage/MidSectionVideoGrid";
 import AboutDIY from "./components/homePage/AboutDIY";
 import BottomSection from "./components/homePage/BottomSection";
+import FavoriteProject from "./components/homePage/components/FavoriteProject";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
       <GridItem area="bottom">
         <BottomSection />
       </GridItem>
+      <FavoriteProject />
     </Grid>
   );
 }
