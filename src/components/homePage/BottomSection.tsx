@@ -2,6 +2,7 @@ import { Box, Flex, Grid, Image, Text } from "@chakra-ui/react";
 import VideoCardHeader from "./components/VideoCardHeader";
 const header = "Fav";
 import yt from "../../assets/images/garageStorage.webp";
+import FavoriteProject from "./components/FavoriteProject";
 
 const BottomSection = () => {
   return (
@@ -12,7 +13,7 @@ const BottomSection = () => {
         gap={0} // No space between grid items
         p={4}
         borderStyle="solid" // Outer solid line
-        mb={{ base: "2", md: "8" }}
+        mb={{ base: "4", md: "10" }}
       >
         <Box borderRight="1px dotted gray" borderBottom="1px dotted gray"></Box>
         <Box
@@ -68,36 +69,7 @@ const BottomSection = () => {
         <Box borderRight="1px dotted gray" gridColumn="2 / 5"></Box>
         <Box color={"white"}>.</Box>
       </Grid>
-
-      <Box
-        backgroundColor={"white"}
-        boxShadow="-2px 2px 8px rgba(0, 0, 0, 0.2)"
-        transition="all 0.3s ease-in-out" // Smooth transition effect
-        position="relative" // Enables layering
-        height={{ base: "100px", md: "300px" }} // Set a fixed height
-        overflow="hidden" // Ensure content stays within the box
-        _hover={{
-          filter: "grayscale(100%) brightness(0.9) contrast(1)", // Black scale effect
-          transform: "scale(1.02)", // Slight zoom-in effect
-          boxShadow: "-2px 2px 12px rgba(0, 0, 0, 0.3)", // More intense shadow on hover
-        }}
-        mb={10}
-      >
-        <Flex direction="column" h="100%">
-          <VideoCardHeader header={header} />
-
-          <Flex flex="1" align="center" justify="center">
-            <Image
-              src={yt}
-              alt={header}
-              //h="100%" // Ensures image height fits within allocated space
-              w="60%" // Optional: Ensures image width fits container
-              objectFit="cover" // Crops or fits the image appropriately
-              transition="all 0.3s ease-in-out" // Smooth scaling transition
-            />
-          </Flex>
-        </Flex>
-      </Box>
+      <FavoriteProject />
     </>
   );
 };

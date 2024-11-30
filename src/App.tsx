@@ -41,7 +41,6 @@ function App() {
       <GridItem area="bottom">
         <BottomSection />
       </GridItem>
-      <FavoriteProject />
     </Grid>
   );
 }
