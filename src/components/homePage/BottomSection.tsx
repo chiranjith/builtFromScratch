@@ -1,7 +1,4 @@
-import { Box, Flex, Grid, Image, Text } from "@chakra-ui/react";
-import VideoCardHeader from "./components/VideoCardHeader";
-const header = "Fav";
-import yt from "../../assets/images/garageStorage.webp";
+import { Box, Grid, Text } from "@chakra-ui/react";
 import FavoriteProject from "./components/FavoriteProject";
 
 const BottomSection = () => {
@@ -13,7 +10,7 @@ const BottomSection = () => {
         gap={0} // No space between grid items
         p={4}
         borderStyle="solid" // Outer solid line
-        mb={{ base: "4", md: "10" }}
+        mb={{ base: "4", md: "16" }}
       >
         <Box borderRight="1px dotted gray" borderBottom="1px dotted gray"></Box>
         <Box

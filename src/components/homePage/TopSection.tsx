@@ -19,7 +19,7 @@ interface ResponsiveImageProps extends ImageProps {
   alt: string;
 }
 
-const AboutDIY = () => {
+const TopSection = () => {
   const textContent =
     useBreakpointValue({
       base: `<b>Built From Scratch</b> is your ultimate destination for DIY
@@ -47,7 +47,12 @@ const AboutDIY = () => {
 
   return (
     <>
-      <Heading as="h1" textAlign="center" size={{ base: "sm", md: "2xl" }}>
+      <Heading
+        as="h1"
+        textAlign="center"
+        m={{ base: "0.1", md: "4" }}
+        size={{ base: "sm", md: "2xl" }}
+      >
         Where Imagination meets Construction!
       </Heading>
       <Grid
@@ -181,7 +186,8 @@ const AboutDIY = () => {
       <Text
         textAlign="center"
         fontFamily="Geist"
-        fontSize={{ base: "0.5rem", md: "1.5rem" }}
+        fontSize={{ base: "0.5rem", md: "1.3rem" }}
+        color={"gray.600"}
         mb={{ base: "4", md: "16" }}
       >
         Build your dreams, one step at a time—because great things are always{" "}
@@ -191,4 +197,4 @@ const AboutDIY = () => {
   );
 };
 
-export default AboutDIY;
+export default TopSection;

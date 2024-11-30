@@ -1,9 +1,9 @@
 import { Grid } from "@chakra-ui/react";
 import VideoCard from "./components/VideoCard";
 import VideoCardLarge from "./components/VideoCardLarge";
-import garageStorage from "../../assets/images/garageStorage.webp";
-import firePit from "../../assets/images/firePit.png";
-import patFur from "../../assets/images/patioFurniture.webp";
+import garageStorage from "../homePage/images/garageStorage.webp";
+import firePit from "../homePage/images/firePit.png";
+import patFur from "../homePage/images/patioFurniture.webp";
 
 const MidSectionVideoGrid = () => {
   return (

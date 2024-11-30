@@ -1,23 +1,36 @@
-import { Link } from "@chakra-ui/react";
+import { Link, Flex } from "@chakra-ui/react";
 
 const TopNavLinks = () => {
   return (
     <>
-      <Link href="#home" _hover={{ textDecoration: "none", color: "gray.200" }}>
-        Home
-      </Link>
-      <Link
-        href="#about"
-        _hover={{ textDecoration: "none", color: "gray.200" }}
+      <Flex
+        as="nav"
+        gap="4"
+        justify="center"
+        align="center"
+        color="gray.700"
+        fontFamily="geist"
+        fontSize={{ base: ".7rem", md: "1.2rem" }}
       >
-        About
-      </Link>
-      <Link
-        href="#contact"
-        _hover={{ textDecoration: "none", color: "gray.200" }}
-      >
-        Contact
-      </Link>
+        <Link
+          href="#home"
+          _hover={{ textDecoration: "none", color: "gray.400" }}
+        >
+          Home
+        </Link>
+        <Link
+          href="#about"
+          _hover={{ textDecoration: "none", color: "gray.400" }}
+        >
+          About
+        </Link>
+        <Link
+          href="#contact"
+          _hover={{ textDecoration: "none", color: "gray.400" }}
+        >
+          Contact
+        </Link>
+      </Flex>
     </>
   );
 };
