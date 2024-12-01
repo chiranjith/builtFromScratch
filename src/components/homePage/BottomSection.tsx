@@ -10,7 +10,7 @@ const BottomSection = () => {
         gap={0} // No space between grid items
         p={4}
         borderStyle="solid" // Outer solid line
-        mb={{ base: "4", md: "16" }}
+        mb={{ base: "4", md: "20" }}
       >
         <Box borderRight="1px dotted gray" borderBottom="1px dotted gray"></Box>
         <Box
@@ -24,9 +24,10 @@ const BottomSection = () => {
           <Text
             textAlign="center"
             fontFamily="sans"
-            fontSize={{ base: "0.6rem", md: "1.1rem" }}
+            color={"gray.600"}
+            fontSize={{ base: "0.6rem", md: "1.3rem" }}
           >
-            <strong>This is my favorite DIY project...</strong>
+            <strong>This has to be my most enjoyable DIY project!</strong>
           </Text>
         </Box>
         <Box borderBottom="1px dotted gray"></Box>
@@ -43,7 +44,7 @@ const BottomSection = () => {
         >
           <Text
             textAlign="center"
-            fontFamily="sans"
+            fontFamily="Segoe Print, sans-serif"
             fontSize={{ base: "0.5rem", md: "1.1rem" }}
             color="gray.700"
           >
@@ -55,16 +56,13 @@ const BottomSection = () => {
             </strong>{" "}
             With the help of masons, I brought my vision to life, making it a
             truly rewarding experience!
-            <br />
-            Of course, there are some mistakes and drawbacks, but overall, it
-            has been an invaluable learning experience...
           </Text>
         </Box>
         <Box borderBottom="1px dotted gray"></Box>
 
         <Box borderRight="1px dotted gray"></Box>
         <Box borderRight="1px dotted gray" gridColumn="2 / 5"></Box>
-        <Box color={"white"}>.</Box>
+        <Box color={"white"}>-</Box>
       </Grid>
       <FavoriteProject />
     </>

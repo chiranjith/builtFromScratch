@@ -1,12 +1,12 @@
 import { Box, Flex, Image } from "@chakra-ui/react";
-import yt from "../../../assets/bfsLogo.png";
+import planter from "../../homePage/images/planterBox.jpg";
 import VideoCardHeader from "./VideoCardHeader";
 const VideoCardLarge = () => {
-  const header = "Pooja Mandir";
+  const header = "Self Watering Planter Box";
   return (
     <Box
       p={{ base: "1", md: "2" }}
-      backgroundColor="gray.800"
+      backgroundColor="gray.900"
       gridRow="1 / 3" // Spans rows 1 through 3
       gridColumn="2 / 3" // Stays in the 2nd column
       boxShadow="-2px 2px 4px rgba(0, 0, 0, 0.2)" // Custom shadow (top, bottom, and right)
@@ -25,13 +25,13 @@ const VideoCardLarge = () => {
         <VideoCardHeader header={header} theme="dark" />
 
         {/* Bottom Part (85%) */}
-        <Flex flex="1" align="center" justify="center">
+        <Flex flex="1" align="bottom" justify="center">
           <Image
-            src={yt}
+            src={planter}
             alt={header}
             w="100%"
             objectFit="cover"
-            transition="all 0.3s ease-in-out" // Smooth scaling transition
+            transition="all 0.3s ease-in-out"
           />
         </Flex>
       </Flex>

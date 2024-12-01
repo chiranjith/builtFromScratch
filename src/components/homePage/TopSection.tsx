@@ -13,6 +13,7 @@ import ins from "../../assets/instagram.png";
 import fb from "../../assets/fb.svg";
 import hd from "../../assets/hd.png";
 import lw from "../../assets/lw.png";
+import x from "../../assets/x.png";
 
 interface ResponsiveImageProps extends ImageProps {
   src: string;
@@ -129,6 +130,13 @@ const TopSection = () => {
             alt="Facebook Logo"
             width={{ base: "30px", md: "58px" }}
             height={{ base: "30px", md: "58px" }}
+          />
+          <Spacer />
+          <ResponsiveImage
+            src={x}
+            alt="Facebook Logo"
+            width={{ base: "28px", md: "54px" }}
+            height={{ base: "28px", md: "54px" }}
           />
           <Spacer />
           <ResponsiveImage

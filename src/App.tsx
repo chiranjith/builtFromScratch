@@ -1,6 +1,6 @@
 import { Grid, GridItem } from "@chakra-ui/react";
 import NavBar from "./components/topNav/NavBar";
-import VideoGrid from "./components/homePage/MidSectionVideoGrid";
+import MidSectionVideoGrid from "./components/homePage/MidSectionVideoGrid";
 import TopSection from "./components/homePage/TopSection";
 import BottomSection from "./components/homePage/BottomSection";
 
@@ -22,7 +22,7 @@ function App() {
       </GridItem>
       {/* Main Content */}
       <GridItem area="main">
-        <VideoGrid />
+        <MidSectionVideoGrid />
       </GridItem>
       <GridItem area="bottom">
         <BottomSection />
