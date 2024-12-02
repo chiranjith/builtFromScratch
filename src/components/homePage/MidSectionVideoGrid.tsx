@@ -10,7 +10,7 @@ const MidSectionVideoGrid = () => {
     <>
       <Grid
         //templateRows={{ base: "minmax(60px, 60px)", md: "275px 275px" }}
-        templateColumns="1.2fr 1.1fr 1.4fr 1fr" // 4 columns of equal width
+        templateColumns="1.4fr 1.1fr 1.4fr 1fr" // 4 columns of equal width
         gap={{ base: "2", md: "6" }} // Spacing between grid items
         m={0} // Remove margins on the grid
         px={0} // Remove horizontal padding

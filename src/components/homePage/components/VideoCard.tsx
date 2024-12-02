@@ -41,6 +41,8 @@ const VideoCard = ({ boxType, srcImg, header }: Props) => {
               src={srcImg}
               alt={header}
               w="100%"
+              //h="100%"
+              overflow="hidden"
               objectFit="cover"
               transition="all 0.3s ease-in-out" // Smooth scaling transition
             />

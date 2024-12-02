@@ -71,7 +71,7 @@ const FavoriteProject = () => {
             position="relative"
             boxShadow="lg"
             borderRadius="md"
-            top={{ base: "1px", md: "10px" }}
+            top={{ base: "1px", md: "5px" }}
           >
             <FavoriteSmallCard
               srcImg={homeImgS3}
