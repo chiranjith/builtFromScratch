@@ -8,18 +8,19 @@ interface Props {
 const FavoriteSmallCard = ({ srcImg, children }: Props) => {
   return (
     <>
-      <Flex direction="column" h="100%">
-        <Flex flex="0 0 70%" align="top" justify="center" bg="white">
-          <Text
-            mt={{ base: ".4", md: "2" }}
-            fontSize={{ base: ".4rem", md: "1.1rem" }}
-            fontWeight="bold"
-            fontFamily="Geist"
-          >
-            {children}
-          </Text>
-        </Flex>
-        <Flex flex="1" align="center" justify="center">
+      <Flex
+        direction="column"
+        h="100%"
+        bg="white"
+        boxShadow="0 8px 16px rgba(0, 0, 0, 1)"
+      >
+        <Flex
+          flex="0 0 75%"
+          align="top"
+          justify="center"
+          overflow="hidden" // Prevent image overflow
+          w="100%"
+        >
           <Image
             src={srcImg}
             alt="Small"
@@ -27,6 +28,16 @@ const FavoriteSmallCard = ({ srcImg, children }: Props) => {
             objectFit="cover"
             transition="all 0.3s ease-in-out" // Smooth scaling transition
           />
+        </Flex>
+        <Flex flex="1" align="center" justify="left" w="100%">
+          <Text
+            pl={{ base: "1", md: "2" }}
+            fontSize={{ base: ".4rem", md: "1.1rem" }}
+            //fontWeight="bold"
+            fontFamily="Geist"
+          >
+            {children}
+          </Text>
         </Flex>
       </Flex>
     </>

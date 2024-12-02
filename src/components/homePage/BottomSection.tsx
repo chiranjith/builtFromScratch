@@ -10,7 +10,7 @@ const BottomSection = () => {
         gap={0} // No space between grid items
         p={4}
         borderStyle="solid" // Outer solid line
-        mb={{ base: "4", md: "20" }}
+        mb={{ base: "4", md: "12" }}
       >
         <Box borderRight="1px dotted gray" borderBottom="1px dotted gray"></Box>
         <Box

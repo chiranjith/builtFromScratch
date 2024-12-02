@@ -1,16 +1,19 @@
-import { Box, Center, Flex, Image } from "@chakra-ui/react";
+import { Box, Flex, Image } from "@chakra-ui/react";
 import FavoriteSmallCard from "./FavoriteSmallCard";
 import homeImg from "../../homePage/images/homeImg.png";
+import homeImgS1 from "../../homePage/images/homeSmall1.jpg";
+import homeImgS2 from "../../homePage/images/homeSmall2.jpg";
+import homeImgS3 from "../../homePage/images/homeSmall5.jpg";
 
 const FavoriteProject = () => {
   return (
     <Flex w="100vw" justify="center" align="center">
       <Box
-        w="98%"
+        w="100%"
         h={{ base: "106px", md: "392px" }}
         position="relative"
         overflow="visible" // Allow child elements to overflow
-        mb={{ base: "4", md: "20" }}
+        m={"4"}
         borderBottom="1px dotted gray"
         borderTop="1px dotted gray"
         //p={{ base: "1", md: "1" }}
@@ -43,7 +46,7 @@ const FavoriteProject = () => {
             mr={{ base: "-50px", md: "-130px" }} // Overlap the boxes
             top={{ base: "-10px", md: "-30px" }} // Move 10px above the second box
           >
-            <FavoriteSmallCard srcImg="" children="1st Img" />
+            <FavoriteSmallCard srcImg={homeImgS1} children="Main Door" />
           </Box>
           {/* Second Box */}
           <Box
@@ -57,7 +60,7 @@ const FavoriteProject = () => {
             mr={{ base: "-50px", md: "-130px" }}
             top={{ base: "-5px", md: "-15px" }}
           >
-            <FavoriteSmallCard srcImg="" children="2nd Img" />
+            <FavoriteSmallCard srcImg={homeImgS2} children="Dining Room View" />
           </Box>
           {/* Third Box */}
           <Box
@@ -70,7 +73,10 @@ const FavoriteProject = () => {
             borderRadius="md"
             top={{ base: "1px", md: "10px" }}
           >
-            <FavoriteSmallCard srcImg="" children="3rd Img" />
+            <FavoriteSmallCard
+              srcImg={homeImgS3}
+              children="Home, Sweet Home..."
+            />
           </Box>
         </Flex>
       </Box>
