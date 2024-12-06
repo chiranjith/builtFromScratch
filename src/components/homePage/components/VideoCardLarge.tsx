@@ -17,7 +17,7 @@ const VideoCardLarge = () => {
       //opacity="1"
       _hover={{
         filter: "grayscale(100%) brightness(0.9) contrast(1)", // Black scale effect
-        transform: "scale(1.01)", // Slight zoom-in effect
+        transform: "scale(1.02)", // Slight zoom-in effect
         boxShadow: "-2px 2px 12px rgba(0, 0, 0, 0.3)", // More intense shadow on hover
       }}
     >

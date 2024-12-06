@@ -1,5 +1,6 @@
 import { Box, Grid, Text } from "@chakra-ui/react";
 import FavoriteProject from "./components/FavoriteProject";
+import Categories from "./components/Categories";
 
 const BottomSection = () => {
   return (
@@ -65,6 +66,7 @@ const BottomSection = () => {
         <Box color={"white"}>-</Box>
       </Grid>
       <FavoriteProject />
+      <Categories />
     </>
   );
 };

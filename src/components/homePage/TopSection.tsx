@@ -21,21 +21,38 @@ interface ResponsiveImageProps extends ImageProps {
 }
 
 const TopSection = () => {
-  const textContent =
-    useBreakpointValue({
-      base: `<b>Built From Scratch</b> is your ultimate destination for DIY
-      enthusiasts, creators & innovators. Our platform is dedicated to
-      empowering individuals to craft, build & create from the ground
-      up...`,
-      md: `<b>Built From Scratch</b> is your ultimate destination for DIY
-      enthusiasts, creators & innovators. Our platform is dedicated to
-      empowering individuals to craft, build & create from the ground
-      up. Whether you’re a beginner taking your first steps into the world
-      of DIY or an experienced maker looking for fresh ideas, 
-      <br />
-      <strong>Built From Scratch</strong> provides the inspiration, tools,
-      and guidance you need.`,
-    }) ?? "Welcome to Built From Scratch!";
+  const textContent = useBreakpointValue({
+    base: (
+      <>
+        <Text as="span" color="blue.600" fontWeight="bold">
+          Built From Scratch
+        </Text>{" "}
+        is your ultimate destination for DIY enthusiasts, creators & innovators.
+        Our platform is dedicated to empowering individuals to craft, build &
+        create from the ground up...
+      </>
+    ),
+    md: (
+      <>
+        <Text as="span" color="blue.600" fontWeight="bold">
+          Built From Scratch
+        </Text>{" "}
+        is your ultimate destination for DIY enthusiasts, creators & innovators.
+        Our platform is dedicated to empowering individuals to craft, build &
+        create from the ground up. Whether you’re a beginner taking your first
+        steps into the world of DIY or an experienced maker looking for fresh
+        ideas, <br />
+        <Text as="span" color="blue.600" fontWeight="bold">
+          Built From Scratch
+        </Text>{" "}
+        provides the inspiration, tools, and guidance you need.
+      </>
+    ),
+  }) ?? (
+    <Text as="span" color="blue.500" fontWeight="bold">
+      Welcome to Built From Scratch!
+    </Text>
+  );
 
   const ResponsiveImage = ({ src, alt, ...props }: ResponsiveImageProps) => (
     <Image
@@ -51,10 +68,15 @@ const TopSection = () => {
       <Heading
         as="h1"
         textAlign="center"
+        color={"gray.600"}
         m={{ base: "0.1", md: "4" }}
         size={{ base: "sm", md: "2xl" }}
       >
-        Where Imagination meets Construction!
+        Where{" "}
+        <Text as="span" color="blue.600">
+          Imagination
+        </Text>{" "}
+        meets Construction!
       </Heading>
       <Grid
         templateRows="repeat(5, auto)" // 5 rows
@@ -78,7 +100,7 @@ const TopSection = () => {
             textAlign="center"
             mb="2"
             fontFamily="Geist"
-            fontSize={{ base: ".7rem", md: "2rem" }}
+            fontSize={{ base: ".7rem", md: "1.5rem" }}
           >
             Welcome to Built From Scratch - DIY made Simple!
           </Text>
@@ -96,12 +118,19 @@ const TopSection = () => {
           justifyContent="center"
           p={4}
         >
-          <Text
+          {/* <Text
             textAlign="center"
             fontFamily="Geist"
             fontSize={{ base: "0.7rem", md: "1.1rem" }}
             dangerouslySetInnerHTML={{ __html: textContent }}
-          />
+          /> */}
+          <Text
+            fontSize={{ base: "sm", md: "md" }}
+            textAlign="center"
+            fontFamily="Geist"
+          >
+            {textContent}
+          </Text>
         </Box>
         <Box></Box>
 
@@ -170,6 +199,7 @@ const TopSection = () => {
             textAlign="center"
             fontFamily="Geist"
             fontSize={{ base: "0.4rem", md: "1.1rem" }}
+            color="gray.600"
           >
             From detailed tutorials and creative project ideas to expert tips
             and tricks, we help you turn your vision into reality.
@@ -199,7 +229,10 @@ const TopSection = () => {
         mb={{ base: "4", md: "16" }}
       >
         Build your dreams, one step at a time—because great things are always{" "}
-        <strong>Built From Scratch</strong>!
+        <Text as="span" color="blue.600" fontWeight="bold">
+          Built From Scratch
+        </Text>{" "}
+        !
       </Text>
     </>
   );

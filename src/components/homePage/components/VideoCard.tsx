@@ -20,16 +20,16 @@ const VideoCard = ({ boxType, srcImg, header }: Props) => {
       <Box
         //p={{ base: ".1", md: ".5" }}
         backgroundColor={"white"}
-        boxShadow="-2px 2px 8px rgba(0, 0, 0, 0.2)" // Custom shadow (top, bottom, and right)
+        boxShadow="-2px 2px 8px rgba(0, 0, 0, 0.4)" // Custom shadow (top, bottom, and right)
         {...borderRadius} // Apply conditional border radius
         overflow="hidden" // Ensures content stays within the box
         transition="all 0.3s ease-in-out" // Smooth transition effect
         position="relative" // Enables layering
         height={{ base: "60px", md: "275px" }} // Set a fixed height
         _hover={{
-          filter: "grayscale(100%) brightness(0.9) contrast(1)", // Black scale effect
+          filter: "grayscale(80%) brightness(0.9) contrast(1)", // Black scale effect
           transform: "scale(1.02)", // Slight zoom-in effect
-          boxShadow: "-2px 2px 12px rgba(0, 0, 0, 0.3)", // More intense shadow on hover
+          boxShadow: "-2px 4px 12px rgba(0, 0, 0, 1)", // More intense shadow on hover
         }}
       >
         <Flex direction="column" h="100%">
