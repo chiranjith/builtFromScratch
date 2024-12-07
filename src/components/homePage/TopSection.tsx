@@ -8,12 +8,7 @@ import {
   useBreakpointValue,
   ImageProps,
 } from "@chakra-ui/react";
-import yt from "../../assets/youtube.png";
-import ins from "../../assets/instagram.png";
-import fb from "../../assets/fb.svg";
-import hd from "../../assets/hd.png";
-import lw from "../../assets/lw.png";
-import x from "../../assets/x.png";
+import images from "../../assets/images";
 
 interface ResponsiveImageProps extends ImageProps {
   src: string;
@@ -68,7 +63,7 @@ const TopSection = () => {
       <Heading
         as="h1"
         textAlign="center"
-        color={"gray.600"}
+        color={"gray.800"}
         m={{ base: "0.1", md: "4" }}
         size={{ base: "sm", md: "2xl" }}
       >
@@ -118,12 +113,6 @@ const TopSection = () => {
           justifyContent="center"
           p={4}
         >
-          {/* <Text
-            textAlign="center"
-            fontFamily="Geist"
-            fontSize={{ base: "0.7rem", md: "1.1rem" }}
-            dangerouslySetInnerHTML={{ __html: textContent }}
-          /> */}
           <Text
             fontSize={{ base: "sm", md: "md" }}
             textAlign="center"
@@ -147,7 +136,7 @@ const TopSection = () => {
           justifyContent="center"
         >
           <ResponsiveImage
-            src={yt}
+            src={images.logos.yt}
             alt="YouTube Logo"
             width={{ base: "32px", md: "90px" }}
             height={{ base: "30px", md: "80px" }}
@@ -155,21 +144,21 @@ const TopSection = () => {
           />
           <Spacer />
           <ResponsiveImage
-            src={fb}
+            src={images.logos.fb}
             alt="Facebook Logo"
             width={{ base: "30px", md: "58px" }}
             height={{ base: "30px", md: "58px" }}
           />
           <Spacer />
           <ResponsiveImage
-            src={x}
+            src={images.logos.x}
             alt="Facebook Logo"
             width={{ base: "28px", md: "54px" }}
             height={{ base: "28px", md: "54px" }}
           />
           <Spacer />
           <ResponsiveImage
-            src={ins}
+            src={images.logos.ins}
             alt="Instagram Logo"
             width={{ base: "36px", md: "80px" }}
             height={{ base: "36px", md: "80px" }}
@@ -187,7 +176,7 @@ const TopSection = () => {
           justifyContent="center"
         >
           <ResponsiveImage
-            src={hd}
+            src={images.logos.hd}
             alt="HomeDepot Logo"
             width={{ base: "45px", md: "90px" }}
             height={{ base: "30px", md: "60px" }}
@@ -199,7 +188,7 @@ const TopSection = () => {
             textAlign="center"
             fontFamily="Geist"
             fontSize={{ base: "0.4rem", md: "1.1rem" }}
-            color="gray.600"
+            color="gray.700"
           >
             From detailed tutorials and creative project ideas to expert tips
             and tricks, we help you turn your vision into reality.
@@ -212,7 +201,7 @@ const TopSection = () => {
           justifyContent="center"
         >
           <ResponsiveImage
-            src={lw}
+            src={images.logos.lw}
             alt="Lowes Logo"
             width={{ base: "36px", md: "80px" }}
             height={{ base: "30px", md: "70px" }}
@@ -225,7 +214,7 @@ const TopSection = () => {
         textAlign="center"
         fontFamily="Geist"
         fontSize={{ base: "0.5rem", md: "1.3rem" }}
-        color={"gray.600"}
+        color={"gray.700"}
         mb={{ base: "4", md: "16" }}
       >
         Build your dreams, one step at a time—because great things are always{" "}

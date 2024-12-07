@@ -25,7 +25,7 @@ const BottomSection = () => {
           <Text
             textAlign="center"
             fontFamily="sans"
-            color={"gray.600"}
+            color={"gray.700"}
             fontSize={{ base: "0.6rem", md: "1.3rem" }}
           >
             <strong>This has to be my most enjoyable DIY project!</strong>

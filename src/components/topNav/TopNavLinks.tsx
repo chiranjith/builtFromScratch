@@ -8,7 +8,7 @@ const TopNavLinks = () => {
         gap="4"
         justify="center"
         align="center"
-        color="gray.700"
+        color="gray.800"
         fontFamily="geist"
         fontSize={{ base: ".7rem", md: "1.2rem" }}
         pr={{ base: "1", md: "4" }}

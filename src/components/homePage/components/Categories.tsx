@@ -17,7 +17,7 @@ const Categories = () => {
           fontSize={{ base: "0.9rem", md: "1.3rem" }}
           fontWeight="bold"
           fontFamily="AVGARDM"
-          color={"gray.600"}
+          color={"gray.700"}
           position="absolute" // Position the text absolutely
           top={{ base: "-1.3rem", md: "-2.1rem" }} // Move the text above the lines
           left="0" // Align with the start of the thick blue line

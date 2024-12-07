@@ -1,14 +1,10 @@
 import { Box, Flex, Image } from "@chakra-ui/react";
-import VideoCardHeader from "./VideoCardHeader";
 
 interface Props {
   boxType: string;
   srcImg: string;
-  header: string;
 }
-const VideoCard = ({ boxType, srcImg, header }: Props) => {
-  console.log("boxType:", boxType); // Debugging line to check the header
-  console.log("header:", header); // Debugging line to check the header
+const VideoCard = ({ boxType, srcImg }: Props) => {
   const borderRadius =
     boxType === "right"
       ? { borderTopLeftRadius: "sm", borderBottomLeftRadius: "sm" }
@@ -18,8 +14,6 @@ const VideoCard = ({ boxType, srcImg, header }: Props) => {
   return (
     <>
       <Box
-        //p={{ base: ".1", md: ".5" }}
-        backgroundColor={"white"}
         boxShadow="-2px 2px 8px rgba(0, 0, 0, 0.4)" // Custom shadow (top, bottom, and right)
         {...borderRadius} // Apply conditional border radius
         overflow="hidden" // Ensures content stays within the box
@@ -32,21 +26,15 @@ const VideoCard = ({ boxType, srcImg, header }: Props) => {
           boxShadow: "-2px 4px 12px rgba(0, 0, 0, 1)", // More intense shadow on hover
         }}
       >
-        <Flex direction="column" h="100%">
-          <VideoCardHeader header={header} />
-
-          {/* Bottom Part (85%) */}
-          <Flex flex="1" align="center" justify="center">
-            <Image
-              src={srcImg}
-              alt={header}
-              w="100%"
-              //h="100%"
-              overflow="hidden"
-              objectFit="cover"
-              transition="all 0.3s ease-in-out" // Smooth scaling transition
-            />
-          </Flex>
+        <Flex h="100%" flex="1" align="center" justify="center">
+          <Image
+            src={srcImg}
+            w="100%"
+            //h="100%"
+            overflow="hidden"
+            objectFit="cover"
+            transition="all 0.3s ease-in-out" // Smooth scaling transition
+          />
         </Flex>
       </Box>
     </>
