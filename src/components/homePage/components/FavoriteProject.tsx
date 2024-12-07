@@ -1,9 +1,6 @@
 import { Box, Flex, Image } from "@chakra-ui/react";
 import FavoriteSmallCard from "./FavoriteSmallCard";
-import homeImg from "../../homePage/images/homeImg.png";
-import homeImgS1 from "../../homePage/images/homeSmall1.jpg";
-import homeImgS2 from "../../homePage/images/homeSmall2.jpg";
-import homeImgS3 from "../../homePage/images/homeSmall5.jpg";
+import images from "../../../assets/images";
 
 const FavoriteProject = () => {
   return (
@@ -30,7 +27,7 @@ const FavoriteProject = () => {
           justify="center" // Center the image horizontally
         >
           <Image
-            src={homeImg}
+            src={images.favProj.homeImg}
             alt="Home Image"
             w="100%"
             objectFit="cover"
@@ -66,7 +63,10 @@ const FavoriteProject = () => {
             }}
             transition="all 0.6s ease-in-out"
           >
-            <FavoriteSmallCard srcImg={homeImgS1} children="Living Room" />
+            <FavoriteSmallCard
+              srcImg={images.favProj.homeSm1}
+              children="Living Room"
+            />
           </Box>
           {/* Second Box */}
           <Box
@@ -85,7 +85,10 @@ const FavoriteProject = () => {
             }}
             transition="all 0.6s ease-in-out"
           >
-            <FavoriteSmallCard srcImg={homeImgS2} children="Dining Room View" />
+            <FavoriteSmallCard
+              srcImg={images.favProj.homeSm2}
+              children="Dining Room View"
+            />
           </Box>
           {/* Third Box */}
           <Box
@@ -104,7 +107,7 @@ const FavoriteProject = () => {
             transition="all 0.6s ease-in-out"
           >
             <FavoriteSmallCard
-              srcImg={homeImgS3}
+              srcImg={images.favProj.homeSm3}
               children="Home, Sweet Home..."
             />
           </Box>

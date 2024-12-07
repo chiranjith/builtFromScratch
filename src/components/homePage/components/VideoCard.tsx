@@ -19,7 +19,7 @@ const VideoCard = ({ boxType, srcImg }: Props) => {
         overflow="hidden" // Ensures content stays within the box
         transition="all 0.3s ease-in-out" // Smooth transition effect
         position="relative" // Enables layering
-        height={{ base: "60px", md: "275px" }} // Set a fixed height
+        height={{ base: "85px", md: "285px" }} // Set a fixed height
         _hover={{
           filter: "grayscale(80%) brightness(0.9) contrast(1)", // Black scale effect
           transform: "scale(1.02)", // Slight zoom-in effect
