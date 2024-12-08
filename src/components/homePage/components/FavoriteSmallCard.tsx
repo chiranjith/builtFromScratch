@@ -32,7 +32,12 @@ const FavoriteSmallCard = ({ srcImg, children }: Props) => {
         <Flex flex="1" align="center" justify="left" w="100%">
           <Text
             pl={{ base: "1", md: "2" }}
-            fontSize={{ base: ".4rem", md: "1.1rem" }}
+            fontSize={{
+              base: ".3rem",
+              md: ".8rem",
+              lg: "1.1rem",
+              "2xl": "1.3rem",
+            }}
             //fontWeight="bold"
             fontFamily="Geist"
           >

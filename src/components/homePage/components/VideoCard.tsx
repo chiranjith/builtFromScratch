@@ -1,4 +1,5 @@
 import { Box, Flex, Image } from "@chakra-ui/react";
+import theme from "../../../assets/theme";
 
 interface Props {
   boxType: string;
@@ -19,7 +20,14 @@ const VideoCard = ({ boxType, srcImg }: Props) => {
         overflow="hidden" // Ensures content stays within the box
         transition="all 0.3s ease-in-out" // Smooth transition effect
         position="relative" // Enables layering
-        height={{ base: "85px", md: "285px" }} // Set a fixed height
+        //width={{ base: "100%", md: "100%", lg: "100%", xl: "95%" }} // Adjust width for xl screens
+        height={{
+          sm: "65px",
+          md: "140px",
+          lg: "190px",
+          xl: "285px",
+          "2xl": "365px",
+        }} // Set a fixed height
         _hover={{
           filter: "grayscale(80%) brightness(0.9) contrast(1)", // Black scale effect
           transform: "scale(1.02)", // Slight zoom-in effect

@@ -2,24 +2,28 @@ import { Box, Flex, Image } from "@chakra-ui/react";
 import FavoriteSmallCard from "./FavoriteSmallCard";
 import images from "../../../assets/images";
 
+const smallCard = {
+  w: { base: "60px", md: "140px", lg: "230px", "2xl": "350px" },
+  h: { base: "60px", md: "140px", lg: "230px", "2xl": "350px" },
+};
+
 const FavoriteProject = () => {
   return (
     <Flex
       w="100vw"
       justify="center"
       align="center"
-      mb={{ base: "35px", md: "70px" }}
+      mb={{ base: "35px", md: "70px", lg: "90px" }}
     >
       <Box
         w="100%"
-        h={{ base: "116px", sm: "20px", md: "392px" }}
+        h={{ sm: "180px", md: "205px", lg: "394px", "2xl": "520px" }}
         position="relative"
         overflow="visible" // Allow child elements to overflow
         ml={"4"}
         mr={"4"}
         borderBottom="1px dotted gray"
         borderTop="1px dotted gray"
-        //p={{ base: "1", md: "1" }}
       >
         <Flex
           h="100%" // Full height of the Box
@@ -29,7 +33,7 @@ const FavoriteProject = () => {
           <Image
             src={images.favProj.homeImg}
             alt="Home Image"
-            w="100%"
+            w={{ sm: "116px", md: "100%", lg: "120%", "2xl": "100%" }}
             objectFit="cover"
             _hover={{
               transform: "scale(1.1) ",
@@ -48,14 +52,13 @@ const FavoriteProject = () => {
         >
           {/* First Box */}
           <Box
-            w={{ base: "80px", md: "260px" }}
-            h={{ base: "80px", md: "260px" }}
+            {...smallCard}
             bg="blue.400"
             transform="rotate(-5deg)"
             position="relative"
             boxShadow="lg"
             borderRadius="md"
-            mr={{ base: "-50px", md: "-130px" }} // Overlap the boxes
+            mr={{ base: "-30px", md: "-100px", lg: "-130px" }} // Overlap the boxes
             top={{ base: "-10px", md: "-30px" }} // Move 10px above the second box
             _hover={{
               transform: "scale(1.1) rotate(-7deg)", // Slight scaling and additional rotation
@@ -70,14 +73,13 @@ const FavoriteProject = () => {
           </Box>
           {/* Second Box */}
           <Box
-            w={{ base: "80px", md: "260px" }}
-            h={{ base: "80px", md: "260px" }}
+            {...smallCard}
             bg="green.400"
             transform="rotate(-3deg)"
             position="relative"
             boxShadow="lg"
             borderRadius="md"
-            mr={{ base: "-50px", md: "-130px" }}
+            mr={{ base: "-30px", md: "-100px", lg: "-130px" }}
             top={{ base: "-5px", md: "-15px" }}
             _hover={{
               transform: "scale(1.1) rotate(-5deg)", // Slight scaling and additional rotation
@@ -92,8 +94,7 @@ const FavoriteProject = () => {
           </Box>
           {/* Third Box */}
           <Box
-            w={{ base: "80px", md: "260px" }}
-            h={{ base: "80px", md: "260px" }}
+            {...smallCard}
             bg="red.400"
             transform="rotate(0deg)"
             position="relative"
