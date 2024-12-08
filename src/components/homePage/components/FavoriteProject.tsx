@@ -5,6 +5,9 @@ import images from "../../../assets/images";
 const smallCard = {
   w: { base: "60px", md: "140px", lg: "230px", "2xl": "350px" },
   h: { base: "60px", md: "140px", lg: "230px", "2xl": "350px" },
+  boxShadow: "lg",
+  borderRadius: "md",
+  transition: "all 0.6s ease-in-out",
 };
 
 const FavoriteProject = () => {
@@ -29,16 +32,18 @@ const FavoriteProject = () => {
           h="100%" // Full height of the Box
           align="center" // Center the image vertically
           justify="center" // Center the image horizontally
+          _hover={{
+            filter: "grayscale(30%) brightness(0.9) contrast(1)",
+            transform: "scale(1.01)",
+            //boxShadow: "-2px 4px 12px rgba(0, 0, 0, 1)",
+          }}
+          transition="all 1s ease-in-out"
         >
           <Image
             src={images.favProj.homeImg}
             alt="Home Image"
             w={{ sm: "116px", md: "100%", lg: "120%", "2xl": "100%" }}
             objectFit="cover"
-            _hover={{
-              transform: "scale(1.1) ",
-            }}
-            transition="all 1s ease-in-out"
           />
         </Flex>
         <Flex
@@ -56,15 +61,12 @@ const FavoriteProject = () => {
             bg="blue.400"
             transform="rotate(-5deg)"
             position="relative"
-            boxShadow="lg"
-            borderRadius="md"
             mr={{ base: "-30px", md: "-100px", lg: "-130px" }} // Overlap the boxes
             top={{ base: "-10px", md: "-30px" }} // Move 10px above the second box
             _hover={{
               transform: "scale(1.1) rotate(-7deg)", // Slight scaling and additional rotation
               zIndex: 2, // Bring to the front on hover
             }}
-            transition="all 0.6s ease-in-out"
           >
             <FavoriteSmallCard
               srcImg={images.favProj.homeSm1}
@@ -77,15 +79,12 @@ const FavoriteProject = () => {
             bg="green.400"
             transform="rotate(-3deg)"
             position="relative"
-            boxShadow="lg"
-            borderRadius="md"
             mr={{ base: "-30px", md: "-100px", lg: "-130px" }}
             top={{ base: "-5px", md: "-15px" }}
             _hover={{
               transform: "scale(1.1) rotate(-5deg)", // Slight scaling and additional rotation
               zIndex: 2, // Bring to the front on hover
             }}
-            transition="all 0.6s ease-in-out"
           >
             <FavoriteSmallCard
               srcImg={images.favProj.homeSm2}
@@ -98,14 +97,11 @@ const FavoriteProject = () => {
             bg="red.400"
             transform="rotate(0deg)"
             position="relative"
-            boxShadow="lg"
-            borderRadius="md"
             top={{ base: "1px", md: "5px" }}
             _hover={{
               transform: "scale(1.1) ", // Slight scaling and additional rotation
               zIndex: 2, // Bring to the front on hover
             }}
-            transition="all 0.6s ease-in-out"
           >
             <FavoriteSmallCard
               srcImg={images.favProj.homeSm3}
