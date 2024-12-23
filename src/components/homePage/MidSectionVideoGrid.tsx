@@ -15,7 +15,7 @@ const MidSectionVideoGrid = () => {
         mb={{ base: "4", md: "12" }}
       >
         {/* Column 1, Row 1 */}
-        <VideoCard boxType="left" srcImg={images.videoGrid.patioFur} />
+        <VideoCard boxType="left" srcImg={images.videoGrid.outdoorFur} />
 
         {/* Column 2, Rows 1 & 2 (merged) */}
         <VideoCardLarge srcImg={images.videoGrid.planters} />

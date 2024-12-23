@@ -23,8 +23,7 @@ const FavoriteProject = () => {
         h={{ sm: "180px", md: "205px", lg: "394px", "2xl": "520px" }}
         position="relative"
         overflow="visible" // Allow child elements to overflow
-        ml={"4"}
-        mr={"4"}
+        mx={"4"} //equal space on left & right
         borderBottom="1px dotted gray"
         borderTop="1px dotted gray"
       >
@@ -33,9 +32,8 @@ const FavoriteProject = () => {
           align="center" // Center the image vertically
           justify="center" // Center the image horizontally
           _hover={{
-            filter: "grayscale(30%) brightness(0.9) contrast(1)",
+            //filter: "grayscale(0%) brightness(0.9) contrast(1)",
             transform: "scale(1.01)",
-            //boxShadow: "-2px 4px 12px rgba(0, 0, 0, 1)",
           }}
           transition="all 1s ease-in-out"
         >
@@ -58,7 +56,6 @@ const FavoriteProject = () => {
           {/* First Box */}
           <Box
             {...smallCard}
-            bg="blue.400"
             transform="rotate(-5deg)"
             position="relative"
             mr={{ base: "-30px", md: "-100px", lg: "-130px" }} // Overlap the boxes
@@ -76,7 +73,6 @@ const FavoriteProject = () => {
           {/* Second Box */}
           <Box
             {...smallCard}
-            bg="green.400"
             transform="rotate(-3deg)"
             position="relative"
             mr={{ base: "-30px", md: "-100px", lg: "-130px" }}
@@ -94,7 +90,6 @@ const FavoriteProject = () => {
           {/* Third Box */}
           <Box
             {...smallCard}
-            bg="red.400"
             transform="rotate(0deg)"
             position="relative"
             top={{ base: "1px", md: "5px" }}

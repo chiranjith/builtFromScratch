@@ -8,7 +8,7 @@ import x from "./images/logos/x.png";
 import aqua from "./images/videoGrid/aqua.png"
 import landscape from "./images/videoGrid/landscape.png"
 import garage from "./images/videoGrid/garage.png"
-import patioFur from "./images/videoGrid/patioFur.png"
+import outdoorFur from "./images/videoGrid/outdoorFur.png"
 import planter from "./images/videoGrid/planter.png"
 import planters from "./images/videoGrid/planters.png"
 import pooja from "./images/videoGrid/pooja.png"
@@ -24,7 +24,7 @@ const logos: { [key: string]: string } = {
 };
 
 const videoGrid: {[key: string]: string} = {
-  aqua, landscape, garage, patioFur, planter, pooja, planters
+  aqua, landscape, garage, outdoorFur, planter, pooja, planters
 };
 
 const favProj: {[key: string]: string} = {

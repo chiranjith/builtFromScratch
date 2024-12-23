@@ -66,7 +66,7 @@ const BottomSection = () => {
         <Box color={"white"}>-</Box>
       </Grid>
       <FavoriteProject />
-      <Categories />
+      {/* <Categories /> */}
     </>
   );
 };
