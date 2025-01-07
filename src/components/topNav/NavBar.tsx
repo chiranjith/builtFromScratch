@@ -3,6 +3,7 @@ import logo from "../../assets/images/logos/bfsLogo.png";
 import ColorModeSwitch from "../ColorModeSwitch";
 import Subscribe from "./Subscribe";
 import TopNavLinks from "./TopNavLinks";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -17,11 +18,13 @@ const NavBar = () => {
         zIndex="100"
       >
         <HStack justifyContent="space-between" padding="10px">
-          <Image
-            src={logo}
-            width={{ base: "150px", md: "240px" }}
-            height={{ base: "25px", md: "40px" }}
-          />
+          <Link to="/">
+            <Image
+              src={logo}
+              width={{ base: "150px", md: "240px" }}
+              height={{ base: "25px", md: "40px" }}
+            />
+          </Link>
           <Flex gap={4} alignItems="center">
             <Subscribe />
             <TopNavLinks />

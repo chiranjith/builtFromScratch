@@ -1,0 +1,64 @@
+{
+    "videos": [
+        {
+            "id": 1,
+            "title": "Outdoor Furniture",
+            "shortDesc": "A Creative Outdoor Upgrade.",
+            "description": "Creating your own patio furniture is a rewarding DIY project that adds style and functionality to your outdoor space. Whether you're an experienced builder or a beginner, crafting custom furniture allows you to tailor it to your taste and needs while saving money.",
+            "image": "/src/assets/images/videoGrid/outdoorFur.png",
+            "children": [
+                {
+                    "id": 101,
+                    "title": "Patio Left Bench",
+                    "description": "Learn about the first topic in detail.",
+                    "image": "images/child1-1.jpg",
+                    "duration": "5:30"
+                },
+                {
+                    "id": 102,
+                    "title": "Patio Right Bench",
+                    "description": "A deep dive into advanced topics.",
+                    "image": "images/child1-2.jpg",
+                    "duration": "8:45"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Parent Video 2",
+            "description": "Exploring intermediate concepts.",
+            "image": "images/parent2.jpg",
+            "children": [
+                {
+                    "id": 201,
+                    "title": "Child Video 2.1",
+                    "description": "Understanding the core principles.",
+                    "image": "images/child2-1.jpg",
+                    "duration": "7:20"
+                },
+                {
+                    "id": 202,
+                    "title": "Child Video 2.2",
+                    "description": "A guide to practical applications.",
+                    "image": "images/child2-2.jpg",
+                    "duration": "6:50"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Parent Video 3",
+            "description": "Advanced techniques and applications.",
+            "image": "images/parent3.jpg",
+            "children": [
+                {
+                    "id": 301,
+                    "title": "Child Video 3.1",
+                    "description": "Detailed explanation of expert methods.",
+                    "image": "images/child3-1.jpg",
+                    "duration": "10:15"
+                }
+            ]
+        }
+    ]
+}

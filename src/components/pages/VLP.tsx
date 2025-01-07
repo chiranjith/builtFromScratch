@@ -1,9 +1,18 @@
+import { useLocation } from "react-router-dom";
+import { Text } from "@chakra-ui/react";
 import { Grid, GridItem } from "@chakra-ui/react";
+import VideoCard from "./components/VideoCard";
 import NavBar from "../topNav/NavBar";
 import Footer from "../footer/Footer";
 
 //Video Landing Page
 const VLP = () => {
+  const location = useLocation();
+  const data = location.state; // Access the data passed via Link's state
+  console.log("Test VLP" + data);
+  if (!data) {
+    return <Text>No video data available.</Text>;
+  }
   return (
     <>
       <Grid
@@ -16,7 +25,9 @@ const VLP = () => {
           <NavBar />
         </GridItem>
         <GridItem area="about" mb={0}>
-          {"Video Landing Page"}
+          {"Video Landing Page - "}
+          {/* Pass data as props to VideoCard */}
+          <VideoCard videoData={data} />
         </GridItem>
         <GridItem area="main"></GridItem>
         <GridItem area="bottom">

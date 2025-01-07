@@ -15,7 +15,7 @@ const VideoCard = ({ boxType, srcImg }: Props) => {
   return (
     <>
       <Box
-        boxShadow="1px 2px 8px rgba(0, 0, 0, 0.2)" // Custom shadow (top, bottom, and right)
+        boxShadow="-1px -1px 8px rgba(0, 0, 0, 0.2)" // Custom shadow (top, bottom, and right)
         {...borderRadius} // Apply conditional border radius
         overflow="hidden" // Ensures content stays within the box
         transition="all 0.3s ease-in-out" // Smooth transition effect
