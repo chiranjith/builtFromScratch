@@ -12,6 +12,7 @@
                     "title": "Patio Left Bench",
                     "description": "Learn about the first topic in detail.",
                     "image": "images/child1-1.jpg",
+                    "videoLink": "",
                     "duration": "5:30"
                 },
                 {
@@ -19,6 +20,7 @@
                     "title": "Patio Right Bench",
                     "description": "A deep dive into advanced topics.",
                     "image": "images/child1-2.jpg",
+                    "videoLink": "",
                     "duration": "8:45"
                 }
             ]
@@ -49,16 +51,7 @@
             "id": 3,
             "title": "Garage",
             "description": "Advanced techniques and applications.",
-            "image": "/src/assets/images/videoGrid/garage.png",
-            "children": [
-                {
-                    "id": 301,
-                    "title": "Child Video 3.1",
-                    "description": "Detailed explanation of expert methods.",
-                    "image": "images/child3-1.jpg",
-                    "duration": "10:15"
-                }
-            ]
+            "image": "/src/assets/images/videoGrid/garage.png"
         },
         {
             "id": 4,
@@ -79,25 +72,16 @@
             "id": 5,
             "title": "SelfWater",
             "description": "Advanced techniques and applications.",
-            "image": "/src/assets/images/videoGrid/selfWater.png",
-            "children": [
-                {
-                    "id": 301,
-                    "title": "Child Video 3.1",
-                    "description": "Detailed explanation of expert methods.",
-                    "image": "images/child3-1.jpg",
-                    "duration": "10:15"
-                }
-            ]
+            "image": "/src/assets/images/videoGrid/selfWater.png"
         },
         {
             "id": 5,
-            "title": "Aqua",
+            "title": "Indoor Project",
             "description": "Advanced techniques and applications.",
-            "image": "/src/assets/images/videoGrid/aqua.png",
+            "image": "/src/assets/images/videoGrid/indoorProject.png",
             "children": [
                 {
-                    "id": 301,
+                    "id": 501,
                     "title": "Child Video 3.1",
                     "description": "Detailed explanation of expert methods.",
                     "image": "images/child3-1.jpg",
@@ -109,16 +93,7 @@
             "id": 6,
             "title": "Pooja",
             "description": "Advanced techniques and applications.",
-            "image": "/src/assets/images/videoGrid/pooja.png",
-            "children": [
-                {
-                    "id": 301,
-                    "title": "Child Video 3.1",
-                    "description": "Detailed explanation of expert methods.",
-                    "image": "images/child3-1.jpg",
-                    "duration": "10:15"
-                }
-            ]
+            "image": "/src/assets/images/videoGrid/pooja.png"
         }
     ]
 }

@@ -1,47 +1,29 @@
-import { GridItem, Text, Link } from "@chakra-ui/react";
-import { Link as RouterLink } from "react-router-dom";
+import { GridItem, Stack, Text, filter } from "@chakra-ui/react";
 import videoList from "../../assets/data/videoList.json";
 import CustomLink from "../../assets/CustomLink";
 
 const Categories = () => {
-  // Extract Outdoor Furniture Data
-  const outdoorFurnitureData = videoList.videos.find(
-    (video) => video.title === "Outdoor Furniture"
-  );
-  console.log("Check: " + outdoorFurnitureData?.title);
-
   return (
-    <>
-      <GridItem>
-        <Text fontWeight="bold" mb={4}>
-          Categories
-        </Text>
-        {/* Navigation Link */}
-        <CustomLink
-          to={`/vlp?id=${outdoorFurnitureData?.title}`}
-          state={outdoorFurnitureData}
-          newTab={false}
-        >
-          Outdoor Furniture
-        </CustomLink>
-        <Link
-          href="#"
-          mb={2}
-          display="block"
-          _hover={{ textDecoration: "underline" }}
-        >
-          Indoor
-        </Link>
-        <Link
-          href="#"
-          mb={2}
-          display="block"
-          _hover={{ textDecoration: "underline" }}
-        >
-          Planter Box
-        </Link>
-      </GridItem>
-    </>
+    <GridItem>
+      <Text fontWeight="bold" mb={4}>
+        Categories
+      </Text>
+      {/* Generate links for videos with children */}
+      <Stack spacing={2}>
+        {videoList.videos
+          .filter((video) => video.children && video.children.length > 0)
+          .map((video) => (
+            <CustomLink
+              key={video.id} // Assuming each video has a unique `id`
+              to={`/vlp?id=${video.title}`}
+              state={video}
+              newTab={false} // Adjust as needed
+            >
+              {video.title}
+            </CustomLink>
+          ))}
+      </Stack>
+    </GridItem>
   );
 };
 

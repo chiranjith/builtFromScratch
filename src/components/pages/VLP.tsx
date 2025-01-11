@@ -9,7 +9,7 @@ import Footer from "../footer/Footer";
 const VLP = () => {
   const location = useLocation();
   const data = location.state; // Access the data passed via Link's state
-  //console.log("Test VLP" + data);
+  console.log(data); // Debug: Ensure data is passed correctly
   if (!data) {
     return <Text>No video data available.</Text>;
   }

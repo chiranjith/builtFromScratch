@@ -11,7 +11,7 @@ const MidSectionVideoGrid = () => {
     "Garage",
     "SelfWater",
     "Landscape",
-    "Aqua",
+    "Indoor Project",
     "Pooja",
   ];
 
