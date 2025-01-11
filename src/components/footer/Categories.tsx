@@ -1,10 +1,11 @@
 import { GridItem, Text, Link } from "@chakra-ui/react";
 import { Link as RouterLink } from "react-router-dom";
-import videoData from "../../assets/data/videoList.json";
+import videoList from "../../assets/data/videoList.json";
+import CustomLink from "../../assets/CustomLink";
 
 const Categories = () => {
   // Extract Outdoor Furniture Data
-  const outdoorFurnitureData = videoData.videos.find(
+  const outdoorFurnitureData = videoList.videos.find(
     (video) => video.title === "Outdoor Furniture"
   );
   console.log("Check: " + outdoorFurnitureData?.title);
@@ -16,17 +17,13 @@ const Categories = () => {
           Categories
         </Text>
         {/* Navigation Link */}
-        <Link
-          as={RouterLink}
-          to="/vlp" // Use 'to' for internal routing with React Router
-          state={outdoorFurnitureData} // Pass data via React Router's state
-          mb={2}
-          display="block"
-          //target="_blank"
-          _hover={{ textDecoration: "underline" }}
+        <CustomLink
+          to={`/vlp?id=${outdoorFurnitureData?.title}`}
+          state={outdoorFurnitureData}
+          newTab={false}
         >
           Outdoor Furniture
-        </Link>
+        </CustomLink>
         <Link
           href="#"
           mb={2}

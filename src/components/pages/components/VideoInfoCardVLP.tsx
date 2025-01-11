@@ -10,6 +10,7 @@ interface ChildVideo {
 interface VideoData {
   id: number;
   title: string;
+  shortDesc: string;
   description: string;
   image: string;
   children: ChildVideo[];
@@ -19,8 +20,7 @@ interface VideoCardProps {
   videoData: VideoData;
 }
 
-const VideoCard = ({ videoData }: VideoCardProps) => {
-  console.log("Test");
+const VideoInfoCardVLP = ({ videoData }: VideoCardProps) => {
   if (!videoData) {
     return <Text>No data available.</Text>;
   }
@@ -50,4 +50,4 @@ const VideoCard = ({ videoData }: VideoCardProps) => {
   );
 };
 
-export default VideoCard;
+export default VideoInfoCardVLP;

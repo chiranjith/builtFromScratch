@@ -1,39 +1,67 @@
 import { Grid } from "@chakra-ui/react";
 import VideoCard from "./components/VideoCard";
 import VideoCardLarge from "./components/VideoCardLarge";
+import videoData from "../../assets/data/videoList.json";
 import images from "../../assets/images";
 
 const MidSectionVideoGrid = () => {
+  const videoTitles = [
+    "Outdoor Furniture",
+    "Planter",
+    "Garage",
+    "SelfWater",
+    "Landscape",
+    "Aqua",
+    "Pooja",
+  ];
+
   return (
     <>
       <Grid
-        //templateRows={{ base: "minmax(60px, 60px)", md: "275px 275px" }}
-        templateColumns="1.3fr 1.1fr 1.3fr 1fr" // 4 columns of equal width
+        templateColumns="1.3fr 1.1fr 1.3fr 1fr" // 4 columns of varying width
         gap={{ base: "2", md: "5" }} // Spacing between grid items
         m={0} // Remove margins on the grid
         px={0} // Remove horizontal padding
         mb={{ base: "4", md: "12" }}
       >
-        {/* Column 1, Row 1 */}
-        <VideoCard boxType="left" srcImg={images.videoGrid.outdoorFur} />
+        {videoTitles.map((title, index) => {
+          const videoDataItem = videoData.videos.find(
+            (video) => video.title === title
+          );
 
-        {/* Column 2, Rows 1 & 2 (merged) */}
-        <VideoCardLarge srcImg={images.videoGrid.planters} />
+          if (!videoDataItem) {
+            console.error(`Video data for title "${title}" not found`);
+            return null;
+          }
 
-        {/* Column 3, Row 1 */}
-        <VideoCard boxType="" srcImg={images.videoGrid.garage} />
+          // Render a specific layout for each video title
+          if (index === 1) {
+            // For Planter (example for a large card)
+            return (
+              <VideoCardLarge
+                key={videoDataItem.id}
+                srcImg={images.videoGrid.planters}
+              />
+            );
+          }
 
-        {/* Column 4, Row 1 */}
-        <VideoCard boxType="right" srcImg={images.videoGrid.planter} />
-
-        {/* Column 1, Row 2 */}
-        <VideoCard boxType="left" srcImg={images.videoGrid.landscape} />
-
-        {/* Column 3, Row 2 */}
-        <VideoCard boxType="" srcImg={images.videoGrid.aqua} />
-
-        {/* Column 4, Row 2 */}
-        <VideoCard boxType="right" srcImg={images.videoGrid.pooja} />
+          // Render standard cards
+          return (
+            <VideoCard
+              key={videoDataItem.id}
+              boxType={
+                index === 0
+                  ? "left"
+                  : index === videoTitles.length - 1
+                  ? "right"
+                  : ""
+              }
+              srcImg={videoDataItem.image}
+              linkTo={`/vlp?id=${videoDataItem.title}`}
+              state={videoDataItem}
+            />
+          );
+        })}
       </Grid>
     </>
   );

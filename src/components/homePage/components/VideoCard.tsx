@@ -1,11 +1,12 @@
 import { Box, Flex, Image } from "@chakra-ui/react";
-import theme from "../../../assets/theme";
 
 interface Props {
   boxType: string;
   srcImg: string;
+  linkTo: string; // URL for the link
+  state?: any; // State to pass to the linked page
 }
-const VideoCard = ({ boxType, srcImg }: Props) => {
+const VideoCard = ({ boxType, srcImg, linkTo, state }: Props) => {
   const borderRadius =
     boxType === "right"
       ? { borderTopLeftRadius: "sm", borderBottomLeftRadius: "sm" }

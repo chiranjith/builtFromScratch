@@ -25,9 +25,9 @@
         },
         {
             "id": 2,
-            "title": "Parent Video 2",
+            "title": "Planter",
             "description": "Exploring intermediate concepts.",
-            "image": "images/parent2.jpg",
+            "image": "/src/assets/images/videoGrid/planters.png",
             "children": [
                 {
                     "id": 201,
@@ -47,9 +47,69 @@
         },
         {
             "id": 3,
-            "title": "Parent Video 3",
+            "title": "Garage",
             "description": "Advanced techniques and applications.",
-            "image": "images/parent3.jpg",
+            "image": "/src/assets/images/videoGrid/garage.png",
+            "children": [
+                {
+                    "id": 301,
+                    "title": "Child Video 3.1",
+                    "description": "Detailed explanation of expert methods.",
+                    "image": "images/child3-1.jpg",
+                    "duration": "10:15"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Landscape",
+            "description": "Advanced techniques and applications.",
+            "image": "/src/assets/images/videoGrid/landscape.png",
+            "children": [
+                {
+                    "id": 301,
+                    "title": "Child Video 3.1",
+                    "description": "Detailed explanation of expert methods.",
+                    "image": "images/child3-1.jpg",
+                    "duration": "10:15"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "SelfWater",
+            "description": "Advanced techniques and applications.",
+            "image": "/src/assets/images/videoGrid/selfWater.png",
+            "children": [
+                {
+                    "id": 301,
+                    "title": "Child Video 3.1",
+                    "description": "Detailed explanation of expert methods.",
+                    "image": "images/child3-1.jpg",
+                    "duration": "10:15"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Aqua",
+            "description": "Advanced techniques and applications.",
+            "image": "/src/assets/images/videoGrid/aqua.png",
+            "children": [
+                {
+                    "id": 301,
+                    "title": "Child Video 3.1",
+                    "description": "Detailed explanation of expert methods.",
+                    "image": "images/child3-1.jpg",
+                    "duration": "10:15"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Pooja",
+            "description": "Advanced techniques and applications.",
+            "image": "/src/assets/images/videoGrid/pooja.png",
             "children": [
                 {
                     "id": 301,
