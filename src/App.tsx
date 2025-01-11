@@ -6,6 +6,7 @@ import BottomSection from "./components/homePage/BottomSection";
 import Footer from "./components/footer/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import VLP from "./components/pages/VLP";
+import VIP from "./components/pages/VIP";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
 
         {/* VLP Page */}
         <Route path="/vlp" element={<VLP />} />
+        <Route path="/vip" element={<VIP />} />
       </Routes>
     </Router>
   );

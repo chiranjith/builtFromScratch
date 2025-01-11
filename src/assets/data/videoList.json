@@ -33,14 +33,14 @@
             "children": [
                 {
                     "id": 201,
-                    "title": "Child Video 2.1",
+                    "title": "2 Level Planter",
                     "description": "Understanding the core principles.",
                     "image": "images/child2-1.jpg",
                     "duration": "7:20"
                 },
                 {
                     "id": 202,
-                    "title": "Child Video 2.2",
+                    "title": "3 Level Planter",
                     "description": "A guide to practical applications.",
                     "image": "images/child2-2.jpg",
                     "duration": "6:50"

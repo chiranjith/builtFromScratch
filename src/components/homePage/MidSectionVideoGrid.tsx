@@ -34,6 +34,12 @@ const MidSectionVideoGrid = () => {
             return null;
           }
 
+          // Check if videoDataItem has children
+          const linkTo =
+            videoDataItem.children && videoDataItem.children.length > 0
+              ? `/vlp?id=${videoDataItem.title}`
+              : `/vip?id=${videoDataItem.title}`;
+
           // Render a specific layout for each video title
           if (index === 1) {
             // For Planter (example for a large card)
@@ -57,7 +63,7 @@ const MidSectionVideoGrid = () => {
                   : ""
               }
               srcImg={videoDataItem.image}
-              linkTo={`/vlp?id=${videoDataItem.title}`}
+              linkTo={linkTo} // Use the dynamically generated link
               state={videoDataItem}
             />
           );
