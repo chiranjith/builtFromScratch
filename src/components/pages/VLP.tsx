@@ -4,6 +4,7 @@ import { Grid, GridItem } from "@chakra-ui/react";
 import VideoInfoCard from "./components/VideoInfoCardVLP";
 import NavBar from "../topNav/NavBar";
 import Footer from "../footer/Footer";
+import VideoBannerVLP from "./components/VideoBannerVLP";
 
 //Video Landing Page
 const VLP = () => {
@@ -25,8 +26,8 @@ const VLP = () => {
           <NavBar />
         </GridItem>
         <GridItem area="about" mb={0}>
-          {"Video Landing Page - "}
           {/* Pass data as props to VideoCard */}
+          <VideoBannerVLP videoData={data} />
           <VideoInfoCard videoData={data} />
         </GridItem>
         <GridItem area="main"></GridItem>

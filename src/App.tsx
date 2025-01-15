@@ -22,7 +22,7 @@ function App() {
               minHeight="100vh"
               rowGap={0}
             >
-              <GridItem area="nav" bg="white" mb={24}>
+              <GridItem area="nav" bg="white" mb={20}>
                 <NavBar />
               </GridItem>
               <GridItem area="about" mb={0}>

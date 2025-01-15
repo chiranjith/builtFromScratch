@@ -3,8 +3,8 @@
         {
             "id": 1,
             "title": "Outdoor Furniture",
-            "shortDesc": "A Creative Outdoor Upgrade.",
-            "description": "Creating your own patio furniture is a rewarding DIY project that adds style and functionality to your outdoor space. Whether you're an experienced builder or a beginner, crafting custom furniture allows you to tailor it to your taste and needs while saving money.",
+            "shortDesc": "Designing & building your own outdoor furniture is a fulfilling DIY project that enhances both the style and practicality of your outdoor space.\n",
+            "description": "Whether you're a seasoned builder or just starting out, creating custom furniture lets you personalize it to suit your preferences & requirements while being cost-effective. \n With some creativity & effort, you can craft stunning, functional pieces that transform your patio into an ideal haven for relaxation & entertainment.",
             "image": "/src/assets/images/videoGrid/outdoorFur.png",
             "children": [
                 {
@@ -28,6 +28,7 @@
         {
             "id": 2,
             "title": "Planter",
+            "shortDesc": "short Desc",
             "description": "Exploring intermediate concepts.",
             "image": "/src/assets/images/videoGrid/planters.png",
             "children": [
@@ -56,8 +57,11 @@
         {
             "id": 4,
             "title": "Landscape",
-            "description": "Advanced techniques and applications.",
+            "heading": "Transform Your Outdoor Space",
+            "shortDesc": "DIY landscaping projects are a fantastic way to enhance the beauty & functionality of your outdoor areas while adding a personal touch.\n",
+            "description": "From creating flower beds and building stone pathways to designing a cozy fire pit or installing raised garden beds, the possibilities are endless. These projects not only elevate the aesthetic appeal of your yard but also provide a rewarding hands-on experience.",
             "image": "/src/assets/images/videoGrid/landscape.png",
+            "imageBanner": "/src/assets/images/banner/landscapeBanner.png",
             "children": [
                 {
                     "id": 301,
@@ -77,6 +81,7 @@
         {
             "id": 5,
             "title": "Indoor Project",
+            "shortDesc": "Designing & building your",
             "description": "Advanced techniques and applications.",
             "image": "/src/assets/images/videoGrid/indoorProject.png",
             "children": [
