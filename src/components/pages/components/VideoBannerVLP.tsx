@@ -1,11 +1,5 @@
-import {
-  Box,
-  Text,
-  useBreakpointValue,
-  Flex,
-  Image,
-  Heading,
-} from "@chakra-ui/react";
+import { Box, Text, useBreakpointValue, Flex, Image } from "@chakra-ui/react";
+import ChildVideoGrid from "./ChildVideoGrid";
 
 interface ChildVideo {
   id: number;
@@ -42,7 +36,7 @@ const VideoBannerVLP = ({ videoData }: VideoCardProps) => {
       <Box
         width="100%"
         bg="blue.500"
-        position="absolute"
+        position="relative"
         top={0}
         left={0}
         zIndex={1} // Lower z-index for background
@@ -77,9 +71,6 @@ const VideoBannerVLP = ({ videoData }: VideoCardProps) => {
         padding={{ base: "2", md: "6" }}
       >
         {/* Text inside the Second Box */}
-        {/* <Heading as={"h3"} marginBottom="4">
-          {videoData.heading}
-        </Heading> */}
         <Text
           textAlign="justify"
           fontWeight="bold"
@@ -93,12 +84,16 @@ const VideoBannerVLP = ({ videoData }: VideoCardProps) => {
           textAlign="justify"
           whiteSpace="pre-wrap"
           fontSize={{ base: "9px", md: "14px" }}
+          mb={{ base: "6", md: "4" }}
         >
           {isMobile
             ? videoData.shortDesc
             : `${videoData.shortDesc}${videoData.description}`}
         </Text>
       </Box>
+
+      {/* Child Video Grid */}
+      <ChildVideoGrid children={videoData.children} />
     </Box>
   );
 };

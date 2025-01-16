@@ -18,17 +18,17 @@ const VLP = () => {
     <>
       <Grid
         templateAreas={`"nav" "about" "main" "bottom"`}
-        templateRows="auto auto 1fr"
+        templateRows="auto auto 1fr auto"
         minHeight="100vh"
-        rowGap={0}
+        rowGap={4} // Add spacing between rows
       >
-        <GridItem area="nav" bg="white" mb={24}>
+        <GridItem area="nav" bg="white" mb={10}>
           <NavBar />
         </GridItem>
-        <GridItem area="about" mb={0}>
+        <GridItem area="about">
           {/* Pass data as props to VideoCard */}
           <VideoBannerVLP videoData={data} />
-          <VideoInfoCard videoData={data} />
+          {/* <VideoInfoCard videoData={data} /> */}
         </GridItem>
         <GridItem area="main"></GridItem>
         <GridItem area="bottom">

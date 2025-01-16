@@ -34,10 +34,10 @@
             "children": [
                 {
                     "id": 201,
-                    "title": "2 Level Planter",
-                    "description": "Understanding the core principles.",
-                    "image": "images/child2-1.jpg",
-                    "duration": "7:20"
+                    "title": "2 Level Planter Box",
+                    "description": "Is a stylish & functional gardening structure that features two tiers for planting. This design allows for better organization and utilization of vertical space, making it ideal for small gardens, patios, or balconies.",
+                    "image": "src/assets/images/videoCard/Planter2L.png",
+                    "duration": "10:15"
                 },
                 {
                     "id": 202,
@@ -65,7 +65,35 @@
             "children": [
                 {
                     "id": 301,
-                    "title": "Child Video 3.1",
+                    "title": "2 Level Planter Box",
+                    "description": "Is a stylish & functional gardening structure that features two tiers for planting. This design allows for better organization and utilization of vertical space, making it ideal for small gardens, patios, or balconies.",
+                    "image": "src/assets/images/videoCard/Planter2L.png",
+                    "duration": "10:15"
+                },
+                {
+                    "id": 302,
+                    "title": "Child Video 3.2",
+                    "description": "Detailed explanation of expert methods.",
+                    "image": "images/child3-1.jpg",
+                    "duration": "10:15"
+                },
+                {
+                    "id": 303,
+                    "title": "Child Video 3.3",
+                    "description": "Detailed explanation of expert methods.",
+                    "image": "images/child3-1.jpg",
+                    "duration": "10:15"
+                },
+                {
+                    "id": 304,
+                    "title": "Child Video 3.4",
+                    "description": "Detailed explanation of expert methods.",
+                    "image": "images/child3-1.jpg",
+                    "duration": "10:15"
+                },
+                {
+                    "id": 305,
+                    "title": "Child Video 3.5",
                     "description": "Detailed explanation of expert methods.",
                     "image": "images/child3-1.jpg",
                     "duration": "10:15"
