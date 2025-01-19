@@ -22,11 +22,12 @@ const ChildVideoGrid = ({ children }: ChildVideoGridProps) => {
       mt={{ base: "16", md: "24" }} // Spacing from the previous component
       px={{ base: "4", md: "8" }} // Padding on smaller screens
       width="90%"
+      maxWidth="160em" // Match your 2xl breakpoint
       left="5%"
     >
       <Grid
         templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }} // Fixed 3 columns on larger screens
-        gap={6}
+        gap={{ base: "4", md: "3", lg: "6" }}
       >
         {children.map((video) => {
           console.log("Image path:", video.image); // Log the image path
@@ -34,9 +35,15 @@ const ChildVideoGrid = ({ children }: ChildVideoGridProps) => {
           return (
             <GridItem
               key={video.id}
-              boxShadow="-1px -1px 8px rgba(0, 0, 0, 0.2)"
+              boxShadow="-2px -2px 8px rgba(0, 0, 0, 0.2)"
               rounded="sm"
-              height={{ base: "200px", md: "280px" }} // Set a fixed height
+              height={{
+                base: "200px",
+                md: "160px",
+                lg: "210px",
+                xl: "320px",
+                "2xl": "520px",
+              }}
               overflow="hidden"
               display="flex"
               flexDirection="column"
@@ -80,13 +87,13 @@ const ChildVideoGrid = ({ children }: ChildVideoGridProps) => {
               >
                 <Text
                   fontWeight="bold"
-                  fontSize={{ base: "xs", md: "md" }}
+                  fontSize={{ base: "10px", md: "8px", lg: "14px" }}
                   noOfLines={1}
                 >
                   {video.title}
                 </Text>
                 <Text
-                  fontSize={{ base: "xs", md: "sm" }}
+                  fontSize={{ base: "11px", md: "9px", lg: "14px" }}
                   color="gray.600"
                   noOfLines={2}
                 >

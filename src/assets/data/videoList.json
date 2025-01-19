@@ -3,25 +3,39 @@
         {
             "id": 1,
             "title": "Outdoor Furniture",
-            "shortDesc": "Designing & building your own outdoor furniture is a fulfilling DIY project that enhances both the style and practicality of your outdoor space.\n",
-            "description": "Whether you're a seasoned builder or just starting out, creating custom furniture lets you personalize it to suit your preferences & requirements while being cost-effective. \n With some creativity & effort, you can craft stunning, functional pieces that transform your patio into an ideal haven for relaxation & entertainment.",
+            "heading": "Transform Your Outdoor Space",
+            "shortDesc": "Designing & building your own outdoor furniture is a fulfilling DIY project that enhances both the style & practicality of your outdoor space. With some creativity & effort, you can craft stunning, functional pieces that transform your patio.",
+            "description": "Whether you're a seasoned builder or just starting out, creating custom furniture lets you personalize it to suit your preferences & requirements while being cost-effective. \nWith some creativity & effort, you can craft stunning, functional pieces that transform your patio into an ideal haven for relaxation & entertainment.",
             "image": "/src/assets/images/videoGrid/outdoorFur.png",
+            "imageBanner": "/src/assets/images/banner/outdoorBanner.png",
             "children": [
                 {
                     "id": 101,
-                    "title": "Patio Left Bench",
-                    "description": "Learn about the first topic in detail.",
-                    "image": "images/child1-1.jpg",
-                    "videoLink": "",
-                    "duration": "5:30"
+                    "title": "Patio 3 Seat Sectional with Storage",
+                    "description": "The Patio 3-Seat Sectional with Storage combines style, comfort, and practicality, making it a perfect addition to your outdoor living space. Designed with a spacious seating arrangement for three people, it offers plush cushions for maximum relaxation.",
+                    "image": "src/assets/images/videoCard/patio3Seater.png",
+                    "videoLink": ""
                 },
                 {
                     "id": 102,
-                    "title": "Patio Right Bench",
-                    "description": "A deep dive into advanced topics.",
-                    "image": "images/child1-2.jpg",
-                    "videoLink": "",
-                    "duration": "8:45"
+                    "title": "Corner Planter for Patio Sectional",
+                    "description": "Is a creative and functional addition to elevate your outdoor space. Designed to fit seamlessly into the corner of your patio sectional, it provides a perfect spot to showcase your favorite plants or flowers.",
+                    "image": "src/assets/images/videoCard/patioPlanter.png",
+                    "videoLink": ""
+                },
+                {
+                    "id": 103,
+                    "title": "Patio 2 Seat Sectional with Storage",
+                    "description": "This stylish outdoor seating solution features two cozy seats flanking a built-in ice box, perfect for keeping drinks chilled during gatherings.",
+                    "image": "src/assets/images/videoCard/patio2Seater.png",
+                    "videoLink": ""
+                },
+                {
+                    "id": 104,
+                    "title": "Patio Gas Fire Pit Table",
+                    "description": "Combines warmth and style, creating the perfect centerpiece for outdoor gatherings. This versatile table features a built-in gas fire pit, offering cozy ambiance and functional table space for drinks and snacks.",
+                    "image": "src/assets/images/videoCard/patioFirepit.png",
+                    "videoLink": ""
                 }
             ]
         },

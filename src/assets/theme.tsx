@@ -6,7 +6,7 @@ const theme = extendTheme({
     md: "48em", // 768px
     lg: "62em", // 992px
     xl: "90em", // 1440px (custom breakpoint for laptops)
-    "2xl": "118em", // 1888px (close to 1920px)
+    "2xl": "120em", // 1920px
   },
 });
 
