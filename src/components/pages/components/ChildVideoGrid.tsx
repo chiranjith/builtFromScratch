@@ -19,15 +19,15 @@ const ChildVideoGrid = ({ children }: ChildVideoGridProps) => {
     <Box
       zIndex={3}
       position="relative"
-      mt={{ base: "16", md: "24" }} // Spacing from the previous component
+      mt={{ base: "14", md: "20", lg: "20", xl: "24", "2xl": "32" }} // Spacing from the previous component
       px={{ base: "4", md: "8" }} // Padding on smaller screens
       width="90%"
       maxWidth="160em" // Match your 2xl breakpoint
       left="5%"
     >
       <Grid
-        templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }} // Fixed 3 columns on larger screens
-        gap={{ base: "4", md: "3", lg: "6" }}
+        templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(4, 1fr)" }} // Fixed 3 columns on larger screens
+        gap={{ base: "4", md: "3", lg: "4" }}
       >
         {children.map((video) => {
           console.log("Image path:", video.image); // Log the image path
@@ -35,14 +35,15 @@ const ChildVideoGrid = ({ children }: ChildVideoGridProps) => {
           return (
             <GridItem
               key={video.id}
-              boxShadow="-2px -2px 8px rgba(0, 0, 0, 0.2)"
+              boxShadow="-2px -2px 8px rgba(0, 0, 0, 0.4)"
               rounded="sm"
+              //height={{base: "200px",md: "160px",lg: "210px",xl: "320px","2xl": "520px"}} //For 3 Videos/row
               height={{
-                base: "200px",
-                md: "160px",
-                lg: "210px",
-                xl: "320px",
-                "2xl": "520px",
+                base: "220px",
+                md: "110px",
+                lg: "160px",
+                xl: "220px",
+                "2xl": "360px",
               }}
               overflow="hidden"
               display="flex"
@@ -87,13 +88,15 @@ const ChildVideoGrid = ({ children }: ChildVideoGridProps) => {
               >
                 <Text
                   fontWeight="bold"
-                  fontSize={{ base: "10px", md: "8px", lg: "14px" }}
+                  //fontSize={{ base: "10px", md: "8px", lg: "14px" }} //For 3 Videos/row
+                  fontSize={{ base: "10px", md: "6px", lg: "9px", xl: "12px" }}
                   noOfLines={1}
                 >
                   {video.title}
                 </Text>
                 <Text
-                  fontSize={{ base: "11px", md: "9px", lg: "14px" }}
+                  //fontSize={{ base: "11px", md: "9px", lg: "14px" }} //For 3 Videos/row
+                  fontSize={{ base: "11px", md: "6px", lg: "9px", xl: "12px" }}
                   color="gray.600"
                   noOfLines={2}
                 >

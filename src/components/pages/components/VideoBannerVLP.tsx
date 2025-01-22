@@ -83,7 +83,7 @@ const VideoBannerVLP = ({ videoData }: VideoCardProps) => {
         justifyContent="flex-start" // Align content to the top of the box
         pt={{ base: "2", md: "3" }} // Padding top
         pr={{ base: "2", md: "6" }} // Padding right
-        pb={{ base: "4", md: "6" }} // Padding bottom
+        pb={{ base: "4", md: "4" }} // Padding bottom
         pl={{ base: "2", md: "6" }} // Padding left
       >
         {/* Text inside the Second Box */}

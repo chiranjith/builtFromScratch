@@ -42,23 +42,47 @@
         {
             "id": 2,
             "title": "Planter",
-            "shortDesc": "short Desc",
-            "description": "Exploring intermediate concepts.",
+            "heading": "DIY Planter's",
+            "shortDesc": "DIY outdoor planters, including multi-level designs, are a fun and creative way to personalize your garden or patio. Using materials like wood, concrete, or repurposed items, you can craft unique containers for your plants.",
+            "description": "\nDifferent-level planters add depth and dimension, allowing you to showcase a variety of plants in a compact space. These planters not only enhance the beauty of your outdoor area but also provide customizable solutions to fit any style or size, making them perfect for gardeners and DIY enthusiasts alike.",
             "image": "/src/assets/images/videoGrid/planters.png",
+            "imageBanner": "/src/assets/images/banner/plantersBanner.png",
             "children": [
                 {
                     "id": 201,
-                    "title": "2 Level Planter Box",
-                    "description": "Is a stylish & functional gardening structure that features two tiers for planting. This design allows for better organization and utilization of vertical space, making it ideal for small gardens, patios, or balconies.",
-                    "image": "src/assets/images/videoCard/Planter2L.png",
-                    "duration": "10:15"
+                    "title": "Slef Watering Planter",
+                    "description": "A DIY self-watering planter box is a practical and innovative gardening solution that ensures your plants stay hydrated with minimal effort. It features a built-in reservoir that delivers water directly to the roots, reducing water waste and the need for frequent watering. Perfect for busy gardeners or water-sensitive plants, these planters are easy to build using simple materials like plastic bins, PVC pipes, or wooden boxes. They're a great way to promote healthy plant growth while saving time and resources.",
+                    "image": "src/assets/images/videoCard/selfWaterPlanter.png"
                 },
                 {
                     "id": 202,
-                    "title": "3 Level Planter",
-                    "description": "A guide to practical applications.",
-                    "image": "images/child2-2.jpg",
-                    "duration": "6:50"
+                    "title": "2 Level Planter Box",
+                    "description": "Is a stylish & functional gardening structure that features two tiers for planting. This design allows for better organization and utilization of vertical space, making it ideal for small gardens, patios, or balconies.",
+                    "image": "src/assets/images/videoCard/Planter2L.png"
+                },
+                {
+                    "id": 203,
+                    "title": "3 Level Planter Box",
+                    "description": "A DIY 3-layer planter box is a stylish and space-efficient way to grow a variety of plants, herbs, or flowers in a compact area. With three tiers of planting space, it allows you to maximize vertical gardening while adding a dynamic, eye-catching structure to your outdoor or indoor space. Each layer can be used for different plants, making it ideal for creating a diverse and organized garden.",
+                    "image": "src/assets/images/videoCard/Planter3L.png"
+                },
+                {
+                    "id": 204,
+                    "title": "3 Level Planter Box",
+                    "description": "A DIY 3-layer planter box is a stylish and space-efficient way to grow a variety of plants, herbs, or flowers in a compact area. With three tiers of planting space, it allows you to maximize vertical gardening while adding a dynamic, eye-catching structure to your outdoor or indoor space. Each layer can be used for different plants, making it ideal for creating a diverse and organized garden.",
+                    "image": "src/assets/images/videoCard/Planter3L_1.png"
+                },
+                {
+                    "id": 205,
+                    "title": "5 Level Planter Box",
+                    "description": "A DIY 5-layer planter box is a stylish and space-efficient way to grow a variety of plants, herbs, or flowers in a compact area. With three tiers of planting space, it allows you to maximize vertical gardening while adding a dynamic, eye-catching structure to your outdoor or indoor space. Each layer can be used for different plants, making it ideal for creating a diverse and organized garden.",
+                    "image": "src/assets/images/videoCard/Planter5L.png"
+                },
+                {
+                    "id": 206,
+                    "title": "Corner Planter",
+                    "description": "A DIY corner planter box is a practical and attractive solution for utilizing unused corner spaces in your garden, patio, or balcony. Designed to fit snugly into a corner, this planter box creates a visually appealing focal point while maximizing planting area. Perfect for flowers, herbs, or small shrubs, it offers an efficient way to organize your greenery and elevate your outdoor decor.",
+                    "image": "src/assets/images/videoCard/cornerPlanter.png"
                 }
             ]
         },
@@ -129,10 +153,17 @@
             "children": [
                 {
                     "id": 501,
-                    "title": "Child Video 3.1",
-                    "description": "Detailed explanation of expert methods.",
-                    "image": "images/child3-1.jpg",
-                    "duration": "10:15"
+                    "title": "Pooja Mantapa",
+                    "description": "A DIY pooja mantapa is a beautiful way to create a personalized and sacred space for worship within your home. By designing and building your own mandir, you can infuse it with your creativity and tailor it to reflect your spiritual and aesthetic preferences.",
+                    "image": "src/assets/images/videoCard/poojaMantapa.png",
+                    "videoLink": ""
+                },
+                {
+                    "id": 502,
+                    "title": "Aquarium Background",
+                    "description": "A DIY aquarium background is a creative way to enhance the aesthetic appeal of your fish tank. Using materials like foam, cement, or natural elements, you can design custom backdrops that mimic realistic underwater landscapes such as rocks or caves.",
+                    "image": "src/assets/images/videoCard/aquaBG.png",
+                    "videoLink": ""
                 }
             ]
         },
