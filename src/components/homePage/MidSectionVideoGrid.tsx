@@ -46,7 +46,10 @@ const MidSectionVideoGrid = () => {
             return (
               <VideoCardLarge
                 key={videoDataItem.id}
-                srcImg={images.videoGrid.planters}
+                //srcImg={images.videoGrid.planters}
+                srcImg={videoDataItem.image}
+                linkTo={linkTo} // Use the dynamically generated link
+                state={videoDataItem}
               />
             );
           }

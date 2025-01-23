@@ -69,11 +69,11 @@ const VideoBannerVLP = ({ videoData }: VideoCardProps) => {
         backdropFilter="blur(10px)" // Optional: Add a blur effect for a frosted-glass look
         position="absolute"
         top={{
-          base: "65px",
-          md: "130px",
-          lg: "180px",
-          xl: "250px",
-          "2xl": "440px",
+          base: "60px",
+          md: "125px",
+          lg: "170px",
+          xl: "240px",
+          "2xl": "430px",
         }} // Offset below the first box
         left="5%" // Center horizontally (since 90% width, left is 5%)
         zIndex={2} // Higher z-index for foreground box

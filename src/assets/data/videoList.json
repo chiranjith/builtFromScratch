@@ -5,7 +5,7 @@
             "title": "Outdoor Furniture",
             "heading": "Transform Your Outdoor Space",
             "shortDesc": "Designing & building your own outdoor furniture is a fulfilling DIY project that enhances both the style & practicality of your outdoor space. With some creativity & effort, you can craft stunning, functional pieces that transform your patio.",
-            "description": "Whether you're a seasoned builder or just starting out, creating custom furniture lets you personalize it to suit your preferences & requirements while being cost-effective. \nWith some creativity & effort, you can craft stunning, functional pieces that transform your patio into an ideal haven for relaxation & entertainment.",
+            "description": "Whether you're a seasoned builder or just starting out, creating custom furniture lets you personalize it to suit your preferences & requirements while being cost-effective. With some creativity & effort, you can craft stunning, functional pieces that transform your patio into an ideal haven for relaxation & entertainment.",
             "image": "/src/assets/images/videoGrid/outdoorFur.png",
             "imageBanner": "/src/assets/images/banner/outdoorBanner.png",
             "children": [
@@ -43,7 +43,7 @@
             "id": 2,
             "title": "Planter",
             "heading": "DIY Planter's",
-            "shortDesc": "DIY outdoor planters, including multi-level designs, are a fun and creative way to personalize your garden or patio. Using materials like wood, concrete, or repurposed items, you can craft unique containers for your plants.",
+            "shortDesc": "DIY outdoor planters are a fun and creative way to personalize your garden or patio. Using materials like wood, concrete, or repurposed items, you can craft unique containers for your plants.",
             "description": "\nDifferent-level planters add depth and dimension, allowing you to showcase a variety of plants in a compact space. These planters not only enhance the beauty of your outdoor area but also provide customizable solutions to fit any style or size, making them perfect for gardeners and DIY enthusiasts alike.",
             "image": "/src/assets/images/videoGrid/planters.png",
             "imageBanner": "/src/assets/images/banner/plantersBanner.png",
@@ -147,9 +147,11 @@
         {
             "id": 5,
             "title": "Indoor Project",
-            "shortDesc": "Designing & building your",
-            "description": "Advanced techniques and applications.",
+            "heading": "Transform Your Indoor Space",
+            "shortDesc": "Transform your indoor space with creative DIY projects that blend functionality and style. DIY indoor projects offer a creative and rewarding way to enhance your home's interior. ",
+            "description": "\nFrom custom shelving and furniture builds to decorative wall art and lighting upgrades, these projects allow you to personalize your space while improving functionality and style. \nWhether you're repurposing materials or crafting something from scratch, DIY indoor projects can add character and charm to any room.",
             "image": "/src/assets/images/videoGrid/indoorProject.png",
+            "imageBanner": "/src/assets/images/banner/indoorBanner.png",
             "children": [
                 {
                     "id": 501,
@@ -163,6 +165,13 @@
                     "title": "Aquarium Background",
                     "description": "A DIY aquarium background is a creative way to enhance the aesthetic appeal of your fish tank. Using materials like foam, cement, or natural elements, you can design custom backdrops that mimic realistic underwater landscapes such as rocks or caves.",
                     "image": "src/assets/images/videoCard/aquaBG.png",
+                    "videoLink": ""
+                },
+                {
+                    "id": 503,
+                    "title": "Garage Organization",
+                    "description": "Maximize your garage space with DIY storage and organization solutions. Build custom shelving, pegboards, and overhead racks to neatly store tools, equipment, and seasonal items. Incorporate labeled bins, wall-mounted hooks, and workbench organizers to keep everything accessible and clutter-free. Transform your garage into a functional, organized space that works for your needs.",
+                    "image": "src/assets/images/videoCard/storageGarage.png",
                     "videoLink": ""
                 }
             ]

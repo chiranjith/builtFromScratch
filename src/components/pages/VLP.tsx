@@ -1,13 +1,16 @@
 import { useLocation } from "react-router-dom";
-import { Text } from "@chakra-ui/react";
-import { Grid, GridItem } from "@chakra-ui/react";
+import { Grid, GridItem, Text } from "@chakra-ui/react";
 import VideoInfoCard from "./components/VideoInfoCardVLP";
 import NavBar from "../topNav/NavBar";
 import Footer from "../footer/Footer";
 import VideoBannerVLP from "./components/VideoBannerVLP";
+import { useEffect } from "react";
 
 //Video Landing Page
 const VLP = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page when the component is mounted
+  }, []); // The empty dependency array ensures this runs only once on mount
   const location = useLocation();
   const data = location.state; // Access the data passed via Link's state
   console.log(data); // Debug: Ensure data is passed correctly

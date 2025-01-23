@@ -19,7 +19,7 @@ const ChildVideoGrid = ({ children }: ChildVideoGridProps) => {
     <Box
       zIndex={3}
       position="relative"
-      mt={{ base: "14", md: "20", lg: "20", xl: "24", "2xl": "32" }} // Spacing from the previous component
+      mt={{ base: "20", md: "20", lg: "20", xl: "100px", "2xl": "48" }} // Spacing from the previous component
       px={{ base: "4", md: "8" }} // Padding on smaller screens
       width="90%"
       maxWidth="160em" // Match your 2xl breakpoint

@@ -16,8 +16,12 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import Categories from "./Categories";
+import { useEffect } from "react";
 
 const Footer = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <Box bg="gray.800" color="white" py={10} px={4}>
       {/* Top Section: Grid of Links */}
