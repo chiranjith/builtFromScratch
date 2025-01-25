@@ -14,28 +14,28 @@
                     "title": "Patio 3 Seat Sectional with Storage",
                     "description": "The Patio 3-Seat Sectional with Storage combines style, comfort, and practicality, making it a perfect addition to your outdoor living space. Designed with a spacious seating arrangement for three people, it offers plush cushions for maximum relaxation.",
                     "image": "src/assets/images/videoCard/patio3Seater.png",
-                    "videoUrl": ""
+                    "videoUrl": "DDsBZI_pYzg"
                 },
                 {
                     "id": 102,
                     "title": "Corner Planter for Patio Sectional",
                     "description": "Is a creative and functional addition to elevate your outdoor space. Designed to fit seamlessly into the corner of your patio sectional, it provides a perfect spot to showcase your favorite plants or flowers.",
                     "image": "src/assets/images/videoCard/patioPlanter.png",
-                    "videoUrl": ""
+                    "videoUrl": "0o2gzpJteZQ"
                 },
                 {
                     "id": 103,
                     "title": "Patio 2 Seat Sectional with Storage",
                     "description": "This stylish outdoor seating solution features two cozy seats flanking a built-in ice box, perfect for keeping drinks chilled during gatherings.",
                     "image": "src/assets/images/videoCard/patio2Seater.png",
-                    "videoUrl": ""
+                    "videoUrl": "jT9J2-K31ZE"
                 },
                 {
                     "id": 104,
                     "title": "Patio Gas Fire Pit Table",
                     "description": "Combines warmth and style, creating the perfect centerpiece for outdoor gatherings. This versatile table features a built-in gas fire pit, offering cozy ambiance and functional table space for drinks and snacks.",
                     "image": "src/assets/images/videoCard/patioFirepit.png",
-                    "videoUrl": ""
+                    "videoUrl": "BRHgXwpBFnI"
                 }
             ]
         },
@@ -53,42 +53,42 @@
                     "title": "Slef Watering Planter",
                     "description": "A DIY self-watering planter box is a practical and innovative gardening solution that ensures your plants stay hydrated with minimal effort. It features a built-in reservoir that delivers water directly to the roots, reducing water waste and the need for frequent watering. Perfect for busy gardeners or water-sensitive plants, these planters are easy to build using simple materials like plastic bins, PVC pipes, or wooden boxes. They're a great way to promote healthy plant growth while saving time and resources.",
                     "image": "src/assets/images/videoCard/selfWaterPlanter.png",
-                    "videoUrl": ""
+                    "videoUrl": "qN_Xq89zyos"
                 },
                 {
                     "id": 202,
                     "title": "2 Level Planter Box",
                     "description": "Is a stylish & functional gardening structure that features two tiers for planting. This design allows for better organization and utilization of vertical space, making it ideal for small gardens, patios, or balconies.",
                     "image": "src/assets/images/videoCard/Planter2L.png",
-                    "videoUrl": ""
+                    "videoUrl": "d4UHAc2PcRc"
                 },
                 {
                     "id": 203,
                     "title": "3 Level Planter Box",
                     "description": "A DIY 3-layer planter box is a stylish and space-efficient way to grow a variety of plants, herbs, or flowers in a compact area. With three tiers of planting space, it allows you to maximize vertical gardening while adding a dynamic, eye-catching structure to your outdoor or indoor space. Each layer can be used for different plants, making it ideal for creating a diverse and organized garden.",
                     "image": "src/assets/images/videoCard/Planter3L.png",
-                    "videoUrl": ""
+                    "videoUrl": "RJc3QffckyE"
                 },
                 {
                     "id": 204,
                     "title": "3 Level Planter Box",
                     "description": "A DIY 3-layer planter box is a stylish and space-efficient way to grow a variety of plants, herbs, or flowers in a compact area. With three tiers of planting space, it allows you to maximize vertical gardening while adding a dynamic, eye-catching structure to your outdoor or indoor space. Each layer can be used for different plants, making it ideal for creating a diverse and organized garden.",
                     "image": "src/assets/images/videoCard/Planter3L_1.png",
-                    "videoUrl": ""
+                    "videoUrl": "jJwJtcj9fPo"
                 },
                 {
                     "id": 205,
                     "title": "5 Level Planter Box",
                     "description": "A DIY 5-layer planter box is a stylish and space-efficient way to grow a variety of plants, herbs, or flowers in a compact area. With three tiers of planting space, it allows you to maximize vertical gardening while adding a dynamic, eye-catching structure to your outdoor or indoor space. Each layer can be used for different plants, making it ideal for creating a diverse and organized garden.",
                     "image": "src/assets/images/videoCard/Planter5L.png",
-                    "videoUrl": ""
+                    "videoUrl": "ooOomr5i8oY"
                 },
                 {
                     "id": 206,
                     "title": "Corner Planter",
                     "description": "A DIY corner planter box is a practical and attractive solution for utilizing unused corner spaces in your garden, patio, or balcony. Designed to fit snugly into a corner, this planter box creates a visually appealing focal point while maximizing planting area. Perfect for flowers, herbs, or small shrubs, it offers an efficient way to organize your greenery and elevate your outdoor decor.",
                     "image": "src/assets/images/videoCard/cornerPlanter.png",
-                    "videoUrl": ""
+                    "videoUrl": "0o2gzpJteZQ"
                 }
             ]
         },
@@ -122,7 +122,7 @@
                     "title": "Brick Edging",
                     "description": "Brick edging is a simple and stylish way to define garden beds, walkways, or outdoor spaces. This DIY project not only enhances the visual appeal of your yard but also provides a practical barrier to keep grass and weeds from encroaching on your flower beds or pathways. To create brick edging, you'll need to dig a shallow trench, lay a sand or gravel base for stability, and position the bricks either flat or angled, depending on your design preference. With a bit of planning and effort, you can achieve a professional-looking, durable edge that adds charm and structure to your outdoor space.",
                     "image": "images/child3-1.jpg",
-                    "videoUrl": "DHKHuXyZvWs"
+                    "videoUrl": ""
                 },
                 {
                     "id": 303,
@@ -155,7 +155,7 @@
             "videoUrl": "qN_Xq89zyos"
         },
         {
-            "id": 5,
+            "id": 6,
             "title": "Indoor Project",
             "heading": "Transform Your Indoor Space",
             "shortDesc": "Transform your indoor space with creative DIY projects that blend functionality and style. DIY indoor projects offer a creative and rewarding way to enhance your home's interior. ",
@@ -164,21 +164,21 @@
             "imageBanner": "/src/assets/images/banner/indoorBanner.png",
             "children": [
                 {
-                    "id": 501,
+                    "id": 601,
                     "title": "Pooja Mantapa",
                     "description": "A DIY pooja mantapa is a beautiful way to create a personalized and sacred space for worship within your home. By designing and building your own mandir, you can infuse it with your creativity and tailor it to reflect your spiritual and aesthetic preferences.",
                     "image": "src/assets/images/videoCard/poojaMantapa.png",
                     "videoUrl": "ANGBl5xGLIc"
                 },
                 {
-                    "id": 502,
+                    "id": 602,
                     "title": "Aquarium Background",
                     "description": "A DIY aquarium background is a creative way to enhance the aesthetic appeal of your fish tank. Using materials like foam, cement, or natural elements, you can design custom backdrops that mimic realistic underwater landscapes such as rocks or caves.",
                     "image": "src/assets/images/videoCard/aquaBG.png",
                     "videoUrl": ""
                 },
                 {
-                    "id": 503,
+                    "id": 603,
                     "title": "Garage Organization",
                     "description": "Maximize your garage space with DIY storage and organization solutions. Build custom shelving, pegboards, and overhead racks to neatly store tools, equipment, and seasonal items. Incorporate labeled bins, wall-mounted hooks, and workbench organizers to keep everything accessible and clutter-free. Transform your garage into a functional, organized space that works for your needs.",
                     "image": "src/assets/images/videoCard/storageGarage.png",
@@ -187,7 +187,7 @@
             ]
         },
         {
-            "id": 6,
+            "id": 7,
             "title": "Pooja Mantapa",
             "description": "A DIY pooja mantapa is a beautiful way to create a personalized and sacred space for worship within your home. By designing and building your own mandir, you can infuse it with your creativity and tailor it to reflect your spiritual and aesthetic preferences.",
             "image": "/src/assets/images/videoGrid/pooja.png",

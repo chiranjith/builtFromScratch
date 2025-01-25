@@ -22,6 +22,7 @@ interface ChildVideoGridProps {
 
 const ChildVideoGrid = ({ children }: ChildVideoGridProps) => {
   if (!children || children.length === 0) return null;
+  console.log("Video path:", children); // Log the image path
 
   return (
     <Box
@@ -37,11 +38,14 @@ const ChildVideoGrid = ({ children }: ChildVideoGridProps) => {
         templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(4, 1fr)" }} // Fixed 3 columns on larger screens
         gap={{ base: "4", md: "3", lg: "4" }}
       >
-        {children.map((video) => {
-          console.log("Video path:", video.videoUrl); // Log the image path
-          console.log("Video Title:", video.title); // Log the image path
-
-          return (
+        {children.map((video) => (
+          <ChakraLink
+            as={RouterLink}
+            to="/vip"
+            state={video} // Pass the video data as state
+            key={video.id}
+            style={{ textDecoration: "none" }}
+          >
             <GridItem
               key={video.id}
               boxShadow="-2px -2px 8px rgba(0, 0, 0, 0.4)"
@@ -113,8 +117,8 @@ const ChildVideoGrid = ({ children }: ChildVideoGridProps) => {
                 </Text>
               </Box>
             </GridItem>
-          );
-        })}
+          </ChakraLink>
+        ))}
       </Grid>
     </Box>
   );
