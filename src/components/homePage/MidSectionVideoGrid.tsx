@@ -2,18 +2,17 @@ import { Grid } from "@chakra-ui/react";
 import VideoCard from "./components/VideoCard";
 import VideoCardLarge from "./components/VideoCardLarge";
 import videoData from "../../assets/data/videoList.json";
-import images from "../../assets/images";
 
 const MidSectionVideoGrid = () => {
   const videoTitles = [
     "Outdoor Furniture",
     "Planter",
-    "Garage",
-    "SelfWater",
+    "Garage Organization",
+    "Self Watering Planter",
     "Landscape",
     "Indoor Project",
-    "Pooja",
-  ];
+    "Pooja Mantapa",
+  ]; //Title should map to title in VideoList.json
 
   return (
     <>

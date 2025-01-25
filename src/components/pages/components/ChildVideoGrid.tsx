@@ -1,11 +1,19 @@
-import { Box, Grid, GridItem, Image, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Grid,
+  GridItem,
+  Image,
+  Text,
+  Link as ChakraLink,
+} from "@chakra-ui/react";
+import { Link as RouterLink } from "react-router-dom";
 
 interface ChildVideo {
   id: number;
   title: string;
   description: string;
   image: string;
-  duration: string;
+  videoUrl: string;
 }
 
 interface ChildVideoGridProps {
@@ -30,7 +38,8 @@ const ChildVideoGrid = ({ children }: ChildVideoGridProps) => {
         gap={{ base: "4", md: "3", lg: "4" }}
       >
         {children.map((video) => {
-          console.log("Image path:", video.image); // Log the image path
+          console.log("Video path:", video.videoUrl); // Log the image path
+          console.log("Video Title:", video.title); // Log the image path
 
           return (
             <GridItem

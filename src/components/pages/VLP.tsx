@@ -1,10 +1,10 @@
 import { useLocation } from "react-router-dom";
 import { Grid, GridItem, Text } from "@chakra-ui/react";
-import VideoInfoCard from "./components/VideoInfoCardVLP";
 import NavBar from "../topNav/NavBar";
 import Footer from "../footer/Footer";
 import VideoBannerVLP from "./components/VideoBannerVLP";
 import { useEffect } from "react";
+import ChildVideoGrid from "./components/ChildVideoGrid";
 
 //Video Landing Page
 const VLP = () => {
@@ -13,7 +13,7 @@ const VLP = () => {
   }, []); // The empty dependency array ensures this runs only once on mount
   const location = useLocation();
   const data = location.state; // Access the data passed via Link's state
-  console.log(data); // Debug: Ensure data is passed correctly
+  //console.log(data); // Debug: Ensure data is passed correctly
   if (!data) {
     return <Text>No video data available.</Text>;
   }
@@ -31,7 +31,8 @@ const VLP = () => {
         <GridItem area="about">
           {/* Pass data as props to VideoCard */}
           <VideoBannerVLP videoData={data} />
-          {/* <VideoInfoCard videoData={data} /> */}
+          {/* Child Video Grid */}
+          <ChildVideoGrid children={data.children} />
         </GridItem>
         <GridItem area="main"></GridItem>
         <GridItem area="bottom">

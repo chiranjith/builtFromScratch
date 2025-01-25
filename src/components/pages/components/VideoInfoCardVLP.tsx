@@ -4,7 +4,7 @@ interface ChildVideo {
   title: string;
   description: string;
   image: string;
-  duration: string;
+  videoUrl: string;
 }
 
 interface VideoData {
@@ -42,7 +42,6 @@ const VideoInfoCardVLP = ({ videoData }: VideoCardProps) => {
               {child.title}
             </Heading>
             <Text>{child.description}</Text>
-            <Text>Duration: {child.duration}</Text>
           </Box>
         ))}
       </Box>

@@ -14,28 +14,28 @@
                     "title": "Patio 3 Seat Sectional with Storage",
                     "description": "The Patio 3-Seat Sectional with Storage combines style, comfort, and practicality, making it a perfect addition to your outdoor living space. Designed with a spacious seating arrangement for three people, it offers plush cushions for maximum relaxation.",
                     "image": "src/assets/images/videoCard/patio3Seater.png",
-                    "videoLink": ""
+                    "videoUrl": ""
                 },
                 {
                     "id": 102,
                     "title": "Corner Planter for Patio Sectional",
                     "description": "Is a creative and functional addition to elevate your outdoor space. Designed to fit seamlessly into the corner of your patio sectional, it provides a perfect spot to showcase your favorite plants or flowers.",
                     "image": "src/assets/images/videoCard/patioPlanter.png",
-                    "videoLink": ""
+                    "videoUrl": ""
                 },
                 {
                     "id": 103,
                     "title": "Patio 2 Seat Sectional with Storage",
                     "description": "This stylish outdoor seating solution features two cozy seats flanking a built-in ice box, perfect for keeping drinks chilled during gatherings.",
                     "image": "src/assets/images/videoCard/patio2Seater.png",
-                    "videoLink": ""
+                    "videoUrl": ""
                 },
                 {
                     "id": 104,
                     "title": "Patio Gas Fire Pit Table",
                     "description": "Combines warmth and style, creating the perfect centerpiece for outdoor gatherings. This versatile table features a built-in gas fire pit, offering cozy ambiance and functional table space for drinks and snacks.",
                     "image": "src/assets/images/videoCard/patioFirepit.png",
-                    "videoLink": ""
+                    "videoUrl": ""
                 }
             ]
         },
@@ -52,45 +52,54 @@
                     "id": 201,
                     "title": "Slef Watering Planter",
                     "description": "A DIY self-watering planter box is a practical and innovative gardening solution that ensures your plants stay hydrated with minimal effort. It features a built-in reservoir that delivers water directly to the roots, reducing water waste and the need for frequent watering. Perfect for busy gardeners or water-sensitive plants, these planters are easy to build using simple materials like plastic bins, PVC pipes, or wooden boxes. They're a great way to promote healthy plant growth while saving time and resources.",
-                    "image": "src/assets/images/videoCard/selfWaterPlanter.png"
+                    "image": "src/assets/images/videoCard/selfWaterPlanter.png",
+                    "videoUrl": ""
                 },
                 {
                     "id": 202,
                     "title": "2 Level Planter Box",
                     "description": "Is a stylish & functional gardening structure that features two tiers for planting. This design allows for better organization and utilization of vertical space, making it ideal for small gardens, patios, or balconies.",
-                    "image": "src/assets/images/videoCard/Planter2L.png"
+                    "image": "src/assets/images/videoCard/Planter2L.png",
+                    "videoUrl": ""
                 },
                 {
                     "id": 203,
                     "title": "3 Level Planter Box",
                     "description": "A DIY 3-layer planter box is a stylish and space-efficient way to grow a variety of plants, herbs, or flowers in a compact area. With three tiers of planting space, it allows you to maximize vertical gardening while adding a dynamic, eye-catching structure to your outdoor or indoor space. Each layer can be used for different plants, making it ideal for creating a diverse and organized garden.",
-                    "image": "src/assets/images/videoCard/Planter3L.png"
+                    "image": "src/assets/images/videoCard/Planter3L.png",
+                    "videoUrl": ""
                 },
                 {
                     "id": 204,
                     "title": "3 Level Planter Box",
                     "description": "A DIY 3-layer planter box is a stylish and space-efficient way to grow a variety of plants, herbs, or flowers in a compact area. With three tiers of planting space, it allows you to maximize vertical gardening while adding a dynamic, eye-catching structure to your outdoor or indoor space. Each layer can be used for different plants, making it ideal for creating a diverse and organized garden.",
-                    "image": "src/assets/images/videoCard/Planter3L_1.png"
+                    "image": "src/assets/images/videoCard/Planter3L_1.png",
+                    "videoUrl": ""
                 },
                 {
                     "id": 205,
                     "title": "5 Level Planter Box",
                     "description": "A DIY 5-layer planter box is a stylish and space-efficient way to grow a variety of plants, herbs, or flowers in a compact area. With three tiers of planting space, it allows you to maximize vertical gardening while adding a dynamic, eye-catching structure to your outdoor or indoor space. Each layer can be used for different plants, making it ideal for creating a diverse and organized garden.",
-                    "image": "src/assets/images/videoCard/Planter5L.png"
+                    "image": "src/assets/images/videoCard/Planter5L.png",
+                    "videoUrl": ""
                 },
                 {
                     "id": 206,
                     "title": "Corner Planter",
                     "description": "A DIY corner planter box is a practical and attractive solution for utilizing unused corner spaces in your garden, patio, or balcony. Designed to fit snugly into a corner, this planter box creates a visually appealing focal point while maximizing planting area. Perfect for flowers, herbs, or small shrubs, it offers an efficient way to organize your greenery and elevate your outdoor decor.",
-                    "image": "src/assets/images/videoCard/cornerPlanter.png"
+                    "image": "src/assets/images/videoCard/cornerPlanter.png",
+                    "videoUrl": ""
                 }
             ]
         },
         {
             "id": 3,
-            "title": "Garage",
-            "description": "Advanced techniques and applications.",
-            "image": "/src/assets/images/videoGrid/garage.png"
+            "title": "Garage Organization",
+            "image": "/src/assets/images/videoGrid/garage.png",
+            "title1": "Garage Organization",
+            "description": "Maximize your garage space with DIY storage and organization solutions. Build custom shelving, pegboards, and overhead racks to neatly store tools, equipment, and seasonal items. \nIncorporate labeled bins, wall-mounted hooks, and workbench organizers to keep everything accessible and clutter-free. Transform your garage into a functional, organized space that works for your needs.",
+            "image1": "src/assets/images/videoCard/storageGarage.png",
+            "videoUrl": "8p0nDhRR4YY"
         },
         {
             "id": 4,
@@ -103,46 +112,47 @@
             "children": [
                 {
                     "id": 301,
-                    "title": "2 Level Planter Box",
-                    "description": "Is a stylish & functional gardening structure that features two tiers for planting. This design allows for better organization and utilization of vertical space, making it ideal for small gardens, patios, or balconies.",
-                    "image": "src/assets/images/videoCard/Planter2L.png",
-                    "duration": "10:15"
+                    "title": "Convert Sprinkler Head to Drip Irrigation",
+                    "description": "Converting a sprinkler head to a drip irrigation system is a practical way to save water and ensure efficient watering for your plants. By redirecting water from a traditional sprinkler to a targeted drip system, you can reduce runoff, prevent overwatering, and deliver moisture directly to the roots where plants need it most. This eco-friendly project is perfect for gardens, flower beds, or landscaping areas and involves installing a drip manifold or adapter to replace the existing sprinkler head. With minimal tools and effort, you can transform your irrigation system into a more sustainable and effective solution.",
+                    "image": "src/assets/images/videoCard/dripIrrigation.png",
+                    "videoUrl": "DHKHuXyZvWs"
                 },
                 {
                     "id": 302,
-                    "title": "Child Video 3.2",
-                    "description": "Detailed explanation of expert methods.",
+                    "title": "Brick Edging",
+                    "description": "Brick edging is a simple and stylish way to define garden beds, walkways, or outdoor spaces. This DIY project not only enhances the visual appeal of your yard but also provides a practical barrier to keep grass and weeds from encroaching on your flower beds or pathways. To create brick edging, you'll need to dig a shallow trench, lay a sand or gravel base for stability, and position the bricks either flat or angled, depending on your design preference. With a bit of planning and effort, you can achieve a professional-looking, durable edge that adds charm and structure to your outdoor space.",
                     "image": "images/child3-1.jpg",
-                    "duration": "10:15"
+                    "videoUrl": "DHKHuXyZvWs"
                 },
                 {
                     "id": 303,
                     "title": "Child Video 3.3",
                     "description": "Detailed explanation of expert methods.",
                     "image": "images/child3-1.jpg",
-                    "duration": "10:15"
+                    "videoUrl": ""
                 },
                 {
                     "id": 304,
                     "title": "Child Video 3.4",
                     "description": "Detailed explanation of expert methods.",
                     "image": "images/child3-1.jpg",
-                    "duration": "10:15"
+                    "videoUrl": ""
                 },
                 {
                     "id": 305,
                     "title": "Child Video 3.5",
                     "description": "Detailed explanation of expert methods.",
                     "image": "images/child3-1.jpg",
-                    "duration": "10:15"
+                    "videoUrl": ""
                 }
             ]
         },
         {
             "id": 5,
-            "title": "SelfWater",
-            "description": "Advanced techniques and applications.",
-            "image": "/src/assets/images/videoGrid/selfWater.png"
+            "title": "Self Watering Planter",
+            "description": "A DIY self-watering planter box is a practical and innovative gardening solution that ensures your plants stay hydrated with minimal effort. It features a built-in reservoir that delivers water directly to the roots, reducing water waste and the need for frequent watering. Perfect for busy gardeners or water-sensitive plants, these planters are easy to build using simple materials like plastic bins, PVC pipes, or wooden boxes. They're a great way to promote healthy plant growth while saving time and resources.",
+            "image": "/src/assets/images/videoGrid/selfWater.png",
+            "videoUrl": "qN_Xq89zyos"
         },
         {
             "id": 5,
@@ -158,29 +168,30 @@
                     "title": "Pooja Mantapa",
                     "description": "A DIY pooja mantapa is a beautiful way to create a personalized and sacred space for worship within your home. By designing and building your own mandir, you can infuse it with your creativity and tailor it to reflect your spiritual and aesthetic preferences.",
                     "image": "src/assets/images/videoCard/poojaMantapa.png",
-                    "videoLink": ""
+                    "videoUrl": "ANGBl5xGLIc"
                 },
                 {
                     "id": 502,
                     "title": "Aquarium Background",
                     "description": "A DIY aquarium background is a creative way to enhance the aesthetic appeal of your fish tank. Using materials like foam, cement, or natural elements, you can design custom backdrops that mimic realistic underwater landscapes such as rocks or caves.",
                     "image": "src/assets/images/videoCard/aquaBG.png",
-                    "videoLink": ""
+                    "videoUrl": ""
                 },
                 {
                     "id": 503,
                     "title": "Garage Organization",
                     "description": "Maximize your garage space with DIY storage and organization solutions. Build custom shelving, pegboards, and overhead racks to neatly store tools, equipment, and seasonal items. Incorporate labeled bins, wall-mounted hooks, and workbench organizers to keep everything accessible and clutter-free. Transform your garage into a functional, organized space that works for your needs.",
                     "image": "src/assets/images/videoCard/storageGarage.png",
-                    "videoLink": ""
+                    "videoUrl": "8p0nDhRR4YY"
                 }
             ]
         },
         {
             "id": 6,
-            "title": "Pooja",
-            "description": "Advanced techniques and applications.",
-            "image": "/src/assets/images/videoGrid/pooja.png"
+            "title": "Pooja Mantapa",
+            "description": "A DIY pooja mantapa is a beautiful way to create a personalized and sacred space for worship within your home. By designing and building your own mandir, you can infuse it with your creativity and tailor it to reflect your spiritual and aesthetic preferences.",
+            "image": "/src/assets/images/videoGrid/pooja.png",
+            "videoUrl": "ANGBl5xGLIc"
         }
     ]
 }

@@ -49,14 +49,15 @@ const BottomSection = () => {
             fontSize={{ base: "0.5rem", md: "1.1rem" }}
             color="gray.700"
           >
-            Although the actual construction of the house wasn’t a DIY effort, I
-            was deeply involved in the process. I personally{" "}
+            This project dates back to 2012. While the house itself wasn’t built
+            as a DIY project, I was heavily involved in every step of the
+            process. I personally{" "}
             <strong>
-              designed the layout, created the blueprint, and planned every
-              detail.
+              designed the layout, drafted the blueprint, and meticulously
+              planned every detail.
             </strong>{" "}
-            With the help of masons, I brought my vision to life, making it a
-            truly rewarding experience!
+            With the skilled assistance of masons, I was able to turn my vision
+            into reality, making it an incredibly fulfilling experience!
           </Text>
         </Box>
         <Box borderBottom="1px dotted gray"></Box>

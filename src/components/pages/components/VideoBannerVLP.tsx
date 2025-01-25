@@ -1,12 +1,11 @@
 import { Box, Text, useBreakpointValue, Flex, Image } from "@chakra-ui/react";
-import ChildVideoGrid from "./ChildVideoGrid";
 
 interface ChildVideo {
   id: number;
   title: string;
   description: string;
   image: string;
-  duration: string;
+  videoUrl: string;
 }
 
 interface VideoData {
@@ -107,9 +106,6 @@ const VideoBannerVLP = ({ videoData }: VideoCardProps) => {
             : `${videoData.shortDesc}${videoData.description}`}
         </Text>
       </Box>
-
-      {/* Child Video Grid */}
-      <ChildVideoGrid children={videoData.children} />
     </Box>
   );
 };
