@@ -2,6 +2,7 @@ import { Box, Flex, Image, Link } from "@chakra-ui/react";
 import { Link as RouterLink } from "react-router-dom";
 
 interface Props {
+  boxType?: string;
   srcImg: string;
   linkTo: string; // URL for the link
   state?: any; // State to pass to the linked page
