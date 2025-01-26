@@ -12,10 +12,12 @@ interface VideoData {
   id: number;
   title: string;
   heading: string;
-  shortDesc: string;
-  description: string;
+  image: string;
   imageBanner: string;
-  children: ChildVideo[];
+  shortDesc: string;
+  videoUrl: string;
+  description: string;
+  children?: VideoData[]; // Assuming each video can have its own children
 }
 
 interface VideoCardProps {

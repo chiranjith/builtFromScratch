@@ -152,7 +152,7 @@ const TopSection = () => {
           <Spacer />
           <ResponsiveImage
             src={images.logos.x}
-            alt="Facebook Logo"
+            alt="X Logo"
             width={{ base: "28px", md: "54px" }}
             height={{ base: "28px", md: "54px" }}
           />

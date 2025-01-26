@@ -14,14 +14,16 @@
                     "title": "Patio 3 Seat Sectional with Storage",
                     "description": "The Patio 3-Seat Sectional with Storage combines style, comfort, and practicality, making it a perfect addition to your outdoor living space. Designed with a spacious seating arrangement for three people, it offers plush cushions for maximum relaxation.",
                     "image": "src/assets/images/videoCard/patio3Seater.png",
-                    "videoUrl": "DDsBZI_pYzg"
+                    "videoUrl": "DDsBZI_pYzg",
+                    "itemList": "src/assets/data/itemList/101-patio3Seat.json"
                 },
                 {
                     "id": 102,
                     "title": "Corner Planter for Patio Sectional",
                     "description": "Is a creative and functional addition to elevate your outdoor space. Designed to fit seamlessly into the corner of your patio sectional, it provides a perfect spot to showcase your favorite plants or flowers.",
                     "image": "src/assets/images/videoCard/patioPlanter.png",
-                    "videoUrl": "0o2gzpJteZQ"
+                    "videoUrl": "0o2gzpJteZQ",
+                    "itemList": ""
                 },
                 {
                     "id": 103,
@@ -99,7 +101,8 @@
             "title1": "Garage Organization",
             "description": "Maximize your garage space with DIY storage and organization solutions. Build custom shelving, pegboards, and overhead racks to neatly store tools, equipment, and seasonal items. \nIncorporate labeled bins, wall-mounted hooks, and workbench organizers to keep everything accessible and clutter-free. Transform your garage into a functional, organized space that works for your needs.",
             "image1": "src/assets/images/videoCard/storageGarage.png",
-            "videoUrl": "8p0nDhRR4YY"
+            "videoUrl": "8p0nDhRR4YY",
+            "itemList": "src/assets/data/itemList/101-patio3Seat.json"
         },
         {
             "id": 4,

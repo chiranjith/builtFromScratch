@@ -41,7 +41,10 @@ function App() {
 
         {/* VLP Page */}
         <Route path="/vlp" element={<VLP />} />
+
+        {/* VIP Page */}
         <Route path="/vip" element={<VIP />} />
+        <Route path="/vip/:videoId" element={<VIP />} />
       </Routes>
     </Router>
   );
