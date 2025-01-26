@@ -14,16 +14,14 @@
                     "title": "Patio 3 Seat Sectional with Storage",
                     "description": "The Patio 3-Seat Sectional with Storage combines style, comfort, and practicality, making it a perfect addition to your outdoor living space. Designed with a spacious seating arrangement for three people, it offers plush cushions for maximum relaxation.",
                     "image": "src/assets/images/videoCard/patio3Seater.png",
-                    "videoUrl": "DDsBZI_pYzg",
-                    "itemList": "src/assets/data/itemList/101-patio3Seat.json"
+                    "videoUrl": "DDsBZI_pYzg"
                 },
                 {
                     "id": 102,
                     "title": "Corner Planter for Patio Sectional",
                     "description": "Is a creative and functional addition to elevate your outdoor space. Designed to fit seamlessly into the corner of your patio sectional, it provides a perfect spot to showcase your favorite plants or flowers.",
                     "image": "src/assets/images/videoCard/patioPlanter.png",
-                    "videoUrl": "0o2gzpJteZQ",
-                    "itemList": ""
+                    "videoUrl": "0o2gzpJteZQ"
                 },
                 {
                     "id": 103,
