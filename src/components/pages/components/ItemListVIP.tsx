@@ -1,11 +1,4 @@
-import {
-  Box,
-  Text,
-  Image,
-  Grid,
-  GridItem,
-  Link as ChakraLink,
-} from "@chakra-ui/react";
+import { Box, Text, Image, Grid, Link as ChakraLink } from "@chakra-ui/react";
 import { Link as RouterLink } from "react-router-dom";
 import Categories from "./Categories";
 
@@ -23,8 +16,20 @@ interface ItemCard {
   videoData: ItemList[];
 }
 
+const setURL = ({ store, sku }: ItemList): string => {
+  switch (store) {
+    case "homeDepot":
+      return `https://www.homedepot.com/p/${sku}`;
+    case "lowes":
+      return `https://www.lowes.com/pd/${sku}`;
+    case "amazon":
+      return `https://www.amazon.com/dp/${sku}`;
+    default:
+      return ""; // Default URL or an error message
+  }
+};
+
 const ItemListVIP = ({ videoData }: ItemCard) => {
-  // Ensure `videoData` is an array
   if (!Array.isArray(videoData) || videoData.length === 0) {
     return <Text>No items to display.</Text>;
   }
@@ -45,17 +50,16 @@ const ItemListVIP = ({ videoData }: ItemCard) => {
       >
         {videoData.map((item, index) => (
           <Box key={item.itemId} position="relative">
-            {/* Card Content */}
             <ChakraLink
               as={RouterLink}
-              // Uncomment the line below and set the correct `to` value if needed
-              // to={item.link}
+              to={setURL(item)}
               style={{ textDecoration: "none" }}
+              target="_blank"
             >
               <Box
                 bg="white"
                 borderRadius="md"
-                //boxShadow="md"
+                maxWidth="160em"
                 overflow="hidden"
                 width="full"
                 transition="transform 0.2s"
@@ -65,7 +69,7 @@ const ItemListVIP = ({ videoData }: ItemCard) => {
               >
                 {/* Image Section */}
                 <Box
-                  h={{ base: "100px", md: "150px" }}
+                  h={{ base: "100px", md: "150px", "2xl": "390px" }}
                   display="flex"
                   alignItems="center"
                   justifyContent="center"
@@ -74,7 +78,6 @@ const ItemListVIP = ({ videoData }: ItemCard) => {
                     src={item.image}
                     alt={item.item}
                     objectFit="cover"
-                    //width="100%"
                     height="100%"
                   />
                 </Box>
@@ -84,23 +87,20 @@ const ItemListVIP = ({ videoData }: ItemCard) => {
                   <Text
                     as="h2"
                     fontWeight="bold"
-                    fontSize={{ base: "10px", md: "14px" }}
+                    fontSize={{ base: "10px", md: "14px", "2xl": "28px" }}
                     color="gray.800"
-                    display="block"
                   >
                     {item.item}
                   </Text>
                   <Text
-                    fontSize={{ base: "8px", md: "14px" }}
+                    fontSize={{ base: "8px", md: "14px", "2xl": "24px" }}
                     color="gray.800"
-                    display="block"
                   >
                     <b>Size:</b> {item.size}
                   </Text>
                   <Text
-                    fontSize={{ base: "8px", md: "14px" }}
+                    fontSize={{ base: "8px", md: "14px", "2xl": "24px" }}
                     color="gray.800"
-                    display="block"
                   >
                     <b>Qty:</b> {item.qty}
                   </Text>
@@ -108,7 +108,7 @@ const ItemListVIP = ({ videoData }: ItemCard) => {
               </Box>
             </ChakraLink>
 
-            {/* Vertical Dotted Line (centered between boxes) */}
+            {/* Vertical Dashed Line */}
             {index !== videoData.length - 1 && (
               <Box
                 position="absolute"
@@ -116,8 +116,8 @@ const ItemListVIP = ({ videoData }: ItemCard) => {
                 bottom="0"
                 right="-3px"
                 width="1px"
-                background="linear-gradient(to bottom, gray 50%, transparent 50%)"
-                backgroundSize="100% 12px" // Increase the 12px to control the dot size and spacing
+                background="repeating-linear-gradient(to bottom, gray, gray 4px, transparent 4px, transparent 8px)"
+                backgroundSize="1px 16px" // Adjust thickness and spacing
               />
             )}
           </Box>

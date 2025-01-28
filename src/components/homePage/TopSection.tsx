@@ -1,19 +1,12 @@
-import {
-  Box,
-  Grid,
-  Heading,
-  Text,
-  Image,
-  Spacer,
-  useBreakpointValue,
-  ImageProps,
-} from "@chakra-ui/react";
+import { Box, Grid, Heading, Text, Image } from "@chakra-ui/react";
+import { Spacer, useBreakpointValue, ImageProps } from "@chakra-ui/react";
 import images from "../../assets/images";
 
 interface ResponsiveImageProps extends ImageProps {
   src: string;
   alt: string;
 }
+const borderStyle = "1px dashed gray";
 
 const TopSection = () => {
   const textContent = useBreakpointValue({
@@ -82,10 +75,10 @@ const TopSection = () => {
         mb={{ base: "2", md: "8" }}
       >
         {/* Grid items with dotted inner lines */}
-        <Box borderRight="1px dotted gray" borderBottom="1px dotted gray"></Box>
+        <Box borderRight={borderStyle} borderBottom={borderStyle}></Box>
         <Box
-          borderRight="1px dotted gray"
-          borderBottom="1px dotted gray"
+          borderRight={borderStyle}
+          borderBottom={borderStyle}
           gridColumn="2 / 5" // Merges 1R2C, 1R3C, 1R4C
           display="flex"
           alignItems="center"
@@ -100,14 +93,14 @@ const TopSection = () => {
             Welcome to Built From Scratch - DIY made Simple!
           </Text>
         </Box>
-        <Box borderBottom="1px dotted gray"></Box>
+        <Box borderBottom={borderStyle}></Box>
 
-        <Box borderRight="1px dotted gray"></Box>
+        <Box borderRight={borderStyle}></Box>
         <Box
           gridColumn="2 / 5" // Spans columns 2, 3, and 4
           gridRow="2 / 4" // Spans rows 2 and 3
-          borderRight="1px dotted gray"
-          borderBottom="1px dotted gray"
+          borderRight={borderStyle}
+          borderBottom={borderStyle}
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -123,14 +116,14 @@ const TopSection = () => {
         </Box>
         <Box></Box>
 
-        <Box borderRight="1px dotted gray" borderBottom="1px dotted gray"></Box>
-        <Box borderBottom="1px dotted gray"></Box>
+        <Box borderRight={borderStyle} borderBottom={borderStyle}></Box>
+        <Box borderBottom={borderStyle}></Box>
 
-        <Box borderRight="1px dotted gray" borderBottom="1px dotted gray"></Box>
-        <Box borderRight="1px dotted gray" borderBottom="1px dotted gray"></Box>
+        <Box borderRight={borderStyle} borderBottom={borderStyle}></Box>
+        <Box borderRight={borderStyle} borderBottom={borderStyle}></Box>
         <Box
-          borderRight="1px dotted gray"
-          borderBottom="1px dotted gray"
+          borderRight={borderStyle}
+          borderBottom={borderStyle}
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -165,12 +158,12 @@ const TopSection = () => {
             padding={{ base: "5px", md: "15px" }}
           />
         </Box>
-        <Box borderRight="1px dotted gray" borderBottom="1px dotted gray"></Box>
-        <Box borderBottom="1px dotted gray"></Box>
+        <Box borderRight={borderStyle} borderBottom={borderStyle}></Box>
+        <Box borderBottom={borderStyle}></Box>
 
-        <Box borderRight="1px dotted gray"></Box>
+        <Box borderRight={borderStyle}></Box>
         <Box
-          borderRight="1px dotted gray"
+          borderRight={borderStyle}
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -183,7 +176,7 @@ const TopSection = () => {
             padding={{ base: "2px", md: "4px" }}
           />
         </Box>
-        <Box borderRight="1px dotted gray">
+        <Box borderRight={borderStyle}>
           <Text
             textAlign="center"
             fontFamily="Geist"
@@ -195,7 +188,7 @@ const TopSection = () => {
           </Text>
         </Box>
         <Box
-          borderRight="1px dotted gray"
+          borderRight={borderStyle}
           display="flex"
           alignItems="center"
           justifyContent="center"

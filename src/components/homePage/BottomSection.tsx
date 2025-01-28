@@ -1,6 +1,7 @@
 import { Box, Grid, Text } from "@chakra-ui/react";
 import FavoriteProject from "./components/FavoriteProject";
-import Categories from "../pages/components/Categories";
+
+const borderStyle = "1px dashed gray";
 
 const BottomSection = () => {
   return (
@@ -13,10 +14,10 @@ const BottomSection = () => {
         borderStyle="solid" // Outer solid line
         mb={{ base: "4", md: "12" }}
       >
-        <Box borderRight="1px dotted gray" borderBottom="1px dotted gray"></Box>
+        <Box borderRight={borderStyle} borderBottom={borderStyle}></Box>
         <Box
-          borderRight="1px dotted gray"
-          borderBottom="1px dotted gray"
+          borderRight={borderStyle}
+          borderBottom={borderStyle}
           gridColumn="2 / 5" // Merges 1R2C, 1R3C, 1R4C
           display="flex"
           alignItems="center"
@@ -31,13 +32,13 @@ const BottomSection = () => {
             <strong>This has to be my most enjoyable DIY project!</strong>
           </Text>
         </Box>
-        <Box borderBottom="1px dotted gray"></Box>
+        <Box borderBottom={borderStyle}></Box>
 
-        <Box borderBottom="1px dotted gray" borderRight="1px dotted gray"></Box>
+        <Box borderBottom={borderStyle} borderRight={borderStyle}></Box>
         <Box
           gridColumn="2 / 5" // Spans columns 2, 3, and 4
-          borderRight="1px dotted gray"
-          borderBottom="1px dotted gray"
+          borderRight={borderStyle}
+          borderBottom={borderStyle}
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -60,10 +61,10 @@ const BottomSection = () => {
             into reality, making it an incredibly fulfilling experience!
           </Text>
         </Box>
-        <Box borderBottom="1px dotted gray"></Box>
+        <Box borderBottom={borderStyle}></Box>
 
-        <Box borderRight="1px dotted gray"></Box>
-        <Box borderRight="1px dotted gray" gridColumn="2 / 5"></Box>
+        <Box borderRight={borderStyle}></Box>
+        <Box borderRight={borderStyle} gridColumn="2 / 5"></Box>
         <Box color={"white"}>-</Box>
       </Grid>
       <FavoriteProject />

@@ -20,55 +20,55 @@
                             "itemId": 1,
                             "item": "PT Lumber",
                             "image": "/src/assets/images/items/Lumber.avif",
-                            "size": "2\"T X 2'W X 8'L",
-                            "qty": "1",
+                            "size": "2 in. x 4 in. x 12 ft",
+                            "qty": "5",
                             "store": "homeDepot",
-                            "sku": "123456"
+                            "sku": "206967813"
                         },
                         {
                             "itemId": 2,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/LumberThk.avif",
-                            "size": "1\"T X 2'W X 8'L",
-                            "qty": "1",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "1 in x 4 in. x 8 ft.",
+                            "qty": "6",
                             "store": "homeDepot",
-                            "sku": "3443333"
+                            "sku": "206973928"
                         },
                         {
                             "itemId": 3,
                             "item": "SYP Lumber",
-                            "image": "/src/assets/images/items/LumberSyp.avif",
-                            "size": "1\"T X 2'W X 8'L",
-                            "qty": "1",
+                            "image": "/src/assets/images/items/LumberThk.avif",
+                            "size": "2 in. x 10 in. x 12 ft",
+                            "qty": "2",
                             "store": "homeDepot",
-                            "sku": "3443333"
+                            "sku": "206893708"
                         },
                         {
                             "itemId": 4,
                             "item": "Ext Screws",
                             "image": "/src/assets/images/items/screwsExt.avif",
-                            "size": "1\"T X 2'W X 8'L",
-                            "qty": "1",
+                            "size": "#9 - 3, 2.5 & 1.5 in.",
+                            "qty": "1 lb. Box",
                             "store": "homeDepot",
-                            "sku": "3443333"
+                            "sku": "100115639"
                         },
                         {
                             "itemId": 5,
                             "item": "Gusset Angle",
                             "image": "/src/assets/images/items/gussetAngle.webp",
-                            "size": "3-1/4\" 18-Gauge",
-                            "qty": "1",
+                            "size": "3-1/4 in. 18-Gauge",
+                            "qty": "8",
                             "store": "homeDepot",
-                            "sku": "3443333"
+                            "sku": "100375243"
                         },
                         {
                             "itemId": 6,
                             "item": "L Angle",
                             "image": "/src/assets/images/items/lAngle.webp",
-                            "size": "2\" X 6\" X 12-Gauge",
-                            "qty": "1",
+                            "size": "2 in. x 6 in. X 12-Gauge",
+                            "qty": "4",
                             "store": "homeDepot",
-                            "sku": "3443333"
+                            "sku": "202071149"
                         },
                         {
                             "itemId": 7,
@@ -92,10 +92,10 @@
                             "itemId": 8,
                             "item": "Cushion",
                             "image": "/src/assets/images/items/cushion.webp",
-                            "size": "24\" x 24\"",
+                            "size": "24 in. x 24 in.",
                             "qty": "3",
                             "store": "homeDepot",
-                            "sku": "330338935"
+                            "sku": "304400805"
                         }
                     ]
                 },

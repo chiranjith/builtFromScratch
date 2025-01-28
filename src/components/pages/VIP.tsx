@@ -5,6 +5,7 @@ import NavBar from "../topNav/NavBar";
 import Footer from "../footer/Footer";
 import YouTubeCardVIP from "./components/YouTubeCardVIP";
 import ItemListVIP from "./components/ItemListVIP";
+import AddToCartQuote from "./components/AddToCartQuote";
 
 //Video Information Page
 const VIP = () => {
@@ -31,6 +32,7 @@ const VIP = () => {
         </GridItem>
         <GridItem area="main">
           <ItemListVIP videoData={videoData.itemList || []} />
+          <AddToCartQuote />
         </GridItem>
         <GridItem area="bottom">
           <Footer />
