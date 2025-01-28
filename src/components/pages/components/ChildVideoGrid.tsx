@@ -1,12 +1,16 @@
-import {
-  Box,
-  Grid,
-  GridItem,
-  Image,
-  Text,
-  Link as ChakraLink,
-} from "@chakra-ui/react";
+import { Box, Image, Text } from "@chakra-ui/react";
+import { Grid, GridItem, Link as ChakraLink } from "@chakra-ui/react";
 import { Link as RouterLink } from "react-router-dom";
+
+interface ItemList {
+  itemId: number;
+  image: string;
+  item: string;
+  size?: string;
+  qty: string;
+  store: string;
+  sku: string;
+}
 
 interface ChildVideo {
   id: number;
@@ -14,6 +18,7 @@ interface ChildVideo {
   description: string;
   image: string;
   videoUrl: string;
+  itemList?: ItemList[];
 }
 
 interface ChildVideoGridProps {
@@ -22,7 +27,7 @@ interface ChildVideoGridProps {
 
 const ChildVideoGrid = ({ children }: ChildVideoGridProps) => {
   if (!children || children.length === 0) return null;
-  console.log("Video path:", children); // Log the image path
+  //console.log("Video path:", children); // Log the image path
 
   return (
     <Box

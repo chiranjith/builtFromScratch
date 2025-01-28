@@ -32,6 +32,7 @@ const MidSectionVideoGrid = () => {
             console.error(`Video data for title "${title}" not found`);
             return null;
           }
+          //console.log("State passed to VideoCard:", videoDataItem);
 
           // Check if videoDataItem has children
           const linkTo =

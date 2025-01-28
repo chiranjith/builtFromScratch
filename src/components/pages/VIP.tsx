@@ -4,13 +4,15 @@ import { Grid, GridItem } from "@chakra-ui/react";
 import NavBar from "../topNav/NavBar";
 import Footer from "../footer/Footer";
 import YouTubeCardVIP from "./components/YouTubeCardVIP";
+import ItemListVIP from "./components/ItemListVIP";
 
 //Video Information Page
 const VIP = () => {
   const location = useLocation();
-  const data = location.state; // Access the data passed via Link's state
-  //console.log("VIP" + data); // Debug: Ensure data is passed correctly
-  if (!data) {
+  const videoData = location.state; // Access the data passed via Link's state
+
+  //console.log("Video Data in VIP:", videoData);
+  if (!videoData) {
     return <Text>No video data available.</Text>;
   }
   return (
@@ -25,9 +27,11 @@ const VIP = () => {
           <NavBar />
         </GridItem>
         <GridItem area="about" mb={0}>
-          <YouTubeCardVIP videoData={data} />
+          <YouTubeCardVIP videoData={videoData} />
         </GridItem>
-        <GridItem area="main"></GridItem>
+        <GridItem area="main">
+          <ItemListVIP videoData={videoData.itemList || []} />
+        </GridItem>
         <GridItem area="bottom">
           <Footer />
         </GridItem>

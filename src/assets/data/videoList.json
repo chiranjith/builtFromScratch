@@ -14,7 +14,90 @@
                     "title": "Patio 3 Seat Sectional with Storage",
                     "description": "The Patio 3-Seat Sectional with Storage combines style, comfort, and practicality, making it a perfect addition to your outdoor living space. Designed with a spacious seating arrangement for three people, it offers plush cushions for maximum relaxation.",
                     "image": "src/assets/images/videoCard/patio3Seater.png",
-                    "videoUrl": "DDsBZI_pYzg"
+                    "videoUrl": "DDsBZI_pYzg",
+                    "itemList": [
+                        {
+                            "itemId": 1,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "2\"T X 2'W X 8'L",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "123456"
+                        },
+                        {
+                            "itemId": 2,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/LumberThk.avif",
+                            "size": "1\"T X 2'W X 8'L",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "3443333"
+                        },
+                        {
+                            "itemId": 3,
+                            "item": "SYP Lumber",
+                            "image": "/src/assets/images/items/LumberSyp.avif",
+                            "size": "1\"T X 2'W X 8'L",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "3443333"
+                        },
+                        {
+                            "itemId": 4,
+                            "item": "Ext Screws",
+                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "size": "1\"T X 2'W X 8'L",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "3443333"
+                        },
+                        {
+                            "itemId": 5,
+                            "item": "Gusset Angle",
+                            "image": "/src/assets/images/items/gussetAngle.webp",
+                            "size": "3-1/4\" 18-Gauge",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "3443333"
+                        },
+                        {
+                            "itemId": 6,
+                            "item": "L Angle",
+                            "image": "/src/assets/images/items/lAngle.webp",
+                            "size": "2\" X 6\" X 12-Gauge",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "3443333"
+                        },
+                        {
+                            "itemId": 7,
+                            "item": "Wood Glue",
+                            "image": "/src/assets/images/items/woodGlue.avif",
+                            "size": "18 fl. oz.",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "100662003"
+                        },
+                        {
+                            "itemId": 8,
+                            "item": "Wood Stain",
+                            "image": "/src/assets/images/items/woodStain.png",
+                            "size": "1 qt.",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "330338935"
+                        },
+                        {
+                            "itemId": 8,
+                            "item": "Cushion",
+                            "image": "/src/assets/images/items/cushion.webp",
+                            "size": "24\" x 24\"",
+                            "qty": "3",
+                            "store": "homeDepot",
+                            "sku": "330338935"
+                        }
+                    ]
                 },
                 {
                     "id": 102,
@@ -100,7 +183,16 @@
             "description": "Maximize your garage space with DIY storage and organization solutions. Build custom shelving, pegboards, and overhead racks to neatly store tools, equipment, and seasonal items. \nIncorporate labeled bins, wall-mounted hooks, and workbench organizers to keep everything accessible and clutter-free. Transform your garage into a functional, organized space that works for your needs.",
             "image1": "src/assets/images/videoCard/storageGarage.png",
             "videoUrl": "8p0nDhRR4YY",
-            "itemList": "src/assets/data/itemList/101-patio3Seat.json"
+            "itemList": [
+                {
+                    "itemId": 1,
+                    "item": "Treated Lumber",
+                    "size": "2\"T X 2'W X 8'L",
+                    "qty": "1",
+                    "store": "homeDepot",
+                    "sku": "123456"
+                }
+            ]
         },
         {
             "id": 4,

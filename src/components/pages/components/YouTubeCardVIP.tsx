@@ -1,9 +1,20 @@
-import { Box, Text, useBreakpointValue, Flex, Link } from "@chakra-ui/react";
+import { Box, Text, Flex, List, ListItem } from "@chakra-ui/react";
+
+interface ItemList {
+  itemId: number;
+  image: string;
+  item: string;
+  size?: string;
+  qty: string;
+  store: string;
+  sku: string;
+}
 
 interface VideoData {
   videoUrl: string;
   title: string;
   description: string;
+  itemList?: ItemList[];
 }
 
 interface YouTubeCard {
@@ -14,7 +25,7 @@ const YouTubeCardVIP = ({ videoData }: YouTubeCard) => {
   if (!videoData) {
     return <Text>No video data available.</Text>;
   }
-
+  //console.log("YT: " + videoData.itemList);
   // Convert the YouTube URL to an embeddable format
   const getEmbedUrl = (url: string) => {
     if (url.includes("youtu.be")) {
