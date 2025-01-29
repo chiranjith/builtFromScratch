@@ -104,7 +104,72 @@
                     "title": "Corner Planter for Patio Sectional",
                     "description": "Is a creative and functional addition to elevate your outdoor space. Designed to fit seamlessly into the corner of your patio sectional, it provides a perfect spot to showcase your favorite plants or flowers.",
                     "image": "src/assets/images/videoCard/patioPlanter.png",
-                    "videoUrl": "0o2gzpJteZQ"
+                    "videoUrl": "0o2gzpJteZQ",
+                    "itemList": [
+                        {
+                            "itemId": 1,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "2 in. x 4 in. x 12 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "206967813"
+                        },
+                        {
+                            "itemId": 2,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "2 in. x 6 in. x 8 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "206889247"
+                        },
+                        {
+                            "itemId": 3,
+                            "item": "SYP Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "1 in. x 4 in. x 8 ft",
+                            "qty": "6",
+                            "store": "homeDepot",
+                            "sku": "206973928"
+                        },
+                        {
+                            "itemId": 4,
+                            "item": "Ext Screws",
+                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "size": "#9 - 3 & 1.5 in.",
+                            "qty": "1 lb. Box",
+                            "store": "homeDepot",
+                            "sku": "100115639"
+                        },
+                        {
+                            "itemId": 5,
+                            "item": "Wood Glue",
+                            "image": "/src/assets/images/items/woodGlue.avif",
+                            "size": "18 fl. oz.",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "100662003"
+                        },
+                        {
+                            "itemId": 6,
+                            "item": "Wood Stain",
+                            "image": "/src/assets/images/items/woodStain.png",
+                            "size": "1 qt.",
+                            "qty": "8 oz.",
+                            "store": "homeDepot",
+                            "sku": "330338960"
+                        },
+                        {
+                            "itemId": 7,
+                            "item": "Planter Box",
+                            "image": "/src/assets/images/items/planter.webp",
+                            "size": "18 in. x 18 in.",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "301861604"
+                        }
+                    ]
                 },
                 {
                     "id": 103,

@@ -1,4 +1,5 @@
 import { Box, Text, Flex, List, ListItem } from "@chakra-ui/react";
+import ItemsHeaderVIP from "./ItemsHeaderVIP";
 
 interface ItemList {
   itemId: number;
@@ -84,6 +85,7 @@ const YouTubeCardVIP = ({ videoData }: YouTubeCard) => {
           </Box>
         </Flex>
       </Box>
+      <ItemsHeaderVIP />
     </>
   );
 };

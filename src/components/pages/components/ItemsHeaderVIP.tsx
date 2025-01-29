@@ -1,6 +1,6 @@
 import { Flex, Text, Box } from "@chakra-ui/react";
 
-const Categories = () => {
+const ItemsHeaderVIP = () => {
   return (
     <Flex
       w="100%"
@@ -9,6 +9,7 @@ const Categories = () => {
       px={{ base: "2", md: "4" }}
       position="relative"
       mt={"70px"}
+      mb={"2px"}
     >
       {/* Title with Overlapping Lines */}
       <Box position="relative" w="100%">
@@ -49,4 +50,4 @@ const Categories = () => {
   );
 };
 
-export default Categories;
+export default ItemsHeaderVIP;

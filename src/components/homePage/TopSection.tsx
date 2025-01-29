@@ -58,7 +58,7 @@ const TopSection = () => {
         textAlign="center"
         color={"gray.800"}
         m={{ base: "0.1", md: "4" }}
-        size={{ base: "sm", md: "2xl" }}
+        size={{ base: "sm", md: "xl" }}
       >
         Where{" "}
         <Text as="span" color="blue.600">
@@ -72,7 +72,7 @@ const TopSection = () => {
         gap={0} // No space between grid items
         p={4}
         borderStyle="solid" // Outer solid line
-        mb={{ base: "2", md: "8" }}
+        mb={{ base: "2", md: "4" }}
       >
         {/* Grid items with dotted inner lines */}
         <Box borderRight={borderStyle} borderBottom={borderStyle}></Box>
@@ -208,7 +208,7 @@ const TopSection = () => {
         fontFamily="Geist"
         fontSize={{ base: "0.5rem", md: "1.3rem" }}
         color={"gray.700"}
-        mb={{ base: "4", md: "16" }}
+        mb={{ base: "4", md: "12" }}
       >
         Build your dreams, one step at a time—because great things are always{" "}
         <Text as="span" color="blue.600" fontWeight="bold">

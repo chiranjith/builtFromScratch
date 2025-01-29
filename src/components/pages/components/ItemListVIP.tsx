@@ -1,6 +1,6 @@
 import { Box, Text, Image, Grid, Link as ChakraLink } from "@chakra-ui/react";
 import { Link as RouterLink } from "react-router-dom";
-import Categories from "./Categories";
+import ItemsHeaderVIP from "./ItemsHeaderVIP";
 
 interface ItemList {
   itemId: number;
@@ -29,6 +29,19 @@ const setURL = ({ store, sku }: ItemList): string => {
   }
 };
 
+const getStoreLogo = (store: string): string => {
+  switch (store) {
+    case "homeDepot":
+      return "/src/assets/images/logos/THD.svg";
+    case "lowes":
+      return "/src/assets/images/logos/Lowes.svg";
+    case "amazon":
+      return "/src/assets/images/logos/Amazon.svg";
+    default:
+      return "";
+  }
+};
+
 const ItemListVIP = ({ videoData }: ItemCard) => {
   if (!Array.isArray(videoData) || videoData.length === 0) {
     return <Text>No items to display.</Text>;
@@ -36,7 +49,6 @@ const ItemListVIP = ({ videoData }: ItemCard) => {
 
   return (
     <>
-      <Categories />
       <Grid
         templateColumns={{
           base: "repeat(3, 1fr)",
@@ -49,7 +61,11 @@ const ItemListVIP = ({ videoData }: ItemCard) => {
         position="relative"
       >
         {videoData.map((item, index) => (
-          <Box key={item.itemId} position="relative">
+          <Box
+            key={item.itemId}
+            position="relative"
+            role="group" // Chakra UI for hover group
+          >
             <ChakraLink
               as={RouterLink}
               to={setURL(item)}
@@ -108,6 +124,26 @@ const ItemListVIP = ({ videoData }: ItemCard) => {
               </Box>
             </ChakraLink>
 
+            {/* Store Logo on Hover */}
+            <Box
+              position="absolute"
+              top="8px"
+              right="8px"
+              opacity={0}
+              _groupHover={{
+                opacity: 1,
+              }}
+              transition="opacity 0.2s"
+            >
+              <Image
+                src={getStoreLogo(item.store)}
+                alt={`${item.store} logo`}
+                width="40px"
+                height="40px"
+                objectFit="contain"
+              />
+            </Box>
+
             {/* Vertical Dashed Line */}
             {index !== videoData.length - 1 && (
               <Box
@@ -117,7 +153,7 @@ const ItemListVIP = ({ videoData }: ItemCard) => {
                 right="-3px"
                 width="1px"
                 background="repeating-linear-gradient(to bottom, gray, gray 4px, transparent 4px, transparent 8px)"
-                backgroundSize="1px 16px" // Adjust thickness and spacing
+                backgroundSize="1px 16px"
               />
             )}
           </Box>
