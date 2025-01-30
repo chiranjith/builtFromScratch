@@ -145,7 +145,7 @@ const ItemListVIP = ({ videoData }: ItemCard) => {
             </Box>
 
             {/* Vertical Dashed Line */}
-            {index !== videoData.length - 1 && (
+            {index !== videoData.length && (
               <Box
                 position="absolute"
                 top="0"

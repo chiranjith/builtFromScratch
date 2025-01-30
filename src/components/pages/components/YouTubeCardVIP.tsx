@@ -79,7 +79,7 @@ const YouTubeCardVIP = ({ videoData }: YouTubeCard) => {
             <Text fontSize="lg" fontWeight="bold" mb={2}>
               {videoData.title}
             </Text>
-            <Text fontSize="md" color="gray.600">
+            <Text fontSize="md" color="gray.600" whiteSpace="pre-line">
               {videoData.description}
             </Text>
           </Box>
