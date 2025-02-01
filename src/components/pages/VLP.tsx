@@ -1,16 +1,19 @@
 import { useLocation } from "react-router-dom";
-import { Text } from "@chakra-ui/react";
-import { Grid, GridItem } from "@chakra-ui/react";
-import VideoInfoCard from "./components/VideoInfoCardVLP";
+import { Grid, GridItem, Text } from "@chakra-ui/react";
 import NavBar from "../topNav/NavBar";
 import Footer from "../footer/Footer";
 import VideoBannerVLP from "./components/VideoBannerVLP";
+import { useEffect } from "react";
+import ChildVideoGrid from "./components/ChildVideoGrid";
 
 //Video Landing Page
 const VLP = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the page when the component is mounted
+  }, []); // The empty dependency array ensures this runs only once on mount
   const location = useLocation();
   const data = location.state; // Access the data passed via Link's state
-  console.log(data); // Debug: Ensure data is passed correctly
+  //console.log(data); // Debug: Ensure data is passed correctly
   if (!data) {
     return <Text>No video data available.</Text>;
   }
@@ -18,17 +21,18 @@ const VLP = () => {
     <>
       <Grid
         templateAreas={`"nav" "about" "main" "bottom"`}
-        templateRows="auto auto 1fr"
+        templateRows="auto auto 1fr auto"
         minHeight="100vh"
-        rowGap={0}
+        rowGap={4} // Add spacing between rows
       >
-        <GridItem area="nav" bg="white" mb={24}>
+        <GridItem area="nav" bg="white" mb={10}>
           <NavBar />
         </GridItem>
-        <GridItem area="about" mb={0}>
+        <GridItem area="about">
           {/* Pass data as props to VideoCard */}
           <VideoBannerVLP videoData={data} />
-          <VideoInfoCard videoData={data} />
+          {/* Child Video Grid */}
+          <ChildVideoGrid children={data.children} />
         </GridItem>
         <GridItem area="main"></GridItem>
         <GridItem area="bottom">

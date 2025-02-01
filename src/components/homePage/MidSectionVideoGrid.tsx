@@ -2,18 +2,17 @@ import { Grid } from "@chakra-ui/react";
 import VideoCard from "./components/VideoCard";
 import VideoCardLarge from "./components/VideoCardLarge";
 import videoData from "../../assets/data/videoList.json";
-import images from "../../assets/images";
 
 const MidSectionVideoGrid = () => {
   const videoTitles = [
     "Outdoor Furniture",
     "Planter",
-    "Garage",
-    "SelfWater",
+    "Garage Organization",
+    "Self Watering Planter",
     "Landscape",
     "Indoor Project",
-    "Pooja",
-  ];
+    "Pooja Mantapa",
+  ]; //Title should map to title in VideoList.json
 
   return (
     <>
@@ -33,6 +32,7 @@ const MidSectionVideoGrid = () => {
             console.error(`Video data for title "${title}" not found`);
             return null;
           }
+          //console.log("State passed to VideoCard:", videoDataItem);
 
           // Check if videoDataItem has children
           const linkTo =
@@ -46,7 +46,10 @@ const MidSectionVideoGrid = () => {
             return (
               <VideoCardLarge
                 key={videoDataItem.id}
-                srcImg={images.videoGrid.planters}
+                //srcImg={images.videoGrid.planters}
+                srcImg={videoDataItem.image}
+                linkTo={linkTo} // Use the dynamically generated link
+                state={videoDataItem}
               />
             );
           }

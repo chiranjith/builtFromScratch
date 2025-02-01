@@ -24,8 +24,8 @@ const FavoriteProject = () => {
         position="relative"
         overflow="visible" // Allow child elements to overflow
         mx={"4"} //equal space on left & right
-        borderBottom="1px dotted gray"
-        borderTop="1px dotted gray"
+        borderBottom="1px dashed gray"
+        borderTop="1px dashed gray"
       >
         <Flex
           h="100%" // Full height of the Box

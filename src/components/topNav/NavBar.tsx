@@ -1,5 +1,5 @@
 import { Box, Flex, Image, HStack } from "@chakra-ui/react";
-import logo from "../../assets/images/logos/bfsLogo.png";
+import logo from "../../assets/images/logos/bfsLogo1.png";
 import ColorModeSwitch from "../ColorModeSwitch";
 import Subscribe from "./Subscribe";
 import TopNavLinks from "./TopNavLinks";

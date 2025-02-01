@@ -1,0 +1,29 @@
+{
+    "_comment": "Patio 3 Seat Sectional with Storage",
+    "items": [
+        {
+            "itemId": 1,
+            "item": "Treated Lumber",
+            "size": "2\"T X 2'W X 8'L",
+            "qty": "1",
+            "store": "homeDepot",
+            "sku": "123456"
+        },
+        {
+            "itemId": 2,
+            "item": "Untreated Lumber",
+            "size": "1\"T X 2'W X 8'L",
+            "qty": "1",
+            "store": "homeDepot",
+            "sku": "3443333"
+        },
+        {
+            "itemId": 3,
+            "item": "Screws",
+            "size": "1 Inch",
+            "qty": "10",
+            "store": "homeDepot",
+            "sku": "34434333"
+        }
+    ]
+}

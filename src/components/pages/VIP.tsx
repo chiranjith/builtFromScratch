@@ -1,16 +1,19 @@
 import { useLocation } from "react-router-dom";
-import { Text } from "@chakra-ui/react";
+import { Text, Box, List, ListItem } from "@chakra-ui/react";
 import { Grid, GridItem } from "@chakra-ui/react";
-import VideoInfoCard from "./components/VideoInfoCardVLP";
 import NavBar from "../topNav/NavBar";
 import Footer from "../footer/Footer";
+import YouTubeCardVIP from "./components/YouTubeCardVIP";
+import ItemListVIP from "./components/ItemListVIP";
+import AddToCartQuote from "./components/AddToCartQuote";
 
 //Video Information Page
 const VIP = () => {
   const location = useLocation();
-  const data = location.state; // Access the data passed via Link's state
-  console.log(data); // Debug: Ensure data is passed correctly
-  if (!data) {
+  const videoData = location.state; // Access the data passed via Link's state
+
+  //console.log("Video Data in VIP:", videoData);
+  if (!videoData) {
     return <Text>No video data available.</Text>;
   }
   return (
@@ -25,9 +28,12 @@ const VIP = () => {
           <NavBar />
         </GridItem>
         <GridItem area="about" mb={0}>
-          {"Video Info Page - "}
+          <YouTubeCardVIP videoData={videoData} />
         </GridItem>
-        <GridItem area="main"></GridItem>
+        <GridItem area="main">
+          <ItemListVIP videoData={videoData.itemList || []} />
+          <AddToCartQuote />
+        </GridItem>
         <GridItem area="bottom">
           <Footer />
         </GridItem>

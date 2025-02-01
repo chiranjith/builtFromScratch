@@ -3,56 +3,790 @@
         {
             "id": 1,
             "title": "Outdoor Furniture",
-            "shortDesc": "Designing & building your own outdoor furniture is a fulfilling DIY project that enhances both the style and practicality of your outdoor space.\n",
-            "description": "Whether you're a seasoned builder or just starting out, creating custom furniture lets you personalize it to suit your preferences & requirements while being cost-effective. \n With some creativity & effort, you can craft stunning, functional pieces that transform your patio into an ideal haven for relaxation & entertainment.",
-            "image": "/src/assets/images/videoGrid/outdoorFur.png",
+            "heading": "Transform Your Outdoor Space",
+            "shortDesc": "Designing & building your own outdoor furniture is a fulfilling DIY project that enhances both the style & practicality of your outdoor space. With some creativity & effort, you can craft stunning, functional pieces that transform your patio.",
+            "description": "Whether you're a seasoned builder or just starting out, creating custom furniture lets you personalize it to suit your preferences & requirements while being cost-effective. With some creativity & effort, you can craft stunning, functional pieces that transform your patio into an ideal haven for relaxation & entertainment.",
+            "image": "/src/assets/images/videoGrid/outdoorFur.webp",
+            "imageBanner": "/src/assets/images/banner/outdoorBanner.webp",
             "children": [
                 {
                     "id": 101,
-                    "title": "Patio Left Bench",
-                    "description": "Learn about the first topic in detail.",
-                    "image": "images/child1-1.jpg",
-                    "videoLink": "",
-                    "duration": "5:30"
+                    "title": "Patio 3 Seat Sectional with Storage",
+                    "description": "The Patio 3-Seat Sectional with Storage combines style, comfort, and practicality, making it a perfect addition to your outdoor living space. Designed with a spacious seating arrangement for three people, it offers plush cushions for maximum relaxation.",
+                    "image": "src/assets/images/videoCard/patio3Seater.png",
+                    "videoUrl": "DDsBZI_pYzg",
+                    "itemList": [
+                        {
+                            "itemId": 1,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "2 in. x 4 in. x 12 ft",
+                            "qty": "5",
+                            "store": "homeDepot",
+                            "sku": "206967813"
+                        },
+                        {
+                            "itemId": 2,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "1 in x 4 in. x 8 ft.",
+                            "qty": "6",
+                            "store": "homeDepot",
+                            "sku": "206973928"
+                        },
+                        {
+                            "itemId": 3,
+                            "item": "SYP Lumber",
+                            "image": "/src/assets/images/items/LumberThk.avif",
+                            "size": "2 in. x 10 in. x 12 ft",
+                            "qty": "2",
+                            "store": "homeDepot",
+                            "sku": "206893708"
+                        },
+                        {
+                            "itemId": 4,
+                            "item": "Ext Screws",
+                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "size": "#9 - 3, 2.5 & 1.5 in.",
+                            "qty": "1 lb. Box",
+                            "store": "homeDepot",
+                            "sku": "100115639"
+                        },
+                        {
+                            "itemId": 5,
+                            "item": "Gusset Angle",
+                            "image": "/src/assets/images/items/gussetAngle.webp",
+                            "size": "3-1/4 in. 18-Gauge",
+                            "qty": "8",
+                            "store": "homeDepot",
+                            "sku": "100375243"
+                        },
+                        {
+                            "itemId": 6,
+                            "item": "L Angle",
+                            "image": "/src/assets/images/items/lAngle.webp",
+                            "size": "2 in. x 6 in. X 12-Gauge",
+                            "qty": "4",
+                            "store": "homeDepot",
+                            "sku": "202071149"
+                        },
+                        {
+                            "itemId": 7,
+                            "item": "Wood Glue",
+                            "image": "/src/assets/images/items/woodGlue.avif",
+                            "size": "18 fl. oz.",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "100662003"
+                        },
+                        {
+                            "itemId": 8,
+                            "item": "Wood Stain",
+                            "image": "/src/assets/images/items/woodStain.png",
+                            "size": "1 qt.",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "330338935"
+                        },
+                        {
+                            "itemId": 8,
+                            "item": "Cushion",
+                            "image": "/src/assets/images/items/cushion.webp",
+                            "size": "24 in. x 24 in.",
+                            "qty": "3",
+                            "store": "homeDepot",
+                            "sku": "304400805"
+                        }
+                    ]
                 },
                 {
                     "id": 102,
-                    "title": "Patio Right Bench",
-                    "description": "A deep dive into advanced topics.",
-                    "image": "images/child1-2.jpg",
-                    "videoLink": "",
-                    "duration": "8:45"
+                    "title": "Corner Planter for Patio Sectional",
+                    "description": "Is a creative and functional addition to elevate your outdoor space. Designed to fit seamlessly into the corner of your patio sectional, it provides a perfect spot to showcase your favorite plants or flowers.",
+                    "image": "src/assets/images/videoCard/patioPlanter.png",
+                    "videoUrl": "0o2gzpJteZQ",
+                    "itemList": [
+                        {
+                            "itemId": 1,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "2 in. x 4 in. x 12 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "206967813"
+                        },
+                        {
+                            "itemId": 2,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "2 in. x 6 in. x 8 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "206889247"
+                        },
+                        {
+                            "itemId": 3,
+                            "item": "SYP Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "1 in. x 4 in. x 8 ft",
+                            "qty": "6",
+                            "store": "homeDepot",
+                            "sku": "206973928"
+                        },
+                        {
+                            "itemId": 4,
+                            "item": "Ext Screws",
+                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "size": "#9 - 3 & 1.5 in.",
+                            "qty": "1 lb. Box",
+                            "store": "homeDepot",
+                            "sku": "100115639"
+                        },
+                        {
+                            "itemId": 5,
+                            "item": "Wood Glue",
+                            "image": "/src/assets/images/items/woodGlue.avif",
+                            "size": "18 fl. oz.",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "100662003"
+                        },
+                        {
+                            "itemId": 6,
+                            "item": "Wood Stain",
+                            "image": "/src/assets/images/items/woodStain.png",
+                            "size": "1 qt.",
+                            "qty": "8 oz.",
+                            "store": "homeDepot",
+                            "sku": "330338960"
+                        },
+                        {
+                            "itemId": 7,
+                            "item": "Planter Box",
+                            "image": "/src/assets/images/items/planter.webp",
+                            "size": "18 in. x 18 in.",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "301861604"
+                        }
+                    ]
+                },
+                {
+                    "id": 103,
+                    "title": "Patio 2 Seat Sectional with Storage",
+                    "description": "Transform your outdoor space with this stylish and functional DIY patio 2-seat sectional, complete with built-in storage and a convenient icebox in the center. Perfect for relaxing, entertaining, or enjoying a cool drink on a warm day, this sectional combines comfort, practicality, and modern design.",
+                    "image": "src/assets/images/videoCard/patio2Seater.png",
+                    "videoUrl": "jT9J2-K31ZE",
+                    "itemList": [
+                        {
+                            "itemId": 1,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "2 in. x 4 in. x 12 ft",
+                            "qty": "6",
+                            "store": "homeDepot",
+                            "sku": "206967813"
+                        },
+                        {
+                            "itemId": 2,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "1 in x 4 in. x 8 ft.",
+                            "qty": "7",
+                            "store": "homeDepot",
+                            "sku": "206973928"
+                        },
+                        {
+                            "itemId": 3,
+                            "item": "SYP Lumber",
+                            "image": "/src/assets/images/items/LumberThk.avif",
+                            "size": "2 in. x 10 in. x 8 ft",
+                            "qty": "2",
+                            "store": "homeDepot",
+                            "sku": "206893708"
+                        },
+                        {
+                            "itemId": 4,
+                            "item": "SYP Lumber",
+                            "image": "/src/assets/images/items/LumberThk.avif",
+                            "size": "2 in. x 12 in. x 8 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "206893708"
+                        },
+                        {
+                            "itemId": 5,
+                            "item": "Ext Screws",
+                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "size": "#9 - 3, 2.5 & 1.5 in.",
+                            "qty": "1 lb. Box",
+                            "store": "homeDepot",
+                            "sku": "100115639"
+                        },
+                        {
+                            "itemId": 6,
+                            "item": "Gusset Angle",
+                            "image": "/src/assets/images/items/gussetAngle.webp",
+                            "size": "3-1/4 in. 18-Gauge",
+                            "qty": "8",
+                            "store": "homeDepot",
+                            "sku": "100375243"
+                        },
+                        {
+                            "itemId": 7,
+                            "item": "L Angle",
+                            "image": "/src/assets/images/items/lAngle.webp",
+                            "size": "2 in. x 6 in. X 12-Gauge",
+                            "qty": "4",
+                            "store": "homeDepot",
+                            "sku": "202071149"
+                        },
+                        {
+                            "itemId": 8,
+                            "item": "Wood Glue",
+                            "image": "/src/assets/images/items/woodGlue.avif",
+                            "size": "18 fl. oz.",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "100662003"
+                        },
+                        {
+                            "itemId": 9,
+                            "item": "Wood Stain",
+                            "image": "/src/assets/images/items/woodStain.png",
+                            "size": "1 qt.",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "330338935"
+                        },
+                        {
+                            "itemId": 10,
+                            "item": "Cushion",
+                            "image": "/src/assets/images/items/cushion.webp",
+                            "size": "24 in. x 24 in.",
+                            "qty": "2",
+                            "store": "homeDepot",
+                            "sku": "304400805"
+                        }
+                    ]
+                },
+                {
+                    "id": 104,
+                    "title": "Patio Gas Fire Pit Table",
+                    "description": "This stunning piece seamlessly blends warmth and style, making it the ultimate centerpiece for any outdoor gathering. Designed to elevate your patio or backyard experience, it creates a welcoming atmosphere where friends and family can gather, relax, and enjoy each other's company. \nAt the heart of this versatile table is a built-in gas fire pit, providing a cozy and inviting ambiance. Whether you're hosting a summer soirée or enjoying a cool autumn evening, the flickering flames add a touch of magic to your outdoor space. The fire pit is easy to ignite and control, offering both convenience and safety",
+                    "image": "src/assets/images/videoCard/patioFirepit.png",
+                    "videoUrl": "BRHgXwpBFnI",
+                    "itemList": [
+                        {
+                            "itemId": 1,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "2 in. x 4 in. x 12 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "206967813"
+                        },
+                        {
+                            "itemId": 2,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "2 in x 6 in. x 12 ft.",
+                            "qty": "2",
+                            "store": "homeDepot",
+                            "sku": "206889270"
+                        },
+                        {
+                            "itemId": 3,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "1 in x 4 in. x 8 ft.",
+                            "qty": "7",
+                            "store": "homeDepot",
+                            "sku": "206973928"
+                        },
+                        {
+                            "itemId": 4,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/LumberThk.avif",
+                            "size": "2 in. x 10 in. x 12 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "206893708"
+                        },
+                        {
+                            "itemId": 5,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/LumberThk.avif",
+                            "size": "2 in. x 12 in. x 10 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "206964318"
+                        },
+                        {
+                            "itemId": 6,
+                            "item": "Ext Screws",
+                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "size": "#9 - 3, 2.5 & 1.5 in.",
+                            "qty": "1 lb. Box",
+                            "store": "homeDepot",
+                            "sku": "100115639"
+                        },
+                        {
+                            "itemId": 7,
+                            "item": "Wood Glue",
+                            "image": "/src/assets/images/items/woodGlue.avif",
+                            "size": "18 fl. oz.",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "100662003"
+                        },
+                        {
+                            "itemId": 8,
+                            "item": "Wood Stain",
+                            "image": "/src/assets/images/items/woodStain.png",
+                            "size": "1 qt.",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "330338935"
+                        },
+                        {
+                            "itemId": 9,
+                            "item": "Drop-in Fire Pit Pan",
+                            "image": "/src/assets/images/items/fireePit.jpg",
+                            "size": "36 in. x 12 in.",
+                            "qty": "1",
+                            "store": "amazon",
+                            "sku": "B09QQ8VS65"
+                        },
+                        {
+                            "itemId": 10,
+                            "item": "Fire Pit Valve Control",
+                            "image": "/src/assets/images/items/valveControl.jpg",
+                            "size": "90,000 BTU",
+                            "qty": "1",
+                            "store": "amazon",
+                            "sku": "B0824HW3CB"
+                        },
+                        {
+                            "itemId": 11,
+                            "item": "Glass Wind Guard",
+                            "image": "/src/assets/images/items/windGuard.jpg",
+                            "size": "36 in. x 16 in.",
+                            "qty": "1",
+                            "store": "amazon",
+                            "sku": "B0824HW3CB"
+                        },
+                        {
+                            "itemId": 12,
+                            "item": "Epoxy",
+                            "image": "/src/assets/images/items/epoxy.jpg",
+                            "size": "32 Oz",
+                            "qty": "1",
+                            "store": "amazon",
+                            "sku": "B0843JTZM6"
+                        }
+                    ]
                 }
             ]
         },
         {
             "id": 2,
             "title": "Planter",
-            "shortDesc": "short Desc",
-            "description": "Exploring intermediate concepts.",
-            "image": "/src/assets/images/videoGrid/planters.png",
+            "heading": "DIY Planter's",
+            "shortDesc": "DIY outdoor planters are a fun and creative way to personalize your garden or patio. Using materials like wood, concrete, or repurposed items, you can craft unique containers for your plants.",
+            "description": "\nDifferent-level planters add depth and dimension, allowing you to showcase a variety of plants in a compact space. These planters not only enhance the beauty of your outdoor area but also provide customizable solutions to fit any style or size, making them perfect for gardeners and DIY enthusiasts alike.",
+            "image": "/src/assets/images/videoGrid/planters.webp",
+            "imageBanner": "/src/assets/images/banner/plantersBanner.webp",
             "children": [
                 {
                     "id": 201,
-                    "title": "2 Level Planter",
-                    "description": "Understanding the core principles.",
-                    "image": "images/child2-1.jpg",
-                    "duration": "7:20"
+                    "title": "Slef Watering Planter",
+                    "description": "A DIY self-watering planter box is a practical and innovative gardening solution that ensures your plants stay hydrated with minimal effort. It features a built-in reservoir that delivers water directly to the roots, reducing water waste and the need for frequent watering. Perfect for busy gardeners or water-sensitive plants, these planters are easy to build using simple materials like plastic bins, PVC pipes, or wooden boxes. They're a great way to promote healthy plant growth while saving time and resources.",
+                    "image": "src/assets/images/videoCard/selfWaterPlanter.png",
+                    "videoUrl": "qN_Xq89zyos",
+                    "itemList": [
+                        {
+                            "itemId": 1,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "5/4 in. x 6 in. x 8 ft",
+                            "qty": "6",
+                            "store": "homeDepot",
+                            "sku": "206967715"
+                        },
+                        {
+                            "itemId": 2,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/LumberThk.avif",
+                            "size": "2 in. x 12 in. x 12 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "301880852"
+                        },
+                        {
+                            "itemId": 3,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "1 in. x 6 in. x 10 ft",
+                            "qty": "6",
+                            "store": "homeDepot",
+                            "sku": "206968438"
+                        },
+                        {
+                            "itemId": 4,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "2 in. x 4 in. x 8 ft",
+                            "qty": "2",
+                            "store": "homeDepot",
+                            "sku": "206970948"
+                        },
+                        {
+                            "itemId": 5,
+                            "item": "Pine Board",
+                            "image": "/src/assets/images/items/pineBoard1-3.avif",
+                            "size": "1 in. x 3 in. x 4 ft",
+                            "qty": "5",
+                            "store": "homeDepot",
+                            "sku": "319661922"
+                        },
+                        {
+                            "itemId": 6,
+                            "item": "Pond Liner",
+                            "image": "/src/assets/images/items/pondLiner.jpg",
+                            "size": "7 ft. x 10 ft.",
+                            "qty": "1",
+                            "store": "amazon",
+                            "sku": "B0CS2YSHHZ"
+                        },
+                        {
+                            "itemId": 5,
+                            "item": "Wood Glue",
+                            "image": "/src/assets/images/items/woodGlue.avif",
+                            "size": "18 fl. oz.",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "100662003"
+                        },
+                        {
+                            "itemId": 6,
+                            "item": "Wood Stain",
+                            "image": "/src/assets/images/items/woodStain.png",
+                            "size": "1 qt.",
+                            "qty": "8 oz.",
+                            "store": "homeDepot",
+                            "sku": "330338960"
+                        },
+                        {
+                            "itemId": 7,
+                            "item": "Ext Screws",
+                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "size": "#9 - 3 & 1.5 in.",
+                            "qty": "1 lb. Box",
+                            "store": "homeDepot",
+                            "sku": "100115639"
+                        },
+                        {
+                            "itemId": 8,
+                            "item": "Perforated Drain Pipe",
+                            "image": "/src/assets/images/items/drainPipe.webp",
+                            "size": "4 in. x 8 ft.",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "202745422"
+                        }
+                    ]
                 },
                 {
                     "id": 202,
-                    "title": "3 Level Planter",
-                    "description": "A guide to practical applications.",
-                    "image": "images/child2-2.jpg",
-                    "duration": "6:50"
+                    "title": "2 Level Planter Box",
+                    "description": "Is a stylish & functional gardening structure that features two tiers for planting. This design allows for better organization and utilization of vertical space, making it ideal for small gardens, patios, or balconies.",
+                    "image": "src/assets/images/videoCard/Planter2L.png",
+                    "videoUrl": "d4UHAc2PcRc",
+                    "itemList": [
+                        {
+                            "itemId": 1,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "5/4 in. x 6 in. x 8 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "206967715"
+                        },
+                        {
+                            "itemId": 2,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "2 in. x 6 in. x 12 ft",
+                            "qty": "3",
+                            "store": "homeDepot",
+                            "sku": "206889270"
+                        },
+                        {
+                            "itemId": 3,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "1 in. x 6 in. x 10 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "206968438"
+                        },
+                        {
+                            "itemId": 4,
+                            "item": "Ext Screws",
+                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "size": "#9 - 3 & 1.5 in.",
+                            "qty": "1 lb. Box",
+                            "store": "homeDepot",
+                            "sku": "100115639"
+                        }
+                    ]
+                },
+                {
+                    "id": 203,
+                    "title": "3 Level Planter Box",
+                    "description": "A DIY 3-layer planter box is a stylish and space-efficient way to grow a variety of plants, herbs, or flowers in a compact area. With three tiers of planting space, it allows you to maximize vertical gardening while adding a dynamic, eye-catching structure to your outdoor or indoor space. Each layer can be used for different plants, making it ideal for creating a diverse and organized garden.",
+                    "image": "src/assets/images/videoCard/Planter3L.png",
+                    "videoUrl": "RJc3QffckyE",
+                    "itemList": [
+                        {
+                            "itemId": 1,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "2 in. x 6 in. x 8 ft",
+                            "qty": "5",
+                            "store": "homeDepot",
+                            "sku": "206889247"
+                        },
+                        {
+                            "itemId": 2,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "1 in. x 4 in. x 10 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "206971108"
+                        },
+                        {
+                            "itemId": 3,
+                            "item": "Ext Screws",
+                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "size": "#9 - 3 & 1.5 in.",
+                            "qty": "1 lb. Box",
+                            "store": "homeDepot",
+                            "sku": "100115639"
+                        }
+                    ]
+                },
+                {
+                    "id": 204,
+                    "title": "3 Level Planter Box",
+                    "description": "A DIY 3-layer planter box is a stylish and space-efficient way to grow a variety of plants, herbs, or flowers in a compact area. With three tiers of planting space, it allows you to maximize vertical gardening while adding a dynamic, eye-catching structure to your outdoor or indoor space. Each layer can be used for different plants, making it ideal for creating a diverse and organized garden.",
+                    "image": "src/assets/images/videoCard/Planter3L_1.png",
+                    "videoUrl": "jJwJtcj9fPo",
+                    "itemList": [
+                        {
+                            "itemId": 1,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "2 in. x 6 in. x 8 ft",
+                            "qty": "6",
+                            "store": "homeDepot",
+                            "sku": "206889247"
+                        },
+                        {
+                            "itemId": 2,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "1 in. x 4 in. x 10 ft",
+                            "qty": "2",
+                            "store": "homeDepot",
+                            "sku": "206971108"
+                        },
+                        {
+                            "itemId": 3,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "2 in. x 4 in. x 8 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "301836994"
+                        },
+                        {
+                            "itemId": 4,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/LumberThk.avif",
+                            "size": "2 in. x 8 in. x 8 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "206937440"
+                        },
+                        {
+                            "itemId": 5,
+                            "item": "Ext Screws",
+                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "size": "#9 - 3 & 1.5 in.",
+                            "qty": "1 lb. Box",
+                            "store": "homeDepot",
+                            "sku": "100115639"
+                        }
+                    ]
+                },
+                {
+                    "id": 205,
+                    "title": "5 Level Planter Box",
+                    "description": "A DIY 5-layer planter box is a stylish and space-efficient way to grow a variety of plants, herbs, or flowers in a compact area. With three tiers of planting space, it allows you to maximize vertical gardening while adding a dynamic, eye-catching structure to your outdoor or indoor space. Each layer can be used for different plants, making it ideal for creating a diverse and organized garden.",
+                    "image": "src/assets/images/videoCard/Planter5L.png",
+                    "videoUrl": "ooOomr5i8oY",
+                    "itemList": [
+                        {
+                            "itemId": 1,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "2 in. x 6 in. x 8 ft",
+                            "qty": "5",
+                            "store": "homeDepot",
+                            "sku": "206889247"
+                        },
+                        {
+                            "itemId": 2,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "2 in. x 4 in. x 8 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "301836994"
+                        },
+                        {
+                            "itemId": 3,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/LumberThk.avif",
+                            "size": "2 in. x 8 in. x 8 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "206937440"
+                        },
+                        {
+                            "itemId": 4,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "1 in. x 4 in. x 12 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "206973905"
+                        },
+                        {
+                            "itemId": 5,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "1 in. x 6 in. x 12 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "206889619"
+                        },
+                        {
+                            "itemId": 6,
+                            "item": "Ext Screws",
+                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "size": "#9 - 3 & 1.5 in.",
+                            "qty": "1 lb. Box",
+                            "store": "homeDepot",
+                            "sku": "100115639"
+                        }
+                    ]
+                },
+                {
+                    "id": 206,
+                    "title": "Corner Planter",
+                    "description": "A DIY corner planter box is a practical and attractive solution for utilizing unused corner spaces in your garden, patio, or balcony. Designed to fit snugly into a corner, this planter box creates a visually appealing focal point while maximizing planting area. Perfect for flowers, herbs, or small shrubs, it offers an efficient way to organize your greenery and elevate your outdoor decor.",
+                    "image": "src/assets/images/videoCard/cornerPlanter.png",
+                    "videoUrl": "0o2gzpJteZQ",
+                    "itemList": [
+                        {
+                            "itemId": 1,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "2 in. x 4 in. x 12 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "206967813"
+                        },
+                        {
+                            "itemId": 2,
+                            "item": "PT Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "2 in. x 6 in. x 8 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "206889247"
+                        },
+                        {
+                            "itemId": 3,
+                            "item": "SYP Lumber",
+                            "image": "/src/assets/images/items/Lumber.avif",
+                            "size": "1 in. x 4 in. x 8 ft",
+                            "qty": "6",
+                            "store": "homeDepot",
+                            "sku": "206973928"
+                        },
+                        {
+                            "itemId": 4,
+                            "item": "Ext Screws",
+                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "size": "#9 - 3 & 1.5 in.",
+                            "qty": "1 lb. Box",
+                            "store": "homeDepot",
+                            "sku": "100115639"
+                        },
+                        {
+                            "itemId": 5,
+                            "item": "Wood Glue",
+                            "image": "/src/assets/images/items/woodGlue.avif",
+                            "size": "18 fl. oz.",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "100662003"
+                        },
+                        {
+                            "itemId": 6,
+                            "item": "Wood Stain",
+                            "image": "/src/assets/images/items/woodStain.png",
+                            "size": "1 qt.",
+                            "qty": "8 oz.",
+                            "store": "homeDepot",
+                            "sku": "330338960"
+                        },
+                        {
+                            "itemId": 7,
+                            "item": "Planter Box",
+                            "image": "/src/assets/images/items/planter.webp",
+                            "size": "18 in. x 18 in.",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "301861604"
+                        }
+                    ]
                 }
             ]
         },
         {
             "id": 3,
-            "title": "Garage",
-            "description": "Advanced techniques and applications.",
-            "image": "/src/assets/images/videoGrid/garage.png"
+            "title": "Garage Organization",
+            "image": "/src/assets/images/videoGrid/garage.webp",
+            "title1": "Garage Organization",
+            "description": "Maximize your garage space with DIY storage and organization solutions. Build custom shelving, pegboards, and overhead racks to neatly store tools, equipment, and seasonal items. \nIncorporate labeled bins, wall-mounted hooks, and workbench organizers to keep everything accessible and clutter-free. Transform your garage into a functional, organized space that works for your needs.",
+            "image1": "src/assets/images/videoCard/storageGarage.png",
+            "videoUrl": "8p0nDhRR4YY",
+            "itemList": [
+                {
+                    "itemId": 1,
+                    "item": "Treated Lumber",
+                    "size": "2\"T X 2'W X 8'L",
+                    "qty": "1",
+                    "store": "homeDepot",
+                    "sku": "123456"
+                }
+            ]
         },
         {
             "id": 4,
@@ -65,40 +799,178 @@
             "children": [
                 {
                     "id": 301,
-                    "title": "Child Video 3.1",
+                    "title": "Convert Sprinkler Head to Drip Irrigation",
+                    "description": "Converting a sprinkler head to a drip irrigation system is a practical way to save water and ensure efficient watering for your plants. By redirecting water from a traditional sprinkler to a targeted drip system, you can reduce runoff, prevent overwatering, and deliver moisture directly to the roots where plants need it most. This eco-friendly project is perfect for gardens, flower beds, or landscaping areas and involves installing a drip manifold or adapter to replace the existing sprinkler head. With minimal tools and effort, you can transform your irrigation system into a more sustainable and effective solution.",
+                    "image": "src/assets/images/videoCard/dripIrrigation.png",
+                    "videoUrl": "DHKHuXyZvWs"
+                },
+                {
+                    "id": 302,
+                    "title": "Brick Edging",
+                    "description": "Brick edging is a simple and stylish way to define garden beds, walkways, or outdoor spaces. This DIY project not only enhances the visual appeal of your yard but also provides a practical barrier to keep grass and weeds from encroaching on your flower beds or pathways. To create brick edging, you'll need to dig a shallow trench, lay a sand or gravel base for stability, and position the bricks either flat or angled, depending on your design preference. With a bit of planning and effort, you can achieve a professional-looking, durable edge that adds charm and structure to your outdoor space.",
+                    "image": "images/child3-1.jpg",
+                    "videoUrl": ""
+                },
+                {
+                    "id": 303,
+                    "title": "Child Video 3.3",
                     "description": "Detailed explanation of expert methods.",
                     "image": "images/child3-1.jpg",
-                    "duration": "10:15"
+                    "videoUrl": ""
+                },
+                {
+                    "id": 304,
+                    "title": "Child Video 3.4",
+                    "description": "Detailed explanation of expert methods.",
+                    "image": "images/child3-1.jpg",
+                    "videoUrl": ""
+                },
+                {
+                    "id": 305,
+                    "title": "Child Video 3.5",
+                    "description": "Detailed explanation of expert methods.",
+                    "image": "images/child3-1.jpg",
+                    "videoUrl": ""
                 }
             ]
         },
         {
             "id": 5,
-            "title": "SelfWater",
-            "description": "Advanced techniques and applications.",
-            "image": "/src/assets/images/videoGrid/selfWater.png"
-        },
-        {
-            "id": 5,
-            "title": "Indoor Project",
-            "shortDesc": "Designing & building your",
-            "description": "Advanced techniques and applications.",
-            "image": "/src/assets/images/videoGrid/indoorProject.png",
-            "children": [
+            "title": "Self Watering Planter",
+            "description": "A DIY self-watering planter box is a practical and innovative gardening solution that ensures your plants stay hydrated with minimal effort. It features a built-in reservoir that delivers water directly to the roots, reducing water waste and the need for frequent watering. Perfect for busy gardeners or water-sensitive plants, these planters are easy to build using simple materials like plastic bins, PVC pipes, or wooden boxes. They're a great way to promote healthy plant growth while saving time and resources.",
+            "image": "/src/assets/images/videoGrid/selfWater.webp",
+            "videoUrl": "qN_Xq89zyos",
+            "itemList": [
                 {
-                    "id": 501,
-                    "title": "Child Video 3.1",
-                    "description": "Detailed explanation of expert methods.",
-                    "image": "images/child3-1.jpg",
-                    "duration": "10:15"
+                    "itemId": 1,
+                    "item": "PT Lumber",
+                    "image": "/src/assets/images/items/Lumber.avif",
+                    "size": "5/4 in. x 6 in. x 8 ft",
+                    "qty": "6",
+                    "store": "homeDepot",
+                    "sku": "206967715"
+                },
+                {
+                    "itemId": 2,
+                    "item": "PT Lumber",
+                    "image": "/src/assets/images/items/LumberThk.avif",
+                    "size": "2 in. x 12 in. x 12 ft",
+                    "qty": "1",
+                    "store": "homeDepot",
+                    "sku": "301880852"
+                },
+                {
+                    "itemId": 3,
+                    "item": "PT Lumber",
+                    "image": "/src/assets/images/items/Lumber.avif",
+                    "size": "1 in. x 6 in. x 10 ft",
+                    "qty": "6",
+                    "store": "homeDepot",
+                    "sku": "206968438"
+                },
+                {
+                    "itemId": 4,
+                    "item": "PT Lumber",
+                    "image": "/src/assets/images/items/Lumber.avif",
+                    "size": "2 in. x 4 in. x 8 ft",
+                    "qty": "2",
+                    "store": "homeDepot",
+                    "sku": "206970948"
+                },
+                {
+                    "itemId": 5,
+                    "item": "Pine Board",
+                    "image": "/src/assets/images/items/pineBoard1-3.avif",
+                    "size": "1 in. x 3 in. x 4 ft",
+                    "qty": "5",
+                    "store": "homeDepot",
+                    "sku": "319661922"
+                },
+                {
+                    "itemId": 6,
+                    "item": "Pond Liner",
+                    "image": "/src/assets/images/items/pondLiner.jpg",
+                    "size": "7 ft. x 10 ft.",
+                    "qty": "1",
+                    "store": "amazon",
+                    "sku": "B0CS2YSHHZ"
+                },
+                {
+                    "itemId": 5,
+                    "item": "Wood Glue",
+                    "image": "/src/assets/images/items/woodGlue.avif",
+                    "size": "18 fl. oz.",
+                    "qty": "1",
+                    "store": "homeDepot",
+                    "sku": "100662003"
+                },
+                {
+                    "itemId": 6,
+                    "item": "Wood Stain",
+                    "image": "/src/assets/images/items/woodStain.png",
+                    "size": "1 qt.",
+                    "qty": "8 oz.",
+                    "store": "homeDepot",
+                    "sku": "330338960"
+                },
+                {
+                    "itemId": 7,
+                    "item": "Ext Screws",
+                    "image": "/src/assets/images/items/screwsExt.avif",
+                    "size": "#9 - 3 & 1.5 in.",
+                    "qty": "1 lb. Box",
+                    "store": "homeDepot",
+                    "sku": "100115639"
+                },
+                {
+                    "itemId": 8,
+                    "item": "Perforated Drain Pipe",
+                    "image": "/src/assets/images/items/drainPipe.webp",
+                    "size": "4 in. x 8 ft.",
+                    "qty": "1",
+                    "store": "homeDepot",
+                    "sku": "202745422"
                 }
             ]
         },
         {
             "id": 6,
-            "title": "Pooja",
-            "description": "Advanced techniques and applications.",
-            "image": "/src/assets/images/videoGrid/pooja.png"
+            "title": "Indoor Project",
+            "heading": "Transform Your Indoor Space",
+            "shortDesc": "Transform your indoor space with creative DIY projects that blend functionality and style. DIY indoor projects offer a creative and rewarding way to enhance your home's interior. ",
+            "description": "\nFrom custom shelving and furniture builds to decorative wall art and lighting upgrades, these projects allow you to personalize your space while improving functionality and style. \nWhether you're repurposing materials or crafting something from scratch, DIY indoor projects can add character and charm to any room.",
+            "image": "/src/assets/images/videoGrid/indoorProject.webp",
+            "imageBanner": "/src/assets/images/banner/indoorBanner.webp",
+            "children": [
+                {
+                    "id": 601,
+                    "title": "Pooja Mantapa",
+                    "description": "A DIY wall-mounted pooja mantapa is a perfect way to create a sacred & space-saving worship area within your home. By designing and building your own wall-mounted mandir, you can personalize it to reflect your spiritual beliefs & aesthetic preferences while making the most of your available space. \nThis compact yet elegant pooja unit can be crafted from materials like wood, MDF, or metal. Mounted securely on the wall, it not only enhances the ambiance of your home but also keeps the space clutter-free & organized. \nWith thoughtful additions like built-in shelves for idols and lamps, LED lighting for a divine glow, and small drawers for storing essentials. Whether adorned with bells or hand-painted accents, this custom-made mandir adds a personal touch to your devotional practices, making your worship space truly special.",
+                    "image": "src/assets/images/videoCard/poojaMantapa.png",
+                    "videoUrl": "ANGBl5xGLIc"
+                },
+                {
+                    "id": 602,
+                    "title": "Aquarium Background",
+                    "description": "A DIY aquarium background is a creative way to enhance the aesthetic appeal of your fish tank. Using materials like foam, cement, or natural elements, you can design custom backdrops that mimic realistic underwater landscapes such as rocks or caves.",
+                    "image": "src/assets/images/videoCard/aquaBG.png",
+                    "videoUrl": ""
+                },
+                {
+                    "id": 603,
+                    "title": "Garage Organization",
+                    "description": "Maximize your garage space with DIY storage and organization solutions. Build custom shelving, pegboards, and overhead racks to neatly store tools, equipment, and seasonal items. Incorporate labeled bins, wall-mounted hooks, and workbench organizers to keep everything accessible and clutter-free. Transform your garage into a functional, organized space that works for your needs.",
+                    "image": "src/assets/images/videoCard/storageGarage.png",
+                    "videoUrl": "8p0nDhRR4YY"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Pooja Mantapa",
+            "description": "A DIY wall-mounted pooja mantapa is a perfect way to create a sacred & space-saving worship area within your home. By designing and building your own wall-mounted mandir, you can personalize it to reflect your spiritual beliefs & aesthetic preferences while making the most of your available space. \nThis compact yet elegant pooja unit can be crafted from materials like wood, MDF, or metal. Mounted securely on the wall, it not only enhances the ambiance of your home but also keeps the space clutter-free & organized. \nWith thoughtful additions like built-in shelves for idols and lamps, LED lighting for a divine glow, and small drawers for storing essentials. Whether adorned with bells or hand-painted accents, this custom-made mandir adds a personal touch to your devotional practices, making your worship space truly special.",
+            "image": "/src/assets/images/videoGrid/pooja.webp",
+            "videoUrl": "ANGBl5xGLIc"
         }
     ]
 }

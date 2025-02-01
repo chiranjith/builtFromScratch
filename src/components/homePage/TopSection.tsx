@@ -1,19 +1,12 @@
-import {
-  Box,
-  Grid,
-  Heading,
-  Text,
-  Image,
-  Spacer,
-  useBreakpointValue,
-  ImageProps,
-} from "@chakra-ui/react";
+import { Box, Grid, Heading, Text, Image } from "@chakra-ui/react";
+import { Spacer, useBreakpointValue, ImageProps } from "@chakra-ui/react";
 import images from "../../assets/images";
 
 interface ResponsiveImageProps extends ImageProps {
   src: string;
   alt: string;
 }
+const borderStyle = "1px dashed gray";
 
 const TopSection = () => {
   const textContent = useBreakpointValue({
@@ -65,7 +58,7 @@ const TopSection = () => {
         textAlign="center"
         color={"gray.800"}
         m={{ base: "0.1", md: "4" }}
-        size={{ base: "sm", md: "2xl" }}
+        size={{ base: "sm", md: "xl" }}
       >
         Where{" "}
         <Text as="span" color="blue.600">
@@ -79,13 +72,13 @@ const TopSection = () => {
         gap={0} // No space between grid items
         p={4}
         borderStyle="solid" // Outer solid line
-        mb={{ base: "2", md: "8" }}
+        mb={{ base: "2", md: "4" }}
       >
         {/* Grid items with dotted inner lines */}
-        <Box borderRight="1px dotted gray" borderBottom="1px dotted gray"></Box>
+        <Box borderRight={borderStyle} borderBottom={borderStyle}></Box>
         <Box
-          borderRight="1px dotted gray"
-          borderBottom="1px dotted gray"
+          borderRight={borderStyle}
+          borderBottom={borderStyle}
           gridColumn="2 / 5" // Merges 1R2C, 1R3C, 1R4C
           display="flex"
           alignItems="center"
@@ -100,14 +93,14 @@ const TopSection = () => {
             Welcome to Built From Scratch - DIY made Simple!
           </Text>
         </Box>
-        <Box borderBottom="1px dotted gray"></Box>
+        <Box borderBottom={borderStyle}></Box>
 
-        <Box borderRight="1px dotted gray"></Box>
+        <Box borderRight={borderStyle}></Box>
         <Box
           gridColumn="2 / 5" // Spans columns 2, 3, and 4
           gridRow="2 / 4" // Spans rows 2 and 3
-          borderRight="1px dotted gray"
-          borderBottom="1px dotted gray"
+          borderRight={borderStyle}
+          borderBottom={borderStyle}
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -123,14 +116,14 @@ const TopSection = () => {
         </Box>
         <Box></Box>
 
-        <Box borderRight="1px dotted gray" borderBottom="1px dotted gray"></Box>
-        <Box borderBottom="1px dotted gray"></Box>
+        <Box borderRight={borderStyle} borderBottom={borderStyle}></Box>
+        <Box borderBottom={borderStyle}></Box>
 
-        <Box borderRight="1px dotted gray" borderBottom="1px dotted gray"></Box>
-        <Box borderRight="1px dotted gray" borderBottom="1px dotted gray"></Box>
+        <Box borderRight={borderStyle} borderBottom={borderStyle}></Box>
+        <Box borderRight={borderStyle} borderBottom={borderStyle}></Box>
         <Box
-          borderRight="1px dotted gray"
-          borderBottom="1px dotted gray"
+          borderRight={borderStyle}
+          borderBottom={borderStyle}
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -152,7 +145,7 @@ const TopSection = () => {
           <Spacer />
           <ResponsiveImage
             src={images.logos.x}
-            alt="Facebook Logo"
+            alt="X Logo"
             width={{ base: "28px", md: "54px" }}
             height={{ base: "28px", md: "54px" }}
           />
@@ -165,12 +158,12 @@ const TopSection = () => {
             padding={{ base: "5px", md: "15px" }}
           />
         </Box>
-        <Box borderRight="1px dotted gray" borderBottom="1px dotted gray"></Box>
-        <Box borderBottom="1px dotted gray"></Box>
+        <Box borderRight={borderStyle} borderBottom={borderStyle}></Box>
+        <Box borderBottom={borderStyle}></Box>
 
-        <Box borderRight="1px dotted gray"></Box>
+        <Box borderRight={borderStyle}></Box>
         <Box
-          borderRight="1px dotted gray"
+          borderRight={borderStyle}
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -183,7 +176,7 @@ const TopSection = () => {
             padding={{ base: "2px", md: "4px" }}
           />
         </Box>
-        <Box borderRight="1px dotted gray">
+        <Box borderRight={borderStyle}>
           <Text
             textAlign="center"
             fontFamily="Geist"
@@ -195,7 +188,7 @@ const TopSection = () => {
           </Text>
         </Box>
         <Box
-          borderRight="1px dotted gray"
+          borderRight={borderStyle}
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -215,7 +208,7 @@ const TopSection = () => {
         fontFamily="Geist"
         fontSize={{ base: "0.5rem", md: "1.3rem" }}
         color={"gray.700"}
-        mb={{ base: "4", md: "16" }}
+        mb={{ base: "4", md: "12" }}
       >
         Build your dreams, one step at a time—because great things are always{" "}
         <Text as="span" color="blue.600" fontWeight="bold">

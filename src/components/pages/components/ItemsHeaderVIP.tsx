@@ -1,6 +1,6 @@
 import { Flex, Text, Box } from "@chakra-ui/react";
 
-const Categories = () => {
+const ItemsHeaderVIP = () => {
   return (
     <Flex
       w="100%"
@@ -8,7 +8,8 @@ const Categories = () => {
       align="flex-start"
       px={{ base: "2", md: "4" }}
       position="relative"
-      mb={"70px"}
+      mt={"70px"}
+      mb={"2px"}
     >
       {/* Title with Overlapping Lines */}
       <Box position="relative" w="100%">
@@ -23,7 +24,7 @@ const Categories = () => {
           left="0" // Align with the start of the thick blue line
           bg="white" // Add background to prevent line overlap
         >
-          CATEGORIES
+          ITEM LIST
         </Text>
 
         {/* Dashed Line */}
@@ -41,7 +42,7 @@ const Categories = () => {
           top="-0.5" // Align with the dashed line
           bg="blue.500"
           h={{ base: "3px", md: "6px" }} // Thickness of the blue line
-          w={{ base: "100px", md: "140px" }} // Set the width of the blue line to match the text
+          w={{ base: "40px", md: "56px" }} // Set the width of the blue line to match the text
           zIndex="2" // Stack it above the dashed line
         />
       </Box>
@@ -49,4 +50,4 @@ const Categories = () => {
   );
 };
 
-export default Categories;
+export default ItemsHeaderVIP;

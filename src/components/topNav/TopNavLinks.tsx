@@ -1,4 +1,5 @@
-import { Link, Flex } from "@chakra-ui/react";
+import { Flex, Link } from "@chakra-ui/react";
+import { Link as RouterLink } from "react-router-dom";
 
 const TopNavLinks = () => {
   return (
@@ -14,20 +15,32 @@ const TopNavLinks = () => {
         pr={{ base: "1", md: "4" }}
       >
         <Link
-          href="#home"
-          _hover={{ textDecoration: "none", color: "gray.400" }}
+          as={RouterLink}
+          to="/"
+          _hover={{
+            textDecoration: "none",
+            color: "gray.400",
+          }}
         >
           Home
         </Link>
         <Link
-          href="#about"
-          _hover={{ textDecoration: "none", color: "gray.400" }}
+          as={RouterLink}
+          to="/"
+          _hover={{
+            textDecoration: "none",
+            color: "gray.400",
+          }}
         >
           About
         </Link>
         <Link
-          href="#contact"
-          _hover={{ textDecoration: "none", color: "gray.400" }}
+          as={RouterLink}
+          to="/"
+          _hover={{
+            textDecoration: "none",
+            color: "gray.400",
+          }}
         >
           Contact
         </Link>
