@@ -6,7 +6,7 @@ const ItemsHeaderVIP = () => {
       w="100%"
       direction="column"
       align="flex-start"
-      px={{ base: "2", md: "4" }}
+      px={{ base: "2", md: "8" }}
       position="relative"
       mt={"70px"}
       mb={"2px"}

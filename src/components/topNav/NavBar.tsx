@@ -1,5 +1,5 @@
 import { Box, Flex, Image, HStack } from "@chakra-ui/react";
-import logo from "../../assets/images/logos/bfsLogo1.png";
+import logo from "../../assets/images/logos/bfsLogo2.png";
 import ColorModeSwitch from "../ColorModeSwitch";
 import Subscribe from "./Subscribe";
 import TopNavLinks from "./TopNavLinks";
@@ -17,12 +17,14 @@ const NavBar = () => {
         boxShadow="md"
         zIndex="100"
       >
-        <HStack justifyContent="space-between" padding="10px">
+        <HStack justifyContent="space-between" padding="8px">
           <Link to="/">
             <Image
               src={logo}
-              width={{ base: "150px", md: "240px" }}
-              height={{ base: "25px", md: "40px" }}
+              //width={{ base: "150px", md: "300px", "2xl": "480px" }}
+              //w={{ sm: "116px", md: "100%", lg: "120%", "2xl": "100%" }}
+              w={"100%"}
+              height={{ base: "22px", md: "40px", lg: "50px", "2xl": "100px" }}
             />
           </Link>
           <Flex gap={4} alignItems="center">

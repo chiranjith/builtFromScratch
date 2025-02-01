@@ -27,7 +27,7 @@ const BottomSection = () => {
             textAlign="center"
             fontFamily="sans"
             color={"gray.700"}
-            fontSize={{ base: "0.6rem", md: "1.3rem" }}
+            fontSize={{ base: "0.6rem", md: "1.3rem", "2xl": "36px" }}
           >
             <strong>This has to be my most enjoyable DIY project!</strong>
           </Text>
@@ -42,12 +42,17 @@ const BottomSection = () => {
           display="flex"
           alignItems="center"
           justifyContent="center"
-          p={{ base: "1", md: "4" }}
+          p={{ base: "1", md: "4", lg: "6" }}
         >
           <Text
             textAlign="center"
             fontFamily="Segoe Print, sans-serif"
-            fontSize={{ base: "0.5rem", md: "1.1rem" }}
+            fontSize={{
+              base: "0.6rem",
+              md: "1.2rem",
+              lg: "16px",
+              "2xl": "30px",
+            }}
             color="gray.700"
           >
             This project dates back to 2012. While the house itself wasn’t built

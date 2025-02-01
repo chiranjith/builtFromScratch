@@ -10,7 +10,7 @@ const FavoriteSmallCard = ({ srcImg, children }: Props) => {
     <>
       <Flex
         direction="column"
-        h="100%"
+        h={{ base: "100%", "2xl": "120%" }}
         bg="white"
         boxShadow="0 8px 16px rgba(0, 0, 0, 1)"
       >
@@ -19,24 +19,29 @@ const FavoriteSmallCard = ({ srcImg, children }: Props) => {
           align="top"
           justify="center"
           overflow="hidden" // Prevent image overflow
-          w="100%"
+          w={{ base: "100%", "2xl": "120%" }}
         >
           <Image
             src={srcImg}
             alt="Small"
-            w="100%"
+            w={{ base: "100%", "2xl": "120%" }}
             objectFit="cover"
             transition="all 0.3s ease-in-out" // Smooth scaling transition
           />
         </Flex>
-        <Flex flex="1" align="center" justify="left" w="100%">
+        <Flex
+          flex="1"
+          align="center"
+          justify="left"
+          w={{ base: "100%", "2xl": "120%" }}
+        >
           <Text
             pl={{ base: "1", md: "2" }}
             fontSize={{
               base: ".3rem",
               md: ".8rem",
               lg: "1.1rem",
-              "2xl": "1.3rem",
+              "2xl": "2rem",
             }}
             //fontWeight="bold"
             fontFamily="Geist"

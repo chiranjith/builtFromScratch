@@ -48,6 +48,7 @@ const YouTubeCardVIP = ({ videoData }: YouTubeCard) => {
       <Box
         width="90%"
         mx="auto" // Center the box horizontally
+        marginTop={{ base: "2px", "2xl": "60px" }}
         boxShadow="lg"
         borderRadius="md"
         overflow="hidden"
@@ -67,7 +68,7 @@ const YouTubeCardVIP = ({ videoData }: YouTubeCard) => {
                 md: "170px",
                 lg: "220px",
                 xl: "280px",
-                "2xl": "580px",
+                "2xl": "520px",
               }}
               border="none"
               allowFullScreen
@@ -76,10 +77,28 @@ const YouTubeCardVIP = ({ videoData }: YouTubeCard) => {
           </Box>
           {/* Right Section: Text Content */}
           <Box flex="1.5">
-            <Text fontSize="lg" fontWeight="bold" mb={2}>
+            <Text
+              fontSize={{
+                base: "14px",
+                md: "14px",
+                lg: "16px",
+                "2xl": "34px",
+              }}
+              fontWeight="bold"
+              mb={2}
+            >
               {videoData.title}
             </Text>
-            <Text fontSize="md" color="gray.600" whiteSpace="pre-line">
+            <Text
+              fontSize={{
+                base: "14px",
+                md: "14px",
+                lg: "16px",
+                "2xl": "34px",
+              }}
+              color="gray.600"
+              whiteSpace="pre-line"
+            >
               {videoData.description}
             </Text>
           </Box>

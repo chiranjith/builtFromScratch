@@ -1,6 +1,5 @@
 import { Box, Text, Image, Grid, Link as ChakraLink } from "@chakra-ui/react";
 import { Link as RouterLink } from "react-router-dom";
-import ItemsHeaderVIP from "./ItemsHeaderVIP";
 
 interface ItemList {
   itemId: number;
@@ -55,8 +54,8 @@ const ItemListVIP = ({ videoData }: ItemCard) => {
           md: "repeat(4, 1fr)",
           lg: "repeat(6, 1fr)",
         }}
-        gap={6}
-        px={{ base: 4, md: 8 }}
+        gap={8}
+        px={{ base: 4, md: 12, "2xl": 20 }}
         py={8}
         position="relative"
       >

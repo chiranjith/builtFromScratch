@@ -1,14 +1,5 @@
-import {
-  Box,
-  Flex,
-  Grid,
-  GridItem,
-  Link,
-  Text,
-  Input,
-  Button,
-  Icon,
-} from "@chakra-ui/react";
+import { Box, Flex, Text, Button, Icon } from "@chakra-ui/react";
+import { Grid, GridItem, Link, Input } from "@chakra-ui/react";
 import {
   FaFacebookF,
   FaInstagram,
@@ -17,6 +8,7 @@ import {
 } from "react-icons/fa";
 import Categories from "./Categories";
 import { useEffect } from "react";
+import Subscribe from "../topNav/Subscribe";
 
 const Footer = () => {
   useEffect(() => {
@@ -58,7 +50,7 @@ const Footer = () => {
             display="block"
             _hover={{ textDecoration: "underline" }}
           >
-            Returns
+            Workshops
           </Link>
         </GridItem>
         <GridItem>
@@ -95,8 +87,9 @@ const Footer = () => {
             Stay Connected
           </Text>
           <Flex>
-            <Input placeholder="Enter your email" borderRadius="md" mr={2} />
-            <Button colorScheme="blue">Subscribe</Button>
+            <Subscribe />
+            {/* <Input placeholder="Enter your email" borderRadius="md" mr={2} />
+            <Button colorScheme="blue">Subscribe</Button> */}
           </Flex>
         </GridItem>
       </Grid>

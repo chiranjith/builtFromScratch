@@ -22,7 +22,12 @@ const TopSection = () => {
     ),
     md: (
       <>
-        <Text as="span" color="blue.600" fontWeight="bold">
+        <Text
+          as="span"
+          color="blue.600"
+          fontWeight="bold"
+          fontSize={{ base: "0.4rem", md: "1.1rem", "2xl": "30px" }}
+        >
           Built From Scratch
         </Text>{" "}
         is your ultimate destination for DIY enthusiasts, creators & innovators.
@@ -30,7 +35,12 @@ const TopSection = () => {
         create from the ground up. Whether you’re a beginner taking your first
         steps into the world of DIY or an experienced maker looking for fresh
         ideas, <br />
-        <Text as="span" color="blue.600" fontWeight="bold">
+        <Text
+          as="span"
+          color="blue.600"
+          fontWeight="bold"
+          fontSize={{ base: "0.4rem", md: "1.1rem", "2xl": "30px" }}
+        >
           Built From Scratch
         </Text>{" "}
         provides the inspiration, tools, and guidance you need.
@@ -58,7 +68,7 @@ const TopSection = () => {
         textAlign="center"
         color={"gray.800"}
         m={{ base: "0.1", md: "4" }}
-        size={{ base: "sm", md: "xl" }}
+        size={{ base: "sm", md: "xl", "2xl": "4xl" }}
       >
         Where{" "}
         <Text as="span" color="blue.600">
@@ -83,12 +93,13 @@ const TopSection = () => {
           display="flex"
           alignItems="center"
           justifyContent="center"
+          maxWidth="160em"
         >
           <Text
             textAlign="center"
             mb="2"
             fontFamily="Geist"
-            fontSize={{ base: ".7rem", md: "1.5rem" }}
+            fontSize={{ base: ".7rem", md: "1.5rem", "2xl": "46px" }}
           >
             Welcome to Built From Scratch - DIY made Simple!
           </Text>
@@ -107,7 +118,8 @@ const TopSection = () => {
           p={4}
         >
           <Text
-            fontSize={{ base: "sm", md: "md" }}
+            //fontSize={{ base: "sm", md: "md" }}
+            fontSize={{ base: "0.6rem", md: "1.1rem", "2xl": "30px" }}
             textAlign="center"
             fontFamily="Geist"
           >
@@ -131,31 +143,27 @@ const TopSection = () => {
           <ResponsiveImage
             src={images.logos.yt}
             alt="YouTube Logo"
-            width={{ base: "32px", md: "90px" }}
-            height={{ base: "30px", md: "80px" }}
-            padding={{ base: "2px", md: "10px" }}
+            height={{ base: "28px", md: "70px", "2xl": "100px" }}
+            pl={{ base: "4px", md: "10px", "2xl": "40px" }}
           />
           <Spacer />
           <ResponsiveImage
             src={images.logos.fb}
             alt="Facebook Logo"
-            width={{ base: "30px", md: "58px" }}
-            height={{ base: "30px", md: "58px" }}
+            height={{ base: "28px", md: "58px", "2xl": "90px" }}
           />
           <Spacer />
           <ResponsiveImage
             src={images.logos.x}
             alt="X Logo"
-            width={{ base: "28px", md: "54px" }}
-            height={{ base: "28px", md: "54px" }}
+            height={{ base: "24px", md: "54px", "2xl": "90px" }}
           />
           <Spacer />
           <ResponsiveImage
             src={images.logos.ins}
             alt="Instagram Logo"
-            width={{ base: "36px", md: "80px" }}
-            height={{ base: "36px", md: "80px" }}
-            padding={{ base: "5px", md: "15px" }}
+            height={{ base: "24px", md: "60px", "2xl": "90px" }}
+            pr={{ base: "8px", md: "10px", "2xl": "40px" }}
           />
         </Box>
         <Box borderRight={borderStyle} borderBottom={borderStyle}></Box>
@@ -171,16 +179,15 @@ const TopSection = () => {
           <ResponsiveImage
             src={images.logos.hd}
             alt="HomeDepot Logo"
-            width={{ base: "45px", md: "90px" }}
-            height={{ base: "30px", md: "60px" }}
-            padding={{ base: "2px", md: "4px" }}
+            height={{ base: "28px", md: "60px", "2xl": "100px" }}
+            padding={{ base: "2px", md: "4px", "2xl": "10px" }}
           />
         </Box>
         <Box borderRight={borderStyle}>
           <Text
             textAlign="center"
             fontFamily="Geist"
-            fontSize={{ base: "0.4rem", md: "1.1rem" }}
+            fontSize={{ base: "0.5rem", md: "1.1rem", "2xl": "30px" }}
             color="gray.700"
           >
             From detailed tutorials and creative project ideas to expert tips
@@ -196,9 +203,8 @@ const TopSection = () => {
           <ResponsiveImage
             src={images.logos.lw}
             alt="Lowes Logo"
-            width={{ base: "36px", md: "80px" }}
-            height={{ base: "30px", md: "70px" }}
-            padding={{ base: "2px", md: "4px" }}
+            height={{ base: "28px", md: "60px", "2xl": "100px" }}
+            padding={{ base: "2px", md: "4px", "2xl": "10px" }}
           />
         </Box>
         <Box></Box>
@@ -206,7 +212,7 @@ const TopSection = () => {
       <Text
         textAlign="center"
         fontFamily="Geist"
-        fontSize={{ base: "0.5rem", md: "1.3rem" }}
+        fontSize={{ base: "0.5rem", md: "1.3rem", "2xl": "36px" }}
         color={"gray.700"}
         mb={{ base: "4", md: "12" }}
       >
