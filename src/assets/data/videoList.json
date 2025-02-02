@@ -155,8 +155,8 @@
                             "itemId": 6,
                             "item": "Wood Stain",
                             "image": "/src/assets/images/items/woodStain.png",
-                            "size": "1 qt.",
-                            "qty": "8 oz.",
+                            "size": "8 oz.",
+                            "qty": "1",
                             "store": "homeDepot",
                             "sku": "330338960"
                         },
@@ -472,8 +472,8 @@
                             "itemId": 6,
                             "item": "Wood Stain",
                             "image": "/src/assets/images/items/woodStain.png",
-                            "size": "1 qt.",
-                            "qty": "8 oz.",
+                            "size": "8 Oz.",
+                            "qty": "1",
                             "store": "homeDepot",
                             "sku": "330338960"
                         },
@@ -751,8 +751,8 @@
                             "itemId": 6,
                             "item": "Wood Stain",
                             "image": "/src/assets/images/items/woodStain.png",
-                            "size": "1 qt.",
-                            "qty": "8 oz.",
+                            "size": "8 oz.",
+                            "qty": "1",
                             "store": "homeDepot",
                             "sku": "330338960"
                         },
@@ -772,19 +772,164 @@
         {
             "id": 3,
             "title": "Garage Organization",
-            "image": "/src/assets/images/videoGrid/garage.webp",
+            "imageOld": "/src/assets/images/videoGrid/garage.webp",
+            "image": "/src/assets/images/videoGrid/garage1.png",
             "title1": "Garage Organization",
             "description": "Maximize your garage space with DIY storage and organization solutions. Build custom shelving, pegboards, and overhead racks to neatly store tools, equipment, and seasonal items. \nIncorporate labeled bins, wall-mounted hooks, and workbench organizers to keep everything accessible and clutter-free. Transform your garage into a functional, organized space that works for your needs.",
-            "image1": "src/assets/images/videoCard/storageGarage.png",
             "videoUrl": "8p0nDhRR4YY",
             "itemList": [
                 {
                     "itemId": 1,
-                    "item": "Treated Lumber",
-                    "size": "2\"T X 2'W X 8'L",
+                    "item": "SYP Lumber",
+                    "image": "/src/assets/images/items/sypLumber2x4.webp",
+                    "size": "2 in x 4 in x 8 ft",
+                    "qty": "10",
+                    "store": "homeDepot",
+                    "sku": "305625813"
+                },
+                {
+                    "itemId": 2,
+                    "item": "White Wood",
+                    "image": "/src/assets/images/items/whiteWood.avif",
+                    "size": "1 in x 3 in x 6 ft",
+                    "qty": "7",
+                    "store": "lowes",
+                    "sku": "1000555099"
+                },
+                {
+                    "itemId": 3,
+                    "item": "Poplar Board",
+                    "image": "/src/assets/images/items/poplarBoard1x4.avif",
+                    "size": "1 in x 4 in x 6 ft",
+                    "qty": "1",
+                    "store": "lowes",
+                    "sku": "5002027807"
+                },
+                {
+                    "itemId": 4,
+                    "item": "Sanded Plywood",
+                    "image": "/src/assets/images/items/plyWood.avif",
+                    "size": "1/4 in x 4 ft x 8 ft",
                     "qty": "1",
                     "store": "homeDepot",
-                    "sku": "123456"
+                    "sku": "100063669"
+                },
+                {
+                    "itemId": 5,
+                    "item": "Sanded Plywood",
+                    "image": "/src/assets/images/items/plyWood.avif",
+                    "size": "1/4 in x 2 ft x 8 ft",
+                    "qty": "2",
+                    "store": "homeDepot",
+                    "sku": "202093790"
+                },
+                {
+                    "itemId": 6,
+                    "item": "Vinyl Lattice",
+                    "image": "/src/assets/images/items/lattice.webp",
+                    "size": "4 ft x 8 ft",
+                    "qty": "1",
+                    "store": "homeDepot",
+                    "sku": "100011154"
+                },
+                {
+                    "itemId": 7,
+                    "item": "Poplar Board",
+                    "image": "/src/assets/images/items/poplarBoard.webp",
+                    "size": "3/4 in x 1.5 in x 8 ft",
+                    "qty": "7",
+                    "store": "homeDepot",
+                    "sku": "100058532"
+                },
+                {
+                    "itemId": 8,
+                    "item": "Softwood Board",
+                    "image": "/src/assets/images/items/whiteWood.avif",
+                    "size": "1 in x 6 in x 6 ft",
+                    "qty": "1",
+                    "store": "lowes",
+                    "sku": "1000221413"
+                },
+                {
+                    "itemId": 9,
+                    "item": "Melamine Board",
+                    "image": "/src/assets/images/items/melamineBoard.avif",
+                    "size": "3/4 in x 4 ft x 8 ft",
+                    "qty": "3",
+                    "store": "homeDepot",
+                    "sku": "100070209"
+                },
+                {
+                    "itemId": 10,
+                    "item": "Poplar Board",
+                    "image": "/src/assets/images/items/poplar1x8ft.avif",
+                    "size": "1 in x 2 in x 8 ft",
+                    "qty": "7",
+                    "store": "lowes",
+                    "sku": "1000074271"
+                },
+                {
+                    "itemId": 11,
+                    "item": "White Peel & Stick",
+                    "image": "/src/assets/images/items/whitePaper.jpg",
+                    "size": "17.5 in x 400 in",
+                    "qty": "1",
+                    "store": "amazon",
+                    "sku": "B0BDDHFHMW"
+                },
+                {
+                    "itemId": 12,
+                    "item": "4 Door Cabinet",
+                    "image": "/src/assets/images/items/cabinet.avif",
+                    "size": "60 in x 34 in x 24 ft",
+                    "qty": "1",
+                    "store": "lowes",
+                    "sku": "5013901549"
+                },
+                {
+                    "itemId": 13,
+                    "item": "Metal Peg Board",
+                    "image": "/src/assets/images/items/pegBoard.jpg",
+                    "size": "48 in x 24 in",
+                    "qty": "1",
+                    "store": "amazon",
+                    "sku": "B0CQND65VF"
+                },
+                {
+                    "itemId": 14,
+                    "item": "Door Hinge",
+                    "image": "/src/assets/images/items/melamineBoard.avif",
+                    "size": "3 in",
+                    "qty": "4",
+                    "store": "homeDepot",
+                    "sku": "202206024"
+                },
+                {
+                    "itemId": 15,
+                    "item": "Wood Glue",
+                    "image": "/src/assets/images/items/woodGlue.avif",
+                    "size": "18 fl. oz.",
+                    "qty": "1",
+                    "store": "homeDepot",
+                    "sku": "100662003"
+                },
+                {
+                    "itemId": 16,
+                    "item": "Wood Stain",
+                    "image": "/src/assets/images/items/woodStain.png",
+                    "size": "8 oz.",
+                    "qty": "1",
+                    "store": "homeDepot",
+                    "sku": "330338960"
+                },
+                {
+                    "itemId": 17,
+                    "item": "Ext Screws",
+                    "image": "/src/assets/images/items/screwsExt.avif",
+                    "size": "#9 - 2 & 1.5 in.",
+                    "qty": "1 lb. Box",
+                    "store": "homeDepot",
+                    "sku": "100115639"
                 }
             ]
         },
@@ -794,8 +939,8 @@
             "heading": "Transform Your Outdoor Space",
             "shortDesc": "DIY landscaping projects are a fantastic way to enhance the beauty & functionality of your outdoor areas while adding a personal touch.\n",
             "description": "From creating flower beds and building stone pathways to designing a cozy fire pit or installing raised garden beds, the possibilities are endless. These projects not only elevate the aesthetic appeal of your yard but also provide a rewarding hands-on experience.",
-            "image": "/src/assets/images/videoGrid/landscape.png",
-            "imageBanner": "/src/assets/images/banner/landscapeBanner.png",
+            "image": "/src/assets/images/videoGrid/landscape.webp",
+            "imageBanner": "/src/assets/images/banner/landscapeBanner.webp",
             "children": [
                 {
                     "id": 301,
@@ -908,8 +1053,8 @@
                     "itemId": 6,
                     "item": "Wood Stain",
                     "image": "/src/assets/images/items/woodStain.png",
-                    "size": "1 qt.",
-                    "qty": "8 oz.",
+                    "size": "8 oz.",
+                    "qty": "1",
                     "store": "homeDepot",
                     "sku": "330338960"
                 },
@@ -947,7 +1092,108 @@
                     "title": "Pooja Mantapa",
                     "description": "A DIY wall-mounted pooja mantapa is a perfect way to create a sacred & space-saving worship area within your home. By designing and building your own wall-mounted mandir, you can personalize it to reflect your spiritual beliefs & aesthetic preferences while making the most of your available space. \nThis compact yet elegant pooja unit can be crafted from materials like wood, MDF, or metal. Mounted securely on the wall, it not only enhances the ambiance of your home but also keeps the space clutter-free & organized. \nWith thoughtful additions like built-in shelves for idols and lamps, LED lighting for a divine glow, and small drawers for storing essentials. Whether adorned with bells or hand-painted accents, this custom-made mandir adds a personal touch to your devotional practices, making your worship space truly special.",
                     "image": "src/assets/images/videoCard/poojaMantapa.png",
-                    "videoUrl": "ANGBl5xGLIc"
+                    "videoUrl": "ANGBl5xGLIc",
+                    "itemList": [
+                        {
+                            "itemId": 1,
+                            "item": "Common Board",
+                            "image": "/src/assets/images/items/commonBoard1x12.webp",
+                            "size": "1 in x 12 in x 4 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "100322335"
+                        },
+                        {
+                            "itemId": 2,
+                            "item": "Pine Board",
+                            "image": "/src/assets/images/items/pineBoard1x6.webp",
+                            "size": "1 in. x 6 in. x 6 ft",
+                            "qty": "1",
+                            "store": "lowes",
+                            "sku": "5002010019"
+                        },
+                        {
+                            "itemId": 3,
+                            "item": "Trim",
+                            "image": "/src/assets/images/items/trim.webp",
+                            "size": "0.3 in x 2 in. x 8 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "100391418"
+                        },
+                        {
+                            "itemId": 4,
+                            "item": "Polar Board",
+                            "image": "/src/assets/images/items/polarBoard1x4.jpg",
+                            "size": "1/4 in x 4 in x 4 ft",
+                            "qty": "5",
+                            "store": "homeDepot",
+                            "sku": "333192997"
+                        },
+                        {
+                            "itemId": 5,
+                            "item": "Common Board",
+                            "image": "/src/assets/images/items/commonBoard1x12.webp",
+                            "size": "1 in x 6 in x 12 ft",
+                            "qty": "1",
+                            "store": "lowes",
+                            "sku": "1000228515"
+                        },
+                        {
+                            "itemId": 6,
+                            "item": "Wood Stain",
+                            "image": "/src/assets/images/items/woodStain.png",
+                            "size": "8 oz.",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "330338960"
+                        },
+                        {
+                            "itemId": 7,
+                            "item": "L Angle",
+                            "image": "/src/assets/images/items/lAngle.webp",
+                            "size": "2 in. x 6 in. X 12-Gauge",
+                            "qty": "3",
+                            "store": "homeDepot",
+                            "sku": "202071149"
+                        },
+                        {
+                            "itemId": 8,
+                            "item": "Decorative Bells",
+                            "image": "/src/assets/images/items/bells.jpg",
+                            "size": "18 mm x 28 mm",
+                            "qty": "1",
+                            "store": "amazon",
+                            "sku": "B0B8G5Q2PF"
+                        },
+                        {
+                            "itemId": 9,
+                            "item": "Cabinet Slider",
+                            "image": "/src/assets/images/items/cabinetSlider.jpg",
+                            "size": "6 in",
+                            "qty": "1",
+                            "store": "amazon",
+                            "sku": "B08889R767"
+                        },
+                        {
+                            "itemId": 10,
+                            "item": "Led Strip Light",
+                            "image": "/src/assets/images/items/ledLight.jpg",
+                            "size": "16 ft",
+                            "qty": "1",
+                            "store": "amazon",
+                            "sku": "B09BG9B2JQ"
+                        },
+                        {
+                            "itemId": 11,
+                            "item": "Ambiance Light",
+                            "image": "/src/assets/images/items/focusLight.jpg",
+                            "size": "2.4 in",
+                            "qty": "1",
+                            "store": "amazon",
+                            "sku": "B01N2I47VH"
+                        }
+                    ]
                 },
                 {
                     "id": 602,
@@ -961,7 +1207,162 @@
                     "title": "Garage Organization",
                     "description": "Maximize your garage space with DIY storage and organization solutions. Build custom shelving, pegboards, and overhead racks to neatly store tools, equipment, and seasonal items. Incorporate labeled bins, wall-mounted hooks, and workbench organizers to keep everything accessible and clutter-free. Transform your garage into a functional, organized space that works for your needs.",
                     "image": "src/assets/images/videoCard/storageGarage.png",
-                    "videoUrl": "8p0nDhRR4YY"
+                    "videoUrl": "8p0nDhRR4YY",
+                    "itemList": [
+                        {
+                            "itemId": 1,
+                            "item": "SYP Lumber",
+                            "image": "/src/assets/images/items/sypLumber2x4.webp",
+                            "size": "2 in x 4 in x 8 ft",
+                            "qty": "10",
+                            "store": "homeDepot",
+                            "sku": "305625813"
+                        },
+                        {
+                            "itemId": 2,
+                            "item": "White Wood",
+                            "image": "/src/assets/images/items/whiteWood.avif",
+                            "size": "1 in x 3 in x 6 ft",
+                            "qty": "7",
+                            "store": "lowes",
+                            "sku": "1000555099"
+                        },
+                        {
+                            "itemId": 3,
+                            "item": "Poplar Board",
+                            "image": "/src/assets/images/items/poplarBoard1x4.avif",
+                            "size": "1 in x 4 in x 6 ft",
+                            "qty": "1",
+                            "store": "lowes",
+                            "sku": "5002027807"
+                        },
+                        {
+                            "itemId": 4,
+                            "item": "Sanded Plywood",
+                            "image": "/src/assets/images/items/plyWood.avif",
+                            "size": "1/4 in x 4 ft x 8 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "100063669"
+                        },
+                        {
+                            "itemId": 5,
+                            "item": "Sanded Plywood",
+                            "image": "/src/assets/images/items/plyWood.avif",
+                            "size": "1/4 in x 2 ft x 8 ft",
+                            "qty": "2",
+                            "store": "homeDepot",
+                            "sku": "202093790"
+                        },
+                        {
+                            "itemId": 6,
+                            "item": "Vinyl Lattice",
+                            "image": "/src/assets/images/items/lattice.webp",
+                            "size": "4 ft x 8 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "100011154"
+                        },
+                        {
+                            "itemId": 7,
+                            "item": "Poplar Board",
+                            "image": "/src/assets/images/items/poplarBoard.webp",
+                            "size": "3/4 in x 1.5 in x 8 ft",
+                            "qty": "7",
+                            "store": "homeDepot",
+                            "sku": "100058532"
+                        },
+                        {
+                            "itemId": 8,
+                            "item": "Softwood Board",
+                            "image": "/src/assets/images/items/whiteWood.avif",
+                            "size": "1 in x 6 in x 6 ft",
+                            "qty": "1",
+                            "store": "lowes",
+                            "sku": "1000221413"
+                        },
+                        {
+                            "itemId": 9,
+                            "item": "Melamine Board",
+                            "image": "/src/assets/images/items/melamineBoard.avif",
+                            "size": "3/4 in x 4 ft x 8 ft",
+                            "qty": "3",
+                            "store": "homeDepot",
+                            "sku": "100070209"
+                        },
+                        {
+                            "itemId": 10,
+                            "item": "Poplar Board",
+                            "image": "/src/assets/images/items/poplar1x8ft.avif",
+                            "size": "1 in x 2 in x 8 ft",
+                            "qty": "7",
+                            "store": "lowes",
+                            "sku": "1000074271"
+                        },
+                        {
+                            "itemId": 11,
+                            "item": "White Peel & Stick",
+                            "image": "/src/assets/images/items/whitePaper.jpg",
+                            "size": "17.5 in x 400 in",
+                            "qty": "1",
+                            "store": "amazon",
+                            "sku": "B0BDDHFHMW"
+                        },
+                        {
+                            "itemId": 12,
+                            "item": "4 Door Cabinet",
+                            "image": "/src/assets/images/items/cabinet.avif",
+                            "size": "60 in x 34 in x 24 ft",
+                            "qty": "1",
+                            "store": "lowes",
+                            "sku": "5013901549"
+                        },
+                        {
+                            "itemId": 13,
+                            "item": "Metal Peg Board",
+                            "image": "/src/assets/images/items/pegBoard.jpg",
+                            "size": "48 in x 24 in",
+                            "qty": "1",
+                            "store": "amazon",
+                            "sku": "B0CQND65VF"
+                        },
+                        {
+                            "itemId": 14,
+                            "item": "Door Hinge",
+                            "image": "/src/assets/images/items/melamineBoard.avif",
+                            "size": "3 in",
+                            "qty": "4",
+                            "store": "homeDepot",
+                            "sku": "202206024"
+                        },
+                        {
+                            "itemId": 15,
+                            "item": "Wood Glue",
+                            "image": "/src/assets/images/items/woodGlue.avif",
+                            "size": "18 fl. oz.",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "100662003"
+                        },
+                        {
+                            "itemId": 16,
+                            "item": "Wood Stain",
+                            "image": "/src/assets/images/items/woodStain.png",
+                            "size": "8 oz.",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "330338960"
+                        },
+                        {
+                            "itemId": 17,
+                            "item": "Ext Screws",
+                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "size": "#9 - 2 & 1.5 in.",
+                            "qty": "1 lb. Box",
+                            "store": "homeDepot",
+                            "sku": "100115639"
+                        }
+                    ]
                 }
             ]
         },
@@ -970,7 +1371,108 @@
             "title": "Pooja Mantapa",
             "description": "A DIY wall-mounted pooja mantapa is a perfect way to create a sacred & space-saving worship area within your home. By designing and building your own wall-mounted mandir, you can personalize it to reflect your spiritual beliefs & aesthetic preferences while making the most of your available space. \nThis compact yet elegant pooja unit can be crafted from materials like wood, MDF, or metal. Mounted securely on the wall, it not only enhances the ambiance of your home but also keeps the space clutter-free & organized. \nWith thoughtful additions like built-in shelves for idols and lamps, LED lighting for a divine glow, and small drawers for storing essentials. Whether adorned with bells or hand-painted accents, this custom-made mandir adds a personal touch to your devotional practices, making your worship space truly special.",
             "image": "/src/assets/images/videoGrid/pooja.webp",
-            "videoUrl": "ANGBl5xGLIc"
+            "videoUrl": "ANGBl5xGLIc",
+            "itemList": [
+                {
+                    "itemId": 1,
+                    "item": "Common Board",
+                    "image": "/src/assets/images/items/commonBoard1x12.webp",
+                    "size": "1 in x 12 in x 4 ft",
+                    "qty": "1",
+                    "store": "homeDepot",
+                    "sku": "100322335"
+                },
+                {
+                    "itemId": 2,
+                    "item": "Pine Board",
+                    "image": "/src/assets/images/items/pineBoard1x6.webp",
+                    "size": "1 in. x 6 in. x 6 ft",
+                    "qty": "1",
+                    "store": "lowes",
+                    "sku": "5002010019"
+                },
+                {
+                    "itemId": 3,
+                    "item": "Trim",
+                    "image": "/src/assets/images/items/trim.webp",
+                    "size": "0.3 in x 2 in. x 8 ft",
+                    "qty": "1",
+                    "store": "homeDepot",
+                    "sku": "100391418"
+                },
+                {
+                    "itemId": 4,
+                    "item": "Polar Board",
+                    "image": "/src/assets/images/items/polarBoard1x4.jpg",
+                    "size": "1/4 in x 4 in x 4 ft",
+                    "qty": "5",
+                    "store": "homeDepot",
+                    "sku": "333192997"
+                },
+                {
+                    "itemId": 5,
+                    "item": "Common Board",
+                    "image": "/src/assets/images/items/commonBoard1x12.webp",
+                    "size": "1 in x 6 in x 12 ft",
+                    "qty": "1",
+                    "store": "lowes",
+                    "sku": "1000228515"
+                },
+                {
+                    "itemId": 6,
+                    "item": "Wood Stain",
+                    "image": "/src/assets/images/items/woodStain.png",
+                    "size": "8 oz.",
+                    "qty": "1",
+                    "store": "homeDepot",
+                    "sku": "330338960"
+                },
+                {
+                    "itemId": 7,
+                    "item": "L Angle",
+                    "image": "/src/assets/images/items/lAngle.webp",
+                    "size": "2 in. x 6 in. X 12-Gauge",
+                    "qty": "3",
+                    "store": "homeDepot",
+                    "sku": "202071149"
+                },
+                {
+                    "itemId": 8,
+                    "item": "Decorative Bells",
+                    "image": "/src/assets/images/items/bells.jpg",
+                    "size": "18 mm x 28 mm",
+                    "qty": "1",
+                    "store": "amazon",
+                    "sku": "B0B8G5Q2PF"
+                },
+                {
+                    "itemId": 9,
+                    "item": "Cabinet Slider",
+                    "image": "/src/assets/images/items/cabinetSlider.jpg",
+                    "size": "6 in",
+                    "qty": "1",
+                    "store": "amazon",
+                    "sku": "B08889R767"
+                },
+                {
+                    "itemId": 10,
+                    "item": "Led Strip Light",
+                    "image": "/src/assets/images/items/ledLight.jpg",
+                    "size": "16 ft",
+                    "qty": "1",
+                    "store": "amazon",
+                    "sku": "B09BG9B2JQ"
+                },
+                {
+                    "itemId": 11,
+                    "item": "Ambiance Light",
+                    "image": "/src/assets/images/items/focusLight.jpg",
+                    "size": "2.4 in",
+                    "qty": "1",
+                    "store": "amazon",
+                    "sku": "B01N2I47VH"
+                }
+            ]
         }
     ]
 }

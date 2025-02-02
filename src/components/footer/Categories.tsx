@@ -5,11 +5,28 @@ import CustomLink from "../../assets/CustomLink";
 const Categories = () => {
   return (
     <GridItem>
-      <Text fontWeight="bold" mb={4}>
+      <Text
+        fontWeight="bold"
+        mb={4}
+        fontSize={{
+          base: "14px",
+          md: "14px",
+          lg: "16px",
+          "2xl": "30px",
+        }}
+      >
         Categories
       </Text>
       {/* Generate links for videos with children */}
-      <Stack spacing={2}>
+      <Stack
+        spacing={2}
+        fontSize={{
+          base: "14px",
+          md: "14px",
+          lg: "16px",
+          "2xl": "30px",
+        }}
+      >
         {videoList.videos
           .filter((video) => video.children && video.children.length > 0)
           .map((video) => (

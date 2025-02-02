@@ -1,5 +1,5 @@
-import { Box, Flex, Text, Button, Icon } from "@chakra-ui/react";
-import { Grid, GridItem, Link, Input } from "@chakra-ui/react";
+import { Box, Flex, Text, Icon } from "@chakra-ui/react";
+import { Grid, GridItem, Link } from "@chakra-ui/react";
 import {
   FaFacebookF,
   FaInstagram,
@@ -21,11 +21,26 @@ const Footer = () => {
         templateColumns={{ base: "1fr", md: "repeat(4, 1fr)" }}
         gap={6}
         mb={10}
+        fontSize={{
+          base: "14px",
+          md: "14px",
+          lg: "16px",
+          "2xl": "30px",
+        }}
       >
         <Categories />
 
         <GridItem>
-          <Text fontWeight="bold" mb={4}>
+          <Text
+            fontWeight="bold"
+            mb={4}
+            fontSize={{
+              base: "14px",
+              md: "14px",
+              lg: "16px",
+              "2xl": "30px",
+            }}
+          >
             Customer Service
           </Text>
           <Link

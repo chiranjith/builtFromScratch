@@ -24,7 +24,7 @@ const NavBar = () => {
               //width={{ base: "150px", md: "300px", "2xl": "480px" }}
               //w={{ sm: "116px", md: "100%", lg: "120%", "2xl": "100%" }}
               w={"100%"}
-              height={{ base: "22px", md: "40px", lg: "50px", "2xl": "100px" }}
+              height={{ base: "22px", md: "36px", lg: "40px", "2xl": "100px" }}
             />
           </Link>
           <Flex gap={4} alignItems="center">

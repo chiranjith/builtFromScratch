@@ -1,4 +1,4 @@
-import { Box, Button, Divider, Stack } from "@chakra-ui/react";
+import { Box, Button, Divider, Stack, Text } from "@chakra-ui/react";
 
 const AddToCartQuote = () => {
   return (
@@ -17,21 +17,27 @@ const AddToCartQuote = () => {
       <Stack direction="row" spacing={4} mb={2}>
         <Button
           colorScheme="blue"
-          size="md"
+          size={{ base: "md", "2xl": "lg" }}
           borderRadius="xs"
           _hover={{ bg: "blue.700" }}
+          fontSize={{ base: "20px", "2xl": "24px" }}
         >
-          Add to Cart
+          Add all to Cart
         </Button>
         <Button
           colorScheme="orange"
-          size="md"
+          size={{ base: "md", "2xl": "lg" }}
           borderRadius="xs"
           _hover={{ bg: "black" }}
+          fontSize={{ base: "20px", "2xl": "24px" }}
         >
           Create Quote
         </Button>
       </Stack>
+      <Text fontSize="md" color="gray.600" mt={2}>
+        Sorry, I have not integrated this with 3rd part shopping carts, please
+        click on the items to navigate to the item page.
+      </Text>
     </Box>
   );
 };
