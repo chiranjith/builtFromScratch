@@ -5,8 +5,8 @@ import TopSection from "./components/homePage/TopSection";
 import BottomSection from "./components/homePage/BottomSection";
 import Footer from "./components/footer/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import VLP from "./components/pages/VLP";
-import VIP from "./components/pages/VIP";
+import VLP from "./components/vlp/VLP";
+import VIP from "./components/vip/VIP";
 
 function App() {
   return (
