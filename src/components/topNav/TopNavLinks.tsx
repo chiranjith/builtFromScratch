@@ -26,7 +26,7 @@ const TopNavLinks = () => {
         </Link>
         <Link
           as={RouterLink}
-          to="/"
+          to="/about"
           _hover={{
             textDecoration: "none",
             color: "gray.400",

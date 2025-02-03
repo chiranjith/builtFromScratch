@@ -7,6 +7,7 @@ import Footer from "./components/footer/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import VLP from "./components/vlp/VLP";
 import VIP from "./components/vip/VIP";
+import AboutPage from "./components/otherPages/AboutPage";
 
 function App() {
   return (
@@ -49,6 +50,8 @@ function App() {
         {/* VIP Page */}
         <Route path="/vip" element={<VIP />} />
         <Route path="/vip/:videoId" element={<VIP />} />
+
+        <Route path="/about" element={<AboutPage />} />
       </Routes>
     </Router>
   );

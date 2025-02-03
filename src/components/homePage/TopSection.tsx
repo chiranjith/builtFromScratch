@@ -139,31 +139,32 @@ const TopSection = () => {
           display="flex"
           alignItems="center"
           justifyContent="center"
+          p={{ base: "2px", md: "4px", lg: "6px", "2xl": "8px" }}
         >
           <ResponsiveImage
             src={images.logos.yt}
             alt="YouTube Logo"
-            height={{ base: "28px", md: "70px", "2xl": "100px" }}
+            height={{ base: "28px", md: "50px", lg: "60px", "2xl": "100px" }}
             pl={{ base: "4px", md: "10px", "2xl": "40px" }}
           />
           <Spacer />
           <ResponsiveImage
             src={images.logos.fb}
             alt="Facebook Logo"
-            height={{ base: "28px", md: "58px", "2xl": "90px" }}
+            height={{ base: "28px", md: "50px", lg: "60px", "2xl": "90px" }}
           />
           <Spacer />
           <ResponsiveImage
             src={images.logos.x}
             alt="X Logo"
-            height={{ base: "24px", md: "54px", "2xl": "90px" }}
+            height={{ base: "24px", md: "48px", lg: "58px", "2xl": "90px" }}
           />
           <Spacer />
           <ResponsiveImage
             src={images.logos.ins}
             alt="Instagram Logo"
-            height={{ base: "24px", md: "60px", "2xl": "90px" }}
-            pr={{ base: "8px", md: "10px", "2xl": "40px" }}
+            height={{ base: "24px", md: "46px", lg: "56px", "2xl": "90px" }}
+            pr={{ base: "8px", md: "14px", lg: "20px", "2xl": "40px" }}
           />
         </Box>
         <Box borderRight={borderStyle} borderBottom={borderStyle}></Box>

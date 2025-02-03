@@ -773,7 +773,7 @@
             "id": 3,
             "title": "Garage Organization",
             "imageOld": "/src/assets/images/videoGrid/garage.webp",
-            "image": "/src/assets/images/videoGrid/garage1.png",
+            "image": "/src/assets/images/videoGrid/garage.webp",
             "title1": "Garage Organization",
             "description": "Maximize your garage space with DIY storage and organization solutions. Build custom shelving, pegboards, and overhead racks to neatly store tools, equipment, and seasonal items. \nIncorporate labeled bins, wall-mounted hooks, and workbench organizers to keep everything accessible and clutter-free. Transform your garage into a functional, organized space that works for your needs.",
             "videoUrl": "8p0nDhRR4YY",
@@ -947,35 +947,36 @@
                     "title": "Convert Sprinkler Head to Drip Irrigation",
                     "description": "Converting a sprinkler head to a drip irrigation system is a practical way to save water and ensure efficient watering for your plants. By redirecting water from a traditional sprinkler to a targeted drip system, you can reduce runoff, prevent overwatering, and deliver moisture directly to the roots where plants need it most. This eco-friendly project is perfect for gardens, flower beds, or landscaping areas and involves installing a drip manifold or adapter to replace the existing sprinkler head. With minimal tools and effort, you can transform your irrigation system into a more sustainable and effective solution.",
                     "image": "src/assets/images/videoCard/dripIrrigation.png",
-                    "videoUrl": "DHKHuXyZvWs"
+                    "videoUrl": "DHKHuXyZvWs",
+                    "itemList": "Pending"
                 },
                 {
                     "id": 302,
                     "title": "Brick Edging",
                     "description": "Brick edging is a simple and stylish way to define garden beds, walkways, or outdoor spaces. This DIY project not only enhances the visual appeal of your yard but also provides a practical barrier to keep grass and weeds from encroaching on your flower beds or pathways. To create brick edging, you'll need to dig a shallow trench, lay a sand or gravel base for stability, and position the bricks either flat or angled, depending on your design preference. With a bit of planning and effort, you can achieve a professional-looking, durable edge that adds charm and structure to your outdoor space.",
                     "image": "images/child3-1.jpg",
-                    "videoUrl": ""
+                    "videoUrl": "Pending"
                 },
                 {
                     "id": 303,
                     "title": "Child Video 3.3",
                     "description": "Detailed explanation of expert methods.",
                     "image": "images/child3-1.jpg",
-                    "videoUrl": ""
+                    "videoUrl": "Pending"
                 },
                 {
                     "id": 304,
                     "title": "Child Video 3.4",
                     "description": "Detailed explanation of expert methods.",
                     "image": "images/child3-1.jpg",
-                    "videoUrl": ""
+                    "videoUrl": "Pending"
                 },
                 {
                     "id": 305,
                     "title": "Child Video 3.5",
                     "description": "Detailed explanation of expert methods.",
                     "image": "images/child3-1.jpg",
-                    "videoUrl": ""
+                    "videoUrl": "Pending"
                 }
             ]
         },
@@ -1200,7 +1201,7 @@
                     "title": "Aquarium Background",
                     "description": "A DIY aquarium background is a creative way to enhance the aesthetic appeal of your fish tank. Using materials like foam, cement, or natural elements, you can design custom backdrops that mimic realistic underwater landscapes such as rocks or caves.",
                     "image": "src/assets/images/videoCard/aquaBG.png",
-                    "videoUrl": ""
+                    "videoUrl": "Pending"
                 },
                 {
                     "id": 603,
