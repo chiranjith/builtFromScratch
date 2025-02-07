@@ -3,8 +3,8 @@
         "id": 1,
         "title": "Favorite Project",
         "heading": "My most enjoyable DIY project!",
-        "shortDesc": "This project dates back to 2012. While the house itself wasn’t built as a DIY project, I was heavily involved in every step of the process. ",
-        "description": "\nI personally designed the layout, drafted the blueprint, and meticulously planned every detail. With the skilled assistance of masons, I was able to turn my vision into reality, making it an incredibly fulfilling experience! \nOf course, there are some mistakes & drawbacks, but overall, it has been an invaluable learning experience!",
+        "shortDesc": "This project dates back to 2012. While the house itself wasn’t built as a DIY project, I was heavily involved in every step of the process.\nI personally designed the layout, drafted the blueprint, and meticulously planned every detail.",
+        "description": "With the skilled assistance of masons, I was able to turn my vision into reality, making it an incredibly fulfilling experience! \nOf course, there are some mistakes & drawbacks, but overall, it has been an invaluable learning experience!",
         "imageBanner": "/src/assets/images/banner/favoriteBanner.png",
         "image": "",
         "videoUrl": "",
@@ -12,170 +12,176 @@
             {
                 "id": 1,
                 "image": "/src/assets/images/favProject/FrontView.jpg",
-                "title": "Front Door",
-                "description": "Whether you're"
+                "title": "Front & Side Elevation",
+                "description": "Sorry for the low photo quality—it's from a 2011 model phone! 🙂"
             },
             {
                 "id": 2,
                 "image": "/src/assets/images/favProject/TopView.jpg",
-                "title": "Back Door",
-                "description": "Whether you're"
+                "title": "1st Floor Top Elevation",
+                "description": "I don't have a civil or structural background—I just came up with this plan..."
             },
             {
                 "id": 3,
                 "image": "/src/assets/images/favProject/FirstFloor.jpg",
-                "title": "Front Door",
-                "description": "Whether you're"
+                "title": "2nd Floor Top Elevation",
+                "description": "Looking back, I feel like I could have planned it better. :("
             },
             {
                 "id": 4,
                 "image": "/src/assets/images/favProject/cornerLot.jpg",
-                "title": "Back Door",
-                "description": "Whether you're"
+                "title": "Corner Lot - 1900 sqft",
+                "description": "This is a corner lot in a gated community with only 19 lots."
             },
             {
                 "id": 5,
                 "image": "/src/assets/images/favProject/groundBreaking.jpg",
-                "title": "Back Door",
-                "description": "Whether you're"
+                "title": "Ground Breaking",
+                "description": "The bhoomi pooja (Ground Breaking) was done on 23-Feb-12"
             },
             {
                 "id": 6,
                 "image": "/src/assets/images/favProject/pillarHoles.jpg",
-                "title": "Back Door",
-                "description": "Whether you're"
+                "title": "Digging holes for concrete piers",
+                "description": "Started digging holes for concrete piers on 11-Mar-12"
             },
             {
                 "id": 7,
                 "image": "/src/assets/images/favProject/waterTank.jpg",
-                "title": "Back Door",
-                "description": "Whether you're"
+                "title": "UG Water Tank",
+                "description": "Started under ground water tank on 11-Mar-12"
             },
             {
                 "id": 8,
                 "image": "/src/assets/images/favProject/foundation.jpg",
-                "title": "Back Door",
-                "description": "2012-03-25"
+                "title": "Steel Frames for Pillars",
+                "description": "Installed the steel frames for all the pillars by 25-Mar-12"
             },
             {
                 "id": 9,
                 "image": "/src/assets/images/favProject/foundation2.jpg",
-                "title": "Back Door",
-                "description": "2012-04-06"
+                "title": "Plinth Beam",
+                "description": "Reinforced concrete beam that's built at ground level - 06-Apr-12"
             },
             {
                 "id": 10,
                 "image": "/src/assets/images/favProject/foundation3.jpg",
-                "title": "Back Door",
-                "description": "2012-04-22"
+                "title": "Concret Slab",
+                "description": "Inspection of the ground floor concrete slab on 22-Apr-12"
             },
             {
                 "id": 11,
                 "image": "/src/assets/images/favProject/pillars.jpg",
-                "title": "Back Door",
-                "description": "2012-05-03"
+                "title": "Concrete Pillars",
+                "description": "Concret pillars raised to 7 ft - 03-May-12"
             },
             {
                 "id": 12,
                 "image": "/src/assets/images/favProject/internalStairs.jpg",
-                "title": "Back Door",
-                "description": "2012-05-06"
+                "title": "Internal Stairs",
+                "description": "Internal Stairs - 06-May-12"
             },
             {
                 "id": 13,
                 "image": "/src/assets/images/favProject/raisingWalls.jpg",
-                "title": "Back Door",
-                "description": "2012-05-08"
+                "title": "Brick Walls",
+                "description": "Concrete brick walls - 08-May-12"
             },
             {
                 "id": 14,
                 "image": "/src/assets/images/favProject/raisingWalls1.jpg",
-                "title": "Back Door",
-                "description": "2012-05-11"
+                "title": "Brick Walls",
+                "description": "oncrete brick walls - 11-May-12"
             },
             {
                 "id": 15,
                 "image": "/src/assets/images/favProject/beams.jpg",
-                "title": "Back Door",
-                "description": "2012-05-13"
+                "title": "Lintel",
+                "description": "Reinforced concrete beam placed over a window - 13-May-12"
             },
             {
                 "id": 16,
                 "image": "/src/assets/images/favProject/beams1.jpg",
-                "title": "Back Door",
-                "description": "2012-05-15"
+                "title": "Lintel",
+                "description": "Completed reinforced concrete beam across the house - 15-May-12"
             },
             {
                 "id": 17,
                 "image": "/src/assets/images/favProject/topConcrete.jpg",
-                "title": "Back Door",
-                "description": "2012-06-03"
+                "title": "Roof Metal Decking",
+                "description": "Metal support for the roof concrete - 03-Jun-12"
             },
             {
                 "id": 18,
                 "image": "/src/assets/images/favProject/topConcrete1.jpg",
-                "title": "Back Door",
-                "description": "2012-06-08"
+                "title": "Roof Metal Decking",
+                "description": "Metal support for the roof concrete - 08-Jun-12"
+            },
+            {
+                "id": 181,
+                "image": "/src/assets/images/favProject/roofConcrete.jpg",
+                "title": "Roof Concrete",
+                "description": "Roof concrete completed on 16-Jun-12"
             },
             {
                 "id": 19,
                 "image": "/src/assets/images/favProject/topFloor.jpg",
-                "title": "Back Door",
-                "description": "2012-06-19"
+                "title": "Top Floor Pillars",
+                "description": "Rasing the pillars for the top floor - 18-Jun-12"
             },
             {
                 "id": 20,
                 "image": "/src/assets/images/favProject/topFloor1.jpg",
-                "title": "Back Door",
-                "description": "2012-06-19"
+                "title": "Lintel",
+                "description": "Completed reinforced concrete beam across the house - 23-Jun-12"
             },
             {
                 "id": 21,
                 "image": "/src/assets/images/favProject/topFloor2.jpg",
-                "title": "Back Door",
-                "description": "2012-06-30"
+                "title": "Brick Walls",
+                "description": "Complete the top floor wall construction on 30-Jun-12"
             },
             {
                 "id": 22,
                 "image": "/src/assets/images/favProject/topFloor3.jpg",
-                "title": "Back Door",
-                "description": "2012-07-06"
+                "title": "Top Floor Roofing",
+                "description": "Top floor concrete tapered roof - 06-Jul-12"
             },
             {
                 "id": 23,
                 "image": "/src/assets/images/favProject/electrical.jpg",
-                "title": "Back Door",
-                "description": "2012-07-11"
+                "title": "Electrical Work",
+                "description": "Electrical wiring installation - 07-Jul-12"
             },
             {
                 "id": 24,
                 "image": "/src/assets/images/favProject/plastering.jpg",
-                "title": "Back Door",
-                "description": "2012-08-12"
+                "title": "Concrete Plastering",
+                "description": "Indoor wall concrete plastering - 22-Jul-12"
             },
             {
                 "id": 25,
                 "image": "/src/assets/images/favProject/internalStairs1.jpg",
-                "title": "Back Door",
-                "description": "2012-05-06"
+                "title": "Concrete Plastering",
+                "description": "Indoor wall concrete plastering - 12-Aug-12"
             },
             {
                 "id": 26,
                 "image": "/src/assets/images/favProject/plastering1.jpg",
-                "title": "Back Door",
-                "description": "2012-08-15"
+                "title": "Concrete Plastering",
+                "description": "Outdoor wall concrete plastering - 28-Aug-12"
             },
             {
                 "id": 27,
                 "image": "/src/assets/images/favProject/plastering2.jpg",
-                "title": "Back Door",
-                "description": "2012-08-21"
+                "title": "Concrete Plastering",
+                "description": "Outdoor wall concrete plastering - 12-Sep-12"
             },
             {
                 "id": 28,
                 "image": "/src/assets/images/favProject/plastering3.jpg",
-                "title": "Back Door",
-                "description": "2012-08-21"
+                "title": "Concrete Plastering",
+                "description": "Outdoor wall concrete plastering - 12-Sep-12"
             },
             {
                 "id": 29,
@@ -184,7 +190,7 @@
                 "description": "Front"
             },
             {
-                "id": 29,
+                "id": 291,
                 "image": "/src/assets/images/favProject/LivingRoom.jpg",
                 "title": "Front Door",
                 "description": "Front"
