@@ -9,8 +9,8 @@ const MidSectionVideoGrid = () => {
     "Planter",
     "Indoor Project",
     "Self Watering Planter",
-    "Landscape",
     "Garage Organization",
+    "Landscape",
     "Pooja Mantapa",
   ]; //Title should map to title in VideoList.json
 

@@ -1,4 +1,5 @@
-import { Box, Flex, Image } from "@chakra-ui/react";
+import { Box, Flex, Image, Link } from "@chakra-ui/react";
+import { Link as RouterLink } from "react-router-dom";
 import FavoriteSmallCard from "./FavoriteSmallCard";
 import images from "../../../assets/images";
 
@@ -38,12 +39,17 @@ const FavoriteProject = () => {
           }}
           transition="all 1s ease-in-out"
         >
-          <Image
-            src={images.favProj.homeImg}
-            alt="Home Image"
-            w={{ sm: "116px", md: "100%", lg: "120%", "2xl": "120%" }}
-            objectFit="cover"
-          />
+          <Link
+            as={RouterLink}
+            to="/favorite" // Internal link
+          >
+            <Image
+              src={images.favProj.homeImg}
+              alt="Home Image"
+              w={{ sm: "116px", md: "100%", lg: "120%", "2xl": "120%" }}
+              objectFit="cover"
+            />
+          </Link>
         </Flex>
         <Flex
           direction="row"

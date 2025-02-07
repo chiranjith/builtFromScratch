@@ -1,11 +1,10 @@
 import { Box, Text, useBreakpointValue, Flex, Image } from "@chakra-ui/react";
 
-interface ChildVideo {
+interface VideoChildData {
   id: number;
   title: string;
-  description: string;
   image: string;
-  videoUrl: string;
+  description: string;
 }
 
 interface VideoData {
@@ -17,7 +16,7 @@ interface VideoData {
   shortDesc: string;
   videoUrl: string;
   description: string;
-  children?: VideoData[]; // Assuming each video can have its own children
+  children?: VideoChildData[]; // Assuming each video can have its own children
 }
 
 interface VideoCardProps {

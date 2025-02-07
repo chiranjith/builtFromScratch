@@ -1,0 +1,254 @@
+[
+    {
+        "id": 1,
+        "title": "Favorite Project",
+        "heading": "My most enjoyable DIY project!",
+        "shortDesc": "This project dates back to 2012. While the house itself wasn’t built as a DIY project, I was heavily involved in every step of the process. ",
+        "description": "\nI personally designed the layout, drafted the blueprint, and meticulously planned every detail. With the skilled assistance of masons, I was able to turn my vision into reality, making it an incredibly fulfilling experience! \nOf course, there are some mistakes & drawbacks, but overall, it has been an invaluable learning experience!",
+        "imageBanner": "/src/assets/images/banner/favoriteBanner.png",
+        "image": "",
+        "videoUrl": "",
+        "children": [
+            {
+                "id": 1,
+                "image": "/src/assets/images/favProject/FrontView.jpg",
+                "title": "Front Door",
+                "description": "Whether you're"
+            },
+            {
+                "id": 2,
+                "image": "/src/assets/images/favProject/TopView.jpg",
+                "title": "Back Door",
+                "description": "Whether you're"
+            },
+            {
+                "id": 3,
+                "image": "/src/assets/images/favProject/FirstFloor.jpg",
+                "title": "Front Door",
+                "description": "Whether you're"
+            },
+            {
+                "id": 4,
+                "image": "/src/assets/images/favProject/cornerLot.jpg",
+                "title": "Back Door",
+                "description": "Whether you're"
+            },
+            {
+                "id": 5,
+                "image": "/src/assets/images/favProject/groundBreaking.jpg",
+                "title": "Back Door",
+                "description": "Whether you're"
+            },
+            {
+                "id": 6,
+                "image": "/src/assets/images/favProject/pillarHoles.jpg",
+                "title": "Back Door",
+                "description": "Whether you're"
+            },
+            {
+                "id": 7,
+                "image": "/src/assets/images/favProject/waterTank.jpg",
+                "title": "Back Door",
+                "description": "Whether you're"
+            },
+            {
+                "id": 8,
+                "image": "/src/assets/images/favProject/foundation.jpg",
+                "title": "Back Door",
+                "description": "2012-03-25"
+            },
+            {
+                "id": 9,
+                "image": "/src/assets/images/favProject/foundation2.jpg",
+                "title": "Back Door",
+                "description": "2012-04-06"
+            },
+            {
+                "id": 10,
+                "image": "/src/assets/images/favProject/foundation3.jpg",
+                "title": "Back Door",
+                "description": "2012-04-22"
+            },
+            {
+                "id": 11,
+                "image": "/src/assets/images/favProject/pillars.jpg",
+                "title": "Back Door",
+                "description": "2012-05-03"
+            },
+            {
+                "id": 12,
+                "image": "/src/assets/images/favProject/internalStairs.jpg",
+                "title": "Back Door",
+                "description": "2012-05-06"
+            },
+            {
+                "id": 13,
+                "image": "/src/assets/images/favProject/raisingWalls.jpg",
+                "title": "Back Door",
+                "description": "2012-05-08"
+            },
+            {
+                "id": 14,
+                "image": "/src/assets/images/favProject/raisingWalls1.jpg",
+                "title": "Back Door",
+                "description": "2012-05-11"
+            },
+            {
+                "id": 15,
+                "image": "/src/assets/images/favProject/beams.jpg",
+                "title": "Back Door",
+                "description": "2012-05-13"
+            },
+            {
+                "id": 16,
+                "image": "/src/assets/images/favProject/beams1.jpg",
+                "title": "Back Door",
+                "description": "2012-05-15"
+            },
+            {
+                "id": 17,
+                "image": "/src/assets/images/favProject/topConcrete.jpg",
+                "title": "Back Door",
+                "description": "2012-06-03"
+            },
+            {
+                "id": 18,
+                "image": "/src/assets/images/favProject/topConcrete1.jpg",
+                "title": "Back Door",
+                "description": "2012-06-08"
+            },
+            {
+                "id": 19,
+                "image": "/src/assets/images/favProject/topFloor.jpg",
+                "title": "Back Door",
+                "description": "2012-06-19"
+            },
+            {
+                "id": 20,
+                "image": "/src/assets/images/favProject/topFloor1.jpg",
+                "title": "Back Door",
+                "description": "2012-06-19"
+            },
+            {
+                "id": 21,
+                "image": "/src/assets/images/favProject/topFloor2.jpg",
+                "title": "Back Door",
+                "description": "2012-06-30"
+            },
+            {
+                "id": 22,
+                "image": "/src/assets/images/favProject/topFloor3.jpg",
+                "title": "Back Door",
+                "description": "2012-07-06"
+            },
+            {
+                "id": 23,
+                "image": "/src/assets/images/favProject/electrical.jpg",
+                "title": "Back Door",
+                "description": "2012-07-11"
+            },
+            {
+                "id": 24,
+                "image": "/src/assets/images/favProject/plastering.jpg",
+                "title": "Back Door",
+                "description": "2012-08-12"
+            },
+            {
+                "id": 25,
+                "image": "/src/assets/images/favProject/internalStairs1.jpg",
+                "title": "Back Door",
+                "description": "2012-05-06"
+            },
+            {
+                "id": 26,
+                "image": "/src/assets/images/favProject/plastering1.jpg",
+                "title": "Back Door",
+                "description": "2012-08-15"
+            },
+            {
+                "id": 27,
+                "image": "/src/assets/images/favProject/plastering2.jpg",
+                "title": "Back Door",
+                "description": "2012-08-21"
+            },
+            {
+                "id": 28,
+                "image": "/src/assets/images/favProject/plastering3.jpg",
+                "title": "Back Door",
+                "description": "2012-08-21"
+            },
+            {
+                "id": 29,
+                "image": "/src/assets/images/favProject/frontdoor.jpg",
+                "title": "Front Door",
+                "description": "Front"
+            },
+            {
+                "id": 29,
+                "image": "/src/assets/images/favProject/LivingRoom.jpg",
+                "title": "Front Door",
+                "description": "Front"
+            },
+            {
+                "id": 30,
+                "image": "/src/assets/images/favProject/LivingRoom2.jpg",
+                "title": "Front Door",
+                "description": "Front"
+            },
+            {
+                "id": 31,
+                "image": "/src/assets/images/favProject/Stairs.jpg",
+                "title": "Front Door",
+                "description": "Front"
+            },
+            {
+                "id": 32,
+                "image": "/src/assets/images/favProject/Stairs2.jpg",
+                "title": "Front Door",
+                "description": "Front"
+            },
+            {
+                "id": 33,
+                "image": "/src/assets/images/favProject/DiningRoom.jpg",
+                "title": "Front Door",
+                "description": "Front"
+            },
+            {
+                "id": 34,
+                "image": "/src/assets/images/favProject/DiningRoom2.jpg",
+                "title": "Front Door",
+                "description": "Front"
+            },
+            {
+                "id": 35,
+                "image": "/src/assets/images/favProject/Guestroom.jpg",
+                "title": "Front Door",
+                "description": "Front"
+            },
+            {
+                "id": 36,
+                "image": "/src/assets/images/favProject/Kitchen.jpg",
+                "title": "Front Door",
+                "description": "Front"
+            },
+            {
+                "id": 37,
+                "image": "/src/assets/images/favProject/Kitchen2.jpg",
+                "title": "Front Door",
+                "description": "Front"
+            },
+            {
+                "id": 38,
+                "image": "/src/assets/images/favProject/home1.jpg",
+                "title": "Front Door",
+                "description": "Front"
+            },
+            {
+                "id": 39,
+                "image": "/src/assets/images/favProject/home2.webp",
+                "title": "Front Door",
+                "description": "Front"
+            }
+        ]
+    }
+]

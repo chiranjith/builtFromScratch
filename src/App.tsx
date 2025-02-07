@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import VLP from "./components/vlp/VLP";
 import VIP from "./components/vip/VIP";
 import AboutPage from "./components/otherPages/AboutPage";
+import FavoritePage from "./components/otherPages/FavoritePage";
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
         <Route path="/vip/:videoId" element={<VIP />} />
 
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/favorite" element={<FavoritePage />} />
       </Routes>
     </Router>
   );

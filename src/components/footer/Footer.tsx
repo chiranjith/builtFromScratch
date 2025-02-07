@@ -5,6 +5,7 @@ import {
   FaInstagram,
   FaLinkedin,
   FaTwitter,
+  FaYoutube,
 } from "react-icons/fa";
 import Categories from "./Categories";
 import { useEffect } from "react";
@@ -111,17 +112,26 @@ const Footer = () => {
 
       {/* Middle Section: Social Links */}
       <Flex justifyContent="center" mb={10} gap={4}>
-        <Link href="#" isExternal>
+        <Link
+          href="https://www.facebook.com/groups/1016258166999265"
+          isExternal
+        >
           <Icon as={FaFacebookF} w={6} h={6} _hover={{ color: "blue.400" }} />
         </Link>
-        <Link href="#" isExternal>
+        <Link href="https://x.com/builtFrScratch" isExternal>
           <Icon as={FaTwitter} w={6} h={6} _hover={{ color: "blue.400" }} />
         </Link>
-        <Link href="#" isExternal>
+        <Link
+          href="https://www.instagram.com/built_from_scratch_ck/"
+          isExternal
+        >
           <Icon as={FaInstagram} w={6} h={6} _hover={{ color: "pink.400" }} />
         </Link>
-        <Link href="#" isExternal>
+        <Link href="https://www.linkedin.com/in/chiranjith" isExternal>
           <Icon as={FaLinkedin} w={6} h={6} _hover={{ color: "blue.400" }} />
+        </Link>
+        <Link href="https://www.youtube.com/@builtfromscratch" isExternal>
+          <Icon as={FaYoutube} w={6} h={6} _hover={{ color: "blue.400" }} />
         </Link>
       </Flex>
 
