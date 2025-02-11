@@ -148,6 +148,12 @@
                 "description": "Top floor concrete tapered roof - 06-Jul-12"
             },
             {
+                "id": 221,
+                "image": "/src/assets/images/favProject/topFloor4.jpg",
+                "title": "Top Floor Roofing",
+                "description": "Top floor concrete tapered roof - 06-Jul-12"
+            },
+            {
                 "id": 23,
                 "image": "/src/assets/images/favProject/electrical.jpg",
                 "title": "Electrical Work",
@@ -162,6 +168,12 @@
             {
                 "id": 25,
                 "image": "/src/assets/images/favProject/internalStairs1.jpg",
+                "title": "Concrete Plastering",
+                "description": "Indoor wall concrete plastering - 12-Aug-12"
+            },
+            {
+                "id": 251,
+                "image": "/src/assets/images/favProject/internalStairs2.jpg",
                 "title": "Concrete Plastering",
                 "description": "Indoor wall concrete plastering - 12-Aug-12"
             },
@@ -245,7 +257,7 @@
             },
             {
                 "id": 38,
-                "image": "/src/assets/images/favProject/home1.jpg",
+                "image": "/src/assets/images/favProject/homeSideView.jpg",
                 "title": "Front Door",
                 "description": "Front"
             },
