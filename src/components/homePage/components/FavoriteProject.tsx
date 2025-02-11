@@ -1,4 +1,5 @@
-import { Box, Flex, Image } from "@chakra-ui/react";
+import { Box, Flex, Image, Link } from "@chakra-ui/react";
+import { Link as RouterLink } from "react-router-dom";
 import FavoriteSmallCard from "./FavoriteSmallCard";
 import images from "../../../assets/images";
 
@@ -19,13 +20,14 @@ const FavoriteProject = () => {
       mb={{ base: "35px", md: "70px", lg: "90px" }}
     >
       <Box
-        w="100%"
-        h={{ sm: "180px", md: "205px", lg: "394px", "2xl": "520px" }}
+        w={{ base: "100%", "2xl": "95%" }}
+        h={{ sm: "180px", md: "205px", lg: "394px", "2xl": "680px" }}
         position="relative"
         overflow="visible" // Allow child elements to overflow
         mx={"4"} //equal space on left & right
         borderBottom="1px dashed gray"
         borderTop="1px dashed gray"
+        maxWidth="160em"
       >
         <Flex
           h="100%" // Full height of the Box
@@ -37,12 +39,17 @@ const FavoriteProject = () => {
           }}
           transition="all 1s ease-in-out"
         >
-          <Image
-            src={images.favProj.homeImg}
-            alt="Home Image"
-            w={{ sm: "116px", md: "100%", lg: "120%", "2xl": "100%" }}
-            objectFit="cover"
-          />
+          <Link
+            as={RouterLink}
+            to="/favorite" // Internal link
+          >
+            <Image
+              src={images.favProj.homeImg}
+              alt="Home Image"
+              w={{ sm: "116px", md: "100%", lg: "120%", "2xl": "120%" }}
+              objectFit="cover"
+            />
+          </Link>
         </Flex>
         <Flex
           direction="row"

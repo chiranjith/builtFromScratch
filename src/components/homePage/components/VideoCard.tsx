@@ -29,7 +29,7 @@ const VideoCard = ({ boxType, srcImg, linkTo, state, onClick }: Props) => {
         md: "140px",
         lg: "190px",
         xl: "285px",
-        "2xl": "365px",
+        "2xl": "520px",
       }} // Set a fixed height
       _hover={{
         filter: "grayscale(80%) brightness(0.9) contrast(1)", // Black scale effect

@@ -3,8 +3,11 @@ import yT from "../../assets/images/logos/yTubeSmall.png";
 
 const Subscribe = () => {
   const displayText = useBreakpointValue({ base: "none", md: "inline" });
-  const buttonSize = useBreakpointValue({ base: "sm", md: "md" }); // Small button for mobile, medium for larger screens
-
+  const buttonSize = useBreakpointValue({
+    base: "sm",
+    md: "md",
+    "2xl": "100px",
+  });
   return (
     <>
       <a
@@ -21,10 +24,15 @@ const Subscribe = () => {
         >
           <Image
             src={yT}
-            boxSize={{ base: "16px", md: "20px" }}
-            mr={{ base: "0px", md: "8px" }}
+            boxSize={{ base: "16px", md: "18px", "2xl": "40px" }}
+            mr={{ base: "0px", md: "6px", "2xl": "20px" }}
           />
-          <Text as="span" display={displayText}>
+          <Text
+            as="span"
+            display={displayText}
+            color={"gray.500"}
+            fontSize={{ base: "0.4rem", md: "1rem", "2xl": "2rem" }}
+          >
             Subscribe
           </Text>
         </Button>

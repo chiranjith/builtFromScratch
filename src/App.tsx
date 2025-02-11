@@ -5,8 +5,10 @@ import TopSection from "./components/homePage/TopSection";
 import BottomSection from "./components/homePage/BottomSection";
 import Footer from "./components/footer/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import VLP from "./components/pages/VLP";
-import VIP from "./components/pages/VIP";
+import VLP from "./components/vlp/VLP";
+import VIP from "./components/vip/VIP";
+import AboutPage from "./components/otherPages/AboutPage";
+import FavoritePage from "./components/otherPages/FavoritePage";
 
 function App() {
   return (
@@ -22,7 +24,11 @@ function App() {
               minHeight="100vh"
               rowGap={0}
             >
-              <GridItem area="nav" bg="white" mb={20}>
+              <GridItem
+                area="nav"
+                bg="white"
+                mb={{ base: "60px", md: "70px", lg: "80px", "2xl": "160px" }}
+              >
                 <NavBar />
               </GridItem>
               <GridItem area="about" mb={0}>
@@ -45,6 +51,9 @@ function App() {
         {/* VIP Page */}
         <Route path="/vip" element={<VIP />} />
         <Route path="/vip/:videoId" element={<VIP />} />
+
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/favorite" element={<FavoritePage />} />
       </Routes>
     </Router>
   );

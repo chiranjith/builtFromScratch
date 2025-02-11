@@ -11,7 +11,7 @@ const TopNavLinks = () => {
         align="center"
         color="gray.800"
         fontFamily="geist"
-        fontSize={{ base: ".7rem", md: "1.2rem" }}
+        fontSize={{ base: ".7rem", md: "1.1rem", "2xl": "2rem" }}
         pr={{ base: "1", md: "4" }}
       >
         <Link
@@ -26,7 +26,7 @@ const TopNavLinks = () => {
         </Link>
         <Link
           as={RouterLink}
-          to="/"
+          to="/about"
           _hover={{
             textDecoration: "none",
             color: "gray.400",

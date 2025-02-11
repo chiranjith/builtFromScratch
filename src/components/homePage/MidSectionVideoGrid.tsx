@@ -7,10 +7,10 @@ const MidSectionVideoGrid = () => {
   const videoTitles = [
     "Outdoor Furniture",
     "Planter",
-    "Garage Organization",
-    "Self Watering Planter",
-    "Landscape",
     "Indoor Project",
+    "Self Watering Planter",
+    "Garage Organization",
+    "Landscape",
     "Pooja Mantapa",
   ]; //Title should map to title in VideoList.json
 
@@ -21,7 +21,7 @@ const MidSectionVideoGrid = () => {
         gap={{ base: "2", md: "5" }} // Spacing between grid items
         m={0} // Remove margins on the grid
         px={0} // Remove horizontal padding
-        mb={{ base: "4", md: "12" }}
+        mb={{ base: "4", md: "12", "2xl": "20" }}
       >
         {videoTitles.map((title, index) => {
           const videoDataItem = videoData.videos.find(
