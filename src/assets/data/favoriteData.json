@@ -167,13 +167,13 @@
             },
             {
                 "id": 25,
-                "image": "/src/assets/images/favProject/internalStairs1.jpg",
+                "image": "/src/assets/images/favProject/internalStairs2.jpg",
                 "title": "Concrete Plastering",
                 "description": "Indoor wall concrete plastering - 12-Aug-12"
             },
             {
                 "id": 251,
-                "image": "/src/assets/images/favProject/internalStairs2.jpg",
+                "image": "/src/assets/images/favProject/internalStairs1.jpg",
                 "title": "Concrete Plastering",
                 "description": "Indoor wall concrete plastering - 12-Aug-12"
             },
@@ -199,73 +199,73 @@
                 "id": 29,
                 "image": "/src/assets/images/favProject/frontdoor.jpg",
                 "title": "Front Door",
-                "description": "Front"
+                "description": "Front door made of teak wood with attached safety grill door"
             },
             {
                 "id": 291,
                 "image": "/src/assets/images/favProject/LivingRoom.jpg",
-                "title": "Front Door",
-                "description": "Front"
+                "title": "Living Room",
+                "description": "Living room view of the front door"
             },
             {
                 "id": 30,
                 "image": "/src/assets/images/favProject/LivingRoom2.jpg",
-                "title": "Front Door",
-                "description": "Front"
+                "title": "Living Room",
+                "description": "View of the Dining Room with space for Aquarium on the wall."
             },
             {
                 "id": 31,
                 "image": "/src/assets/images/favProject/Stairs.jpg",
-                "title": "Front Door",
-                "description": "Front"
+                "title": "Internal Stairs",
+                "description": "Internal Stairs from dining room to top floor, 2 ceiling high dining room"
             },
             {
                 "id": 32,
                 "image": "/src/assets/images/favProject/Stairs2.jpg",
-                "title": "Front Door",
-                "description": "Front"
+                "title": "Internal Stairs",
+                "description": "Internal Stairs view from top"
             },
             {
                 "id": 33,
                 "image": "/src/assets/images/favProject/DiningRoom.jpg",
-                "title": "Front Door",
-                "description": "Front"
+                "title": "Dining Room",
+                "description": "View of Kitchen & Master bed room from Dining room."
             },
             {
                 "id": 34,
                 "image": "/src/assets/images/favProject/DiningRoom2.jpg",
-                "title": "Front Door",
-                "description": "Front"
+                "title": "Dining Room",
+                "description": "View of Living Room with Aquarium space on the wall as divider."
             },
             {
                 "id": 35,
                 "image": "/src/assets/images/favProject/Guestroom.jpg",
-                "title": "Front Door",
-                "description": "Front"
+                "title": "Guest Bed Room",
+                "description": "Guest Bed Room on the Top Floor."
             },
             {
                 "id": 36,
                 "image": "/src/assets/images/favProject/Kitchen.jpg",
-                "title": "Front Door",
-                "description": "Front"
+                "title": "Kitchen",
+                "description": "Kitchen with Utilities area on the right."
             },
             {
                 "id": 37,
                 "image": "/src/assets/images/favProject/Kitchen2.jpg",
-                "title": "Front Door",
-                "description": "Front"
+                "title": "Kitchen",
+                "description": "Left side view of the Kitchen. Planning to finish the interiors soon."
             },
             {
                 "id": 38,
                 "image": "/src/assets/images/favProject/homeSideView.jpg",
-                "title": "Front Door",
-                "description": "Front"
+                "title": "Outside View",
+                "description": "Outside left view of the home"
             },
             {
                 "id": 39,
                 "image": "/src/assets/images/favProject/home2.webp",
-                "title": "Front Door",
-                "description": "Front"
+                "title": "Outside View",
+                "description": "Outside left view of the home with open car parking space."
             }
         ]
     }
