@@ -1178,9 +1178,74 @@
                 {
                     "id": 602,
                     "title": "Aquarium Background",
-                    "description": "A DIY aquarium background is a creative way to enhance the aesthetic appeal of your fish tank. Using materials like foam, cement, or natural elements, you can design custom backdrops that mimic realistic underwater landscapes such as rocks or caves.",
+                    "description": "A DIY aquarium background is a creative way to enhance the aesthetic appeal of your fish tank. Using materials like foam, cement, or natural elements, you can design custom backdrops that mimic realistic underwater landscapes such as rocks or caves.\nI don’t have a video of the entire building process since I created this aquarium background back in 2008.\nAt that time, I wasn’t documenting my projects on video. However, I was lucky enough to find some old photos of the build. To share the process as best as I could, I compiled those images into a YouTube video.\nI hope it gives a good idea of how the project came together!\nI used LTX studio to generate video based on the old photos.",
                     "image": "src/assets/images/videoCard/aquaBG.png",
-                    "videoUrl": "Pending"
+                    "videoUrl": "gxwEOm-iL10",
+                    "itemList": [
+                        {
+                            "itemId": 1,
+                            "item": "Foam PVC Black Sheet",
+                            "image": "/src/assets/images/items/pvcSheet.webp",
+                            "size": "18 in x 24 in x 0.24 in",
+                            "qty": "2",
+                            "store": "homeDepot",
+                            "sku": "206402731"
+                        },
+                        {
+                            "itemId": 2,
+                            "item": "Elbow PVC Pipe Fittings",
+                            "image": "/src/assets/images/items/elbow.jpg",
+                            "size": "6 in 90 Deg",
+                            "qty": "1",
+                            "store": "amazon",
+                            "sku": "B0DM22NRZT"
+                        },
+                        {
+                            "itemId": 3,
+                            "item": "Portland Cement",
+                            "image": "/src/assets/images/items/cement.avif",
+                            "size": "92.6 lb",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "100318536"
+                        },
+                        {
+                            "itemId": 31,
+                            "item": "Sand",
+                            "image": "/src/assets/images/items/sand.avif",
+                            "size": "60 lb",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "202092149"
+                        },
+                        {
+                            "itemId": 4,
+                            "item": "Non Toxic Paint",
+                            "image": "/src/assets/images/items/nonToxicPaint.jpg",
+                            "size": "11 oz",
+                            "qty": "1",
+                            "store": "amazon",
+                            "sku": "B0CC5B6WTK"
+                        },
+                        {
+                            "itemId": 5,
+                            "item": "Concrete Sealer",
+                            "image": "/src/assets/images/items/sealer.jpg",
+                            "size": "16 oz",
+                            "qty": "1",
+                            "store": "amazon",
+                            "sku": "B0DLJJYN61"
+                        },
+                        {
+                            "itemId": 6,
+                            "item": "Silicone Sealant",
+                            "image": "/src/assets/images/items/silicone.webp",
+                            "size": "10 oz",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "317320676"
+                        }
+                    ]
                 },
                 {
                     "id": 603,
@@ -1341,6 +1406,51 @@
                             "qty": "1 lb. Box",
                             "store": "homeDepot",
                             "sku": "100115639"
+                        }
+                    ]
+                },
+                {
+                    "id": 604,
+                    "title": "Travel Map",
+                    "description": "A DIY magnetic travel map is a fun and interactive way to track your journeys and plan future adventures. Start with a metal sheet or a framed magnetic board as the base. Print or purchase a world or country map and attach it securely to the board. To make it more interactive, use small magnets, pins, or stickers to mark the places you've visited. You can even customize it with photos, travel notes, or color-coded markers for different trips. This DIY project is not only a great décor piece but also a wonderful way to relive travel memories and inspire future explorations!",
+                    "image": "src/assets/images/videoCard/travelBoard.png",
+                    "videoUrl": "pending",
+                    "itemList": [
+                        {
+                            "itemId": 1,
+                            "item": "Clear Acrylic Sheet",
+                            "image": "/src/assets/images/items/acrylicSheet.webp",
+                            "size": "24 in x 48 in x 1/8 in",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "310292326"
+                        },
+                        {
+                            "itemId": 2,
+                            "item": "USA Map Decal",
+                            "image": "/src/assets/images/items/map.jpg",
+                            "size": "23 in x 37 in",
+                            "qty": "1",
+                            "store": "amazon",
+                            "sku": "B07HCTS52D"
+                        },
+                        {
+                            "itemId": 3,
+                            "item": "Standoff Screws",
+                            "image": "/src/assets/images/items/standoffScrew.jpg",
+                            "size": "1/2 in x 1 in",
+                            "qty": "1",
+                            "store": "amazon",
+                            "sku": "B07Q745N5P"
+                        },
+                        {
+                            "itemId": 4,
+                            "item": "Magnet Metal Plate",
+                            "image": "/src/assets/images/items/magnetPlate.jpg",
+                            "size": "10 Pack",
+                            "qty": "3",
+                            "store": "amazon",
+                            "sku": "B08CHF846J"
                         }
                     ]
                 }
