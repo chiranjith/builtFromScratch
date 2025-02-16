@@ -12,7 +12,7 @@ import FavoritePage from "./components/otherPages/FavoritePage";
 
 function App() {
   return (
-    <Router basename="/builtfromscratch">
+    <Router basename="/builtFromScratch">
       <Routes>
         <Route
           path="/"

@@ -1,9 +1,9 @@
 {
-  "name": "builtfromscratch",
+  "name": "builtFromScratch",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://chiranjith.github.io/builtfromscratch",
+  "homepage": "https://chiranjith.github.io/builtFromScratch",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
