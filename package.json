@@ -3,13 +3,18 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://chiranjith.github.io/builtfromscratch",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.10.4",
+    "@chakra-ui/icons": "^2.2.4",
+    "@chakra-ui/modal": "^2.3.1",
+    "@chakra-ui/react": "^2.10.5",
     "@emotion/react": "^11.13.5",
     "@emotion/styled": "^11.13.5",
     "framer-motion": "^6.5.1",
