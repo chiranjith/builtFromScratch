@@ -1,7 +1,7 @@
 import { Grid } from "@chakra-ui/react";
 import VideoCard from "./components/VideoCard";
 import VideoCardLarge from "./components/VideoCardLarge";
-import videoData from "../../assets/data/videoList.json";
+import videoData from "./../../../public/videoList.json";
 
 const MidSectionVideoGrid = () => {
   const videoTitles = [
