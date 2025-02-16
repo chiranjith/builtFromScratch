@@ -13,7 +13,7 @@ const data = [
       "This project dates back to 2012. While the house itself wasn’t built as a DIY project, I was heavily involved in every step of the process. ",
     description:
       "\nI personally designed the layout, drafted the blueprint, and meticulously planned every detail. With the skilled assistance of masons, I was able to turn my vision into reality, making it an incredibly fulfilling experience! \nOf course, there are some mistakes & drawbacks, but overall, it has been an invaluable learning experience!",
-    imageBanner: "/src/assets/images/banner/favoriteBanner.png",
+    imageBanner: "/builtFromScratch/assets/images/banner/favoriteBanner.png",
     image: "",
     videoUrl: "",
   },
