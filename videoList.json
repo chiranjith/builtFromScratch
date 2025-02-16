@@ -6,14 +6,14 @@
             "heading": "Transform Your Outdoor Space",
             "shortDesc": "Designing & building your own outdoor furniture is a fulfilling DIY project that enhances both the style & practicality of your outdoor space. With some creativity & effort, you can craft stunning, functional pieces that transform your patio.",
             "description": "Whether you're a seasoned builder or just starting out, creating custom furniture lets you personalize it to suit your preferences & requirements while being cost-effective. With some creativity & effort, you can craft stunning, functional pieces that transform your patio into an ideal haven for relaxation & entertainment.",
-            "image": "/assets/images/videoGrid/outdoorFur.webp",
-            "imageBanner": "/assets/images/banner/outdoorBanner.webp",
+            "image": "/builtFromScratch/assets/images/videoGrid/outdoorFur.webp",
+            "imageBanner": "/builtFromScratch/assets/images/banner/outdoorBanner.webp",
             "children": [
                 {
                     "id": 101,
                     "title": "Patio 3 Seat Sectional with Storage",
                     "description": "The Patio 3-Seat Sectional with Storage combines style, comfort, and practicality, making it a perfect addition to your outdoor living space. Designed with a spacious seating arrangement for three people, it offers plush cushions for maximum relaxation.",
-                    "image": "/assets/images/videoCard/patio3Seater.png",
+                    "image": "/builtFromScratch/assets/images/videoCard/patio3Seater.png",
                     "videoUrl": "DDsBZI_pYzg",
                     "itemList": [
                         {
@@ -1064,8 +1064,8 @@
             "heading": "Transform Your Indoor Space",
             "shortDesc": "Transform your indoor space with creative DIY projects that blend functionality and style. DIY indoor projects offer a creative and rewarding way to enhance your home's interior. ",
             "description": "\nFrom custom shelving and furniture builds to decorative wall art and lighting upgrades, these projects allow you to personalize your space while improving functionality and style. \nWhether you're repurposing materials or crafting something from scratch, DIY indoor projects can add character and charm to any room.",
-            "image": "/src/assets/images/videoGrid/indoorProject.webp",
-            "imageBanner": "/src/assets/images/banner/indoorBanner.webp",
+            "image": "/assets/images/videoGrid/indoorProject.webp",
+            "imageBanner": "/assets/images/banner/indoorBanner.webp",
             "children": [
                 {
                     "id": 601,
