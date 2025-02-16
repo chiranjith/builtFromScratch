@@ -1,5 +1,5 @@
 import { GridItem, Stack, Text, filter } from "@chakra-ui/react";
-import videoList from "../../assets/data/videoList.json";
+import videoList from "./../../../public/videoList.json";
 import CustomLink from "../../assets/CustomLink";
 
 const Categories = () => {
