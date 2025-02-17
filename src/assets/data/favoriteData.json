@@ -5,7 +5,8 @@
         "heading": "My most enjoyable DIY project!",
         "shortDesc": "This project dates back to 2012. While the house itself wasn’t built as a DIY project, I was heavily involved in every step of the process.\nI personally designed the layout, drafted the blueprint, and meticulously planned every detail.",
         "description": " With the skilled assistance of masons, I was able to turn my vision into reality, making it an incredibly fulfilling experience! \nOf course, there are some mistakes & drawbacks, but overall, it has been an invaluable learning experience!",
-        "imageBanner": "/src/assets/images/banner/favoriteBanner.png",
+        "imageBanner1": "/src/assets/images/banner/favoriteBanner.png",
+        "imageBanner": "/builtFromScratch/images/banner/favoriteBanner.png",
         "image": "",
         "videoUrl": "",
         "children": [

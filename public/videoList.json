@@ -19,7 +19,7 @@
                         {
                             "itemId": 1,
                             "item": "PT Lumber",
-                            "image": "/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/images/items/Lumber.aviff",
                             "size": "2 in. x 4 in. x 12 ft",
                             "qty": "5",
                             "store": "homeDepot",
