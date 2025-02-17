@@ -1,4 +1,7 @@
 <script>
-    window.location.replace("/builtFromScratch" + window.location.pathname + window.location.search);
+    var path = window.location.pathname + window.location.search;
+    if (!path.startsWith("/builtFromScratch")) {
+      window.location.replace("/builtFromScratch" + path);
+    }
   </script>
   
