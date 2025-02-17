@@ -13,10 +13,10 @@ import selfWater from "./../../public/images/videoGrid/selfWater.webp"
 import planters from "./../../public/images/videoGrid/planters.webp"
 import pooja from "./../../public/images/videoGrid/pooja.webp"
 //fav project
-import homeImg from "./../assets/images/favProject/homeImg.webp"
-import homeSm1 from "./../assets/images/favProject/homeSmall1.webp"
-import homeSm2 from "./../assets/images/favProject/homeSmall2.webp"
-import homeSm3 from "./../assets/images/favProject/homeSmall3.webp"
+import homeImg from "./../../public/images/favProject/homeImg.webp"
+import homeSm1 from "./../../public/images/favProject/homeSmall1.webp"
+import homeSm2 from "./../../public/images/favProject/homeSmall2.webp"
+import homeSm3 from "./../../public/images/favProject/homeSmall3.webp"
 
 
 const logos: { [key: string]: string } = {
