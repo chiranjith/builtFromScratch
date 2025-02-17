@@ -1,4 +1,4 @@
-import { Box, Image, Text, Flex, Link } from "@chakra-ui/react";
+import { Box, Image, Text, Flex, Link, Divider } from "@chakra-ui/react";
 
 const About = () => {
   return (
@@ -71,6 +71,39 @@ const About = () => {
               LinkedIn
             </Link>
             .
+          </Text>
+        </Box>
+      </Flex>
+      {/* Divider Line */}
+      <Box borderBottom="2px solid #E2E8F0" my={10} />
+      {/* New Section with Image on Left & Text on Right */}
+      <Flex direction={{ base: "column", md: "row" }} align="center" gap={6}>
+        {/* Image */}
+        <Box flex="0 0 40%" minWidth="250px" maxWidth="500px">
+          <Image
+            src="/builtFromScratch/images/favProject/diy.png"
+            alt="New Section Image"
+            w="30%"
+            objectFit="cover"
+            borderRadius="lg"
+          />
+        </Box>
+
+        {/* Text Content */}
+        <Box flex="1">
+          <Text fontSize={{ base: "18px", "2xl": "28px" }} fontWeight="bold">
+            My DIY Philosophy
+          </Text>
+          <Text color="gray.600" mt={4}>
+            I believe that DIY is not just about building things—it's about
+            creativity, problem-solving, and personal growth. Every project
+            teaches me something new, whether it's a small fix or a large-scale
+            build.
+          </Text>
+          <Text color="gray.600" mt={4}>
+            My goal is to inspire others to pick up tools, get creative, and
+            start building from scratch. Whether you're an expert or a beginner,
+            there's always something exciting to learn in the world of DIY.
           </Text>
         </Box>
       </Flex>
