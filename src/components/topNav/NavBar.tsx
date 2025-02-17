@@ -1,6 +1,5 @@
 import { Box, Flex, Image, HStack } from "@chakra-ui/react";
-import logo from "../../assets/images/logos/bfsLogo2.png";
-import ColorModeSwitch from "../ColorModeSwitch";
+import logo from "./../../../public/images/logos/bfsLogo2.png";
 import Subscribe from "./Subscribe";
 import TopNavLinks from "./TopNavLinks";
 import { Link } from "react-router-dom";

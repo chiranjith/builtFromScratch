@@ -1,5 +1,5 @@
 import { Button, useBreakpointValue, Image, Text } from "@chakra-ui/react";
-import yT from "../../assets/images/logos/yTubeSmall.png";
+import yT from "./../../../public/images/logos/yTubeSmall.png";
 
 const Subscribe = () => {
   const displayText = useBreakpointValue({ base: "none", md: "inline" });
