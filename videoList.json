@@ -17,6 +17,15 @@
                     "videoUrl": "DDsBZI_pYzg",
                     "itemList": [
                         {
+                            "itemId": 3,
+                            "item": "SYP Lumber",
+                            "image": "/builtFromScratch/images/items/LumberThk.avif",
+                            "size": "2 in. x 10 in. x 12 ft",
+                            "qty": "2",
+                            "store": "homeDepot",
+                            "sku": "206893708"
+                        },
+                        {
                             "itemId": 1,
                             "item": "PT Lumber",
                             "image": "/builtFromScratch/images/items/Lumber.avif",
@@ -33,15 +42,6 @@
                             "qty": "5",
                             "store": "homeDepot",
                             "sku": "206967813"
-                        },
-                        {
-                            "itemId": 3,
-                            "item": "SYP Lumber",
-                            "image": "/builtFromScratch/images/items/LumberThk.avif",
-                            "size": "2 in. x 10 in. x 12 ft",
-                            "qty": "2",
-                            "store": "homeDepot",
-                            "sku": "206893708"
                         },
                         {
                             "itemId": 4,
