@@ -794,7 +794,7 @@
                     "size": "1 in x 3 in x 6 ft",
                     "qty": "7",
                     "store": "lowes",
-                    "sku": "1000555099"
+                    "sku": "Top-Choice-Common-1-in-x-3-in-x-6-ft-Actual-0-75-in-x-2-5-in-x-6-ft-Pine-Board/1000555099"
                 },
                 {
                     "itemId": 3,
@@ -803,7 +803,7 @@
                     "size": "1 in x 4 in x 6 ft",
                     "qty": "1",
                     "store": "lowes",
-                    "sku": "5002027807"
+                    "sku": "ReliaBilt-1-in-x-4-in-x-6-ft-Square-Unfinished-Poplar-Board/5002027807"
                 },
                 {
                     "itemId": 4,
@@ -848,7 +848,7 @@
                     "size": "1 in x 6 in x 6 ft",
                     "qty": "1",
                     "store": "lowes",
-                    "sku": "1000221413"
+                    "sku": "Common-1-in-x-6-in-x-8-ft-Actual-0-75-in-x-5-5-in-x-8-ft-Southern-Yellow-Pine-Board/1000221413"
                 },
                 {
                     "itemId": 9,
@@ -866,7 +866,7 @@
                     "size": "1 in x 2 in x 8 ft",
                     "qty": "7",
                     "store": "lowes",
-                    "sku": "1000074271"
+                    "sku": "ReliaBilt-1-in-x-2-in-x-8-ft-Square-Unfinished-Poplar-Board/5002010279"
                 },
                 {
                     "itemId": 11,
@@ -884,7 +884,7 @@
                     "size": "60 in x 34 in x 24 ft",
                     "qty": "1",
                     "store": "lowes",
-                    "sku": "5013901549"
+                    "sku": "Project-Source-Cheyenne-White-60-in-W-x-34-5-in-H-x-24-56-in-D-White-Sink-Base-Ready-To-Assemble-Cabinet-Raised-Panel-Square-Door-Style/5013901549"
                 },
                 {
                     "itemId": 13,
@@ -948,14 +948,89 @@
                     "description": "Converting a sprinkler head to a drip irrigation system is a practical way to save water and ensure efficient watering for your plants. By redirecting water from a traditional sprinkler to a targeted drip system, you can reduce runoff, prevent overwatering, and deliver moisture directly to the roots where plants need it most. This eco-friendly project is perfect for gardens, flower beds, or landscaping areas and involves installing a drip manifold or adapter to replace the existing sprinkler head. With minimal tools and effort, you can transform your irrigation system into a more sustainable and effective solution.",
                     "image": "/builtFromScratch/images/videoCard/dripIrrigation.png",
                     "videoUrl": "DHKHuXyZvWs",
-                    "itemList": "DHKHuXyZvWs"
+                    "itemList": [
+                        {
+                            "itemId": 1,
+                            "item": "Drip Irrigation Kit",
+                            "image": "/builtFromScratch/images/items/drip.jpg",
+                            "size": "1/4 in",
+                            "qty": "1",
+                            "store": "amazon",
+                            "sku": "B01H6ZN0NU"
+                        },
+                        {
+                            "itemId": 2,
+                            "item": "2 Port Irrigation Manifold",
+                            "image": "/builtFromScratch/images/items/irrigation2.avif",
+                            "size": "1/4 in",
+                            "qty": "1",
+                            "store": "lowes",
+                            "sku": "Orbit-2-Port-NPT-Irrigation-Manifold-with-Filter/999930384"
+                        },
+                        {
+                            "itemId": 3,
+                            "item": "4 Port Irrigation Manifold",
+                            "image": "/builtFromScratch/images/items/irrigation4.avif",
+                            "size": "1/4 in",
+                            "qty": "1",
+                            "store": "lowes",
+                            "sku": "Orbit-4-Port-NPT-Irrigation-Manifold-with-Filter/3132573"
+                        },
+                        {
+                            "itemId": 4,
+                            "item": "Flexible Riser",
+                            "image": "/builtFromScratch/images/items/riser.avif",
+                            "size": "1/2 in x 1/2 in",
+                            "qty": "1",
+                            "store": "lowes",
+                            "sku": "Orbit-1-2-in-MNPT-x-1-2-in-MNPT-Flexible-Riser/3424920"
+                        }
+                    ]
                 },
                 {
                     "id": 302,
                     "title": "Brick Edging",
-                    "description": "Brick edging is a simple and stylish way to define garden beds, walkways, or outdoor spaces. This DIY project not only enhances the visual appeal of your yard but also provides a practical barrier to keep grass and weeds from encroaching on your flower beds or pathways. To create brick edging, you'll need to dig a shallow trench, lay a sand or gravel base for stability, and position the bricks either flat or angled, depending on your design preference. With a bit of planning and effort, you can achieve a professional-looking, durable edge that adds charm and structure to your outdoor space.",
+                    "description": "Brick edging is a simple and stylish way to define garden beds, walkways, or outdoor spaces. This DIY project not only enhances the visual appeal of your yard but also provides a practical barrier to keep grass and weeds from encroaching on your flower beds or pathways. \nTo create brick edging, you'll need to dig a shallow trench, lay a sand or gravel base for stability, and position the bricks either flat or angled, depending on your design preference. \nWith a bit of planning and effort, you can achieve a professional-looking, durable edge that adds charm and structure to your outdoor space.",
                     "image": "/builtFromScratch/images/videoCard/brickEdging1.png",
-                    "videoUrl": "WY34CS9112o"
+                    "videoUrl": "WY34CS9112o",
+                    "itemList": [
+                        {
+                            "itemId": 1,
+                            "item": "Clay Brick",
+                            "image": "/builtFromScratch/images/items/brick.avif",
+                            "size": "4 in x 8 in",
+                            "qty": "",
+                            "store": "lowes",
+                            "sku": "8-in-x-4-in-Clay-Red-Cored-Standard-Brick/5013595093"
+                        },
+                        {
+                            "itemId": 2,
+                            "item": "2 Port Irrigation Manifold",
+                            "image": "/builtFromScratch/images/items/concrete.webp",
+                            "size": "50 lb",
+                            "qty": "",
+                            "store": "homeDepot",
+                            "sku": "100318521"
+                        },
+                        {
+                            "itemId": 3,
+                            "item": "Landscape Edging",
+                            "image": "/builtFromScratch/images/items/edging.webp",
+                            "size": "100 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "205960614"
+                        },
+                        {
+                            "itemId": 6,
+                            "item": "Black Plastic Sheet",
+                            "image": "/builtFromScratch/images/items/pondLiner.jpg",
+                            "size": "7 ft. x 10 ft.",
+                            "qty": "1",
+                            "store": "amazon",
+                            "sku": "B0CS2YSHHZ"
+                        }
+                    ]
                 }
             ]
         },
@@ -1090,7 +1165,7 @@
                             "size": "1 in. x 6 in. x 6 ft",
                             "qty": "1",
                             "store": "lowes",
-                            "sku": "5002010019"
+                            "sku": "ReliaBilt-1-in-x-6-in-x-6-ft-Square-Unfinished-Pine-Board/5002010019"
                         },
                         {
                             "itemId": 3,
@@ -1117,7 +1192,7 @@
                             "size": "1 in x 6 in x 12 ft",
                             "qty": "1",
                             "store": "lowes",
-                            "sku": "1000228515"
+                            "sku": "Common-1-in-x-6-in-x-12-ft-Actual-0-75-in-x-5-5-in-x-12-ft-Southern-Yellow-Pine-Board/1000228515"
                         },
                         {
                             "itemId": 6,
@@ -1270,7 +1345,7 @@
                             "size": "1 in x 3 in x 6 ft",
                             "qty": "7",
                             "store": "lowes",
-                            "sku": "1000555099"
+                            "sku": "Top-Choice-Common-1-in-x-3-in-x-6-ft-Actual-0-75-in-x-2-5-in-x-6-ft-Pine-Board/1000555099"
                         },
                         {
                             "itemId": 3,
@@ -1279,7 +1354,7 @@
                             "size": "1 in x 4 in x 6 ft",
                             "qty": "1",
                             "store": "lowes",
-                            "sku": "5002027807"
+                            "sku": "ReliaBilt-1-in-x-4-in-x-6-ft-Square-Unfinished-Poplar-Board/5002027807"
                         },
                         {
                             "itemId": 4,
@@ -1324,7 +1399,7 @@
                             "size": "1 in x 6 in x 6 ft",
                             "qty": "1",
                             "store": "lowes",
-                            "sku": "1000221413"
+                            "sku": "Common-1-in-x-6-in-x-8-ft-Actual-0-75-in-x-5-5-in-x-8-ft-Southern-Yellow-Pine-Board/1000221413"
                         },
                         {
                             "itemId": 9,
@@ -1342,7 +1417,7 @@
                             "size": "1 in x 2 in x 8 ft",
                             "qty": "7",
                             "store": "lowes",
-                            "sku": "1000074271"
+                            "sku": "ReliaBilt-1-in-x-2-in-x-8-ft-Square-Unfinished-Poplar-Board/5002010279"
                         },
                         {
                             "itemId": 11,
@@ -1360,7 +1435,7 @@
                             "size": "60 in x 34 in x 24 ft",
                             "qty": "1",
                             "store": "lowes",
-                            "sku": "5013901549"
+                            "sku": "Project-Source-Cheyenne-White-60-in-W-x-34-5-in-H-x-24-56-in-D-White-Sink-Base-Ready-To-Assemble-Cabinet-Raised-Panel-Square-Door-Style/5013901549"
                         },
                         {
                             "itemId": 13,
@@ -1479,7 +1554,7 @@
                     "size": "1 in. x 6 in. x 6 ft",
                     "qty": "1",
                     "store": "lowes",
-                    "sku": "5002010019"
+                    "sku": "ReliaBilt-1-in-x-6-in-x-6-ft-Square-Unfinished-Pine-Board/5002010019"
                 },
                 {
                     "itemId": 3,
@@ -1506,7 +1581,7 @@
                     "size": "1 in x 6 in x 12 ft",
                     "qty": "1",
                     "store": "lowes",
-                    "sku": "1000228515"
+                    "sku": "Common-1-in-x-6-in-x-12-ft-Actual-0-75-in-x-5-5-in-x-12-ft-Southern-Yellow-Pine-Board/1000228515"
                 },
                 {
                     "itemId": 6,
