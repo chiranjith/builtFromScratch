@@ -31,7 +31,7 @@ const setURL = ({ store, sku }: ItemList): string => {
 const getStoreLogo = (store: string): string => {
   switch (store) {
     case "homeDepot":
-      return "/src/assets/images/logos/THD.svg";
+      return "/builtFromScratch/images/logos/THD.svg";
     case "lowes":
       return "/src/assets/images/logos/Lowes.svg";
     case "amazon":
