@@ -20,19 +20,19 @@
                             "itemId": 1,
                             "item": "PT Lumber",
                             "image": "/builtFromScratch/images/items/Lumber.avif",
-                            "size": "2 in. x 4 in. x 12 ft",
-                            "qty": "5",
+                            "size": "1 in x 4 in. x 8 ft.",
+                            "qty": "6",
                             "store": "homeDepot",
-                            "sku": "206967813"
+                            "sku": "206973928"
                         },
                         {
                             "itemId": 2,
                             "item": "PT Lumber",
                             "image": "/builtFromScratch/images/items/Lumber.avif",
-                            "size": "1 in x 4 in. x 8 ft.",
-                            "qty": "6",
+                            "size": "2 in. x 4 in. x 12 ft",
+                            "qty": "5",
                             "store": "homeDepot",
-                            "sku": "206973928"
+                            "sku": "206967813"
                         },
                         {
                             "itemId": 3,
