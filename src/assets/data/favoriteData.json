@@ -5,265 +5,265 @@
         "heading": "My most enjoyable DIY project!",
         "shortDesc": "This project dates back to 2012. While the house itself wasn’t built as a DIY project, I was heavily involved in every step of the process.\nI personally designed the layout, drafted the blueprint, and meticulously planned every detail.",
         "description": " With the skilled assistance of masons, I was able to turn my vision into reality, making it an incredibly fulfilling experience! \nOf course, there are some mistakes & drawbacks, but overall, it has been an invaluable learning experience!",
-        "imageBanner": "/builtFromScratch/assets/images/banner/favoriteBanner.png",
+        "imageBanner": "/src/assets/images/banner/favoriteBanner.png",
         "image": "",
         "videoUrl": "",
         "children": [
             {
                 "id": 1,
-                "image": "/builtFromScratch/assets/images/favProject/FrontView.jpg",
+                "image": "/src/assets/images/favProject/FrontView.jpg",
                 "title": "Front & Side Elevation",
                 "description": "Sorry for the low photo quality—it's from a 2011 model phone! 🙂"
             },
             {
                 "id": 2,
-                "image": "/builtFromScratch/assets/images/favProject/TopView.jpg",
+                "image": "/src/assets/images/favProject/TopView.jpg",
                 "title": "1st Floor Top Elevation",
                 "description": "I don't have a civil or structural background—I just came up with this plan..."
             },
             {
                 "id": 3,
-                "image": "/builtFromScratch/assets/images/favProject/FirstFloor.jpg",
+                "image": "/src/assets/images/favProject/FirstFloor.jpg",
                 "title": "2nd Floor Top Elevation",
                 "description": "Looking back, I feel like I could have planned it better. :("
             },
             {
                 "id": 4,
-                "image": "/builtFromScratch/assets/images/favProject/cornerLot.jpg",
+                "image": "/src/assets/images/favProject/cornerLot.jpg",
                 "title": "Corner Lot - 1900 sqft",
                 "description": "This is a corner lot in a gated community with only 19 lots."
             },
             {
                 "id": 5,
-                "image": "/builtFromScratch/assets/images/favProject/groundBreaking.jpg",
+                "image": "/src/assets/images/favProject/groundBreaking.jpg",
                 "title": "Ground Breaking",
                 "description": "The bhoomi pooja (Ground Breaking) was done on 23-Feb-12"
             },
             {
                 "id": 6,
-                "image": "/builtFromScratch/assets/images/favProject/pillarHoles.jpg",
+                "image": "/src/assets/images/favProject/pillarHoles.jpg",
                 "title": "Digging holes for concrete piers",
                 "description": "Started digging holes for concrete piers on 11-Mar-12"
             },
             {
                 "id": 7,
-                "image": "/builtFromScratch/assets/images/favProject/waterTank.jpg",
+                "image": "/src/assets/images/favProject/waterTank.jpg",
                 "title": "UG Water Tank",
                 "description": "Started under ground water tank on 11-Mar-12"
             },
             {
                 "id": 8,
-                "image": "/builtFromScratch/assets/images/favProject/foundation.jpg",
+                "image": "/src/assets/images/favProject/foundation.jpg",
                 "title": "Steel Frames for Pillars",
                 "description": "Installed the steel frames for all the pillars by 25-Mar-12"
             },
             {
                 "id": 9,
-                "image": "/builtFromScratch/assets/images/favProject/foundation2.jpg",
+                "image": "/src/assets/images/favProject/foundation2.jpg",
                 "title": "Plinth Beam",
                 "description": "Reinforced concrete beam that's built at ground level - 06-Apr-12"
             },
             {
                 "id": 10,
-                "image": "/builtFromScratch/assets/images/favProject/foundation3.jpg",
+                "image": "/src/assets/images/favProject/foundation3.jpg",
                 "title": "Concret Slab",
                 "description": "Inspection of the ground floor concrete slab on 22-Apr-12"
             },
             {
                 "id": 11,
-                "image": "/builtFromScratch/assets/images/favProject/pillars.jpg",
+                "image": "/src/assets/images/favProject/pillars.jpg",
                 "title": "Concrete Pillars",
                 "description": "Concret pillars raised to 7 ft - 03-May-12"
             },
             {
                 "id": 12,
-                "image": "/builtFromScratch/assets/images/favProject/internalStairs.jpg",
+                "image": "/src/assets/images/favProject/internalStairs.jpg",
                 "title": "Internal Stairs",
                 "description": "Internal Stairs - 06-May-12"
             },
             {
                 "id": 13,
-                "image": "/builtFromScratch/assets/images/favProject/raisingWalls.jpg",
+                "image": "/src/assets/images/favProject/raisingWalls.jpg",
                 "title": "Brick Walls",
                 "description": "Concrete brick walls - 08-May-12"
             },
             {
                 "id": 14,
-                "image": "/builtFromScratch/assets/images/favProject/raisingWalls1.jpg",
+                "image": "/src/assets/images/favProject/raisingWalls1.jpg",
                 "title": "Brick Walls",
                 "description": "oncrete brick walls - 11-May-12"
             },
             {
                 "id": 15,
-                "image": "/builtFromScratch/assets/images/favProject/beams.jpg",
+                "image": "/src/assets/images/favProject/beams.jpg",
                 "title": "Lintel",
                 "description": "Reinforced concrete beam placed over a window - 13-May-12"
             },
             {
                 "id": 16,
-                "image": "/builtFromScratch/assets/images/favProject/beams1.jpg",
+                "image": "/src/assets/images/favProject/beams1.jpg",
                 "title": "Lintel",
                 "description": "Completed reinforced concrete beam across the house - 15-May-12"
             },
             {
                 "id": 17,
-                "image": "/builtFromScratch/assets/images/favProject/topConcrete.jpg",
+                "image": "/src/assets/images/favProject/topConcrete.jpg",
                 "title": "Roof Metal Decking",
                 "description": "Metal support for the roof concrete - 03-Jun-12"
             },
             {
                 "id": 18,
-                "image": "/builtFromScratch/assets/images/favProject/topConcrete1.jpg",
+                "image": "/src/assets/images/favProject/topConcrete1.jpg",
                 "title": "Roof Metal Decking",
                 "description": "Metal support for the roof concrete - 08-Jun-12"
             },
             {
                 "id": 181,
-                "image": "/builtFromScratch/assets/images/favProject/roofConcrete.jpg",
+                "image": "/src/assets/images/favProject/roofConcrete.jpg",
                 "title": "Roof Concrete",
                 "description": "Roof concrete completed on 16-Jun-12"
             },
             {
                 "id": 19,
-                "image": "/builtFromScratch/assets/images/favProject/topFloor.jpg",
+                "image": "/src/assets/images/favProject/topFloor.jpg",
                 "title": "Top Floor Pillars",
                 "description": "Rasing the pillars for the top floor - 18-Jun-12"
             },
             {
                 "id": 20,
-                "image": "/builtFromScratch/assets/images/favProject/topFloor1.jpg",
+                "image": "/src/assets/images/favProject/topFloor1.jpg",
                 "title": "Lintel",
                 "description": "Completed reinforced concrete beam across the house - 23-Jun-12"
             },
             {
                 "id": 21,
-                "image": "/builtFromScratch/assets/images/favProject/topFloor2.jpg",
+                "image": "/src/assets/images/favProject/topFloor2.jpg",
                 "title": "Brick Walls",
                 "description": "Complete the top floor wall construction on 30-Jun-12"
             },
             {
                 "id": 22,
-                "image": "/builtFromScratch/assets/images/favProject/topFloor3.jpg",
+                "image": "/src/assets/images/favProject/topFloor3.jpg",
                 "title": "Top Floor Roofing",
                 "description": "Top floor concrete tapered roof - 06-Jul-12"
             },
             {
                 "id": 221,
-                "image": "/builtFromScratch/assets/images/favProject/topFloor4.jpg",
+                "image": "/src/assets/images/favProject/topFloor4.jpg",
                 "title": "Top Floor Roofing",
                 "description": "Top floor concrete tapered roof - 06-Jul-12"
             },
             {
                 "id": 23,
-                "image": "/builtFromScratch/assets/images/favProject/electrical.jpg",
+                "image": "/src/assets/images/favProject/electrical.jpg",
                 "title": "Electrical Work",
                 "description": "Electrical wiring installation - 07-Jul-12"
             },
             {
                 "id": 24,
-                "image": "/builtFromScratch/assets/images/favProject/plastering.jpg",
+                "image": "/src/assets/images/favProject/plastering.jpg",
                 "title": "Concrete Plastering",
                 "description": "Indoor wall concrete plastering - 22-Jul-12"
             },
             {
                 "id": 25,
-                "image": "/builtFromScratch/assets/images/favProject/internalStairs2.jpg",
+                "image": "/src/assets/images/favProject/internalStairs2.jpg",
                 "title": "Concrete Plastering",
                 "description": "Indoor wall concrete plastering - 12-Aug-12"
             },
             {
                 "id": 251,
-                "image": "/builtFromScratch/assets/images/favProject/internalStairs1.jpg",
+                "image": "/src/assets/images/favProject/internalStairs1.jpg",
                 "title": "Concrete Plastering",
                 "description": "Indoor wall concrete plastering - 12-Aug-12"
             },
             {
                 "id": 26,
-                "image": "/builtFromScratch/assets/images/favProject/plastering1.jpg",
+                "image": "/src/assets/images/favProject/plastering1.jpg",
                 "title": "Concrete Plastering",
                 "description": "Outdoor wall concrete plastering - 28-Aug-12"
             },
             {
                 "id": 27,
-                "image": "/builtFromScratch/assets/images/favProject/plastering2.jpg",
+                "image": "/src/assets/images/favProject/plastering2.jpg",
                 "title": "Concrete Plastering",
                 "description": "Outdoor wall concrete plastering - 12-Sep-12"
             },
             {
                 "id": 28,
-                "image": "/builtFromScratch/assets/images/favProject/plastering3.jpg",
+                "image": "/src/assets/images/favProject/plastering3.jpg",
                 "title": "Concrete Plastering",
                 "description": "Outdoor wall concrete plastering - 12-Sep-12"
             },
             {
                 "id": 29,
-                "image": "/builtFromScratch/assets/images/favProject/frontdoor.jpg",
+                "image": "/src/assets/images/favProject/frontdoor.jpg",
                 "title": "Front Door",
                 "description": "Front door made of teak wood with attached safety grill door"
             },
             {
                 "id": 291,
-                "image": "/builtFromScratch/assets/images/favProject/LivingRoom.jpg",
+                "image": "/src/assets/images/favProject/LivingRoom.jpg",
                 "title": "Living Room",
                 "description": "Living room view of the front door"
             },
             {
                 "id": 30,
-                "image": "/builtFromScratch/assets/images/favProject/LivingRoom2.jpg",
+                "image": "/src/assets/images/favProject/LivingRoom2.jpg",
                 "title": "Living Room",
                 "description": "View of the Dining Room with space for Aquarium on the wall."
             },
             {
                 "id": 31,
-                "image": "/builtFromScratch/assets/images/favProject/Stairs.jpg",
+                "image": "/src/assets/images/favProject/Stairs.jpg",
                 "title": "Internal Stairs",
                 "description": "Internal Stairs from dining room to top floor, 2 ceiling high dining room"
             },
             {
                 "id": 32,
-                "image": "/builtFromScratch/assets/images/favProject/Stairs2.jpg",
+                "image": "/src/assets/images/favProject/Stairs2.jpg",
                 "title": "Internal Stairs",
                 "description": "Internal Stairs view from top"
             },
             {
                 "id": 33,
-                "image": "/builtFromScratch/assets/images/favProject/DiningRoom.jpg",
+                "image": "/src/assets/images/favProject/DiningRoom.jpg",
                 "title": "Dining Room",
                 "description": "View of Kitchen & Master bed room from Dining room."
             },
             {
                 "id": 34,
-                "image": "/builtFromScratch/assets/images/favProject/DiningRoom2.jpg",
+                "image": "/src/assets/images/favProject/DiningRoom2.jpg",
                 "title": "Dining Room",
                 "description": "View of Living Room with Aquarium space on the wall as divider."
             },
             {
                 "id": 35,
-                "image": "/builtFromScratch/assets/images/favProject/Guestroom.jpg",
+                "image": "/src/assets/images/favProject/Guestroom.jpg",
                 "title": "Guest Bed Room",
                 "description": "Guest Bed Room on the Top Floor."
             },
             {
                 "id": 36,
-                "image": "/builtFromScratch/assets/images/favProject/Kitchen.jpg",
+                "image": "/src/assets/images/favProject/Kitchen.jpg",
                 "title": "Kitchen",
                 "description": "Kitchen with Utilities area on the right."
             },
             {
                 "id": 37,
-                "image": "/builtFromScratch/assets/images/favProject/Kitchen2.jpg",
+                "image": "/src/assets/images/favProject/Kitchen2.jpg",
                 "title": "Kitchen",
                 "description": "Left side view of the Kitchen. Planning to finish the interiors soon."
             },
             {
                 "id": 38,
-                "image": "/builtFromScratch/assets/images/favProject/homeSideView.jpg",
+                "image": "/src/assets/images/favProject/homeSideView.jpg",
                 "title": "Outside View",
                 "description": "Outside left view of the home"
             },
             {
                 "id": 39,
-                "image": "/builtFromScratch/assets/images/favProject/home2.webp",
+                "image": "/src/assets/images/favProject/home2.webp",
                 "title": "Outside View",
                 "description": "Outside left view of the home with open car parking space."
             }

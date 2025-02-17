@@ -17,7 +17,7 @@ const About = () => {
           mr={{ md: 6 }} // ✅ Adds margin to push text beside image
         >
           <Image
-            src="/builtFromScratch/assets/images/favProject/about.webp"
+            src="/src/assets/images/favProject/about.webp"
             alt="Profile Picture"
             w="100%"
             objectFit="cover"
