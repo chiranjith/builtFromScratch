@@ -28,7 +28,7 @@
                         {
                             "itemId": 2,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "1 in x 4 in. x 8 ft.",
                             "qty": "6",
                             "store": "homeDepot",
@@ -37,7 +37,7 @@
                         {
                             "itemId": 3,
                             "item": "SYP Lumber",
-                            "image": "/src/assets/images/items/LumberThk.avif",
+                            "image": "/builtFromScratch/assets/images/items/LumberThk.avif",
                             "size": "2 in. x 10 in. x 12 ft",
                             "qty": "2",
                             "store": "homeDepot",
@@ -46,7 +46,7 @@
                         {
                             "itemId": 4,
                             "item": "Ext Screws",
-                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "image": "/builtFromScratch/assets/images/items/screwsExt.avif",
                             "size": "#9 - 3, 2.5 & 1.5 in.",
                             "qty": "1 lb. Box",
                             "store": "homeDepot",
@@ -55,7 +55,7 @@
                         {
                             "itemId": 5,
                             "item": "Gusset Angle",
-                            "image": "/src/assets/images/items/gussetAngle.webp",
+                            "image": "/builtFromScratch/assets/images/items/gussetAngle.webp",
                             "size": "3-1/4 in. 18-Gauge",
                             "qty": "8",
                             "store": "homeDepot",
@@ -64,7 +64,7 @@
                         {
                             "itemId": 6,
                             "item": "L Angle",
-                            "image": "/src/assets/images/items/lAngle.webp",
+                            "image": "/builtFromScratch/assets/images/items/lAngle.webp",
                             "size": "2 in. x 6 in. X 12-Gauge",
                             "qty": "4",
                             "store": "homeDepot",
@@ -73,7 +73,7 @@
                         {
                             "itemId": 7,
                             "item": "Wood Glue",
-                            "image": "/src/assets/images/items/woodGlue.avif",
+                            "image": "/builtFromScratch/assets/images/items/woodGlue.avif",
                             "size": "18 fl. oz.",
                             "qty": "1",
                             "store": "homeDepot",
@@ -82,7 +82,7 @@
                         {
                             "itemId": 8,
                             "item": "Wood Stain",
-                            "image": "/src/assets/images/items/woodStain.png",
+                            "image": "/builtFromScratch/assets/images/items/woodStain.png",
                             "size": "1 qt.",
                             "qty": "1",
                             "store": "homeDepot",
@@ -91,7 +91,7 @@
                         {
                             "itemId": 8,
                             "item": "Cushion",
-                            "image": "/src/assets/images/items/cushion.webp",
+                            "image": "/builtFromScratch/assets/images/items/cushion.webp",
                             "size": "24 in. x 24 in.",
                             "qty": "3",
                             "store": "homeDepot",
@@ -109,7 +109,7 @@
                         {
                             "itemId": 1,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "2 in. x 4 in. x 12 ft",
                             "qty": "1",
                             "store": "homeDepot",
@@ -118,7 +118,7 @@
                         {
                             "itemId": 2,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "2 in. x 6 in. x 8 ft",
                             "qty": "1",
                             "store": "homeDepot",
@@ -127,7 +127,7 @@
                         {
                             "itemId": 3,
                             "item": "SYP Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "1 in. x 4 in. x 8 ft",
                             "qty": "6",
                             "store": "homeDepot",
@@ -136,7 +136,7 @@
                         {
                             "itemId": 4,
                             "item": "Ext Screws",
-                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "image": "/builtFromScratch/assets/images/items/screwsExt.avif",
                             "size": "#9 - 3 & 1.5 in.",
                             "qty": "1 lb. Box",
                             "store": "homeDepot",
@@ -145,7 +145,7 @@
                         {
                             "itemId": 5,
                             "item": "Wood Glue",
-                            "image": "/src/assets/images/items/woodGlue.avif",
+                            "image": "/builtFromScratch/assets/images/items/woodGlue.avif",
                             "size": "18 fl. oz.",
                             "qty": "1",
                             "store": "homeDepot",
@@ -154,7 +154,7 @@
                         {
                             "itemId": 6,
                             "item": "Wood Stain",
-                            "image": "/src/assets/images/items/woodStain.png",
+                            "image": "/builtFromScratch/assets/images/items/woodStain.png",
                             "size": "8 oz.",
                             "qty": "1",
                             "store": "homeDepot",
@@ -163,7 +163,7 @@
                         {
                             "itemId": 7,
                             "item": "Planter Box",
-                            "image": "/src/assets/images/items/planter.webp",
+                            "image": "/builtFromScratch/assets/images/items/planter.webp",
                             "size": "18 in. x 18 in.",
                             "qty": "1",
                             "store": "homeDepot",
@@ -181,7 +181,7 @@
                         {
                             "itemId": 1,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "2 in. x 4 in. x 12 ft",
                             "qty": "6",
                             "store": "homeDepot",
@@ -190,7 +190,7 @@
                         {
                             "itemId": 2,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "1 in x 4 in. x 8 ft.",
                             "qty": "7",
                             "store": "homeDepot",
@@ -199,7 +199,7 @@
                         {
                             "itemId": 3,
                             "item": "SYP Lumber",
-                            "image": "/src/assets/images/items/LumberThk.avif",
+                            "image": "/builtFromScratch/assets/images/items/LumberThk.avif",
                             "size": "2 in. x 10 in. x 8 ft",
                             "qty": "2",
                             "store": "homeDepot",
@@ -208,7 +208,7 @@
                         {
                             "itemId": 4,
                             "item": "SYP Lumber",
-                            "image": "/src/assets/images/items/LumberThk.avif",
+                            "image": "/builtFromScratch/assets/images/items/LumberThk.avif",
                             "size": "2 in. x 12 in. x 8 ft",
                             "qty": "1",
                             "store": "homeDepot",
@@ -217,7 +217,7 @@
                         {
                             "itemId": 5,
                             "item": "Ext Screws",
-                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "image": "/builtFromScratch/assets/images/items/screwsExt.avif",
                             "size": "#9 - 3, 2.5 & 1.5 in.",
                             "qty": "1 lb. Box",
                             "store": "homeDepot",
@@ -226,7 +226,7 @@
                         {
                             "itemId": 6,
                             "item": "Gusset Angle",
-                            "image": "/src/assets/images/items/gussetAngle.webp",
+                            "image": "/builtFromScratch/assets/images/items/gussetAngle.webp",
                             "size": "3-1/4 in. 18-Gauge",
                             "qty": "8",
                             "store": "homeDepot",
@@ -235,7 +235,7 @@
                         {
                             "itemId": 7,
                             "item": "L Angle",
-                            "image": "/src/assets/images/items/lAngle.webp",
+                            "image": "/builtFromScratch/assets/images/items/lAngle.webp",
                             "size": "2 in. x 6 in. X 12-Gauge",
                             "qty": "4",
                             "store": "homeDepot",
@@ -244,7 +244,7 @@
                         {
                             "itemId": 8,
                             "item": "Wood Glue",
-                            "image": "/src/assets/images/items/woodGlue.avif",
+                            "image": "/builtFromScratch/assets/images/items/woodGlue.avif",
                             "size": "18 fl. oz.",
                             "qty": "1",
                             "store": "homeDepot",
@@ -253,7 +253,7 @@
                         {
                             "itemId": 9,
                             "item": "Wood Stain",
-                            "image": "/src/assets/images/items/woodStain.png",
+                            "image": "/builtFromScratch/assets/images/items/woodStain.png",
                             "size": "1 qt.",
                             "qty": "1",
                             "store": "homeDepot",
@@ -262,7 +262,7 @@
                         {
                             "itemId": 10,
                             "item": "Cushion",
-                            "image": "/src/assets/images/items/cushion.webp",
+                            "image": "/builtFromScratch/assets/images/items/cushion.webp",
                             "size": "24 in. x 24 in.",
                             "qty": "2",
                             "store": "homeDepot",
@@ -280,7 +280,7 @@
                         {
                             "itemId": 1,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "2 in. x 4 in. x 12 ft",
                             "qty": "1",
                             "store": "homeDepot",
@@ -289,7 +289,7 @@
                         {
                             "itemId": 2,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "2 in x 6 in. x 12 ft.",
                             "qty": "2",
                             "store": "homeDepot",
@@ -298,7 +298,7 @@
                         {
                             "itemId": 3,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "1 in x 4 in. x 8 ft.",
                             "qty": "7",
                             "store": "homeDepot",
@@ -307,7 +307,7 @@
                         {
                             "itemId": 4,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/LumberThk.avif",
+                            "image": "/builtFromScratch/assets/images/items/LumberThk.avif",
                             "size": "2 in. x 10 in. x 12 ft",
                             "qty": "1",
                             "store": "homeDepot",
@@ -316,7 +316,7 @@
                         {
                             "itemId": 5,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/LumberThk.avif",
+                            "image": "/builtFromScratch/assets/images/items/LumberThk.avif",
                             "size": "2 in. x 12 in. x 10 ft",
                             "qty": "1",
                             "store": "homeDepot",
@@ -325,7 +325,7 @@
                         {
                             "itemId": 6,
                             "item": "Ext Screws",
-                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "image": "/builtFromScratch/assets/images/items/screwsExt.avif",
                             "size": "#9 - 3, 2.5 & 1.5 in.",
                             "qty": "1 lb. Box",
                             "store": "homeDepot",
@@ -334,7 +334,7 @@
                         {
                             "itemId": 7,
                             "item": "Wood Glue",
-                            "image": "/src/assets/images/items/woodGlue.avif",
+                            "image": "/builtFromScratch/assets/images/items/woodGlue.avif",
                             "size": "18 fl. oz.",
                             "qty": "1",
                             "store": "homeDepot",
@@ -343,7 +343,7 @@
                         {
                             "itemId": 8,
                             "item": "Wood Stain",
-                            "image": "/src/assets/images/items/woodStain.png",
+                            "image": "/builtFromScratch/assets/images/items/woodStain.png",
                             "size": "1 qt.",
                             "qty": "1",
                             "store": "homeDepot",
@@ -352,7 +352,7 @@
                         {
                             "itemId": 9,
                             "item": "Drop-in Fire Pit Pan",
-                            "image": "/src/assets/images/items/fireePit.jpg",
+                            "image": "/builtFromScratch/assets/images/items/fireePit.jpg",
                             "size": "36 in. x 12 in.",
                             "qty": "1",
                             "store": "amazon",
@@ -361,7 +361,7 @@
                         {
                             "itemId": 10,
                             "item": "Fire Pit Valve Control",
-                            "image": "/src/assets/images/items/valveControl.jpg",
+                            "image": "/builtFromScratch/assets/images/items/valveControl.jpg",
                             "size": "90,000 BTU",
                             "qty": "1",
                             "store": "amazon",
@@ -370,7 +370,7 @@
                         {
                             "itemId": 11,
                             "item": "Glass Wind Guard",
-                            "image": "/src/assets/images/items/windGuard.jpg",
+                            "image": "/builtFromScratch/assets/images/items/windGuard.jpg",
                             "size": "36 in. x 16 in.",
                             "qty": "1",
                             "store": "amazon",
@@ -379,7 +379,7 @@
                         {
                             "itemId": 12,
                             "item": "Epoxy",
-                            "image": "/src/assets/images/items/epoxy.jpg",
+                            "image": "/builtFromScratch/assets/images/items/epoxy.jpg",
                             "size": "32 Oz",
                             "qty": "1",
                             "store": "amazon",
@@ -395,8 +395,8 @@
             "heading": "DIY Planter's",
             "shortDesc": "DIY outdoor planters are a fun and creative way to personalize your garden or patio. Using materials like wood, concrete, or repurposed items, you can craft unique containers for your plants.",
             "description": "\nDifferent-level planters add depth and dimension, allowing you to showcase a variety of plants in a compact space. These planters not only enhance the beauty of your outdoor area but also provide customizable solutions to fit any style or size, making them perfect for gardeners and DIY enthusiasts alike.",
-            "image": "/src/assets/images/videoGrid/planters.webp",
-            "imageBanner": "/src/assets/images/banner/plantersBanner.webp",
+            "image": "/builtFromScratch/assets/images/videoGrid/planters.webp",
+            "imageBanner": "/builtFromScratch/assets/images/banner/plantersBanner.webp",
             "children": [
                 {
                     "id": 201,
@@ -408,7 +408,7 @@
                         {
                             "itemId": 1,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "5/4 in. x 6 in. x 8 ft",
                             "qty": "6",
                             "store": "homeDepot",
@@ -417,7 +417,7 @@
                         {
                             "itemId": 2,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/LumberThk.avif",
+                            "image": "/builtFromScratch/assets/images/items/LumberThk.avif",
                             "size": "2 in. x 12 in. x 12 ft",
                             "qty": "1",
                             "store": "homeDepot",
@@ -426,7 +426,7 @@
                         {
                             "itemId": 3,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "1 in. x 6 in. x 10 ft",
                             "qty": "6",
                             "store": "homeDepot",
@@ -435,7 +435,7 @@
                         {
                             "itemId": 4,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "2 in. x 4 in. x 8 ft",
                             "qty": "2",
                             "store": "homeDepot",
@@ -444,7 +444,7 @@
                         {
                             "itemId": 5,
                             "item": "Pine Board",
-                            "image": "/src/assets/images/items/pineBoard1-3.avif",
+                            "image": "/builtFromScratch/assets/images/items/pineBoard1-3.avif",
                             "size": "1 in. x 3 in. x 4 ft",
                             "qty": "5",
                             "store": "homeDepot",
@@ -453,7 +453,7 @@
                         {
                             "itemId": 6,
                             "item": "Pond Liner",
-                            "image": "/src/assets/images/items/pondLiner.jpg",
+                            "image": "/builtFromScratch/assets/images/items/pondLiner.jpg",
                             "size": "7 ft. x 10 ft.",
                             "qty": "1",
                             "store": "amazon",
@@ -462,7 +462,7 @@
                         {
                             "itemId": 5,
                             "item": "Wood Glue",
-                            "image": "/src/assets/images/items/woodGlue.avif",
+                            "image": "/builtFromScratch/assets/images/items/woodGlue.avif",
                             "size": "18 fl. oz.",
                             "qty": "1",
                             "store": "homeDepot",
@@ -471,7 +471,7 @@
                         {
                             "itemId": 6,
                             "item": "Wood Stain",
-                            "image": "/src/assets/images/items/woodStain.png",
+                            "image": "/builtFromScratch/assets/images/items/woodStain.png",
                             "size": "8 Oz.",
                             "qty": "1",
                             "store": "homeDepot",
@@ -480,7 +480,7 @@
                         {
                             "itemId": 7,
                             "item": "Ext Screws",
-                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "image": "/builtFromScratch/assets/images/items/screwsExt.avif",
                             "size": "#9 - 3 & 1.5 in.",
                             "qty": "1 lb. Box",
                             "store": "homeDepot",
@@ -489,7 +489,7 @@
                         {
                             "itemId": 8,
                             "item": "Perforated Drain Pipe",
-                            "image": "/src/assets/images/items/drainPipe.webp",
+                            "image": "/builtFromScratch/assets/images/items/drainPipe.webp",
                             "size": "4 in. x 8 ft.",
                             "qty": "1",
                             "store": "homeDepot",
@@ -507,7 +507,7 @@
                         {
                             "itemId": 1,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "5/4 in. x 6 in. x 8 ft",
                             "qty": "1",
                             "store": "homeDepot",
@@ -516,7 +516,7 @@
                         {
                             "itemId": 2,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "2 in. x 6 in. x 12 ft",
                             "qty": "3",
                             "store": "homeDepot",
@@ -525,7 +525,7 @@
                         {
                             "itemId": 3,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "1 in. x 6 in. x 10 ft",
                             "qty": "1",
                             "store": "homeDepot",
@@ -534,7 +534,7 @@
                         {
                             "itemId": 4,
                             "item": "Ext Screws",
-                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "image": "/builtFromScratch/assets/images/items/screwsExt.avif",
                             "size": "#9 - 3 & 1.5 in.",
                             "qty": "1 lb. Box",
                             "store": "homeDepot",
@@ -552,7 +552,7 @@
                         {
                             "itemId": 1,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "2 in. x 6 in. x 8 ft",
                             "qty": "5",
                             "store": "homeDepot",
@@ -561,7 +561,7 @@
                         {
                             "itemId": 2,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "1 in. x 4 in. x 10 ft",
                             "qty": "1",
                             "store": "homeDepot",
@@ -570,7 +570,7 @@
                         {
                             "itemId": 3,
                             "item": "Ext Screws",
-                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "image": "/builtFromScratch/assets/images/items/screwsExt.avif",
                             "size": "#9 - 3 & 1.5 in.",
                             "qty": "1 lb. Box",
                             "store": "homeDepot",
@@ -588,7 +588,7 @@
                         {
                             "itemId": 1,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "2 in. x 6 in. x 8 ft",
                             "qty": "6",
                             "store": "homeDepot",
@@ -597,7 +597,7 @@
                         {
                             "itemId": 2,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "1 in. x 4 in. x 10 ft",
                             "qty": "2",
                             "store": "homeDepot",
@@ -606,7 +606,7 @@
                         {
                             "itemId": 3,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "2 in. x 4 in. x 8 ft",
                             "qty": "1",
                             "store": "homeDepot",
@@ -615,7 +615,7 @@
                         {
                             "itemId": 4,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/LumberThk.avif",
+                            "image": "/builtFromScratch/assets/images/items/LumberThk.avif",
                             "size": "2 in. x 8 in. x 8 ft",
                             "qty": "1",
                             "store": "homeDepot",
@@ -624,7 +624,7 @@
                         {
                             "itemId": 5,
                             "item": "Ext Screws",
-                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "image": "/builtFromScratch/assets/images/items/screwsExt.avif",
                             "size": "#9 - 3 & 1.5 in.",
                             "qty": "1 lb. Box",
                             "store": "homeDepot",
@@ -642,7 +642,7 @@
                         {
                             "itemId": 1,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "2 in. x 6 in. x 8 ft",
                             "qty": "5",
                             "store": "homeDepot",
@@ -651,7 +651,7 @@
                         {
                             "itemId": 2,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "2 in. x 4 in. x 8 ft",
                             "qty": "1",
                             "store": "homeDepot",
@@ -660,7 +660,7 @@
                         {
                             "itemId": 3,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/LumberThk.avif",
+                            "image": "/builtFromScratch/assets/images/items/LumberThk.avif",
                             "size": "2 in. x 8 in. x 8 ft",
                             "qty": "1",
                             "store": "homeDepot",
@@ -669,7 +669,7 @@
                         {
                             "itemId": 4,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "1 in. x 4 in. x 12 ft",
                             "qty": "1",
                             "store": "homeDepot",
@@ -678,7 +678,7 @@
                         {
                             "itemId": 5,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "1 in. x 6 in. x 12 ft",
                             "qty": "1",
                             "store": "homeDepot",
@@ -687,7 +687,7 @@
                         {
                             "itemId": 6,
                             "item": "Ext Screws",
-                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "image": "/builtFromScratch/assets/images/items/screwsExt.avif",
                             "size": "#9 - 3 & 1.5 in.",
                             "qty": "1 lb. Box",
                             "store": "homeDepot",
@@ -705,7 +705,7 @@
                         {
                             "itemId": 1,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "2 in. x 4 in. x 12 ft",
                             "qty": "1",
                             "store": "homeDepot",
@@ -714,7 +714,7 @@
                         {
                             "itemId": 2,
                             "item": "PT Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "2 in. x 6 in. x 8 ft",
                             "qty": "1",
                             "store": "homeDepot",
@@ -723,7 +723,7 @@
                         {
                             "itemId": 3,
                             "item": "SYP Lumber",
-                            "image": "/src/assets/images/items/Lumber.avif",
+                            "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                             "size": "1 in. x 4 in. x 8 ft",
                             "qty": "6",
                             "store": "homeDepot",
@@ -732,7 +732,7 @@
                         {
                             "itemId": 4,
                             "item": "Ext Screws",
-                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "image": "/builtFromScratch/assets/images/items/screwsExt.avif",
                             "size": "#9 - 3 & 1.5 in.",
                             "qty": "1 lb. Box",
                             "store": "homeDepot",
@@ -741,7 +741,7 @@
                         {
                             "itemId": 5,
                             "item": "Wood Glue",
-                            "image": "/src/assets/images/items/woodGlue.avif",
+                            "image": "/builtFromScratch/assets/images/items/woodGlue.avif",
                             "size": "18 fl. oz.",
                             "qty": "1",
                             "store": "homeDepot",
@@ -750,7 +750,7 @@
                         {
                             "itemId": 6,
                             "item": "Wood Stain",
-                            "image": "/src/assets/images/items/woodStain.png",
+                            "image": "/builtFromScratch/assets/images/items/woodStain.png",
                             "size": "8 oz.",
                             "qty": "1",
                             "store": "homeDepot",
@@ -759,7 +759,7 @@
                         {
                             "itemId": 7,
                             "item": "Planter Box",
-                            "image": "/src/assets/images/items/planter.webp",
+                            "image": "/builtFromScratch/assets/images/items/planter.webp",
                             "size": "18 in. x 18 in.",
                             "qty": "1",
                             "store": "homeDepot",
@@ -772,8 +772,8 @@
         {
             "id": 3,
             "title": "Garage Organization",
-            "imageOld": "/src/assets/images/videoGrid/garage.webp",
-            "image": "/src/assets/images/videoGrid/garage.webp",
+            "imageOld": "/builtFromScratch/assets/images/videoGrid/garage.webp",
+            "image": "/builtFromScratch/assets/images/videoGrid/garage.webp",
             "title1": "Garage Organization",
             "description": "Maximize your garage space with DIY storage and organization solutions. Build custom shelving, pegboards, and overhead racks to neatly store tools, equipment, and seasonal items. \nIncorporate labeled bins, wall-mounted hooks, and workbench organizers to keep everything accessible and clutter-free. Transform your garage into a functional, organized space that works for your needs.",
             "videoUrl": "8p0nDhRR4YY",
@@ -781,7 +781,7 @@
                 {
                     "itemId": 1,
                     "item": "SYP Lumber",
-                    "image": "/src/assets/images/items/sypLumber2x4.webp",
+                    "image": "/builtFromScratch/assets/images/items/sypLumber2x4.webp",
                     "size": "2 in x 4 in x 8 ft",
                     "qty": "10",
                     "store": "homeDepot",
@@ -790,7 +790,7 @@
                 {
                     "itemId": 2,
                     "item": "White Wood",
-                    "image": "/src/assets/images/items/whiteWood.avif",
+                    "image": "/builtFromScratch/assets/images/items/whiteWood.avif",
                     "size": "1 in x 3 in x 6 ft",
                     "qty": "7",
                     "store": "lowes",
@@ -799,7 +799,7 @@
                 {
                     "itemId": 3,
                     "item": "Poplar Board",
-                    "image": "/src/assets/images/items/poplarBoard1x4.avif",
+                    "image": "/builtFromScratch/assets/images/items/poplarBoard1x4.avif",
                     "size": "1 in x 4 in x 6 ft",
                     "qty": "1",
                     "store": "lowes",
@@ -808,7 +808,7 @@
                 {
                     "itemId": 4,
                     "item": "Sanded Plywood",
-                    "image": "/src/assets/images/items/plyWood.avif",
+                    "image": "/builtFromScratch/assets/images/items/plyWood.avif",
                     "size": "1/4 in x 4 ft x 8 ft",
                     "qty": "1",
                     "store": "homeDepot",
@@ -817,7 +817,7 @@
                 {
                     "itemId": 5,
                     "item": "Sanded Plywood",
-                    "image": "/src/assets/images/items/plyWood.avif",
+                    "image": "/builtFromScratch/assets/images/items/plyWood.avif",
                     "size": "1/4 in x 2 ft x 8 ft",
                     "qty": "2",
                     "store": "homeDepot",
@@ -826,7 +826,7 @@
                 {
                     "itemId": 6,
                     "item": "Vinyl Lattice",
-                    "image": "/src/assets/images/items/lattice.webp",
+                    "image": "/builtFromScratch/assets/images/items/lattice.webp",
                     "size": "4 ft x 8 ft",
                     "qty": "1",
                     "store": "homeDepot",
@@ -835,7 +835,7 @@
                 {
                     "itemId": 7,
                     "item": "Poplar Board",
-                    "image": "/src/assets/images/items/poplarBoard.webp",
+                    "image": "/builtFromScratch/assets/images/items/poplarBoard.webp",
                     "size": "3/4 in x 1.5 in x 8 ft",
                     "qty": "7",
                     "store": "homeDepot",
@@ -844,7 +844,7 @@
                 {
                     "itemId": 8,
                     "item": "Softwood Board",
-                    "image": "/src/assets/images/items/whiteWood.avif",
+                    "image": "/builtFromScratch/assets/images/items/whiteWood.avif",
                     "size": "1 in x 6 in x 6 ft",
                     "qty": "1",
                     "store": "lowes",
@@ -853,7 +853,7 @@
                 {
                     "itemId": 9,
                     "item": "Melamine Board",
-                    "image": "/src/assets/images/items/melamineBoard.avif",
+                    "image": "/builtFromScratch/assets/images/items/melamineBoard.avif",
                     "size": "3/4 in x 4 ft x 8 ft",
                     "qty": "3",
                     "store": "homeDepot",
@@ -862,7 +862,7 @@
                 {
                     "itemId": 10,
                     "item": "Poplar Board",
-                    "image": "/src/assets/images/items/poplar1x8ft.avif",
+                    "image": "/builtFromScratch/assets/images/items/poplar1x8ft.avif",
                     "size": "1 in x 2 in x 8 ft",
                     "qty": "7",
                     "store": "lowes",
@@ -871,7 +871,7 @@
                 {
                     "itemId": 11,
                     "item": "White Peel & Stick",
-                    "image": "/src/assets/images/items/whitePaper.jpg",
+                    "image": "/builtFromScratch/assets/images/items/whitePaper.jpg",
                     "size": "17.5 in x 400 in",
                     "qty": "1",
                     "store": "amazon",
@@ -880,7 +880,7 @@
                 {
                     "itemId": 12,
                     "item": "4 Door Cabinet",
-                    "image": "/src/assets/images/items/cabinet.avif",
+                    "image": "/builtFromScratch/assets/images/items/cabinet.avif",
                     "size": "60 in x 34 in x 24 ft",
                     "qty": "1",
                     "store": "lowes",
@@ -889,7 +889,7 @@
                 {
                     "itemId": 13,
                     "item": "Metal Peg Board",
-                    "image": "/src/assets/images/items/pegBoard.jpg",
+                    "image": "/builtFromScratch/assets/images/items/pegBoard.jpg",
                     "size": "48 in x 24 in",
                     "qty": "1",
                     "store": "amazon",
@@ -898,7 +898,7 @@
                 {
                     "itemId": 14,
                     "item": "Door Hinge",
-                    "image": "/src/assets/images/items/melamineBoard.avif",
+                    "image": "/builtFromScratch/assets/images/items/melamineBoard.avif",
                     "size": "3 in",
                     "qty": "4",
                     "store": "homeDepot",
@@ -907,7 +907,7 @@
                 {
                     "itemId": 15,
                     "item": "Wood Glue",
-                    "image": "/src/assets/images/items/woodGlue.avif",
+                    "image": "/builtFromScratch/assets/images/items/woodGlue.avif",
                     "size": "18 fl. oz.",
                     "qty": "1",
                     "store": "homeDepot",
@@ -916,7 +916,7 @@
                 {
                     "itemId": 16,
                     "item": "Wood Stain",
-                    "image": "/src/assets/images/items/woodStain.png",
+                    "image": "/builtFromScratch/assets/images/items/woodStain.png",
                     "size": "8 oz.",
                     "qty": "1",
                     "store": "homeDepot",
@@ -925,7 +925,7 @@
                 {
                     "itemId": 17,
                     "item": "Ext Screws",
-                    "image": "/src/assets/images/items/screwsExt.avif",
+                    "image": "/builtFromScratch/assets/images/items/screwsExt.avif",
                     "size": "#9 - 2 & 1.5 in.",
                     "qty": "1 lb. Box",
                     "store": "homeDepot",
@@ -940,7 +940,7 @@
             "shortDesc": "DIY landscaping projects are a fantastic way to enhance the beauty & functionality of your outdoor areas while adding a personal touch.\n",
             "description": "From creating flower beds and building stone pathways to designing a cozy fire pit or installing raised garden beds, the possibilities are endless. These projects not only elevate the aesthetic appeal of your yard but also provide a rewarding hands-on experience.",
             "image": "/assets/images/videoGrid/landscape.webp",
-            "imageBanner": "/src/assets/images/banner/landscapeBanner.webp",
+            "imageBanner": "/builtFromScratch/assets/images/banner/landscapeBanner.webp",
             "children": [
                 {
                     "id": 301,
@@ -963,13 +963,13 @@
             "id": 5,
             "title": "Self Watering Planter",
             "description": "A DIY self-watering planter box is a practical and innovative gardening solution that ensures your plants stay hydrated with minimal effort. It features a built-in reservoir that delivers water directly to the roots, reducing water waste and the need for frequent watering. Perfect for busy gardeners or water-sensitive plants, these planters are easy to build using simple materials like plastic bins, PVC pipes, or wooden boxes. They're a great way to promote healthy plant growth while saving time and resources.",
-            "image": "/src/assets/images/videoGrid/selfWater.webp",
+            "image": "/builtFromScratch/assets/images/videoGrid/selfWater.webp",
             "videoUrl": "qN_Xq89zyos",
             "itemList": [
                 {
                     "itemId": 1,
                     "item": "PT Lumber",
-                    "image": "/src/assets/images/items/Lumber.avif",
+                    "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                     "size": "5/4 in. x 6 in. x 8 ft",
                     "qty": "6",
                     "store": "homeDepot",
@@ -978,7 +978,7 @@
                 {
                     "itemId": 2,
                     "item": "PT Lumber",
-                    "image": "/src/assets/images/items/LumberThk.avif",
+                    "image": "/builtFromScratch/assets/images/items/LumberThk.avif",
                     "size": "2 in. x 12 in. x 12 ft",
                     "qty": "1",
                     "store": "homeDepot",
@@ -987,7 +987,7 @@
                 {
                     "itemId": 3,
                     "item": "PT Lumber",
-                    "image": "/src/assets/images/items/Lumber.avif",
+                    "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                     "size": "1 in. x 6 in. x 10 ft",
                     "qty": "6",
                     "store": "homeDepot",
@@ -996,7 +996,7 @@
                 {
                     "itemId": 4,
                     "item": "PT Lumber",
-                    "image": "/src/assets/images/items/Lumber.avif",
+                    "image": "/builtFromScratch/assets/images/items/Lumber.avif",
                     "size": "2 in. x 4 in. x 8 ft",
                     "qty": "2",
                     "store": "homeDepot",
@@ -1005,7 +1005,7 @@
                 {
                     "itemId": 5,
                     "item": "Pine Board",
-                    "image": "/src/assets/images/items/pineBoard1-3.avif",
+                    "image": "/builtFromScratch/assets/images/items/pineBoard1-3.avif",
                     "size": "1 in. x 3 in. x 4 ft",
                     "qty": "5",
                     "store": "homeDepot",
@@ -1014,7 +1014,7 @@
                 {
                     "itemId": 6,
                     "item": "Pond Liner",
-                    "image": "/src/assets/images/items/pondLiner.jpg",
+                    "image": "/builtFromScratch/assets/images/items/pondLiner.jpg",
                     "size": "7 ft. x 10 ft.",
                     "qty": "1",
                     "store": "amazon",
@@ -1023,7 +1023,7 @@
                 {
                     "itemId": 5,
                     "item": "Wood Glue",
-                    "image": "/src/assets/images/items/woodGlue.avif",
+                    "image": "/builtFromScratch/assets/images/items/woodGlue.avif",
                     "size": "18 fl. oz.",
                     "qty": "1",
                     "store": "homeDepot",
@@ -1032,7 +1032,7 @@
                 {
                     "itemId": 6,
                     "item": "Wood Stain",
-                    "image": "/src/assets/images/items/woodStain.png",
+                    "image": "/builtFromScratch/assets/images/items/woodStain.png",
                     "size": "8 oz.",
                     "qty": "1",
                     "store": "homeDepot",
@@ -1041,7 +1041,7 @@
                 {
                     "itemId": 7,
                     "item": "Ext Screws",
-                    "image": "/src/assets/images/items/screwsExt.avif",
+                    "image": "/builtFromScratch/assets/images/items/screwsExt.avif",
                     "size": "#9 - 3 & 1.5 in.",
                     "qty": "1 lb. Box",
                     "store": "homeDepot",
@@ -1050,7 +1050,7 @@
                 {
                     "itemId": 8,
                     "item": "Perforated Drain Pipe",
-                    "image": "/src/assets/images/items/drainPipe.webp",
+                    "image": "/builtFromScratch/assets/images/items/drainPipe.webp",
                     "size": "4 in. x 8 ft.",
                     "qty": "1",
                     "store": "homeDepot",
@@ -1077,7 +1077,7 @@
                         {
                             "itemId": 1,
                             "item": "Common Board",
-                            "image": "/src/assets/images/items/commonBoard1x12.webp",
+                            "image": "/builtFromScratch/assets/images/items/commonBoard1x12.webp",
                             "size": "1 in x 12 in x 4 ft",
                             "qty": "1",
                             "store": "homeDepot",
@@ -1086,7 +1086,7 @@
                         {
                             "itemId": 2,
                             "item": "Pine Board",
-                            "image": "/src/assets/images/items/pineBoard1x6.webp",
+                            "image": "/builtFromScratch/assets/images/items/pineBoard1x6.webp",
                             "size": "1 in. x 6 in. x 6 ft",
                             "qty": "1",
                             "store": "lowes",
@@ -1095,7 +1095,7 @@
                         {
                             "itemId": 3,
                             "item": "Trim",
-                            "image": "/src/assets/images/items/trim.webp",
+                            "image": "/builtFromScratch/assets/images/items/trim.webp",
                             "size": "0.3 in x 2 in. x 8 ft",
                             "qty": "1",
                             "store": "homeDepot",
@@ -1104,7 +1104,7 @@
                         {
                             "itemId": 4,
                             "item": "Polar Board",
-                            "image": "/src/assets/images/items/polarBoard1x4.jpg",
+                            "image": "/builtFromScratch/assets/images/items/polarBoard1x4.jpg",
                             "size": "1/4 in x 4 in x 4 ft",
                             "qty": "5",
                             "store": "homeDepot",
@@ -1113,7 +1113,7 @@
                         {
                             "itemId": 5,
                             "item": "Common Board",
-                            "image": "/src/assets/images/items/commonBoard1x12.webp",
+                            "image": "/builtFromScratch/assets/images/items/commonBoard1x12.webp",
                             "size": "1 in x 6 in x 12 ft",
                             "qty": "1",
                             "store": "lowes",
@@ -1122,7 +1122,7 @@
                         {
                             "itemId": 6,
                             "item": "Wood Stain",
-                            "image": "/src/assets/images/items/woodStain.png",
+                            "image": "/builtFromScratch/assets/images/items/woodStain.png",
                             "size": "8 oz.",
                             "qty": "1",
                             "store": "homeDepot",
@@ -1131,7 +1131,7 @@
                         {
                             "itemId": 7,
                             "item": "L Angle",
-                            "image": "/src/assets/images/items/lAngle.webp",
+                            "image": "/builtFromScratch/assets/images/items/lAngle.webp",
                             "size": "2 in. x 6 in. X 12-Gauge",
                             "qty": "3",
                             "store": "homeDepot",
@@ -1140,7 +1140,7 @@
                         {
                             "itemId": 8,
                             "item": "Decorative Bells",
-                            "image": "/src/assets/images/items/bells.jpg",
+                            "image": "/builtFromScratch/assets/images/items/bells.jpg",
                             "size": "18 mm x 28 mm",
                             "qty": "1",
                             "store": "amazon",
@@ -1149,7 +1149,7 @@
                         {
                             "itemId": 9,
                             "item": "Cabinet Slider",
-                            "image": "/src/assets/images/items/cabinetSlider.jpg",
+                            "image": "/builtFromScratch/assets/images/items/cabinetSlider.jpg",
                             "size": "6 in",
                             "qty": "1",
                             "store": "amazon",
@@ -1158,7 +1158,7 @@
                         {
                             "itemId": 10,
                             "item": "Led Strip Light",
-                            "image": "/src/assets/images/items/ledLight.jpg",
+                            "image": "/builtFromScratch/assets/images/items/ledLight.jpg",
                             "size": "16 ft",
                             "qty": "1",
                             "store": "amazon",
@@ -1167,7 +1167,7 @@
                         {
                             "itemId": 11,
                             "item": "Ambiance Light",
-                            "image": "/src/assets/images/items/focusLight.jpg",
+                            "image": "/builtFromScratch/assets/images/items/focusLight.jpg",
                             "size": "2.4 in",
                             "qty": "1",
                             "store": "amazon",
@@ -1185,7 +1185,7 @@
                         {
                             "itemId": 1,
                             "item": "Foam PVC Black Sheet",
-                            "image": "/src/assets/images/items/pvcSheet.webp",
+                            "image": "/builtFromScratch/assets/images/items/pvcSheet.webp",
                             "size": "18 in x 24 in x 0.24 in",
                             "qty": "2",
                             "store": "homeDepot",
@@ -1194,7 +1194,7 @@
                         {
                             "itemId": 2,
                             "item": "Elbow PVC Pipe Fittings",
-                            "image": "/src/assets/images/items/elbow.jpg",
+                            "image": "/builtFromScratch/assets/images/items/elbow.jpg",
                             "size": "6 in 90 Deg",
                             "qty": "1",
                             "store": "amazon",
@@ -1203,7 +1203,7 @@
                         {
                             "itemId": 3,
                             "item": "Portland Cement",
-                            "image": "/src/assets/images/items/cement.avif",
+                            "image": "/builtFromScratch/assets/images/items/cement.avif",
                             "size": "92.6 lb",
                             "qty": "1",
                             "store": "homeDepot",
@@ -1212,7 +1212,7 @@
                         {
                             "itemId": 31,
                             "item": "Sand",
-                            "image": "/src/assets/images/items/sand.avif",
+                            "image": "/builtFromScratch/assets/images/items/sand.avif",
                             "size": "60 lb",
                             "qty": "1",
                             "store": "homeDepot",
@@ -1221,7 +1221,7 @@
                         {
                             "itemId": 4,
                             "item": "Non Toxic Paint",
-                            "image": "/src/assets/images/items/nonToxicPaint.jpg",
+                            "image": "/builtFromScratch/assets/images/items/nonToxicPaint.jpg",
                             "size": "11 oz",
                             "qty": "1",
                             "store": "amazon",
@@ -1230,7 +1230,7 @@
                         {
                             "itemId": 5,
                             "item": "Concrete Sealer",
-                            "image": "/src/assets/images/items/sealer.jpg",
+                            "image": "/builtFromScratch/assets/images/items/sealer.jpg",
                             "size": "16 oz",
                             "qty": "1",
                             "store": "amazon",
@@ -1239,7 +1239,7 @@
                         {
                             "itemId": 6,
                             "item": "Silicone Sealant",
-                            "image": "/src/assets/images/items/silicone.webp",
+                            "image": "/builtFromScratch/assets/images/items/silicone.webp",
                             "size": "10 oz",
                             "qty": "1",
                             "store": "homeDepot",
@@ -1257,7 +1257,7 @@
                         {
                             "itemId": 1,
                             "item": "SYP Lumber",
-                            "image": "/src/assets/images/items/sypLumber2x4.webp",
+                            "image": "/builtFromScratch/assets/images/items/sypLumber2x4.webp",
                             "size": "2 in x 4 in x 8 ft",
                             "qty": "10",
                             "store": "homeDepot",
@@ -1266,7 +1266,7 @@
                         {
                             "itemId": 2,
                             "item": "White Wood",
-                            "image": "/src/assets/images/items/whiteWood.avif",
+                            "image": "/builtFromScratch/assets/images/items/whiteWood.avif",
                             "size": "1 in x 3 in x 6 ft",
                             "qty": "7",
                             "store": "lowes",
@@ -1275,7 +1275,7 @@
                         {
                             "itemId": 3,
                             "item": "Poplar Board",
-                            "image": "/src/assets/images/items/poplarBoard1x4.avif",
+                            "image": "/builtFromScratch/assets/images/items/poplarBoard1x4.avif",
                             "size": "1 in x 4 in x 6 ft",
                             "qty": "1",
                             "store": "lowes",
@@ -1284,7 +1284,7 @@
                         {
                             "itemId": 4,
                             "item": "Sanded Plywood",
-                            "image": "/src/assets/images/items/plyWood.avif",
+                            "image": "/builtFromScratch/assets/images/items/plyWood.avif",
                             "size": "1/4 in x 4 ft x 8 ft",
                             "qty": "1",
                             "store": "homeDepot",
@@ -1293,7 +1293,7 @@
                         {
                             "itemId": 5,
                             "item": "Sanded Plywood",
-                            "image": "/src/assets/images/items/plyWood.avif",
+                            "image": "/builtFromScratch/assets/images/items/plyWood.avif",
                             "size": "1/4 in x 2 ft x 8 ft",
                             "qty": "2",
                             "store": "homeDepot",
@@ -1302,7 +1302,7 @@
                         {
                             "itemId": 6,
                             "item": "Vinyl Lattice",
-                            "image": "/src/assets/images/items/lattice.webp",
+                            "image": "/builtFromScratch/assets/images/items/lattice.webp",
                             "size": "4 ft x 8 ft",
                             "qty": "1",
                             "store": "homeDepot",
@@ -1311,7 +1311,7 @@
                         {
                             "itemId": 7,
                             "item": "Poplar Board",
-                            "image": "/src/assets/images/items/poplarBoard.webp",
+                            "image": "/builtFromScratch/assets/images/items/poplarBoard.webp",
                             "size": "3/4 in x 1.5 in x 8 ft",
                             "qty": "7",
                             "store": "homeDepot",
@@ -1320,7 +1320,7 @@
                         {
                             "itemId": 8,
                             "item": "Softwood Board",
-                            "image": "/src/assets/images/items/whiteWood.avif",
+                            "image": "/builtFromScratch/assets/images/items/whiteWood.avif",
                             "size": "1 in x 6 in x 6 ft",
                             "qty": "1",
                             "store": "lowes",
@@ -1329,7 +1329,7 @@
                         {
                             "itemId": 9,
                             "item": "Melamine Board",
-                            "image": "/src/assets/images/items/melamineBoard.avif",
+                            "image": "/builtFromScratch/assets/images/items/melamineBoard.avif",
                             "size": "3/4 in x 4 ft x 8 ft",
                             "qty": "3",
                             "store": "homeDepot",
@@ -1338,7 +1338,7 @@
                         {
                             "itemId": 10,
                             "item": "Poplar Board",
-                            "image": "/src/assets/images/items/poplar1x8ft.avif",
+                            "image": "/builtFromScratch/assets/images/items/poplar1x8ft.avif",
                             "size": "1 in x 2 in x 8 ft",
                             "qty": "7",
                             "store": "lowes",
@@ -1347,7 +1347,7 @@
                         {
                             "itemId": 11,
                             "item": "White Peel & Stick",
-                            "image": "/src/assets/images/items/whitePaper.jpg",
+                            "image": "/builtFromScratch/assets/images/items/whitePaper.jpg",
                             "size": "17.5 in x 400 in",
                             "qty": "1",
                             "store": "amazon",
@@ -1356,7 +1356,7 @@
                         {
                             "itemId": 12,
                             "item": "4 Door Cabinet",
-                            "image": "/src/assets/images/items/cabinet.avif",
+                            "image": "/builtFromScratch/assets/images/items/cabinet.avif",
                             "size": "60 in x 34 in x 24 ft",
                             "qty": "1",
                             "store": "lowes",
@@ -1365,7 +1365,7 @@
                         {
                             "itemId": 13,
                             "item": "Metal Peg Board",
-                            "image": "/src/assets/images/items/pegBoard.jpg",
+                            "image": "/builtFromScratch/assets/images/items/pegBoard.jpg",
                             "size": "48 in x 24 in",
                             "qty": "1",
                             "store": "amazon",
@@ -1374,7 +1374,7 @@
                         {
                             "itemId": 14,
                             "item": "Door Hinge",
-                            "image": "/src/assets/images/items/melamineBoard.avif",
+                            "image": "/builtFromScratch/assets/images/items/melamineBoard.avif",
                             "size": "3 in",
                             "qty": "4",
                             "store": "homeDepot",
@@ -1383,7 +1383,7 @@
                         {
                             "itemId": 15,
                             "item": "Wood Glue",
-                            "image": "/src/assets/images/items/woodGlue.avif",
+                            "image": "/builtFromScratch/assets/images/items/woodGlue.avif",
                             "size": "18 fl. oz.",
                             "qty": "1",
                             "store": "homeDepot",
@@ -1392,7 +1392,7 @@
                         {
                             "itemId": 16,
                             "item": "Wood Stain",
-                            "image": "/src/assets/images/items/woodStain.png",
+                            "image": "/builtFromScratch/assets/images/items/woodStain.png",
                             "size": "8 oz.",
                             "qty": "1",
                             "store": "homeDepot",
@@ -1401,7 +1401,7 @@
                         {
                             "itemId": 17,
                             "item": "Ext Screws",
-                            "image": "/src/assets/images/items/screwsExt.avif",
+                            "image": "/builtFromScratch/assets/images/items/screwsExt.avif",
                             "size": "#9 - 2 & 1.5 in.",
                             "qty": "1 lb. Box",
                             "store": "homeDepot",
@@ -1419,7 +1419,7 @@
                         {
                             "itemId": 1,
                             "item": "Clear Acrylic Sheet",
-                            "image": "/src/assets/images/items/acrylicSheet.webp",
+                            "image": "/builtFromScratch/assets/images/items/acrylicSheet.webp",
                             "size": "24 in x 48 in x 1/8 in",
                             "qty": "1",
                             "store": "homeDepot",
@@ -1428,7 +1428,7 @@
                         {
                             "itemId": 2,
                             "item": "USA Map Decal",
-                            "image": "/src/assets/images/items/map.jpg",
+                            "image": "/builtFromScratch/assets/images/items/map.jpg",
                             "size": "23 in x 37 in",
                             "qty": "1",
                             "store": "amazon",
@@ -1437,7 +1437,7 @@
                         {
                             "itemId": 3,
                             "item": "Standoff Screws",
-                            "image": "/src/assets/images/items/standoffScrew.jpg",
+                            "image": "/builtFromScratch/assets/images/items/standoffScrew.jpg",
                             "size": "1/2 in x 1 in",
                             "qty": "1",
                             "store": "amazon",
@@ -1446,7 +1446,7 @@
                         {
                             "itemId": 4,
                             "item": "Magnet Metal Plate",
-                            "image": "/src/assets/images/items/magnetPlate.jpg",
+                            "image": "/builtFromScratch/assets/images/items/magnetPlate.jpg",
                             "size": "10 Pack",
                             "qty": "3",
                             "store": "amazon",
@@ -1460,13 +1460,13 @@
             "id": 7,
             "title": "Pooja Mantapa",
             "description": "A DIY wall-mounted pooja mantapa is a perfect way to create a sacred & space-saving worship area within your home. By designing and building your own wall-mounted mandir, you can personalize it to reflect your spiritual beliefs & aesthetic preferences while making the most of your available space. \nThis compact yet elegant pooja unit can be crafted from materials like wood, MDF, or metal. Mounted securely on the wall, it not only enhances the ambiance of your home but also keeps the space clutter-free & organized. \nWith thoughtful additions like built-in shelves for idols and lamps, LED lighting for a divine glow, and small drawers for storing essentials. Whether adorned with bells or hand-painted accents, this custom-made mandir adds a personal touch to your devotional practices, making your worship space truly special.",
-            "image": "/src/assets/images/videoGrid/pooja.webp",
+            "image": "/builtFromScratch/assets/images/videoGrid/pooja.webp",
             "videoUrl": "ANGBl5xGLIc",
             "itemList": [
                 {
                     "itemId": 1,
                     "item": "Common Board",
-                    "image": "/src/assets/images/items/commonBoard1x12.webp",
+                    "image": "/builtFromScratch/assets/images/items/commonBoard1x12.webp",
                     "size": "1 in x 12 in x 4 ft",
                     "qty": "1",
                     "store": "homeDepot",
@@ -1475,7 +1475,7 @@
                 {
                     "itemId": 2,
                     "item": "Pine Board",
-                    "image": "/src/assets/images/items/pineBoard1x6.webp",
+                    "image": "/builtFromScratch/assets/images/items/pineBoard1x6.webp",
                     "size": "1 in. x 6 in. x 6 ft",
                     "qty": "1",
                     "store": "lowes",
@@ -1484,7 +1484,7 @@
                 {
                     "itemId": 3,
                     "item": "Trim",
-                    "image": "/src/assets/images/items/trim.webp",
+                    "image": "/builtFromScratch/assets/images/items/trim.webp",
                     "size": "0.3 in x 2 in. x 8 ft",
                     "qty": "1",
                     "store": "homeDepot",
@@ -1493,7 +1493,7 @@
                 {
                     "itemId": 4,
                     "item": "Polar Board",
-                    "image": "/src/assets/images/items/polarBoard1x4.jpg",
+                    "image": "/builtFromScratch/assets/images/items/polarBoard1x4.jpg",
                     "size": "1/4 in x 4 in x 4 ft",
                     "qty": "5",
                     "store": "homeDepot",
@@ -1502,7 +1502,7 @@
                 {
                     "itemId": 5,
                     "item": "Common Board",
-                    "image": "/src/assets/images/items/commonBoard1x12.webp",
+                    "image": "/builtFromScratch/assets/images/items/commonBoard1x12.webp",
                     "size": "1 in x 6 in x 12 ft",
                     "qty": "1",
                     "store": "lowes",
@@ -1511,7 +1511,7 @@
                 {
                     "itemId": 6,
                     "item": "Wood Stain",
-                    "image": "/src/assets/images/items/woodStain.png",
+                    "image": "/builtFromScratch/assets/images/items/woodStain.png",
                     "size": "8 oz.",
                     "qty": "1",
                     "store": "homeDepot",
@@ -1520,7 +1520,7 @@
                 {
                     "itemId": 7,
                     "item": "L Angle",
-                    "image": "/src/assets/images/items/lAngle.webp",
+                    "image": "/builtFromScratch/assets/images/items/lAngle.webp",
                     "size": "2 in. x 6 in. X 12-Gauge",
                     "qty": "3",
                     "store": "homeDepot",
@@ -1529,7 +1529,7 @@
                 {
                     "itemId": 8,
                     "item": "Decorative Bells",
-                    "image": "/src/assets/images/items/bells.jpg",
+                    "image": "/builtFromScratch/assets/images/items/bells.jpg",
                     "size": "18 mm x 28 mm",
                     "qty": "1",
                     "store": "amazon",
@@ -1538,7 +1538,7 @@
                 {
                     "itemId": 9,
                     "item": "Cabinet Slider",
-                    "image": "/src/assets/images/items/cabinetSlider.jpg",
+                    "image": "/builtFromScratch/assets/images/items/cabinetSlider.jpg",
                     "size": "6 in",
                     "qty": "1",
                     "store": "amazon",
@@ -1547,7 +1547,7 @@
                 {
                     "itemId": 10,
                     "item": "Led Strip Light",
-                    "image": "/src/assets/images/items/ledLight.jpg",
+                    "image": "/builtFromScratch/assets/images/items/ledLight.jpg",
                     "size": "16 ft",
                     "qty": "1",
                     "store": "amazon",
@@ -1556,7 +1556,7 @@
                 {
                     "itemId": 11,
                     "item": "Ambiance Light",
-                    "image": "/src/assets/images/items/focusLight.jpg",
+                    "image": "/builtFromScratch/assets/images/items/focusLight.jpg",
                     "size": "2.4 in",
                     "qty": "1",
                     "store": "amazon",
