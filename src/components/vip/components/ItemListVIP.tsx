@@ -33,9 +33,9 @@ const getStoreLogo = (store: string): string => {
     case "homeDepot":
       return "/builtFromScratch/images/logos/THD.svg";
     case "lowes":
-      return "/src/assets/images/logos/Lowes.svg";
+      return "/builtFromScratch/images/logos/Lowes.svg";
     case "amazon":
-      return "/src/assets/images/logos/Amazon.svg";
+      return "/builtFromScratch/images/logos/Amazon.svg";
     default:
       return "";
   }
