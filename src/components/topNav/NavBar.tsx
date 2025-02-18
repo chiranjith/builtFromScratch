@@ -20,10 +20,16 @@ const NavBar = () => {
           <Link to="/">
             <Image
               src={logo}
-              //width={{ base: "150px", md: "300px", "2xl": "480px" }}
-              //w={{ sm: "116px", md: "100%", lg: "120%", "2xl": "100%" }}
-              w={"100%"}
-              height={{ base: "22px", md: "36px", lg: "40px", "2xl": "100px" }}
+              //w={"100%"}
+              //height={{ base: "22px", md: "36px", lg: "40px", "2xl": "100px" }}
+              maxWidth={{
+                base: "130px",
+                md: "300px",
+                lg: "380px",
+                "2xl": "720px",
+              }} // ✅ Controls max size
+              height="auto" // ✅ Prevents distortion
+              objectFit="contain" // ✅ Ensures it scales properly
             />
           </Link>
           <Flex gap={4} alignItems="center">

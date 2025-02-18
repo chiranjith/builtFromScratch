@@ -33,7 +33,7 @@ const ChildVideoGrid = ({ children }: ChildVideoGridProps) => {
     <Box
       zIndex={3}
       position="relative"
-      mt={{ base: "20", md: "20", lg: "20", xl: "100px", "2xl": "48" }} // Spacing from the previous component
+      mt={{ base: "20", md: "20", lg: "70px", xl: "100px", "2xl": "110" }} // Spacing from the previous component
       px={{ base: "4", md: "8" }} // Padding on smaller screens
       width="90%"
       maxWidth="160em" // Match your 2xl breakpoint
@@ -57,12 +57,19 @@ const ChildVideoGrid = ({ children }: ChildVideoGridProps) => {
               rounded="sm"
               //height={{base: "200px",md: "160px",lg: "210px",xl: "320px","2xl": "520px"}} //For 3 Videos/row
               height={{
-                base: "220px",
+                base: "200px",
                 md: "110px",
-                lg: "160px",
+                lg: "180px",
                 xl: "220px",
                 "2xl": "360px",
               }}
+              minHeight={{
+                base: "200px",
+                md: "110px",
+                lg: "200px",
+                xl: "220px",
+                "2xl": "360px",
+              }} // ✅ Forces Safari to respect the height
               overflow="hidden"
               display="flex"
               flexDirection="column"
@@ -107,14 +114,26 @@ const ChildVideoGrid = ({ children }: ChildVideoGridProps) => {
                 <Text
                   fontWeight="bold"
                   //fontSize={{ base: "10px", md: "8px", lg: "14px" }} //For 3 Videos/row
-                  fontSize={{ base: "10px", md: "6px", lg: "9px", xl: "12px" }}
+                  fontSize={{
+                    base: "10px",
+                    md: "6px",
+                    lg: "12px",
+                    xl: "12px",
+                    "2xl": "20px",
+                  }}
                   noOfLines={1}
                 >
                   {video.title}
                 </Text>
                 <Text
                   //fontSize={{ base: "11px", md: "9px", lg: "14px" }} //For 3 Videos/row
-                  fontSize={{ base: "11px", md: "6px", lg: "9px", xl: "12px" }}
+                  fontSize={{
+                    base: "11px",
+                    md: "6px",
+                    lg: "12px",
+                    xl: "12px",
+                    "2xl": "20px",
+                  }}
                   color="gray.600"
                   noOfLines={2}
                 >

@@ -41,7 +41,7 @@ const VideoBannerVLP = ({ videoData }: VideoCardProps) => {
       <Box
         width="100%"
         maxWidth="160em" // Match your 2xl breakpoint
-        bg="blue.500"
+        //bg="blue.500"
         position="relative"
         top={0}
         left={0}
@@ -49,6 +49,13 @@ const VideoBannerVLP = ({ videoData }: VideoCardProps) => {
         display="flex"
         alignItems="stretch"
         justifyContent="center"
+        height={{
+          base: "60px",
+          md: "140px",
+          lg: "260px",
+          xl: "250px",
+          "2xl": "540px",
+        }} // ✅ Explicit height to anchor child positioning
       >
         <Flex w="100%" h="100%" flex="1" align="center" justify="center">
           <Image
@@ -68,13 +75,21 @@ const VideoBannerVLP = ({ videoData }: VideoCardProps) => {
         bg="rgba(231, 231, 231, 0.6)" // Semi-transparent white background
         backdropFilter="blur(10px)" // Optional: Add a blur effect for a frosted-glass look
         position="absolute"
+        // top={{
+        //   base: "60px",
+        //   md: "125px",
+        //   lg: "170px",
+        //   xl: "240px",
+        //   "2xl": "430px",
+        // }} // Offset below the first box
         top={{
-          base: "60px",
-          md: "125px",
-          lg: "170px",
-          xl: "240px",
-          "2xl": "430px",
-        }} // Offset below the first box
+          base: "190%",
+          md: "135%",
+          lg: "110%",
+          xl: "120%",
+          "2xl": "104%",
+        }} // ✅ Adjust to relative percentage
+        transform="translateY(-50%)" // ✅ Centers box properly
         left="5%" // Center horizontally (since 90% width, left is 5%)
         zIndex={2} // Higher z-index for foreground box
         display="flex"
