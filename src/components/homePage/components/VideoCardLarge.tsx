@@ -23,8 +23,8 @@ const VideoCardLarge = ({ srcImg, linkTo, state, onClick }: Props) => {
         base: "180px",
         md: "400px",
         lg: "600px",
-        xl: "600px",
-        "2xl": "1200px",
+        xl: "620px",
+        "2xl": "1100px",
       }} // ✅ Set a reasonable height limit
       _hover={{
         filter: "grayscale(100%) brightness(0.9) contrast(1)",
