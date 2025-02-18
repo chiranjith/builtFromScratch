@@ -19,7 +19,13 @@ const VideoCardLarge = ({ srcImg, linkTo, state, onClick }: Props) => {
       overflow="hidden"
       transition="all 0.3s ease-in-out"
       position="relative"
-      maxHeight={{ base: "600px", "2xl": "1200px" }} // ✅ Set a reasonable height limit
+      maxHeight={{
+        base: "180px",
+        md: "400px",
+        lg: "600px",
+        xl: "600px",
+        "2xl": "1200px",
+      }} // ✅ Set a reasonable height limit
       _hover={{
         filter: "grayscale(100%) brightness(0.9) contrast(1)",
         transform: "scale(1.02)",
@@ -36,6 +42,7 @@ const VideoCardLarge = ({ srcImg, linkTo, state, onClick }: Props) => {
         >
           <Image
             src={srcImg}
+            width="100%"
             height="100%"
             objectFit="cover"
             transition="all 0.3s ease-in-out"
