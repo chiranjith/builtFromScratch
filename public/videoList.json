@@ -1144,6 +1144,114 @@
             "children": [
                 {
                     "id": 601,
+                    "title": "Closet Organization",
+                    "description": "A custom closet solution that blends ready-to-assemble efficiency with handcrafted customization—designed for maximum space, function, and a built-in look without the built-in price.",
+                    "image": "/builtFromScratch/images/videoCard/closetOrg.png",
+                    "videoUrl": "0Y0ZHrxmt2I",
+                    "itemList": [
+                        {
+                            "itemId": 1,
+                            "item": "Common Board",
+                            "image": "/builtFromScratch/images/items/commonBoard1x12.webp",
+                            "size": "1 in x 12 in x 4 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "100322335"
+                        },
+                        {
+                            "itemId": 2,
+                            "item": "Pine Board",
+                            "image": "/builtFromScratch/images/items/pineBoard1x6.webp",
+                            "size": "1 in. x 6 in. x 6 ft",
+                            "qty": "1",
+                            "store": "lowes",
+                            "sku": "ReliaBilt-1-in-x-6-in-x-6-ft-Square-Unfinished-Pine-Board/5002010019"
+                        },
+                        {
+                            "itemId": 3,
+                            "item": "Trim",
+                            "image": "/builtFromScratch/images/items/trim.webp",
+                            "size": "0.3 in x 2 in. x 8 ft",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "100391418"
+                        },
+                        {
+                            "itemId": 4,
+                            "item": "Polar Board",
+                            "image": "/builtFromScratch/images/items/polarBoard1x4.jpg",
+                            "size": "1/4 in x 4 in x 4 ft",
+                            "qty": "5",
+                            "store": "homeDepot",
+                            "sku": "333192997"
+                        },
+                        {
+                            "itemId": 5,
+                            "item": "Common Board",
+                            "image": "/builtFromScratch/images/items/commonBoard1x12.webp",
+                            "size": "1 in x 6 in x 12 ft",
+                            "qty": "1",
+                            "store": "lowes",
+                            "sku": "Common-1-in-x-6-in-x-12-ft-Actual-0-75-in-x-5-5-in-x-12-ft-Southern-Yellow-Pine-Board/1000228515"
+                        },
+                        {
+                            "itemId": 6,
+                            "item": "Wood Stain",
+                            "image": "/builtFromScratch/images/items/woodStain.png",
+                            "size": "8 oz.",
+                            "qty": "1",
+                            "store": "homeDepot",
+                            "sku": "330338960"
+                        },
+                        {
+                            "itemId": 7,
+                            "item": "L Angle",
+                            "image": "/builtFromScratch/images/items/lAngle.webp",
+                            "size": "2 in. x 6 in. X 12-Gauge",
+                            "qty": "3",
+                            "store": "homeDepot",
+                            "sku": "202071149"
+                        },
+                        {
+                            "itemId": 8,
+                            "item": "Decorative Bells",
+                            "image": "/builtFromScratch/images/items/bells.jpg",
+                            "size": "18 mm x 28 mm",
+                            "qty": "1",
+                            "store": "amazon",
+                            "sku": "B0B8G5Q2PF"
+                        },
+                        {
+                            "itemId": 9,
+                            "item": "Cabinet Slider",
+                            "image": "/builtFromScratch/images/items/cabinetSlider.jpg",
+                            "size": "6 in",
+                            "qty": "1",
+                            "store": "amazon",
+                            "sku": "B08889R767"
+                        },
+                        {
+                            "itemId": 10,
+                            "item": "Led Strip Light",
+                            "image": "/builtFromScratch/images/items/ledLight.jpg",
+                            "size": "16 ft",
+                            "qty": "1",
+                            "store": "amazon",
+                            "sku": "B09BG9B2JQ"
+                        },
+                        {
+                            "itemId": 11,
+                            "item": "Ambiance Light",
+                            "image": "/builtFromScratch/images/items/focusLight.jpg",
+                            "size": "2.4 in",
+                            "qty": "1",
+                            "store": "amazon",
+                            "sku": "B01N2I47VH"
+                        }
+                    ]
+                },
+                {
+                    "id": 602,
                     "title": "Pooja Mantapa",
                     "description": "A DIY wall-mounted pooja mantapa is a perfect way to create a sacred & space-saving worship area within your home. By designing and building your own wall-mounted mandir, you can personalize it to reflect your spiritual beliefs & aesthetic preferences while making the most of your available space. \nThis compact yet elegant pooja unit can be crafted from materials like wood, MDF, or metal. Mounted securely on the wall, it not only enhances the ambiance of your home but also keeps the space clutter-free & organized. \nWith thoughtful additions like built-in shelves for idols and lamps, LED lighting for a divine glow, and small drawers for storing essentials. Whether adorned with bells or hand-painted accents, this custom-made mandir adds a personal touch to your devotional practices, making your worship space truly special.",
                     "image": "/builtFromScratch/images/videoCard/poojaMantapa.png",
@@ -1251,7 +1359,7 @@
                     ]
                 },
                 {
-                    "id": 602,
+                    "id": 603,
                     "title": "Aquarium Background",
                     "description": "A DIY aquarium background is a creative way to enhance the aesthetic appeal of your fish tank. Using materials like foam, cement, or natural elements, you can design custom backdrops that mimic realistic underwater landscapes such as rocks or caves.\nI don’t have a video of the entire building process since I created this aquarium background back in 2008.\nAt that time, I wasn’t documenting my projects on video. However, I was lucky enough to find some old photos of the build. To share the process as best as I could, I compiled those images into a YouTube video.\nI hope it gives a good idea of how the project came together!\nI used LTX studio to generate video based on the old photos.",
                     "image": "/builtFromScratch/images/videoCard/aquaBG.png",
@@ -1323,7 +1431,7 @@
                     ]
                 },
                 {
-                    "id": 603,
+                    "id": 604,
                     "title": "Garage Organization",
                     "description": "Maximize your garage space with DIY storage and organization solutions. Build custom shelving, pegboards, and overhead racks to neatly store tools, equipment, and seasonal items. Incorporate labeled bins, wall-mounted hooks, and workbench organizers to keep everything accessible and clutter-free. Transform your garage into a functional, organized space that works for your needs.",
                     "image": "/builtFromScratch/images/videoCard/storageGarage.png",
@@ -1485,7 +1593,7 @@
                     ]
                 },
                 {
-                    "id": 604,
+                    "id": 605,
                     "title": "Travel Map",
                     "description": "A DIY magnetic travel map is a fun and interactive way to track your journeys and plan future adventures. Start with a metal sheet or a framed magnetic board as the base.\nPrint or purchase a world or country map and attach it securely to the board. To make it more interactive, use small magnets, pins, or stickers to mark the places you've visited. You can even customize it with photos, travel notes, or color-coded markers for different trips. \nThis DIY project is not only a great décor piece but also a wonderful way to relive travel memories and inspire future explorations!",
                     "image": "/builtFromScratch/images/videoCard/travelBoard.png",

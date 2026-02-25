@@ -14,11 +14,11 @@ const About = () => {
         <Box
           flex="0 0 40%" // ✅ Ensures image takes exactly 20% width on larger screens
           minWidth="200px"
-          maxWidth={{ base: "450px", "2xl": "1200px" }}
+          maxWidth={{ base: "310px", "2xl": "800px" }}
           mr={{ md: 6 }} // ✅ Adds margin to push text beside image
         >
           <Image
-            src="/builtFromScratch/images/favProject/about.webp"
+            src="/builtFromScratch/images/favProject/aboutMe.png"
             alt="Profile Picture"
             w="100%"
             objectFit="cover"

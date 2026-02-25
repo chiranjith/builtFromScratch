@@ -1,4 +1,4 @@
-import { GridItem, Stack, Text, filter } from "@chakra-ui/react";
+import { GridItem, Stack, Text } from "@chakra-ui/react";
 import videoList from "../../assets/videoList.json";
 import CustomLink from "../../assets/CustomLink";
 
