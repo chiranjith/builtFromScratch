@@ -1,15 +1,21 @@
-import type { BoxProps, InputElementProps } from "@chakra-ui/react"
-import { Group, InputElement } from "@chakra-ui/react"
-import * as React from "react"
+import {
+  BoxProps,
+  InputGroup as ChakraInputGroup,
+  InputLeftElement,
+  InputRightElement,
+  Input,
+  InputElementProps,
+} from "@chakra-ui/react";
+import * as React from "react";
 
 export interface InputGroupProps extends BoxProps {
-  startElementProps?: InputElementProps
-  endElementProps?: InputElementProps
-  startElement?: React.ReactNode
-  endElement?: React.ReactNode
-  children: React.ReactElement
-  startOffset?: InputElementProps["paddingStart"]
-  endOffset?: InputElementProps["paddingEnd"]
+  startElementProps?: InputElementProps;
+  endElementProps?: InputElementProps;
+  startElement?: React.ReactNode;
+  endElement?: React.ReactNode;
+  children: React.ReactElement;
+  startOffset?: InputElementProps["paddingStart"];
+  endOffset?: InputElementProps["paddingEnd"];
 }
 
 export const InputGroup = React.forwardRef<HTMLDivElement, InputGroupProps>(
@@ -23,28 +29,30 @@ export const InputGroup = React.forwardRef<HTMLDivElement, InputGroupProps>(
       startOffset = "6px",
       endOffset = "6px",
       ...rest
-    } = props
+    } = props;
 
     return (
-      <Group ref={ref} {...rest}>
+      <ChakraInputGroup ref={ref} {...rest}>
         {startElement && (
-          <InputElement pointerEvents="none" {...startElementProps}>
+          <InputLeftElement pointerEvents="none" {...startElementProps}>
             {startElement}
-          </InputElement>
+          </InputLeftElement>
         )}
         {React.cloneElement(children, {
           ...(startElement && {
-            ps: `calc(var(--input-height) - ${startOffset})`,
+            paddingStart: `calc(var(--input-height) - ${startOffset})`,
           }),
-          ...(endElement && { pe: `calc(var(--input-height) - ${endOffset})` }),
+          ...(endElement && {
+            paddingEnd: `calc(var(--input-height) - ${endOffset})`,
+          }),
           ...children.props,
         })}
         {endElement && (
-          <InputElement placement="end" {...endElementProps}>
+          <InputRightElement placement="end" {...endElementProps}>
             {endElement}
-          </InputElement>
+          </InputRightElement>
         )}
-      </Group>
-    )
-  },
-)
+      </ChakraInputGroup>
+    );
+  }
+);

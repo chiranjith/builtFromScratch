@@ -32,7 +32,7 @@ const TopNavLinks = () => {
             color: "gray.400",
           }}
         >
-          About
+          About Me
         </Link>
         <Link
           as={RouterLink}

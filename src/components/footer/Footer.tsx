@@ -147,15 +147,15 @@ const Footer = () => {
           © {new Date().getFullYear()} Built From Scratch. All rights reserved.
         </Text>
         <Flex gap={4} mt={{ base: 4, md: 0 }}>
-          <Link href="#" fontSize="sm" _hover={{ textDecoration: "underline" }}>
+          {/* <Link href="#" fontSize="sm" _hover={{ textDecoration: "underline" }}>
             Terms of Service
-          </Link>
+          </Link> */}
           <Link href="#" fontSize="sm" _hover={{ textDecoration: "underline" }}>
             Privacy Policy
           </Link>
-          <Link href="#" fontSize="sm" _hover={{ textDecoration: "underline" }}>
+          {/* <Link href="#" fontSize="sm" _hover={{ textDecoration: "underline" }}>
             Accessibility
-          </Link>
+          </Link> */}
         </Flex>
       </Flex>
     </Box>

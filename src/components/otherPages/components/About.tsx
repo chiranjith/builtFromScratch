@@ -1,4 +1,5 @@
-import { Box, Image, Text, Flex, Link } from "@chakra-ui/react";
+import { Box, Image, Text, Flex, Link, Divider } from "@chakra-ui/react";
+import BottomSection from "../../homePage/BottomSection";
 
 const About = () => {
   return (
@@ -13,11 +14,11 @@ const About = () => {
         <Box
           flex="0 0 40%" // ✅ Ensures image takes exactly 20% width on larger screens
           minWidth="200px"
-          maxWidth={{ base: "450px", "2xl": "1200px" }}
+          maxWidth={{ base: "310px", "2xl": "800px" }}
           mr={{ md: 6 }} // ✅ Adds margin to push text beside image
         >
           <Image
-            src="/src/assets/images/favProject/about.webp"
+            src="/builtFromScratch/images/favProject/aboutMe.png"
             alt="Profile Picture"
             w="100%"
             objectFit="cover"
@@ -74,6 +75,80 @@ const About = () => {
           </Text>
         </Box>
       </Flex>
+      {/* Divider Line */}
+      <Box borderBottom="2px solid #E2E8F0" my={10} />
+      {/* New Section with Image on Left & Text on Right */}
+      <Flex direction={{ base: "column", md: "row" }} align="center" gap={6}>
+        {/* Image */}
+        <Box flex="0 0 40%" minWidth="250px" maxWidth="500px">
+          <Image
+            src="/builtFromScratch/images/favProject/diy.png"
+            alt="New Section Image"
+            w="30%"
+            objectFit="cover"
+            borderRadius="lg"
+          />
+        </Box>
+
+        {/* Text Content */}
+        <Box flex="1">
+          <Text fontSize={{ base: "18px", "2xl": "28px" }} fontWeight="bold">
+            My DIY Philosophy
+          </Text>
+          <Text color="gray.600" mt={4}>
+            I believe that DIY is not just about building things—it's about
+            creativity, problem-solving, and personal growth. Every project
+            teaches me something new, whether it's a small fix or a large-scale
+            build.
+          </Text>
+          <Text color="gray.600" mt={4}>
+            My goal is to inspire others to pick up tools, get creative, and
+            start building from scratch. Whether you're an expert or a beginner,
+            there's always something exciting to learn in the world of DIY.
+          </Text>
+        </Box>
+      </Flex>
+      <Box borderBottom="2px solid #E2E8F0" my={10} />
+      {/* New Section with Image on Left & Text on Right */}
+      <Flex direction={{ base: "column", md: "row" }} align="center" gap={6}>
+        {/* Image */}
+        <Box flex="0 0 80%" minWidth="450px" maxWidth="500px">
+          <Image
+            src="/builtFromScratch/images/favProject/houseModel.webp"
+            alt="New Section Image"
+            w="90%"
+            objectFit="cover"
+            borderRadius="lg"
+          />
+        </Box>
+
+        {/* Text Content */}
+        <Box flex="1">
+          <Text fontSize={{ base: "18px", "2xl": "28px" }} fontWeight="bold">
+            A Childhood Passion for Building...
+          </Text>
+          <Text color="gray.600" mt={4}>
+            Since childhood, I've had an innate passion for building and
+            creating. Whether it was designing my own board games, crafting
+            unique toys, or constructing intricate miniature houses, I found joy
+            in bringing my ideas to life with whatever materials were available.
+          </Text>
+          <Text color="gray.600" mt={4}>
+            One of my most memorable projects was in 8th grade when I
+            meticulously built a replica of my granny’s home in Mangalore using
+            the hard covers of old books. I paid close attention to every
+            architectural detail, ensuring it closely resembled the real house.
+          </Text>
+          <Text color="gray.600" mt={4}>
+            Unfortunately, cameras weren’t as accessible back then, so many of
+            my early creations exist only in memory. However, the creativity and
+            craftsmanship I developed during those years have continued to shape
+            my passion for building things from scratch.
+          </Text>
+        </Box>
+      </Flex>
+      <Box borderBottom="2px solid #E2E8F0" my={10} />
+      <BottomSection />
     </Box>
   );
 };

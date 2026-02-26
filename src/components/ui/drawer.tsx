@@ -1,52 +1,90 @@
-import { Drawer as ChakraDrawer, Portal } from "@chakra-ui/react"
-import { CloseButton } from "./close-button"
-import * as React from "react"
+import {
+  Drawer,
+  DrawerOverlay,
+  DrawerContent,
+  DrawerHeader as ChakraDrawerHeader, // Rename the imported DrawerHeader
+  DrawerBody as ChakraDrawerBody, // Rename the imported DrawerBody
+  DrawerFooter as ChakraDrawerFooter, // Rename the imported DrawerFooter
+  DrawerContentProps,
+  Portal,
+  Button,
+} from "@chakra-ui/react";
+import { CloseButton } from "./close-button";
+import * as React from "react";
 
-interface DrawerContentProps extends ChakraDrawer.ContentProps {
-  portalled?: boolean
-  portalRef?: React.RefObject<HTMLElement>
-  offset?: ChakraDrawer.ContentProps["padding"]
+// Rename your custom interface to avoid conflict
+interface CustomDrawerContentProps extends DrawerContentProps {
+  portalled?: boolean;
+  portalRef?: React.RefObject<HTMLElement>;
+  backdrop?: boolean;
 }
 
-export const DrawerContent = React.forwardRef<
+// Rename your custom component to avoid conflict
+export const CustomDrawerContent = React.forwardRef<
   HTMLDivElement,
-  DrawerContentProps
->(function DrawerContent(props, ref) {
-  const { children, portalled = true, portalRef, offset, ...rest } = props
-  return (
-    <Portal disabled={!portalled} container={portalRef}>
-      <ChakraDrawer.Positioner padding={offset}>
-        <ChakraDrawer.Content ref={ref} {...rest} asChild={false}>
-          {children}
-        </ChakraDrawer.Content>
-      </ChakraDrawer.Positioner>
-    </Portal>
-  )
-})
+  CustomDrawerContentProps
+>(function CustomDrawerContent(props, ref) {
+  const {
+    children,
+    portalled = true,
+    portalRef,
+    backdrop = true,
+    ...rest
+  } = props;
+
+  const content = (
+    <>
+      {backdrop && <DrawerOverlay />}
+      <DrawerContent ref={ref} {...rest}>
+        {children}
+      </DrawerContent>
+    </>
+  );
+
+  return portalled ? (
+    <Portal containerRef={portalRef}>{content}</Portal>
+  ) : (
+    content
+  );
+});
+
+interface DrawerCloseTriggerProps
+  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  // Add any custom props here
+}
 
 export const DrawerCloseTrigger = React.forwardRef<
   HTMLButtonElement,
-  ChakraDrawer.CloseTriggerProps
+  DrawerCloseTriggerProps
 >(function DrawerCloseTrigger(props, ref) {
   return (
-    <ChakraDrawer.CloseTrigger
+    <Button
       position="absolute"
       top="2"
       insetEnd="2"
       {...props}
-      asChild
+      as={CloseButton}
+      size="sm"
+      ref={ref}
     >
-      <CloseButton size="sm" ref={ref} />
-    </ChakraDrawer.CloseTrigger>
-  )
-})
+      {props.children}
+    </Button>
+  );
+});
 
-export const DrawerTrigger = ChakraDrawer.Trigger
-export const DrawerRoot = ChakraDrawer.Root
-export const DrawerFooter = ChakraDrawer.Footer
-export const DrawerHeader = ChakraDrawer.Header
-export const DrawerBody = ChakraDrawer.Body
-export const DrawerBackdrop = ChakraDrawer.Backdrop
-export const DrawerDescription = ChakraDrawer.Description
-export const DrawerTitle = ChakraDrawer.Title
-export const DrawerActionTrigger = ChakraDrawer.ActionTrigger
+// Re-export the imported DrawerHeader without creating a local declaration
+export { ChakraDrawerHeader as DrawerHeader };
+
+// Re-export the imported DrawerBody without creating a local declaration
+export { ChakraDrawerBody as DrawerBody };
+
+// Re-export the imported DrawerFooter without creating a local declaration
+export { ChakraDrawerFooter as DrawerFooter };
+
+// Export other components
+export const DrawerRoot = Drawer;
+export const DrawerBackdrop = DrawerOverlay;
+export const DrawerTitle = ChakraDrawerHeader; // Use the renamed import
+export const DrawerDescription = ChakraDrawerBody; // Use the renamed import
+export const DrawerTrigger = Button;
+export const DrawerActionTrigger = Button;

@@ -1,33 +1,38 @@
-import { Field as ChakraField } from "@chakra-ui/react"
-import * as React from "react"
+import {
+  FormControl,
+  FormLabel,
+  FormHelperText,
+  FormErrorMessage,
+  Box,
+} from "@chakra-ui/react";
+import * as React from "react";
 
-export interface FieldProps extends Omit<ChakraField.RootProps, "label"> {
-  label?: React.ReactNode
-  helperText?: React.ReactNode
-  errorText?: React.ReactNode
-  optionalText?: React.ReactNode
+export interface FieldProps {
+  label?: React.ReactNode;
+  helperText?: React.ReactNode;
+  errorText?: React.ReactNode;
+  isRequired?: boolean;
+  children: React.ReactNode;
 }
 
 export const Field = React.forwardRef<HTMLDivElement, FieldProps>(
   function Field(props, ref) {
-    const { label, children, helperText, errorText, optionalText, ...rest } =
-      props
+    const { label, children, helperText, errorText, isRequired, ...rest } =
+      props;
     return (
-      <ChakraField.Root ref={ref} {...rest}>
-        {label && (
-          <ChakraField.Label>
-            {label}
-            <ChakraField.RequiredIndicator fallback={optionalText} />
-          </ChakraField.Label>
-        )}
-        {children}
-        {helperText && (
-          <ChakraField.HelperText>{helperText}</ChakraField.HelperText>
-        )}
-        {errorText && (
-          <ChakraField.ErrorText>{errorText}</ChakraField.ErrorText>
-        )}
-      </ChakraField.Root>
-    )
-  },
-)
+      <Box mb={4}>
+        <FormControl
+          ref={ref}
+          isInvalid={!!errorText}
+          isRequired={isRequired}
+          {...rest}
+        >
+          {label && <FormLabel>{label}</FormLabel>}
+          {children}
+          {helperText && <FormHelperText>{helperText}</FormHelperText>}
+          {errorText && <FormErrorMessage>{errorText}</FormErrorMessage>}
+        </FormControl>
+      </Box>
+    );
+  }
+);

@@ -24,13 +24,21 @@ const VideoCard = ({ boxType, srcImg, linkTo, state, onClick }: Props) => {
       overflow="hidden" // Ensures content stays within the box
       transition="all 0.3s ease-in-out" // Smooth transition effect
       position="relative" // Enables layering
-      height={{
+      // height={{
+      //   sm: "65px",
+      //   md: "140px",
+      //   lg: "190px",
+      //   xl: "285px",
+      //   "2xl": "520px",
+      // }} // Set a fixed height
+      minHeight={{
         sm: "65px",
         md: "140px",
         lg: "190px",
         xl: "285px",
         "2xl": "520px",
-      }} // Set a fixed height
+      }} // ✅ Prevents height collapsing
+      height="auto"
       _hover={{
         filter: "grayscale(80%) brightness(0.9) contrast(1)", // Black scale effect
         transform: "scale(1.02)", // Slight zoom-in effect
@@ -48,7 +56,7 @@ const VideoCard = ({ boxType, srcImg, linkTo, state, onClick }: Props) => {
         >
           <Image
             src={srcImg}
-            w="100%"
+            width="100%"
             objectFit="cover"
             transition="all 0.3s ease-in-out" // Smooth scaling transition
           />

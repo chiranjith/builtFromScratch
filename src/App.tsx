@@ -12,9 +12,8 @@ import FavoritePage from "./components/otherPages/FavoritePage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/builtFromScratch">
       <Routes>
-        {/* Home Page */}
         <Route
           path="/"
           element={
@@ -38,7 +37,7 @@ function App() {
                 <MidSectionVideoGrid />
               </GridItem>
               <GridItem area="bottom">
-                <BottomSection />
+                {/* <BottomSection /> */}
                 <Footer />
               </GridItem>
             </Grid>

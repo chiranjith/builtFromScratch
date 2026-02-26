@@ -38,7 +38,7 @@ const FavoritePics = ({ childrenData }: FavoritePicsProps) => {
       <Box
         zIndex={3}
         position="relative"
-        mt={{ base: "20", md: "20", lg: "20", xl: "100px", "2xl": "48" }}
+        mt={{ base: "20", md: "20", lg: "50px", xl: "100px", "2xl": "48" }}
         px={{ base: "4", md: "8" }}
         width="90%"
         maxWidth="160em"
@@ -92,13 +92,25 @@ const FavoritePics = ({ childrenData }: FavoritePicsProps) => {
               >
                 <Text
                   fontWeight="bold"
-                  fontSize={{ base: "10px", md: "6px", lg: "9px", xl: "12px" }}
+                  fontSize={{
+                    base: "10px",
+                    md: "6px",
+                    lg: "12px",
+                    xl: "12px",
+                    "2xl": "20px",
+                  }}
                   noOfLines={1}
                 >
                   {child.title}
                 </Text>
                 <Text
-                  fontSize={{ base: "11px", md: "6px", lg: "9px", xl: "12px" }}
+                  fontSize={{
+                    base: "11px",
+                    md: "6px",
+                    lg: "12px",
+                    xl: "12px",
+                    "2xl": "24px",
+                  }}
                   color="gray.600"
                   noOfLines={2}
                 >
