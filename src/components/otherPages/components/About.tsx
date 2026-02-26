@@ -112,11 +112,11 @@ const About = () => {
       {/* New Section with Image on Left & Text on Right */}
       <Flex direction={{ base: "column", md: "row" }} align="center" gap={6}>
         {/* Image */}
-        <Box flex="0 0 40%" minWidth="250px" maxWidth="500px">
+        <Box flex="0 0 80%" minWidth="450px" maxWidth="500px">
           <Image
-            src="/builtFromScratch/images/favProject/diy.png"
+            src="/builtFromScratch/images/favProject/houseModel.webp"
             alt="New Section Image"
-            w="30%"
+            w="90%"
             objectFit="cover"
             borderRadius="lg"
           />
@@ -125,7 +125,7 @@ const About = () => {
         {/* Text Content */}
         <Box flex="1">
           <Text fontSize={{ base: "18px", "2xl": "28px" }} fontWeight="bold">
-            A Childhood Passion for Building
+            A Childhood Passion for Building...
           </Text>
           <Text color="gray.600" mt={4}>
             Since childhood, I've had an innate passion for building and
